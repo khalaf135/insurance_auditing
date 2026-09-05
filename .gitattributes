@@ -1,0 +1,5 @@
+# This dataset is byte-exact by construction: the generator writes LF line
+# endings throughout, and two of the contracts are binary PDFs. Disable all
+# end-of-line conversion so that a clone is identical on every platform and
+# the PDFs survive checkout on Windows.
+* -text
