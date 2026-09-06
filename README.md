@@ -65,9 +65,10 @@ Prepared deliverables:
 - [How I used AI and versioned prompts](prompts/README.md): the development workflow, representative request summaries, and five exact prompt snapshots with iteration links.
 - [Source-review journal](audit_output/manual_review_submission/source_review_12.json): 12 representative unresolved cases, no forced answers; not a complete human review.
 
-Normal runs write a fresh dated folder; the root submission is the prepared
-snapshot, not an automatically overwritten copy. Run evaluation metrics are
-recomputed in `evaluation.json`. Optional PDF regeneration:
+Normal runs write a fresh dated folder, recompute the reviewed conditional
+improvements, and atomically update the root `submission.csv` only after every
+stage succeeds. The previous root CSV is backed up inside the run's `final/`
+folder. Run evaluation metrics are recomputed in `evaluation.json`. Optional PDF regeneration:
 `python3 -m pip install -r docs/requirements.txt`, then `python3 docs/render_reports.py`.
 The reports describe the prepared snapshot; review their figures after changing rules.
 
@@ -82,8 +83,9 @@ python3 main.py
 ```
 
 This runs the tests, audits all five hospitals using existing cached AI answers,
-prints answered/unanswered counts, and saves a new `audit_output/test_all_<timestamp>/`
-folder. **No new API calls are made by default.**
+recomputes the conditional description, unit, history and volume improvements,
+prints final counts, saves a new `audit_output/test_all_<timestamp>/final/` folder,
+and updates the root submission with a backup. **No new API calls are made by default.**
 
 Other useful commands:
 
@@ -91,6 +93,7 @@ Other useful commands:
 python3 test.py                 # Only the local regression tests
 python3 main.py --compare       # Compare the latest completed run with H1 labels
 python3 main.py --execute-ai    # Allow new invoice-agent calls within the shared $2 budget
+python3 main.py --baseline-only # Skip conditional improvements; do not update root submission
 ```
 
 The budget includes previous spending and uncertain-charge reservations. It is
@@ -109,6 +112,8 @@ Keep API keys in the ignored `.env`, never in code or commits.
 - **`ai_client.py`** — API requests, cached responses, credentials, and spending controls.
 - **`confidence.py`** — small, explainable evidence scores for the verdict, categories, and corrected total.
 - **`reporting.py`** — submission exports, unanswered reasons, H1 comparison, and run verification.
+- **`complete_workflow.py`** — recomputes reviewed conditional improvements and safely publishes the final CSV.
+- **`reference_experiment.py`, `unit_quantity_experiment.py`, `history_quantity_experiment.py`** — evidence-gated improvement stages used by the complete workflow.
 - **`test.py`** — one regression-suite file containing all automated tests; no paid calls.
 
 There are no active `v2`/`v3` Python files or duplicate runner wrappers.

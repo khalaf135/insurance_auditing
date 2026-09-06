@@ -18,6 +18,61 @@ ROOT = Path(__file__).resolve().parent
 
 # Coverage and evaluation, independent of inference.
 
+def clarification_packets(rows, contract):
+    """Group unresolved evidence requests without changing any audit opinion.
+
+    Candidate lists are internal retrieval aids, not choices offered to a
+    clinician or an assertion that the true service is in the catalogue.
+    Exact wording variants stay separate; amounts never select a candidate.
+    """
+    catalogue = {s['service_name']: s for s in contract['services']}
+    groups = {}
+    for row in rows:
+        if row.get('flagged') is not None or row.get('record_identity_ambiguous'):
+            continue
+        for line in row.get('lines', []):
+            match = line.get('match', {})
+            name = match.get('service_name')
+            if name in catalogue and catalogue[name].get('unit_basis') is None:
+                kind, subject, names = 'billing_unit', name, [name]
+                question = ('Please provide the contractual definition of one billable unit for this service, '
+                            'including how quantity is measured, any rounding rule, the applicable dates, '
+                            'and the authoritative clause or amendment. If it cannot be determined, state that.')
+                required = ['authoritative unit definition and effective dates',
+                            'quantity dimensions required by that definition',
+                            'source document and reviewer attribution']
+            elif name is None:
+                kind, subject = 'service_description', str(line.get('description') or '')
+                names = sorted({c['service_name'] for c in match.get('candidates', [])
+                                if c.get('service_name') in catalogue})
+                question = ('Please identify the service actually delivered for each listed record from its '
+                            'clinical documentation or an authoritative local service-code mapping. Include '
+                            'the full service name and any missing subtype. If it is outside the catalogue '
+                            'or cannot be determined, state that; repeated wording alone does not prove identity.')
+                required = ['documented service and missing subtype for each record',
+                            'clinical record or authoritative local code mapping',
+                            'mapping scope/effective dates and reviewer attribution']
+            else:
+                continue
+            key = (row['hospital_id'], kind, subject)
+            packet = groups.setdefault(key, {
+                'hospital_id': row['hospital_id'],
+                'contract_number': contract.get('contract_details', {}).get('contract_number'),
+                'kind': kind, 'subject': subject, 'status': 'awaiting_authoritative_evidence',
+                'question': question, 'evidence_needed': required,
+                'internal_candidate_sources': {}, 'affected_records': [],
+                'warning': 'Not an adjudication or a provider response. Do not auto-apply one response to all records.'})
+            for candidate in names:
+                packet['internal_candidate_sources'][candidate] = catalogue[candidate].get('source')
+            record = {'record_index': row['record_index'], 'invoice_id': row['invoice_id'],
+                      'line_id': line.get('line_id'), 'description': line.get('description')}
+            if record not in packet['affected_records']:
+                packet['affected_records'].append(record)
+    packets = list(groups.values())
+    for packet in packets:
+        packet['affected_invoice_count'] = len({r['record_index'] for r in packet['affected_records']})
+    return sorted(packets, key=lambda p: (-p['affected_invoice_count'], p['hospital_id'], p['kind'], p['subject']))
+
 
 def metrics(results, label_path, all_invoices):
     with label_path.open() as f:
@@ -307,7 +362,7 @@ def portable_csv_export(directory):
     if submission['columns'] != columns or any(set(row) != set(columns) for row in submission['rows']):
         raise ValueError('Submission must use exactly the supplied template columns, in order')
     with (directory / 'submission.csv').open('x', newline='', encoding='utf-8') as stream:
-        writer = csv.DictWriter(stream, fieldnames=columns)
+        writer = csv.DictWriter(stream, fieldnames=columns, lineterminator='\n')
         writer.writeheader()
         writer.writerows(submission['rows'])
 

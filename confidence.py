@@ -54,6 +54,12 @@ def _line_evidence(line):
         score = .50
         reasons.add('Matching method has no defined evidence tier.')
 
+    if line.get('history_family_assumptions'):
+        score -= .05
+        reasons.add('Volume eligibility assumes unresolved historical descriptions state the correct service family.')
+    if line.get('historical_unit_assumptions'):
+        score -= .10
+        reasons.add('Discount history assumes a wrong unit label did not change the numeric quantity; reference-supported, not clinically verified.')
     context = line.get('pricing_context') or {}
     if context.get('assumptions') or line.get('history_presence_assumptions') or line.get('presence_assumption'):
         score -= .05

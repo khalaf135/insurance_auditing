@@ -770,3 +770,187 @@ tests passed. An isolated Git-visible copy reproduced every one of the 4,886
 record decisions and the byte-identical 2,743-row submission, with unchanged
 confidence/review reasons and spending. Detailed source/reference verification
 also passed. No API requests, staging, commit or push was performed.
+
+## 026 - Hospital 2 volume-only and unit-only review
+
+Codex inspected the original H2 clauses and existing audit traces, then added a
+conditional service-family restriction to volume-history bounds. It does not
+identify the unresolved service or infer it from billed prices. The family-word
+assumption is retained in traces and lowers line evidence scores. Five regression
+tests cover family scope, conflicting wording, retained related-family
+uncertainty, and unrelated-service discount resolution. All 233 tests passed.
+
+A full cached run resolved 107 of the 138 volume-only invoices (H2 answered
+772 to 879). The 114 unit-only invoices remain unanswered because the source
+does not clarify "per hour, per item". These are conditional coverage gains,
+not independently validated H2 accuracy. Existing verdicts were unchanged;
+three missing H2 totals became available. Other hospitals' result records were
+unchanged. No new provider calls, spending, root-submission replacement or push
+was performed. See `docs/H2_REVIEW.md` for assumptions and reproduction.
+
+## 027 - Follow-up H2 history abbreviation review
+
+Codex traced remaining discount-changing historical contributors and added
+unique catalogue-prefix expansion inside the history-family helper only.
+Prefixes require at least four letters and exactly one catalogue completion;
+ambiguous prefixes stay unresolved. Two regression tests cover both outcomes.
+This resolves the missing DISP expansion without claiming that an unmatched
+vascular pharmaceutical description identifies a pulmonary service.
+
+The full cached run gained 20 additional conditional H2 verdicts (899 answered,
+219 eligible unanswered). The 57 description-only cases and ambiguous units
+were not forced into answers. Source review found different rates/units for
+the unresolved cardiac alternatives, not an interpretation-independent answer.
+All 235 tests and source/reference/budget verification passed. Other hospitals
+were unchanged; no new API spending, root-submission replacement or push occurred.
+
+## 028 - Online research and evidence clarification packets
+
+At the user's request Codex searched primary clinical documentation and
+terminology sources before implementation. Sources and applicability limits are
+recorded in `docs/H2_REVIEW.md`. External billing guidance was not substituted
+for the local contract. No missing service identity or compound unit was inferred
+from an internet convention or a matching billed amount.
+
+The pipeline now exports grouped, non-leading evidence requests for unanswered
+descriptions and units, with affected records and internal source references.
+They are not provider responses and do not change predictions. Two regression
+tests cover grouping, unchanged opinions, singleton non-promotion and exclusion
+of answered/duplicate-ID records. All 237 tests passed. No messages were sent
+to an external reviewer, and no root submission was replaced.
+
+## 029 - Explicitly requested independent-reference experiment
+
+Codex implemented a separate offline pilot for the 57 H2 description-only
+invoices after the user asked to try other-invoice evidence. It broadens generic
+SERVICE candidates, requires fully worded reference anchors and strong agreement
+among other invoices, excludes target/patient folds and duplicate IDs, and
+recalculates with existing pricing rules. No target price selects its identity.
+
+All 57 experimental verdicts are no-error, conditional on stable wording and
+reliable majority billing patterns. This is not labelled H2 accuracy. The
+experiment uses an explicit deterministic inference policy instead of overriding
+the original cached model responses. Normal results, submission and compound
+unit decisions are unchanged. All 240 tests passed; no API calls or labels were
+used. See `docs/H2_REVIEW.md` for assumptions and reference counts.
+
+## 030 - Clause 3.3 billed-quantity experiment
+
+Following the user's request, Codex tested a separate conditional pricing check
+for the 137 H2 unit-only invoices. It uses the supplied quantity under clause
+3.3, checks rates/multiplication/totals, and retains quantity verification as
+unresolved. It neither changes the contract unit nor treats an internet billing
+convention as authoritative. All 137 conditional verdicts are 0; there are no
+confirmed unit resolutions. Normal audit results and submission remain unchanged.
+Three new tests bring the suite to 243 passing tests. No APIs or labels were
+used. See `docs/H2_REVIEW.md` for scope and safeguards.
+
+## 031 - User-approved conditional H2 merge
+
+The user explicitly requested merging both H2 experiments. Codex validated
+their recorded source hashes, overlaid only 194 previously unanswered unique H2
+records, and checked that every other hospital and existing answered record
+remained identical. H2 is now 1093 answered and 25 eligible unanswered, with
+14 duplicate-ID records separate. H3 remains 633 answered and 292 eligible
+unanswered, plus 14 duplicate-ID records.
+
+The root submission was replaced with the merged template-only export. Its
+previous bytes are backed up in
+`audit_output/h2_merged_conditional/prior_root_submission.csv`. Conditional
+bases, quantity-verification limitations, evidence scores and source results
+remain in the merged JSON. Unit-based overlays use a provisional confidence cap
+of 0.50 (or retain a lower existing score); absent scores become 0.50, explicitly
+uncalibrated. No experiments were promoted to confirmed clinical evidence,
+and no changes were pushed. The conservative normal pipeline remains separate;
+`merge_h2_results.py` produces the explicit merged snapshot after the experiments.
+
+## 032 - H3 contract-first review and fixes
+
+Codex read the complete H3 base agreement, schedule and amendment, then enabled
+service-family volume bounds only after confirming H3's own cumulative-usage
+rules. Existing service-date amendment logic was retained. The shared
+billed-quantity pilot now accepts an H3 selection and checks H3 base clause 3.3;
+the shared conditional merger preserves the previously approved H2 results.
+
+H3 gained 93 conditional family-based verdicts and 68 billed-quantity conditional
+verdicts: 794 answered, 131 eligible unanswered. Unresolvable historical unit
+conversions were not guessed. The original 61 unit-only cases and seven combined
+cases now have conditional pricing answers, not verified quantity measurements.
+Root submission was updated with its prior bytes backed up. No APIs, labels or
+push were used. See `docs/H3_REVIEW.md` for source decisions and remaining limits.
+
+## 033 - User-requested H3 historical quantity inference
+
+Codex tested other-invoice evidence for known historical services with wrong
+unit labels. Three source events passed the declared reference gates. Numeric
+quantities are conditionally retained for discount history only; original unit
+errors are preserved and reference/patient folds excluded. Opt-in consultation
+and conference family heads also restrict unrelated historical usage.
+
+The trial gained 98 conditional history opinions and six further billed-quantity
+opinions, bringing H3 to 898 answered and 27 eligible unanswered. The merged
+submission preserves every prior answer and all other hospitals, with a backup
+of the prior root CSV. All 248 tests passed; no API calls, labels or push.
+See `docs/H3_REVIEW.md` for assumptions, gates and reproducibility.
+
+## 034 - Hospital 4 source review and conditional improvements
+
+Codex read the full H4 agreement, retained its adjustment order and strict prior
+usage thresholds, and enabled conditional service-family history bounds. This
+gained 29 opinions. A source-4.4 billed-quantity pilot gained 89 more conditional
+opinions while retaining telemetry's presence-based exclusion effects. Physical
+quantity verification remains unresolved. The shared merger now preserves the
+accepted H2/H3 records while publishing H4 changes with a root-submission backup.
+
+H4 is 754 answered and 76 eligible unanswered, with 10 duplicate-ID records
+separate. All 249 tests passed; no new API calls, labels or push were used.
+See `docs/H4_REVIEW.md` for clauses, remaining blockers and reproduction.
+
+## 035 - Unresolved H4 code and decision-log update
+
+At the user's request, Codex checked other hospitals' contract text and invoice
+descriptions for CW-8682 and a clearer focused neurological visit equivalent.
+Only the original H4 line was found; preceding online searches had not established
+an authoritative mapping. Its billed price matches a urologic imaging service,
+which conflicts with its wording and was not accepted as identification.
+
+The one-page decision log records the missing crosswalk, the 69 dependent
+volume-only invoices (four with additional uncertain lines), and the decision to
+retain uncertainty pending source clarification. Stale descriptions of earlier
+H2-H4 assumptions and the initial timebox were updated to disclose later
+conditional experiments. Only the decision-log PDF was regenerated; predictions,
+audit code and evaluation report were unchanged. No paid API calls or push.
+
+## 036 - H5 volume and compound-unit improvements
+
+The user requested the 229 volume-only, 73 unit-only and 32 combined H5 groups.
+Codex reviewed the network agreement's calculation, multiplier and usage clauses.
+History-only paired NURS OBS and LAB PNL expansions narrow possible service
+families without establishing exact identity. The billed-quantity pilot now uses
+H5 clause 3.1; quantities remain explicitly unverified with confidence capped
+at 0.50. The historical reference pilot now supports H5 with held-out folds,
+minimum reference gates and original wrong-unit findings preserved.
+
+Final gains: 45 volume-only, 73 unit-only and six combined opinions, all conditional.
+H5 now has 826 answered and 217 eligible unanswered plus 14 duplicate-ID records.
+Unresolved historical descriptions and competing duplicate invoice versions still
+limit coverage. No hidden labels or new paid API calls were used. All 253 tests
+passed; H1-H4 merged records and existing H5 verdicts were preserved. Root CSV was
+updated with recoverable backups; no push. See docs/H5_REVIEW.md for reproduction
+and the limits of these assumptions. Two misnamed intermediate trial files from
+a corrected filename-variable bug were discarded; final artifacts remain intact.
+
+## 037 - One-command complete workflow
+
+At the user's request, Codex connected the reviewed H2-H5 conditional stages to
+`main.py`. A normal run now tests and audits all hospitals, recomputes description,
+compound-unit, service-family and held-out historical-reference improvements from
+that run's files, validates preservation of existing verdicts and duplicate-ID
+abstentions, and publishes the root template CSV atomically only after success.
+The prior root CSV is backed up in the run's final directory. `--baseline-only`
+retains the conservative path and never updates the root submission.
+
+The complete offline validation reproduced 908/1093/898/754/826 answered for
+H1-H5, respectively, with 253 tests passing and no new API calls. README and the
+decision log now describe cross-hospital pattern reuse as a software technique,
+while requiring each hospital's own clauses and prohibiting rate transfer.

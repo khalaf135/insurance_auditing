@@ -31,6 +31,10 @@ import main
 import matching
 import pipeline
 import reporting
+import reference_experiment
+import unit_quantity_experiment
+import merge_h2_results
+import complete_workflow
 import rules
 
 ROOT = Path(__file__).resolve().parent
@@ -1335,6 +1339,42 @@ def is_history_blocked(row):
 
 class HistoryVolumeTests(unittest.TestCase):
 
+    def test_reference_quantity_changes_only_discount_history_not_wrong_unit(self):
+        c = history_contract()
+        set_history_discount(c, (2, 10))
+        prior = sample_invoice('prior', quantity=3, day='2024-01-04')
+        prior['line_items'][0]['unit_basis_as_billed'] = 'per_item'
+        target = sample_invoice('target', price=91, day='2024-01-05')
+        self.assertIsNone(audit_history(c, [prior, target])[1]['flagged'])
+        estimate = {'service_name': 'Alpha Consultation', 'quantity': 3,
+                    'reference_invoice_ids': ['ref1', 'ref2', 'ref3'], 'assumption': 'Unit label only is wrong'}
+        rows = rules.audit(contracts.refine_dependencies(c), [prior, target],
+                           historical_unit_estimates={(0, 'prior-line'): estimate})
+        self.assertEqual(rows[1]['flagged'], 0)
+        self.assertEqual(rows[1]['lines'][0]['utilisation_bounds']['prior_units_lower'], 3)
+        self.assertIn('wrong_unit_basis', rows[0]['error_category'])
+        self.assertEqual(prior['line_items'][0]['unit_basis_as_billed'], 'per_item')
+        self.assertTrue(rows[1]['lines'][0]['historical_unit_assumptions'])
+        for bad in ({**estimate, 'quantity': 4}, {**estimate, 'reference_invoice_ids': ['prior', 'ref2', 'ref3']}):
+            with self.assertRaises(ValueError):
+                rules.audit(contracts.refine_dependencies(c), [prior, target], historical_unit_estimates={(0, 'prior-line'): bad})
+
+    def test_amended_rate_keeps_prior_year_contract_usage(self):
+        c = history_contract()
+        c['contract_details']['effective_to'] = '2025-12-31'
+        set_history_discount(c, (100, 10))
+        prior = sample_invoice('prior-year', quantity=101, day='2024-12-31')
+        prior['invoice_date'] = '2024-12-31'
+        current = sample_invoice('new-year', price=108, day='2025-01-01')
+        current['invoice_date'] = '2025-01-02'
+        draft = {'extensions': {'additional_services': [], 'facility_multipliers': [], 'plan_tier_multipliers': [],
+                 'rate_versions': [{'service_name': 'Alpha Consultation', 'old_rate_cents': 101,
+                                    'new_rate_cents': 120, 'effective_from': '2025-01-01', 'applies_by': 'service_date'}]}}
+        result = rules.audit(contracts.refine_dependencies(c), [prior, current], extended_contract=draft)[1]
+        self.assertEqual(result['flagged'], 0)
+        self.assertEqual(result['lines'][0]['utilisation_bounds']['prior_units_lower'], 101)
+        self.assertEqual(result['expected_total_cents'], 108)
+
     def test_missing_patient_does_not_erase_confirmed_contract_usage(self):
         c = history_contract()
         set_history_discount(c, (2, 10))
@@ -2351,7 +2391,7 @@ class PublicMainTests(unittest.TestCase):
         self.write_audit_outputs()
         output = io.StringIO()
         with patch.object(main.subprocess, 'run') as run, redirect_stdout(output):
-            main.main(['--output-dir', str(self.directory), '--no-agent-replay'])
+            main.main(['--output-dir', str(self.directory), '--no-agent-replay', '--baseline-only'])
         self.assertEqual(run.call_count, 2)
         self.assertEqual(run.call_args_list[0], call(
             [sys.executable, str(ROOT / 'test.py'), '-q'], cwd=ROOT, check=True,
@@ -2385,7 +2425,7 @@ class PublicMainTests(unittest.TestCase):
         options = [
             '--execute-ai', '--output-dir', str(self.directory), '--ai-cache-dir', str(cache),
             '--budget-usd', '1.5', '--unit-clarifications', str(clarifications),
-            '--agent-replay-dir', str(self.directory), '--json-only',
+            '--agent-replay-dir', str(self.directory), '--json-only', '--baseline-only',
         ]
         with patch.object(main.subprocess, 'run') as run, \
                 patch.object(main, 'portable_csv_export') as export, redirect_stdout(io.StringIO()):
@@ -2410,7 +2450,8 @@ class PublicMainTests(unittest.TestCase):
         self.assertEqual(set(hashes), {
             'main.py', 'pipeline.py', 'agents.py', 'rules.py', 'matching.py',
             'contracts.py', 'contract_builder.py', 'ai_client.py', 'reporting.py',
-            'confidence.py', 'test.py',
+            'confidence.py', 'test.py', 'complete_workflow.py', 'reference_experiment.py',
+            'unit_quantity_experiment.py', 'history_quantity_experiment.py', 'merge_h2_results.py',
         })
         for name, digest in hashes.items():
             self.assertEqual(digest, hashlib.sha256((ROOT / name).read_bytes()).hexdigest())
@@ -2577,6 +2618,262 @@ class PublicMainTests(unittest.TestCase):
                     main.main(['--output-dir', str(self.directory), '--no-agent-replay'])
                 self.assertEqual(run.call_count, len(outcomes))
                 export.assert_not_called()
+
+class VolumeFamilyScopeTests(unittest.TestCase):
+    def catalogue(self):
+        return [{'service_name': name} for name in (
+            'Standard Renal Dialysis Session', 'Advanced Renal Dialysis Session',
+            'Preoperative Obstetric Home Visit', 'Routine Cardiac Home Visit')]
+
+    def test_family_is_broad_not_an_identity(self):
+        scope = matching.history_family_scope('Unknown MSK Dial Sess', self.catalogue())
+        self.assertEqual(len(scope['candidate_services']), 2)
+        self.assertNotIn('service_name', scope)
+        self.assertIn('outside-catalogue', scope['assumption'])
+
+    def test_consultation_family_is_opt_in_and_not_service_identity(self):
+        catalogue = [{'service_name': 'Routine Psychiatric Consultation'}, {'service_name': 'Elective Pulmonary Consultation'}]
+        self.assertIsNone(matching.history_family_scope('foc rheum consultation', catalogue))
+        scope = matching.history_family_scope('foc rheum consultation', catalogue, single_word_families=True)
+        self.assertEqual(len(scope['candidate_services']), 2)
+        self.assertNotIn('service_name', scope)
+
+    def test_conference_head_bounds_history_without_imputing_case_identity(self):
+        catalogue = [{'service_name': 'Bedside Oncology Case Conference'}, {'service_name': 'Routine Cardiac Consultation'}]
+        scope = matching.history_family_scope('conf preop paed', catalogue, single_word_families=True)
+        self.assertEqual(scope['candidate_services'], ['Bedside Oncology Case Conference'])
+        self.assertEqual(scope['family_token_expansions']['conf'], 'conference')
+        self.assertNotIn('service_name', scope)
+
+    def test_multiple_complete_families_are_unioned(self):
+        scope = matching.history_family_scope('Dial Sess and Home Visit', self.catalogue())
+        self.assertEqual(len(scope['candidate_services']), 4)
+
+    def test_history_family_unique_prefix_is_not_identity(self):
+        catalogue = self.catalogue() + [{'service_name': 'Focused Pulmonary Pharmaceutical Dispensing'}]
+        scope = matching.history_family_scope('FOC VASC PHARM DISP', catalogue, {'pharm': 'pharmaceutical'})
+        self.assertEqual(scope['candidate_services'], ['Focused Pulmonary Pharmaceutical Dispensing'])
+        self.assertEqual(scope['family_token_expansions'], {'disp': 'dispensing'})
+        self.assertNotIn('service_name', scope)
+
+    def test_history_family_ambiguous_prefix_is_not_expanded(self):
+        catalogue = [{'service_name': 'Focused Pulmonary Pharmaceutical Dispensing'},
+                     {'service_name': 'Routine Renal Pharmaceutical Disposal'}]
+        self.assertIsNone(matching.history_family_scope('PHARM DISP', catalogue, {'pharm': 'pharmaceutical'}))
+
+    def test_incomplete_or_conflicting_family_word_does_not_narrow(self):
+        for text in ('Dial', 'Dial Sess Home', 'Unrecognised service'):
+            self.assertIsNone(matching.history_family_scope(text, self.catalogue()))
+
+    def test_only_unrelated_discount_is_unblocked_and_assumption_retained(self):
+        c = history_contract()
+        c['services'] += [{**s, 'unit_basis': 'per_item', 'base_rate_cents': 101, 'daily_cap': None}
+                          for s in self.catalogue()]
+        set_history_discount(c, (5, 20), (12, 40))
+        earlier = sample_invoice('prior', quantity=10, day='2024-01-05')
+        unknown = sample_invoice('unknown', service='Unlisted Renal Dialysis Session', quantity=5, day='2024-01-06')
+        unknown['line_items'][0]['unit_basis_as_billed'] = 'per_item'
+        target = sample_invoice('target', price=81, day='2024-01-07')
+        old = audit_history(c, [earlier, unknown, target])
+        self.assertIsNone(old[2]['flagged'])
+        c['uncertainty_policy']['volume_family_bounds'] = True
+        new = audit_history(c, [earlier, unknown, target])
+        self.assertEqual(new[2]['flagged'], 0)
+        self.assertIsNone(new[1]['lines'][0]['match']['service_name'])
+        self.assertIsNone(new[1]['flagged'])
+        line = new[2]['lines'][0]
+        self.assertTrue(line['history_family_assumptions'])
+        self.assertEqual(line['utilisation_bounds']['prior_units_lower'], 10)
+        self.assertEqual(line['utilisation_bounds']['prior_units_upper'], 10)
+        original = copy.deepcopy(line)
+        original.pop('history_family_assumptions')
+        self.assertAlmostEqual(confidence._line_evidence(original)[0] - confidence._line_evidence(line)[0], .05)
+
+
+    def test_related_family_retains_discount_uncertainty(self):
+        c = history_contract()
+        name = 'Standard Renal Dialysis Session'
+        c['services'][0]['service_name'] = name
+        c['services'].append({**c['services'][0], 'service_name': 'Advanced Renal Dialysis Session'})
+        set_history_discount(c, (5, 20), (12, 40))
+        for rule in c['volume_discounts']['rules']:
+            rule['service_name'] = name
+        c['uncertainty_policy']['volume_family_bounds'] = True
+        earlier = sample_invoice('prior', service=name, quantity=10, day='2024-01-05')
+        unknown = sample_invoice('unknown', service='Unlisted MSK Dial Sess', quantity=5, day='2024-01-06')
+        target = sample_invoice('target', service=name, price=81, day='2024-01-07')
+        result = audit_history(c, [earlier, unknown, target])[2]
+        self.assertIsNone(result['flagged'])
+        self.assertFalse(result['lines'][0].get('history_family_assumptions'))
+
+
+class ConditionalMergeTests(unittest.TestCase):
+    def test_preserves_other_hospitals_and_rejects_repeated_overlay(self):
+        row = {'hospital_id': 'H2', 'record_index': 0, 'invoice_id': 'h2', 'flagged': None,
+               'review_reasons': ['unit unresolved'], 'confidence_reasons': [], 'confidence': .35,
+               'assessment_basis': 'baseline'}
+        other = {**row, 'hospital_id': 'H3', 'invoice_id': 'h3'}
+        proposal = {'record_index': 0, 'invoice_id': 'h2', 'conditional_flagged': 0,
+                    'conditional_errors': [], 'conditional_expected_total_cents': 100,
+                    'assumption': 'Billed quantity assumed'}
+        merged = merge_h2_results.merge_rows([row, other], [], [proposal])
+        self.assertEqual(merged[1], other)
+        self.assertIsNone(row['flagged'])
+        self.assertEqual(merged[0]['flagged'], 0)
+        self.assertEqual(merged[0]['confidence'], .35)
+        self.assertFalse(merged[0]['quantity_verified'])
+        with self.assertRaises(ValueError):
+            merge_h2_results.merge_rows([row], [], [proposal, proposal])
+
+
+class BilledQuantityExperimentTests(unittest.TestCase):
+    def test_nursing_pair_bounds_do_not_identify_service(self):
+        services = [{'service_name': n} for n in (
+            'Inpatient Dermatologic Nursing Observation',
+            'Specialist Dermatologic Nursing Observation',
+            'Extended Endocrine Theatre Time',
+            'Continuous Metabolic Endoscopic Procedure')]
+        scope = matching.history_family_scope('INTERM ENDO NURS OBS', services)
+        self.assertEqual(len(scope['candidate_services']), 2)
+        self.assertNotIn('Continuous Metabolic Endoscopic Procedure', scope['candidate_services'])
+        self.assertEqual(scope['family_token_expansions']['obs'], 'observation')
+        self.assertIsNone(matching.history_family_scope('INTERM ENDO OBS', services))
+        self.assertIsNone(matching.history_family_scope('NURS OBS endoscopic', services))
+
+    def test_h5_source_and_pricing_context(self):
+        draft = json.loads((ROOT / 'contract_agent_final_v4/hospital_5.json').read_text())
+        source = (ROOT / 'contracts/hospital_5/network_reimbursement_agreement.txt').read_text()
+        clause = next(s for s in source.splitlines() if s.startswith('3.1 '))
+        self.assertIn('resulting unit rate multiplied by the billed quantity', clause)
+        service = {**self.service, 'service_name': 'Routine Psychiatric Telemetry Monitoring',
+                   'base_rate_cents': 2950}
+        raw = {**self.raw, 'service_date': '2024-05-01', 'unit_price_cents': 2950,
+               'line_total_cents': 17700}
+        for facility in ('F-MAIN', 'F-NORTH', 'F-COAST'):
+            for tier in ('BRONZE', 'SILVER', 'GOLD'):
+                result = unit_quantity_experiment.calculate_billed_quantity(
+                    self.contract, draft, {'facility_code': facility, 'plan_tier': tier}, raw, service)
+                self.assertEqual(result['conditional_expected_line_total_cents'], 17700)
+                self.assertEqual(result['conditional_errors'], [])
+                self.assertFalse(result['quantity_verified'])
+
+    def test_paired_lab_abbreviation_is_only_a_family(self):
+        services = [{'service_name': 'Continuous Immunologic Laboratory Panel'},
+                    {'service_name': 'Supervised Immunologic Sterilisation Service'}]
+        scope = matching.history_family_scope('ASSISTED GERIATRIC LAB PNL', services)
+        self.assertEqual(scope['candidate_services'], ['Continuous Immunologic Laboratory Panel'])
+        self.assertIsNone(matching.history_family_scope('ASSISTED GERIATRIC LAB', services))
+
+    def test_multiplier_rounding_is_stepwise(self):
+        context = {'facility_multiplier': {'numerator': 3, 'denominator': 2},
+                   'plan_tier_multiplier': {'numerator': 3, 'denominator': 2}}
+        service = {**self.service, 'base_rate_cents': 1}
+        raw = {**self.raw, 'quantity': 1, 'unit_price_cents': 3, 'line_total_cents': 3}
+        with patch.object(contracts, 'pricing_context', return_value=context):
+            result = unit_quantity_experiment.calculate_billed_quantity(self.contract, {}, {}, raw, service)
+        self.assertEqual(result['effective_rate_cents'], 3)
+
+    def setUp(self):
+        self.contract = {'contract_details': {'facility_multiplier': {'numerator': 1, 'denominator': 1},
+                                             'plan_tier_multiplier': {'numerator': 1, 'denominator': 1}}}
+        self.service = {'service_name': 'Telemetry', 'unit_basis': None, 'base_rate_cents': 10625,
+                        'source': {'text': 'GBP 106.25 per hour, per item'}}
+        self.raw = {'line_id': 'x', 'quantity': 6, 'unit_basis_as_billed': 'per_hour_per_item',
+                    'unit_price_cents': 10625, 'line_total_cents': 63750}
+
+    def calculate(self):
+        with patch.object(contracts, 'pricing_context', return_value={}):
+            return unit_quantity_experiment.calculate_billed_quantity(self.contract, {}, {}, self.raw, self.service)
+
+    def test_calculates_without_confirming_or_changing_unit(self):
+        result = self.calculate()
+        self.assertEqual(result['conditional_expected_line_total_cents'], 63750)
+        self.assertEqual(result['conditional_errors'], [])
+        self.assertFalse(result['quantity_verified'])
+        self.assertIsNone(self.service['unit_basis'])
+
+    def test_detects_bad_rate_and_multiplication(self):
+        self.raw['unit_price_cents'] = 10000
+        self.assertEqual(set(self.calculate()['conditional_errors']), {'unit_price_mismatch', 'line_total_arithmetic'})
+
+    def test_does_not_invent_conversion_or_skip_dependencies(self):
+        self.raw['unit_basis_as_billed'] = 'per_hour'
+        with self.assertRaises(ValueError):
+            self.calculate()
+        self.raw['unit_basis_as_billed'] = 'per_hour_per_item'
+        self.contract['volume_discounts'] = {'rules': [{'service_name': 'Telemetry', 'quantity': 100}]}
+        with self.assertRaises(ValueError):
+            self.calculate()
+
+    def test_related_exclusion_presence_allowed_but_excluded_service_rejected(self):
+        self.contract['exclusion_windows'] = {'rules': [{'related_service': 'Telemetry', 'excluded_service': 'Lab', 'window_days': 30}]}
+        self.assertEqual(self.calculate()['conditional_expected_line_total_cents'], 63750)
+        self.contract['exclusion_windows']['rules'][0].update(related_service='Lab', excluded_service='Telemetry')
+        with self.assertRaises(ValueError):
+            self.calculate()
+
+
+class IndependentReferenceTests(unittest.TestCase):
+    def fixture(self):
+        anchors = [{'invoice_id': n + str(i), 'service_name': n, 'unit': u, 'price': p}
+                   for n, u, p in [('A', 'per_item', 100), ('B', 'per_hour', 200)] for i in range(3)]
+        obs = [{'invoice_id': 'r' + str(i), 'unit': 'per_item', 'price': 100} for i in range(5)]
+        return obs, anchors
+
+    def choose(self, obs, anchors):
+        return reference_experiment.choose_reference(['A', 'B'], obs, anchors,
+                    {'A': [100], 'B': [200]}, {'A': 'per_item', 'B': 'per_hour'})
+
+    def test_clear_anchors_and_other_invoice_agreement(self):
+        obs, anchors = self.fixture()
+        chosen, evidence = self.choose(obs, anchors)
+        self.assertEqual(chosen, 'A')
+        self.assertEqual(len(evidence['reference_invoice_ids']), 5)
+
+    def test_duplicate_lines_do_not_create_independent_support(self):
+        obs, anchors = self.fixture()
+        self.assertIsNone(self.choose([obs[0]] * 20, anchors)[0])
+        self.assertIsNone(self.choose(obs, [anchors[0]] * 20 + anchors[3:])[0])
+
+    def test_conflict_or_unwitnessed_rate_abstains(self):
+        obs, anchors = self.fixture()
+        obs[0].update(unit='per_hour', price=200)
+        obs[1].update(unit='per_hour', price=200)
+        self.assertIsNone(self.choose(obs, anchors)[0])
+        obs, anchors = self.fixture()
+        for a in anchors[:3]:
+            a['price'] = 999
+        self.assertIsNone(self.choose(obs, anchors)[0])
+
+
+class ClarificationPacketTests(unittest.TestCase):
+    def test_unit_requests_group_without_changing_verdicts(self):
+        contract = {'services': [{'service_name': 'Telemetry', 'unit_basis': None, 'source': {'line_start': 4}}]}
+        rows = [{'hospital_id': 'H2', 'record_index': i, 'invoice_id': str(i), 'flagged': None,
+                 'lines': [{'line_id': str(i), 'description': 'MONIT', 'match': {'service_name': 'Telemetry'}}]}
+                for i in range(3)]
+        original = copy.deepcopy(rows)
+        packets = reporting.clarification_packets(rows, contract)
+        self.assertEqual(len(packets), 1)
+        self.assertEqual(packets[0]['affected_invoice_count'], 3)
+        self.assertEqual(rows, original)
+        self.assertIn('authoritative', packets[0]['question'])
+
+    def test_description_singleton_never_promotes_or_leads_question(self):
+        contract = {'services': [{'service_name': 'Transport', 'unit_basis': 'per_item'}]}
+        rows = [{'hospital_id': 'H2', 'record_index': 0, 'invoice_id': 'a', 'flagged': None,
+                 'lines': [{'line_id': 'x', 'description': 'SVC', 'match': {'service_name': None,
+                            'candidates': [{'service_name': 'Transport'}]}}]}]
+        packet = reporting.clarification_packets(rows, contract)[0]
+        self.assertEqual(packet['status'], 'awaiting_authoritative_evidence')
+        self.assertNotIn('Transport', packet['question'])
+        self.assertIsNone(rows[0]['flagged'])
+        rows[0]['record_identity_ambiguous'] = True
+        self.assertEqual(reporting.clarification_packets(rows, contract), [])
+        rows[0]['record_identity_ambiguous'] = False
+        rows[0]['flagged'] = 1
+        self.assertEqual(reporting.clarification_packets(rows, contract), [])
+
 
 class CheckoutPortabilityTests(unittest.TestCase):
     def setUp(self):

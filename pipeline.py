@@ -20,7 +20,7 @@ from contracts import compile_contract, load_and_preflight, review_units, refine
 from agents import audit_with_agent, replay_h1
 from ai_client import BudgetedAI, load_keys, save
 from confidence import FIELDS as CONFIDENCE_FIELDS, METHOD as CONFIDENCE_METHOD, score_invoice
-from reporting import metrics, submission_confidence, portable_csv_export
+from reporting import metrics, submission_confidence, portable_csv_export, clarification_packets
 
 ROOT = Path(__file__).resolve().parent
 
@@ -188,6 +188,11 @@ def main(argv=None):
                 if args.four_blocker_fixes:
                     compiled = refine_dependencies(compiled)
                     compiled['uncertainty_policy']['improved_usage_bounds'] = True
+                    # Source-reviewed service-specific volume bounds.
+                    if hospital in {'H2', 'H3', 'H4', 'H5'}:
+                        compiled['uncertainty_policy']['volume_family_bounds'] = True
+                    if hospital == 'H4':
+                        compiled['uncertainty_policy']['single_word_volume_families'] = True
             except (ValueError, KeyError, TypeError) as error:
                 blocker = str(error)
                 rows = basic_audit(draft, raw, aliases, blocker)
@@ -227,6 +232,8 @@ def main(argv=None):
             all_rows.append({k: row.get(k) for k in ("hospital_id", "record_index", "invoice_id", "flagged", "error_category",
                 "expected_total_cents", "billed_total_cents", "review_reasons", "record_identity_ambiguous", "assessment_basis",
                 "service_day_assumption", "date_order_check_basis", "agent_enabled", "reference_fold") + CONFIDENCE_FIELDS})
+        if compiled:
+            save(out / (hospital + '.clarification_packets.json'), clarification_packets(rows, compiled))
         with gzip.open(out / (name + ".details.jsonl.gz"), "wt", encoding="utf-8") as f:
             for row in rows:
                 f.write(json.dumps(row, ensure_ascii=False) + "\n")

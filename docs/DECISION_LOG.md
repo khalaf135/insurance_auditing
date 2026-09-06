@@ -24,22 +24,24 @@ results, and compared again with H1 labels. Unsupported cases stayed unanswered.
 
 After improving H1, I used a general AI extractor for each hospital's own source
 bundle, including amendments, and applied the shared workflow across hospitals.
-I reused cached responses and worked through the remaining blockers one type at
-a time. With the exercise's 6-8-hour cap in mind, I stopped extending coverage
-and documented unresolved cases rather than forcing answers.
+I reused cached responses and worked through blockers one type at a time. While
+improving one hospital, I found recurring patterns in others, such as compound
+units, abbreviated service families and uncertain historical quantities. I then
+re-read each hospital's own clauses before reusing a general solution; rules and
+rates were never transferred between hospitals. After the initial time-boxed
+approach, I requested further H2-H5 experiments, outside the stated 6-8-hour cap.
 
 ## Decisions and unresolved alternatives
 
 1. **Service identity can be incomplete.** H2 "ELECT CARD SVC" could mean Nursing
-   Observation or Transport (clauses 14.6/18.5). I left it unresolved. Abbreviations
-   are matching assumptions, not contract facts. Price-supported matches require
-   at least three outside-group reference invoices, >=80% support and <=20%
-   competing support, never the target's own price; even then identity is conditional.
+   Observation or Transport. Later outside-group references supported Transport,
+   conditionally: at least three reference invoices, >=80% support and <=20%
+   competing support, excluding the target's own price. This is not confirmed identity.
 
 2. **A rate does not settle an ambiguous unit.** Four telemetry services say
-   "per hour, per item" without clearly explaining the compound quantity. I kept
-   those calculations unresolved and recorded the need for clarification, rather than
-   select the unit that makes the bill match.
+   "per hour, per item." Later H2-H5 pilots used supplied numeric quantities under
+   each contract's multiplication clause, with explicit assumptions and confidence
+   capped at 0.50. Pricing opinions do not verify hours, items or physical quantities.
 
 3. **Dates need explicit assumptions.** H2's day runs 07:00-06:59, but invoices
    lack timestamps. I treated service dates as billing-day labels, conditionally.
@@ -52,10 +54,10 @@ and documented unresolved cases rather than forcing answers.
    applies to the same patient; authoritative clarification remains needed.
 
 5. **Uncertain history must not become confirmed usage.** I tracked minimum and
-   maximum possible prior usage and proceeded only when uncertainty could not
-   change the result. Valid events use service date then line ID; tied/missing
-   ordering is bounded. Unknown quantities or incompatible units cannot confirm
-   a discount. Money stays in integer cents with contract-ordered, half-up rounding.
+   maximum possible prior usage. Later family-based bounds assume family wording
+   is truthful; H3/H5 reference-supported experiments retain numeric historical
+   quantities despite wrong unit labels, conditionally, preserving those errors.
+   Ordering uses service date then line ID; money uses contract-ordered half-up cents.
 
 6. **Amendments and allocation need consistent policies.** I applied H3 repricing
    by service date and retained uncertain retrospective settlements. For H5,
@@ -69,13 +71,22 @@ and documented unresolved cases rather than forcing answers.
    Confidence is an uncalibrated evidence score, not a measured probability;
    missing totals cap it at 0.50.
 
+8. **H4's missing service mapping remains unresolved.** `VST foc NEURO /CW-8682`
+   occurs once in the supplied invoices; other contracts provide no reliable
+   equivalent. Its 23075-cent price matches Comprehensive Urologic Imaging
+   Interpretation, but that conflicts with the neurological-visit wording.
+   Online searches also yielded no authoritative mapping. I did not transfer
+   another hospital's rates or guess from price. All 69 remaining H4 volume-only
+   cases depend on this line (four also have other uncertain lines). Request H4's
+   code-to-service crosswalk or original service record; retain uncertainty meanwhile.
+
 ## Review and disclosure
 
 Codex assisted code, source review and writing; these were not independent expert
-reviews. All 12 sampled H2-H5 blockers stayed unanswered. The early pilot used
+reviews. The early pilot used
 Voyage retrieval/reranking and Gemini via OpenRouter; the current extractor and AI
 fallback use Gemini. H1 labels informed development, not independent validation.
 Next I would seek unit/boundary clarification and independently reviewed examples.
 
-Sources: original contracts; `audit_output/manual_review_submission/source_review_12.json`;
-`EVALUATION.md`; `prompts/README.md`; `AI_USAGE.md`.
+Sources: original contracts; `H4_REVIEW.md`; `EVALUATION.md`;
+`prompts/README.md`; `AI_USAGE.md`.

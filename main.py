@@ -19,7 +19,7 @@ from reporting import (
 
 
 
-SOURCE_FILES = ('main.py', 'pipeline.py', 'agents.py', 'rules.py', 'matching.py', 'contracts.py', 'contract_builder.py', 'ai_client.py', 'confidence.py', 'reporting.py', 'test.py')
+SOURCE_FILES = ('main.py', 'pipeline.py', 'agents.py', 'rules.py', 'matching.py', 'contracts.py', 'contract_builder.py', 'ai_client.py', 'confidence.py', 'reporting.py', 'test.py', 'complete_workflow.py', 'reference_experiment.py', 'unit_quantity_experiment.py', 'history_quantity_experiment.py', 'merge_h2_results.py')
 
 
 def parse_args(argv=None):
@@ -38,6 +38,8 @@ def parse_args(argv=None):
         default=ROOT / 'audit_output/all_hospitals_ai_2usd/ai',
     )
     parser.add_argument('--budget-usd', type=float, default=2)
+    parser.add_argument('--baseline-only', action='store_true',
+                        help='Skip conditional improvements and leave root submission unchanged')
     parser.add_argument(
         '--json-only', action='store_true',
         help='Skip CSV exporter, retaining all-record JSON',
@@ -136,6 +138,15 @@ def main(argv=None):
     subprocess.run(build_audit_command(args, replay_dir), cwd=ROOT, check=True)
     rows, remaining = export_results(args.output_dir)
     save(args.output_dir / 'test_all_context.json', run_context(args, replay_dir))
+    if not args.baseline_only:
+        import complete_workflow
+        final = complete_workflow.run(args.output_dir)
+        rows, remaining = export_results(final)
+        save(final / 'test_all_context.json', run_context(args, replay_dir))
+        if not args.json_only:
+            complete_workflow.publish(final, ROOT / 'submission.csv')
+        report_results(final, rows, remaining)
+        return
     if not args.json_only:
         portable_csv_export(args.output_dir)
     report_results(args.output_dir, rows, remaining)

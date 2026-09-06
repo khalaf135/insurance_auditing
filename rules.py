@@ -11,7 +11,7 @@ from datetime import date
 import re
 
 from matching import (
-    ALIASES, Matcher, integer, parse_date, rounded_ratio, tokens, usable_line_id,
+    ALIASES, Matcher, integer, parse_date, rounded_ratio, tokens, usable_line_id, history_family_scope,
 )
 
 
@@ -175,7 +175,7 @@ def unsupported_service_evidence(description, contract, match):
 
 def audit(contract, invoices, service_overrides=None, bounded_history=False,
           line_service_resolutions=None, *, policy=None, extended_contract=None,
-          line_candidate_scopes=None, matcher_factory=Matcher, profile="current"):
+          line_candidate_scopes=None, matcher_factory=Matcher, profile="current", historical_unit_estimates=None):
     """Audit invoice records using one engine and an explicit compatibility profile.
 
     The current profile supports runtime contract pricing and refined historical
@@ -194,11 +194,15 @@ def audit(contract, invoices, service_overrides=None, bounded_history=False,
         raise ValueError("Unknown audit policy")
     validate_contract(contract, profile=profile)
     catalog = {s["service_name"]: s for s in contract["services"]}
+    if historical_unit_estimates and not profile.current_contract_rules:
+        raise ValueError('Historical quantity experiments require current profile')
     matcher = matcher_factory(contract["services"], service_overrides, contract.get("matching_guidance"))
     resolutions = line_service_resolutions or {}
     seen_resolutions = set()
     dependency_mode = contract.get("uncertainty_policy", {}).get("mode") == "rule_dependency_bounds"
     improved_usage = profile.current_contract_rules and contract.get('uncertainty_policy', {}).get('improved_usage_bounds', False)
+    if historical_unit_estimates and not improved_usage:
+        raise ValueError('Historical quantity estimates require bounded usage mode')
     precise_history = profile.current_contract_rules and contract.get('uncertainty_policy', {}).get('precise_dependency_scopes', False)
     seen_candidate_scopes = set()
     bounded_history = bounded_history or dependency_mode
@@ -391,6 +395,26 @@ def audit(contract, invoices, service_overrides=None, bounded_history=False,
         return set(catalog)  # A top-k retrieval shortlist is never exhaustive.
     for unknown in uncertain_rows:
         unknown["possible_services"] = possible_services(unknown)
+        if (improved_usage and contract.get('uncertainty_policy', {}).get('volume_family_bounds')
+                and not unknown['service']
+                and not unknown['out']['match'].get('candidate_scope_complete_under_description_assumption')):
+            scope = history_family_scope(unknown['raw'].get('description', ''), contract['services'],
+                                         contract.get('matching_guidance', {}).get('token_aliases', {}),
+                                         single_word_families=contract.get('uncertainty_policy', {}).get('single_word_volume_families', False))
+            if scope:
+                unknown['volume_family_scope'] = scope
+    historical_unit_estimates = historical_unit_estimates or {}
+    history_lookup = {(r['record'], r['raw'].get('line_id')): r for r in uncertain_rows if r['valid_line_id']}
+    for key, estimate in historical_unit_estimates.items():
+        event = history_lookup.get(key)
+        if (not event or not event['service'] or catalog[event['service']]['unit_basis'] is None or not event['valid_qty'] or not event['date']
+                or event['units_reliable'] or not event['invoice_identity_unique']
+                or estimate.get('service_name') != event['service']
+                or type(estimate.get('quantity')) is not int or estimate['quantity'] != event['raw']['quantity']
+                or len(set(estimate.get('reference_invoice_ids', []))) < 3
+                or event['result']['invoice_id'] in estimate.get('reference_invoice_ids', [])
+                or not estimate.get('assumption')):
+            raise ValueError('Invalid conditional historical unit-label estimate')
 
     # Proven prior usage is independent of patient metadata. Build an index
     # instead of accumulating only those rows that happen to be priceable.
@@ -563,11 +587,31 @@ def audit(contract, invoices, service_overrides=None, bounded_history=False,
                         continue
                 elif ud and (ud, str(unknown["raw"].get("line_id", ""))) > (d, str(lid)):
                     continue
+                family = unknown.get('volume_family_scope')
+                if family and service not in family['candidate_services']:
+                    if relevant_discount:
+                        out.setdefault('history_family_assumptions', []).append({
+                            'line_id': unknown['raw'].get('line_id'),
+                            'record_index': unknown['record'], **family})
+                    continue
                 if relevant_discount:
                     contributors.append({"line_id": unknown["raw"].get("line_id"),
                                          "description": unknown["raw"].get("description"),
                                          "quantity": unknown["raw"].get("quantity"),
                                          "match_method": unknown["out"]["match"].get("method", "fuzzy_shortlist_not_exhaustive")})
+                estimate = historical_unit_estimates.get((unknown['record'], unknown['raw'].get('line_id'))) if unknown['valid_line_id'] else None
+                if estimate and unknown['service'] == service:
+                    # Only discount history changes; the original wrong-unit
+                    # finding, raw invoice and patient-history checks survive.
+                    q = estimate['quantity']
+                    upper += q
+                    if ud < d or (ud == d and row['valid_line_id'] and unknown['valid_line_id']
+                                  and unknown['raw']['line_id'] < lid):
+                        lower += q
+                    if relevant_discount:
+                        out.setdefault('historical_unit_assumptions', []).append({
+                            'record_index': unknown['record'], 'line_id': unknown['raw']['line_id'], **estimate})
+                    continue
                 if not unknown["valid_qty"] or (improved_usage and quantity_upper(unknown, service) == float('inf')):
                     upper = float("inf")
                     break
@@ -772,4 +816,3 @@ def audit_baseline(contract, invoices, service_overrides=None, bounded_history=F
     return audit(contract, invoices, service_overrides, bounded_history,
                  line_service_resolutions, matcher_factory=matcher_factory,
                  profile=BASELINE_PROFILE)
-

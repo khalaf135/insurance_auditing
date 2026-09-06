@@ -143,9 +143,64 @@ class HistoryFallbackMatcher(Matcher):
         return prior if prior["service_name"] is not None else super().match(description)
 
 
+def history_family_scope(description, services, aliases=None, single_word_families=False):
+    """Conditional volume-history scope, never an identity or unit conversion.
+
+    Use complete two-word family phrases from this catalogue only. Multiple
+    families are unioned; unexplained family words prevent narrowing.
+    """
+    families = {}
+    for service in services:
+        name = service['service_name']
+        words = re.findall(r'[a-z]+', name.lower())
+        if single_word_families and len(words) == 3 and words[-1] == 'consultation':
+            families.setdefault(frozenset({'consultation'}), []).append(name)
+        if single_word_families and words[-2:] == ['case', 'conference']:
+            families.setdefault(frozenset({'conference'}), []).append(name)
+        if len(words) < 4:
+            continue
+        key = frozenset(tokens(' '.join(words[-2:]), aliases))
+        if len(key) == 2:
+            families.setdefault(key, []).append(name)
+    query = tokens(description, aliases)
+    # History-only normalization: accept a truncation only when it has exactly
+    # one completion anywhere in this hospital's catalogue. Never use amounts,
+    # fuzzy edit distance, or these expansions to assert a service identity.
+    catalogue_words = set().union(*(tokens(s['service_name'], aliases) for s in services)) if services else set()
+    expansions = {}
+    for word in query - catalogue_words:
+        completions = [candidate for candidate in catalogue_words
+                       if len(word) >= 4 and candidate.startswith(word)]
+        if len(completions) == 1:
+            expansions[word] = completions[0]
+    query = {expansions.get(word, word) for word in query}
+    # A reviewed paired abbreviation, only for history-family bounds. "OBS"
+    # alone is insufficient; do not infer specialty, exact service, or unit.
+    if {'nursing', 'obs'} <= query and frozenset({'nursing', 'observation'}) in families:
+        expansions['obs'] = 'observation'
+        query = (query - {'obs'}) | {'observation'}
+    if (query & {'lab', 'laboratory'} and query & {'pnl', 'panel'}
+            and frozenset({'laboratory', 'panel'}) in families):
+        for short, full in (('lab', 'laboratory'), ('pnl', 'panel')):
+            if short in query:
+                expansions[short] = full
+                query = (query - {short}) | {full}
+    matched = [family for family in families if family <= query]
+    if not matched:
+        return None
+    covered = set().union(*matched)
+    vocabulary = set().union(*families)
+    if (query & vocabulary) - covered:
+        return None
+    return {
+        'candidate_services': sorted({name for family in matched for name in families[family]}),
+        'family_tokens': sorted(sorted(family) for family in matched),
+        'family_token_expansions': expansions,
+        'assumption': 'The explicit service-family words describe the historical service truthfully; clinical modifiers and exact identity remain unresolved, and an outside-catalogue service remains possible.',
+        'basis': 'complete_catalogue_family_phrases_for_volume_bounds_only',
+    }
+
+
 def variant_key(description):
     """Keep lexical variants distinct; do not expand abbreviations or reorder."""
     return " ".join(re.findall(r"[a-z]+", re.sub(r"/[^\s]+", " ", description.lower())))
-
-
-
