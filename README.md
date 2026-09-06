@@ -5,6 +5,56 @@ the rules. When a service description or source unit needs review, a specialized
 agent can propose an interpretation; code validates it before using it. Cases
 that still cannot be decided remain explicitly **not answered**.
 
+## Workflow
+
+Prepare each hospital's contract JSON once, then reuse it to audit that hospital's
+invoices. **AI proposes interpretations; code validates them and decides the result.**
+
+```mermaid
+flowchart TD
+    subgraph preparation["1. Prepare each hospital's contract - separate from invoice runs"]
+        C["Contract documents and amendments"] --> J["Extract source-linked JSON<br/>contract_builder.py"]
+        J --> V["Validate and prepare contract rules<br/>contracts.py"]
+    end
+
+    V --> A["Match services and check invoices<br/>matching.py + rules.py"]
+    I["The same hospital's invoices<br/>JSONL"] --> A
+    A --> D{"Enough evidence<br/>for a verdict?"}
+
+    D -->|Yes| S["Answer with evidence-based confidence<br/>confidence.py"]
+    D -->|No| B["Record why the checker cannot answer"]
+    B --> F["Try targeted resolution<br/>AI proposals, source review or usage bounds"]
+    F --> R["Validate evidence and re-check the invoice"]
+    R --> Q{"Verdict now supported?"}
+    Q -->|Yes| S
+    Q -->|No| U["Not answered<br/>Keep the reason for review"]
+
+    S --> O["Export results<br/>reporting.py"]
+    U --> O
+    O --> CSV["submission.csv<br/>H2-H5 opinions only"]
+    O --> JSON["Internal JSON<br/>All records and unanswered reasons"]
+    O --> E["H1 evaluation against labels<br/>Development results only"]
+```
+
+**What happens in targeted resolution?**
+
+- **Unclear description:** an AI route proposes a service match; code checks its evidence.
+- **Unclear billing unit:** review the original clauses, with AI assistance where useful;
+  genuinely ambiguous wording stays unresolved.
+- **Patient history or volume discount:** code checks minimum/maximum possible usage;
+  proceed only when the uncertainty cannot change the result.
+
+This is the conceptual flow: source-unit review can happen while preparing the
+rules, before invoice pricing. H1 replays its frozen, verified evidence through
+the checker; H2-H5 use their own extracted contracts and validated fallback evidence.
+H1 labels are used for evaluation, not as inputs to runtime AI requests.
+
+`main.py` runs the tests, coordinates the audit and writes the outputs. It reuses
+saved AI responses by default; `--execute-ai` allows new invoice-agent requests
+under the shared **$2 safeguard**. Contract extraction has its own separate budget.
+A supported error verdict may still have a blank corrected total; unanswered
+verdicts are never forced into the submission as 0 or 1.
+
 ## Start here
 
 Prepared deliverables:
