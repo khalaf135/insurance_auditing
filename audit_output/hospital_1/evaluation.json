@@ -1,0 +1,139 @@
+{
+  "evaluation_role": "development_only_not_held_out",
+  "matched_unique_records": 908,
+  "excluded_prediction_records": 10,
+  "label_records": 913,
+  "decided_records": 40,
+  "abstained_records": 868,
+  "decision_coverage": 0.04405286343612335,
+  "true_positives": 36,
+  "false_positives": 3,
+  "false_negatives_among_decided": 0,
+  "precision": 0.9230769230769231,
+  "recall_including_abstentions": 0.6792452830188679,
+  "per_category": {
+    "bundle_not_applied": {
+      "label_count": 5,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "precision": null,
+      "recall_including_abstentions": 0.0
+    },
+    "contract_number_mismatch": {
+      "label_count": 4,
+      "predicted_count": 4,
+      "true_positives": 4,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0
+    },
+    "cross_invoice_duplicate": {
+      "label_count": 4,
+      "predicted_count": 6,
+      "true_positives": 3,
+      "precision": 0.5,
+      "recall_including_abstentions": 0.75
+    },
+    "daily_cap_exceeded": {
+      "label_count": 4,
+      "predicted_count": 4,
+      "true_positives": 4,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0
+    },
+    "exclusion_window_violation": {
+      "label_count": 3,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "precision": null,
+      "recall_including_abstentions": 0.0
+    },
+    "invoice_total_mismatch": {
+      "label_count": 6,
+      "predicted_count": 6,
+      "true_positives": 6,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0
+    },
+    "line_total_arithmetic": {
+      "label_count": 6,
+      "predicted_count": 6,
+      "true_positives": 6,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0
+    },
+    "malformed_service_date": {
+      "label_count": 6,
+      "predicted_count": 6,
+      "true_positives": 6,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0
+    },
+    "premium_incorrectly_applied": {
+      "label_count": 6,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "precision": null,
+      "recall_including_abstentions": 0.0
+    },
+    "premium_omitted": {
+      "label_count": 3,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "precision": null,
+      "recall_including_abstentions": 0.0
+    },
+    "service_date_after_invoice_date": {
+      "label_count": 5,
+      "predicted_count": 7,
+      "true_positives": 5,
+      "precision": 0.7142857142857143,
+      "recall_including_abstentions": 1.0
+    },
+    "service_date_out_of_window": {
+      "label_count": 5,
+      "predicted_count": 5,
+      "true_positives": 5,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0
+    },
+    "unit_price_mismatch": {
+      "label_count": 10,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "precision": null,
+      "recall_including_abstentions": 0.0
+    },
+    "unknown_service": {
+      "label_count": 12,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "precision": null,
+      "recall_including_abstentions": 0.0
+    },
+    "volume_discount_incorrectly_applied": {
+      "label_count": 4,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "precision": null,
+      "recall_including_abstentions": 0.0
+    },
+    "volume_discount_omitted": {
+      "label_count": 4,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "precision": null,
+      "recall_including_abstentions": 0.0
+    },
+    "wrong_unit_basis": {
+      "label_count": 10,
+      "predicted_count": 9,
+      "true_positives": 8,
+      "precision": 0.8888888888888888,
+      "recall_including_abstentions": 0.8
+    }
+  },
+  "expected_total_coverage": 0.0011013215859030838,
+  "expected_total_exact_accuracy_on_covered": 1.0,
+  "ambiguity_sensitive_records": 0,
+  "calibration": "Not measured: no probability model has been calibrated."
+}

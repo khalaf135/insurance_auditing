@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629534-u4JvluVMK3OQyoKocVpk",
+  "object": "chat.completion",
+  "created": 1788629534,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Routine Geriatric Physiotherapy Session\",\n      \"line_end\": 360,\n      \"line_start\": 360,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Routine Geriatric Physiotherapy Session\\\", \\\"unit_basis\\\": \\\"per_hour\\\", \\\"unit_basis_source\\\": \\\"per hour\\\", \\\"base_rate_cents\\\": 21250, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Standard Metabolic Telemetry Monitoring\",\n      \"line_end\": 398,\n      \"line_start\": 398,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Standard Metabolic Telemetry Monitoring\\\", \\\"unit_basis\\\": \\\"per_hour\\\", \\\"unit_basis_source\\\": \\\"per hour\\\", \\\"base_rate_cents\\\": 16400, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Supervised Hepatic Endoscopic Procedure\",\n      \"line_end\": 400,\n      \"line_start\": 400,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Hepatic Endoscopic Procedure\\\", \\\"unit_basis\\\": \\\"per_procedure\\\", \\\"unit_basis_source\\\": \\\"per procedure\\\", \\\"base_rate_cents\\\": 249825, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 398,\n      \"line_start\": 398,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Standard Metabolic Telemetry Monitoring\\\", \\\"related_service\\\": \\\"Routine Geriatric Physiotherapy Session\\\", \\\"window_days\\\": 14, \\\"condition\\\": \\\"This Service is not billable where Routine Geriatric Physiotherapy Session has been delivered to the same Patient within fourteen (14) days of the Service Date.\\\"}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1/XatqjOqpyaih2L4T8wVerN5xFaiUGyEu+Qx1pisD23e3dwJoFHnPuNWLEDJdX6jAiclyMQGdfk4Dt9QCQLGPq8uFK5rLMWvVRaQ6no20=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4734,
+    "completion_tokens": 520,
+    "total_tokens": 5254,
+    "cost": 0.0027202,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0027202,
+      "upstream_inference_prompt_cost": 0.0014202,
+      "upstream_inference_completions_cost": 0.0013
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

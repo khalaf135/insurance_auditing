@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629564-uTfsZxCzHngLAWux6Szl",
+  "object": "chat.completion",
+  "created": 1788629564,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"other_rules\",\n      \"line_end\": 847,\n      \"line_start\": 803,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"severance_and_waiver\\\": \\\"Provisions are severable, waivers require express action and are not waived by delay, and provisions shall be construed to give effect to the commercial intention of the parties (Article XXXIV).\\\"}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1+50nC87gzoIpASk3NCiDai4FSwoHtrLscjiWxkyBZMy2NL2eVkewDhPCPwJAHwxEU+VTQHGaLsie/9GLW4FYYg+oTDLUwUh5WmKxD9cnQ=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3735,
+    "completion_tokens": 131,
+    "total_tokens": 3866,
+    "cost": 0.001448,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.001448,
+      "upstream_inference_prompt_cost": 0.0011205,
+      "upstream_inference_completions_cost": 0.0003275
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "hospital_id": "H4",
+    "contract_number": "INS-H4-2024-2049",
+    "service_name": "Intermittent Urologic Telemetry Monitoring",
+    "reason": "compound_unit_not_defined",
+    "unit_options": [
+      "per_hour",
+      "per_item"
+    ],
+    "source_clauses": [
+      {
+        "source_ids": [
+          "conditional_reimbursement_agreement.txt:102"
+        ],
+        "text": "Intermittent Urologic Telemetry Monitoring            per hour, per item      GBP 72.75",
+        "unit_options": [
+          "per_hour",
+          "per_item"
+        ],
+        "conditional": false
+      }
+    ],
+    "automatically_resolvable": false,
+    "required_clarification": "Confirm the contractual billing dimension (per hour, per item, or a combined dimension), how quantity is measured, any conditions, and the effective dates. Supply an authoritative clarified contract or amendment for source ingestion; a billed unit or AI guess is not evidence.",
+    "status": "not answered",
+    "source_document_sha256": {
+      "conditional_reimbursement_agreement.txt": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629499-lahmWnExekmE8TkEMAY2",
+  "object": "chat.completion",
+  "created": 1788629499,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"items\": [{\"key\": \"Comprehensive Otolaryngologic Case Conference\", \"line_end\": 66, \"line_start\": 66, \"section\": \"services\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Comprehensive Otolaryngologic Case Conference\\\", \\\"unit_basis\\\": \\\"per_visit\\\", \\\"unit_basis_source\\\": \\\"per visit\\\", \\\"base_rate_cents\\\": 16525, \\\"daily_cap\\\": null}\"}, {\"key\": \"Emergency Renal Infusion Therapy\", \"line_end\": 68, \"line_start\": 68, \"section\": \"services\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Emergency Renal Infusion Therapy\\\", \\\"unit_basis\\\": \\\"per_hour\\\", \\\"unit_basis_source\\\": \\\"per hour\\\", \\\"base_rate_cents\\\": 5925, \\\"daily_cap\\\": null}\"}, {\"key\": \"rule\", \"line_end\": 68, \"line_start\": 68, \"section\": \"non_business_day_uplifts\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Emergency Renal Infusion Therapy\\\", \\\"uplift_percent\\\": 12}\"}, {\"key\": \"Focused Palliative Recovery Room Occupancy\", \"line_end\": 70, \"line_start\": 70, \"section\": \"services\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Focused Palliative Recovery Room Occupancy\\\", \\\"unit_basis\\\": \\\"per_night\\\", \\\"unit_basis_source\\\": \\\"per night of occupancy\\\", \\\"base_rate_cents\\\": 52775, \\\"daily_cap\\\": null}\"}, {\"key\": \"rule\", \"line_end\": 70, \"line_start\": 70, \"section\": \"threshold_premiums\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Focused Palliative Recovery Room Occupancy\\\", \\\"quantity\\\": 12, \\\"comparison\\\": \\\"greater_than\\\", \\\"uplift_percent\\\": 30, \\\"unit_basis\\\": \\\"per_night\\\"}\"}, {\"key\": \"Intensive Otolaryngologic Rehabilitation Programme\", \"line_end\": 72, \"line_start\": 72, \"section\": \"services\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Intensive Otolaryngologic Rehabilitation Programme\\\", \\\"unit_basis\\\": \\\"per_day\\\", \\\"unit_basis_source\\\": \\\"per day of service\\\", \\\"base_rate_cents\\\": 97200, \\\"daily_cap\\\": null}\"}], \"warnings\": []}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1/WFjf7PPq6avENs8I4SIcTktW5i4YxY7B6qBNNJChwsYp+cety3wKSBj+2lIqVj73w6CkgHTCAeA96W6ttwmHY8inXnOFkO45v/TGFfQc=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4273,
+    "completion_tokens": 597,
+    "total_tokens": 4870,
+    "cost": 0.0027744,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0027744,
+      "upstream_inference_prompt_cost": 0.0012819,
+      "upstream_inference_completions_cost": 0.0014925
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

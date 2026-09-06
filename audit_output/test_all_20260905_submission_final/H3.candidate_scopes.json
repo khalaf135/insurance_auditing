@@ -1,0 +1,862 @@
+[
+  {
+    "record_index": 77,
+    "line_id": "H3-L00078-04",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 126,
+    "line_id": "H3-L00127-09",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 143,
+    "line_id": "H3-L00144-06",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 171,
+    "line_id": "H3-L00172-04",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 219,
+    "line_id": "H3-L00220-02",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 304,
+    "line_id": "H3-L00305-06",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 307,
+    "line_id": "H3-L00308-14",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 448,
+    "line_id": "H3-L00449-04",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 464,
+    "line_id": "H3-L00465-08",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 594,
+    "line_id": "H3-L00595-10",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 602,
+    "line_id": "H3-L00603-12",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 679,
+    "line_id": "H3-L00680-03",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 710,
+    "line_id": "H3-L00711-12",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 780,
+    "line_id": "H3-L00781-02",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 803,
+    "line_id": "H3-L00804-10",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 804,
+    "line_id": "H3-L00805-09",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 832,
+    "line_id": "H3-L00833-16",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 839,
+    "line_id": "H3-L00840-05",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 916,
+    "line_id": "H3-L00917-12",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 917,
+    "line_id": "H3-L00918-07",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 935,
+    "line_id": "H3-L00936-05",
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 10,
+    "line_id": "H3-L00011-09",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 15,
+    "line_id": "H3-L00016-14",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 209,
+    "line_id": "H3-L00210-17",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 227,
+    "line_id": "H3-L00228-02",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 299,
+    "line_id": "H3-L00300-14",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 388,
+    "line_id": "H3-L00389-17",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 416,
+    "line_id": "H3-L00417-07",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 432,
+    "line_id": "H3-L00433-10",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 464,
+    "line_id": "H3-L00465-10",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 571,
+    "line_id": "H3-L00572-04",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 586,
+    "line_id": "H3-L00587-09",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 597,
+    "line_id": "H3-L00598-11",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 664,
+    "line_id": "H3-L00665-02",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 684,
+    "line_id": "H3-L00685-09",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 728,
+    "line_id": "H3-L00729-05",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 868,
+    "line_id": "H3-L00869-04",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 886,
+    "line_id": "H3-L00887-12",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 915,
+    "line_id": "H3-L00916-08",
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing",
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: rheum"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 87,
+    "line_id": "H3-L00088-19",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 108,
+    "line_id": "H3-L00109-03",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 133,
+    "line_id": "H3-L00134-02",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 156,
+    "line_id": "H3-L00157-10",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 157,
+    "line_id": "H3-L00158-08",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 172,
+    "line_id": "H3-L00173-07",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 174,
+    "line_id": "H3-L00175-01",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 505,
+    "line_id": "H3-L00506-11",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 597,
+    "line_id": "H3-L00598-06",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 765,
+    "line_id": "H3-L00766-04",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 814,
+    "line_id": "H3-L00815-07",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 827,
+    "line_id": "H3-L00828-05",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 863,
+    "line_id": "H3-L00864-02",
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "token_expansions": {
+      "obst": "obstetric"
+    },
+    "normalization_notes": [
+      "Kept the sole lexically supported conflicting expansion: obst"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  }
+]

@@ -1,0 +1,4138 @@
+{
+  "schema_version": "1.1",
+  "contract_details": {
+    "contract_number": "INS-H4-2024-2049",
+    "provider": "Calderwood University Teaching Hospital",
+    "payer": "Meridian Health Assurance Group",
+    "effective_from": "2024-01-01",
+    "effective_to": "2025-12-31",
+    "currency": "GBP",
+    "facilities": [
+      {
+        "code": "F-MAIN"
+      }
+    ],
+    "plan_tiers": [
+      "BRONZE",
+      "SILVER",
+      "GOLD"
+    ],
+    "facility_multiplier": {
+      "numerator": 1,
+      "denominator": 1
+    },
+    "plan_tier_multiplier": {
+      "numerator": 1,
+      "denominator": 1
+    }
+  },
+  "services": [
+    {
+      "service_name": "Advanced Oncology Ward Bed Occupancy",
+      "unit_basis": "per_night",
+      "base_rate_cents": 68700,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 42,
+        "line_end": 42,
+        "text": "Advanced Oncology Ward Bed Occupancy                  per night of occupancy  GBP 687.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Advanced Oncology Ward Bed Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Advanced Orthopaedic Ward Bed Occupancy",
+      "unit_basis": "per_night",
+      "base_rate_cents": 97925,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 43,
+        "line_end": 43,
+        "text": "Advanced Orthopaedic Ward Bed Occupancy               per night of occupancy  GBP 979.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Advanced Orthopaedic Ward Bed Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:189"
+        ]
+      }
+    },
+    {
+      "service_name": "Advanced Paediatric Theatre Time",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 37100,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 44,
+        "line_end": 44,
+        "text": "Advanced Paediatric Theatre Time                      per hour                GBP 371.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Advanced Paediatric Theatre Time"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Bedside Cardiac Home Visit",
+            "days": 30,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 251,
+              "line_end": 251,
+              "text": "Advanced Paediatric Theatre Time                 30 days  Bedside Cardiac Home Visit",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:251"
+        ]
+      }
+    },
+    {
+      "service_name": "Advanced Palliative Home Visit",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 11450,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 45,
+        "line_end": 45,
+        "text": "Advanced Palliative Home Visit                        per visit               GBP 114.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Advanced Palliative Home Visit"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Advanced Vascular Endoscopic Procedure",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 321775,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 46,
+        "line_end": 46,
+        "text": "Advanced Vascular Endoscopic Procedure                per procedure           GBP 3,217.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Advanced Vascular Endoscopic Procedure"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:160"
+        ]
+      }
+    },
+    {
+      "service_name": "Ambulatory Cardiac Ward Bed Occupancy",
+      "unit_basis": "per_day",
+      "base_rate_cents": 46350,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 47,
+        "line_end": 47,
+        "text": "Ambulatory Cardiac Ward Bed Occupancy                 per day of service      GBP 463.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Cardiac Ward Bed Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:190"
+        ]
+      }
+    },
+    {
+      "service_name": "Ambulatory Gastrointestinal Nutritional Support",
+      "unit_basis": "per_unit_dispensed",
+      "base_rate_cents": 4175,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 48,
+        "line_end": 48,
+        "text": "Ambulatory Gastrointestinal Nutritional Support       per unit dispensed      GBP 41.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Gastrointestinal Nutritional Support"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:161"
+        ]
+      }
+    },
+    {
+      "service_name": "Ambulatory Haematology Transfusion Service",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 402275,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 49,
+        "line_end": 49,
+        "text": "Ambulatory Haematology Transfusion Service            per procedure           GBP 4,022.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Haematology Transfusion Service"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Postoperative Geriatric Imaging Interpretation",
+            "days": 7,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 252,
+              "line_end": 252,
+              "text": "Ambulatory Haematology Transfusion Service       7 days   Postoperative Geriatric Imaging Interpretation",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:252"
+        ]
+      }
+    },
+    {
+      "service_name": "Ambulatory Immunologic Ward Bed Occupancy",
+      "unit_basis": "per_day",
+      "base_rate_cents": 74700,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 50,
+        "line_end": 50,
+        "text": "Ambulatory Immunologic Ward Bed Occupancy             per day of service      GBP 747.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Immunologic Ward Bed Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:191"
+        ]
+      }
+    },
+    {
+      "service_name": "Ambulatory Musculoskeletal Specimen Analysis",
+      "unit_basis": "per_item",
+      "base_rate_cents": 9550,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 51,
+        "line_end": 51,
+        "text": "Ambulatory Musculoskeletal Specimen Analysis          per item supplied       GBP 95.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Musculoskeletal Specimen Analysis"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Ambulatory Musculoskeletal Ventilation Support",
+      "unit_basis": "per_day",
+      "base_rate_cents": 157150,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 52,
+        "line_end": 52,
+        "text": "Ambulatory Musculoskeletal Ventilation Support        per day of service      GBP 1,571.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Musculoskeletal Ventilation Support"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": "Ambulatory Musculoskeletal Ventilation Support",
+        "cumulative_scope": "all_patients_prior_lines",
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:236",
+          "conditional_reimbursement_agreement.txt:237"
+        ]
+      }
+    },
+    {
+      "service_name": "Ambulatory Obstetric Case Conference",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 13975,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 53,
+        "line_end": 53,
+        "text": "Ambulatory Obstetric Case Conference                  per hour                GBP 139.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Obstetric Case Conference",
+          "Focused Vascular Infusion Therapy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:216"
+        ]
+      }
+    },
+    {
+      "service_name": "Ambulatory Paediatric Critical Care Occupancy",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 4750,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 54,
+        "line_end": 54,
+        "text": "Ambulatory Paediatric Critical Care Occupancy         per hour                GBP 47.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Paediatric Critical Care Occupancy",
+          "Ambulatory Rheumatologic Rehabilitation Programme"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:217"
+        ]
+      }
+    },
+    {
+      "service_name": "Ambulatory Rheumatologic Rehabilitation Programme",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 38325,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 55,
+        "line_end": 55,
+        "text": "Ambulatory Rheumatologic Rehabilitation Programme     per visit               GBP 383.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Paediatric Critical Care Occupancy",
+          "Ambulatory Rheumatologic Rehabilitation Programme"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:217"
+        ]
+      }
+    },
+    {
+      "service_name": "Assisted Cardiac Ventilation Support",
+      "unit_basis": "per_day",
+      "base_rate_cents": 155700,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 56,
+        "line_end": 56,
+        "text": "Assisted Cardiac Ventilation Support                  per day of service      GBP 1,557.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Assisted Cardiac Ventilation Support"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:162"
+        ]
+      }
+    },
+    {
+      "service_name": "Assisted Gastrointestinal Anaesthesia Administration",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 3050,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 57,
+        "line_end": 57,
+        "text": "Assisted Gastrointestinal Anaesthesia Administration  per hour                GBP 30.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Assisted Gastrointestinal Anaesthesia Administration"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:192"
+        ]
+      }
+    },
+    {
+      "service_name": "Assisted Obstetric Specimen Analysis",
+      "unit_basis": "per_test",
+      "base_rate_cents": 10100,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 58,
+        "line_end": 58,
+        "text": "Assisted Obstetric Specimen Analysis                  per test                GBP 101.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Assisted Obstetric Specimen Analysis"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Assisted Paediatric Physiotherapy Session",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 3150,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 59,
+        "line_end": 59,
+        "text": "Assisted Paediatric Physiotherapy Session             per hour                GBP 31.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Assisted Paediatric Physiotherapy Session",
+          "Outpatient Orthopaedic Recovery Room Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:218"
+        ]
+      }
+    },
+    {
+      "service_name": "Assisted Paediatric Theatre Time",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 9275,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 60,
+        "line_end": 60,
+        "text": "Assisted Paediatric Theatre Time                      per hour                GBP 92.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Assisted Paediatric Theatre Time"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Outpatient Cardiac Physiotherapy Session",
+            "days": 10,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 253,
+              "line_end": 253,
+              "text": "Assisted Paediatric Theatre Time                 10 days  Outpatient Cardiac Physiotherapy Session",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:253"
+        ]
+      }
+    },
+    {
+      "service_name": "Assisted Renal Nutritional Support",
+      "unit_basis": "per_unit_dispensed",
+      "base_rate_cents": 3575,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 61,
+        "line_end": 61,
+        "text": "Assisted Renal Nutritional Support                    per unit dispensed      GBP 35.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Assisted Renal Nutritional Support"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Assisted Urologic Nursing Observation",
+      "unit_basis": "per_day",
+      "base_rate_cents": 132675,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 62,
+        "line_end": 62,
+        "text": "Assisted Urologic Nursing Observation                 per day of service      GBP 1,326.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Assisted Urologic Nursing Observation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:193"
+        ]
+      }
+    },
+    {
+      "service_name": "Bedside Cardiac Home Visit",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 64800,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 63,
+        "line_end": 63,
+        "text": "Bedside Cardiac Home Visit                            per visit               GBP 648.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Bedside Cardiac Home Visit"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Bedside Gastrointestinal Biopsy Procedure",
+      "unit_basis": "per_item",
+      "base_rate_cents": 11075,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 64,
+        "line_end": 64,
+        "text": "Bedside Gastrointestinal Biopsy Procedure             per item supplied       GBP 110.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Bedside Gastrointestinal Biopsy Procedure"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:194"
+        ]
+      }
+    },
+    {
+      "service_name": "Bedside Obstetric Imaging Interpretation",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 365675,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 65,
+        "line_end": 65,
+        "text": "Bedside Obstetric Imaging Interpretation              per procedure           GBP 3,656.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Bedside Obstetric Imaging Interpretation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Comprehensive Neurological Endoscopic Procedure",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 309275,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 66,
+        "line_end": 66,
+        "text": "Comprehensive Neurological Endoscopic Procedure       per procedure           GBP 3,092.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Comprehensive Neurological Endoscopic Procedure"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Comprehensive Ophthalmic Laboratory Panel",
+      "unit_basis": "per_test",
+      "base_rate_cents": 58525,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 67,
+        "line_end": 67,
+        "text": "Comprehensive Ophthalmic Laboratory Panel             per test                GBP 585.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Comprehensive Ophthalmic Laboratory Panel"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Ambulatory Musculoskeletal Specimen Analysis",
+            "days": 7,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 254,
+              "line_end": 254,
+              "text": "Comprehensive Ophthalmic Laboratory Panel        7 days   Ambulatory Musculoskeletal Specimen Analysis",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:254"
+        ]
+      }
+    },
+    {
+      "service_name": "Comprehensive Urologic Imaging Interpretation",
+      "unit_basis": "per_test",
+      "base_rate_cents": 23075,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 68,
+        "line_end": 68,
+        "text": "Comprehensive Urologic Imaging Interpretation         per test                GBP 230.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Comprehensive Urologic Imaging Interpretation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Continuous Gastrointestinal Transfusion Service",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 308100,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 69,
+        "line_end": 69,
+        "text": "Continuous Gastrointestinal Transfusion Service       per procedure           GBP 3,081.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Continuous Gastrointestinal Transfusion Service"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Postoperative Geriatric Case Conference",
+            "days": 10,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 255,
+              "line_end": 255,
+              "text": "Continuous Gastrointestinal Transfusion Service  10 days  Postoperative Geriatric Case Conference",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:255"
+        ]
+      }
+    },
+    {
+      "service_name": "Continuous Infectious Critical Care Occupancy",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 13925,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 70,
+        "line_end": 70,
+        "text": "Continuous Infectious Critical Care Occupancy         per hour                GBP 139.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Continuous Infectious Critical Care Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:163"
+        ]
+      }
+    },
+    {
+      "service_name": "Continuous Psychiatric Rehabilitation Programme",
+      "unit_basis": "per_day",
+      "base_rate_cents": 34900,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 71,
+        "line_end": 71,
+        "text": "Continuous Psychiatric Rehabilitation Programme       per day of service      GBP 349.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Continuous Psychiatric Rehabilitation Programme",
+          "Postoperative Palliative Recovery Room Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:219"
+        ]
+      }
+    },
+    {
+      "service_name": "Elective Gastrointestinal Nursing Observation",
+      "unit_basis": "per_day",
+      "base_rate_cents": 58925,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 72,
+        "line_end": 72,
+        "text": "Elective Gastrointestinal Nursing Observation         per day of service      GBP 589.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Elective Gastrointestinal Nursing Observation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:195"
+        ]
+      }
+    },
+    {
+      "service_name": "Elective Neurological Ward Bed Occupancy",
+      "unit_basis": "per_night",
+      "base_rate_cents": 170125,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 73,
+        "line_end": 73,
+        "text": "Elective Neurological Ward Bed Occupancy              per night of occupancy  GBP 1,701.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Elective Neurological Ward Bed Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Elective Obstetric Transfusion Service",
+      "unit_basis": "per_unit_dispensed",
+      "base_rate_cents": 1425,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 74,
+        "line_end": 74,
+        "text": "Elective Obstetric Transfusion Service                per unit dispensed      GBP 14.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Elective Obstetric Transfusion Service",
+          "Intermittent Rheumatologic Dialysis Session"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:220"
+        ]
+      }
+    },
+    {
+      "service_name": "Elective Ophthalmic Radiotherapy Fraction",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 373600,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 75,
+        "line_end": 75,
+        "text": "Elective Ophthalmic Radiotherapy Fraction             per procedure           GBP 3,736.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Elective Ophthalmic Radiotherapy Fraction"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:164"
+        ]
+      }
+    },
+    {
+      "service_name": "Emergency Cardiac Physiotherapy Session",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 9875,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 76,
+        "line_end": 76,
+        "text": "Emergency Cardiac Physiotherapy Session               per hour                GBP 98.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Emergency Cardiac Physiotherapy Session",
+          "Extended Obstetric Case Conference"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:221"
+        ]
+      }
+    },
+    {
+      "service_name": "Emergency Metabolic Radiotherapy Fraction",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 364925,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 77,
+        "line_end": 77,
+        "text": "Emergency Metabolic Radiotherapy Fraction             per procedure           GBP 3,649.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Emergency Metabolic Radiotherapy Fraction"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Emergency Rheumatologic Rehabilitation Programme",
+      "unit_basis": "per_day",
+      "base_rate_cents": 62000,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 78,
+        "line_end": 78,
+        "text": "Emergency Rheumatologic Rehabilitation Programme      per day of service      GBP 620.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Emergency Rheumatologic Rehabilitation Programme"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:165"
+        ]
+      }
+    },
+    {
+      "service_name": "Extended Hepatic Discharge Planning",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 7950,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 79,
+        "line_end": 79,
+        "text": "Extended Hepatic Discharge Planning                   per hour                GBP 79.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Extended Hepatic Discharge Planning"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Extended Hepatic Transfusion Service",
+      "unit_basis": "per_unit_dispensed",
+      "base_rate_cents": 8450,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 80,
+        "line_end": 80,
+        "text": "Extended Hepatic Transfusion Service                  per unit dispensed      GBP 84.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Extended Hepatic Transfusion Service"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:196"
+        ]
+      }
+    },
+    {
+      "service_name": "Extended Obstetric Case Conference",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 41425,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 81,
+        "line_end": 81,
+        "text": "Extended Obstetric Case Conference                    per visit               GBP 414.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Emergency Cardiac Physiotherapy Session",
+          "Extended Obstetric Case Conference"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:221"
+        ]
+      }
+    },
+    {
+      "service_name": "Extended Psychiatric Endoscopic Procedure",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 325800,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 82,
+        "line_end": 82,
+        "text": "Extended Psychiatric Endoscopic Procedure             per procedure           GBP 3,258.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Extended Psychiatric Endoscopic Procedure"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:166"
+        ]
+      }
+    },
+    {
+      "service_name": "Extended Renal Ward Bed Occupancy",
+      "unit_basis": "per_night",
+      "base_rate_cents": 174050,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 83,
+        "line_end": 83,
+        "text": "Extended Renal Ward Bed Occupancy                     per night of occupancy  GBP 1,740.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Extended Renal Ward Bed Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Extended Rheumatologic Nursing Observation",
+      "unit_basis": "per_night",
+      "base_rate_cents": 87375,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 84,
+        "line_end": 84,
+        "text": "Extended Rheumatologic Nursing Observation            per night of occupancy  GBP 873.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Extended Rheumatologic Nursing Observation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Extended Urologic Telemetry Monitoring",
+      "unit_basis": "per_day",
+      "base_rate_cents": 144825,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 85,
+        "line_end": 85,
+        "text": "Extended Urologic Telemetry Monitoring                per day of service      GBP 1,448.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Extended Urologic Telemetry Monitoring"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:197"
+        ]
+      }
+    },
+    {
+      "service_name": "Focused Metabolic Biopsy Procedure",
+      "unit_basis": "per_item",
+      "base_rate_cents": 15025,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 86,
+        "line_end": 86,
+        "text": "Focused Metabolic Biopsy Procedure                    per item supplied       GBP 150.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Focused Metabolic Biopsy Procedure"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:198"
+        ]
+      }
+    },
+    {
+      "service_name": "Focused Urologic Case Conference",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 20200,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 87,
+        "line_end": 87,
+        "text": "Focused Urologic Case Conference                      per hour                GBP 202.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Focused Urologic Case Conference"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Outpatient Urologic Endoscopic Procedure",
+            "days": 21,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 256,
+              "line_end": 256,
+              "text": "Focused Urologic Case Conference                 21 days  Outpatient Urologic Endoscopic Procedure",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:256"
+        ]
+      }
+    },
+    {
+      "service_name": "Focused Vascular Infusion Therapy",
+      "unit_basis": "per_unit_dispensed",
+      "base_rate_cents": 5775,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 88,
+        "line_end": 88,
+        "text": "Focused Vascular Infusion Therapy                     per unit dispensed      GBP 57.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Ambulatory Obstetric Case Conference",
+          "Focused Vascular Infusion Therapy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:216"
+        ]
+      }
+    },
+    {
+      "service_name": "Focused Vascular Transport Service",
+      "unit_basis": "per_item",
+      "base_rate_cents": 24450,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 89,
+        "line_end": 89,
+        "text": "Focused Vascular Transport Service                    per item supplied       GBP 244.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Focused Vascular Transport Service"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Bedside Cardiac Home Visit",
+            "days": 14,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 257,
+              "line_end": 257,
+              "text": "Focused Vascular Transport Service               14 days  Bedside Cardiac Home Visit",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:257"
+        ]
+      }
+    },
+    {
+      "service_name": "Inpatient Orthopaedic Anaesthesia Administration",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 145950,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 90,
+        "line_end": 90,
+        "text": "Inpatient Orthopaedic Anaesthesia Administration      per procedure           GBP 1,459.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Inpatient Orthopaedic Anaesthesia Administration"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:199"
+        ]
+      }
+    },
+    {
+      "service_name": "Inpatient Psychiatric Home Visit",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 19275,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 91,
+        "line_end": 91,
+        "text": "Inpatient Psychiatric Home Visit                      per visit               GBP 192.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Inpatient Psychiatric Home Visit"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Extended Hepatic Discharge Planning",
+            "days": 14,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 258,
+              "line_end": 258,
+              "text": "Inpatient Psychiatric Home Visit                 14 days  Extended Hepatic Discharge Planning",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:258"
+        ]
+      }
+    },
+    {
+      "service_name": "Intensive Geriatric Case Conference",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 10475,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 92,
+        "line_end": 92,
+        "text": "Intensive Geriatric Case Conference                   per visit               GBP 104.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intensive Geriatric Case Conference"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:200"
+        ]
+      }
+    },
+    {
+      "service_name": "Intensive Paediatric Consultation",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 39175,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 93,
+        "line_end": 93,
+        "text": "Intensive Paediatric Consultation                     per visit               GBP 391.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intensive Paediatric Consultation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:167"
+        ]
+      }
+    },
+    {
+      "service_name": "Intensive Rheumatologic Radiotherapy Fraction",
+      "unit_basis": "per_item",
+      "base_rate_cents": 23425,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 94,
+        "line_end": 94,
+        "text": "Intensive Rheumatologic Radiotherapy Fraction         per item supplied       GBP 234.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intensive Rheumatologic Radiotherapy Fraction"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Standard Paediatric Dialysis Session",
+            "days": 10,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 259,
+              "line_end": 259,
+              "text": "Intensive Rheumatologic Radiotherapy Fraction    10 days  Standard Paediatric Dialysis Session",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:259"
+        ]
+      }
+    },
+    {
+      "service_name": "Intensive Urologic Specimen Analysis",
+      "unit_basis": "per_item",
+      "base_rate_cents": 19675,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 95,
+        "line_end": 95,
+        "text": "Intensive Urologic Specimen Analysis                  per item supplied       GBP 196.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intensive Urologic Specimen Analysis"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:201"
+        ]
+      }
+    },
+    {
+      "service_name": "Intensive Vascular Sterilisation Service",
+      "unit_basis": "per_item",
+      "base_rate_cents": 25350,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 96,
+        "line_end": 96,
+        "text": "Intensive Vascular Sterilisation Service              per item supplied       GBP 253.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intensive Vascular Sterilisation Service"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Intermittent Neurological Laboratory Panel",
+      "unit_basis": "per_test",
+      "base_rate_cents": 10175,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 97,
+        "line_end": 97,
+        "text": "Intermittent Neurological Laboratory Panel            per test                GBP 101.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intermittent Neurological Laboratory Panel"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Intermittent Urologic Telemetry Monitoring",
+            "days": 30,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 260,
+              "line_end": 260,
+              "text": "Intermittent Neurological Laboratory Panel       30 days  Intermittent Urologic Telemetry Monitoring",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:260"
+        ]
+      }
+    },
+    {
+      "service_name": "Intermittent Oncology Home Visit",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 22050,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 98,
+        "line_end": 98,
+        "text": "Intermittent Oncology Home Visit                      per visit               GBP 220.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intermittent Oncology Home Visit"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Intermittent Psychiatric Rehabilitation Programme",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 32275,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 99,
+        "line_end": 99,
+        "text": "Intermittent Psychiatric Rehabilitation Programme     per visit               GBP 322.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intermittent Psychiatric Rehabilitation Programme"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:168"
+        ]
+      }
+    },
+    {
+      "service_name": "Intermittent Renal Anaesthesia Administration",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 6600,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 100,
+        "line_end": 100,
+        "text": "Intermittent Renal Anaesthesia Administration         per hour                GBP 66.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intermittent Renal Anaesthesia Administration"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Intermittent Rheumatologic Dialysis Session",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 126900,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 101,
+        "line_end": 101,
+        "text": "Intermittent Rheumatologic Dialysis Session           per procedure           GBP 1,269.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Elective Obstetric Transfusion Service",
+          "Intermittent Rheumatologic Dialysis Session"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:220"
+        ]
+      }
+    },
+    {
+      "service_name": "Intermittent Urologic Telemetry Monitoring",
+      "unit_basis": null,
+      "base_rate_cents": 7275,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 102,
+        "line_end": 102,
+        "text": "Intermittent Urologic Telemetry Monitoring            per hour, per item      GBP 72.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Intermittent Urologic Telemetry Monitoring"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Outpatient Cardiac Physiotherapy Session",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 27300,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 103,
+        "line_end": 103,
+        "text": "Outpatient Cardiac Physiotherapy Session              per visit               GBP 273.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Outpatient Cardiac Physiotherapy Session"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Outpatient Geriatric Diagnostic Imaging",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 190450,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 104,
+        "line_end": 104,
+        "text": "Outpatient Geriatric Diagnostic Imaging               per procedure           GBP 1,904.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Outpatient Geriatric Diagnostic Imaging"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:169"
+        ]
+      }
+    },
+    {
+      "service_name": "Outpatient Obstetric Dialysis Session",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 367900,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 105,
+        "line_end": 105,
+        "text": "Outpatient Obstetric Dialysis Session                 per procedure           GBP 3,679.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Outpatient Obstetric Dialysis Session"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Outpatient Orthopaedic Recovery Room Occupancy",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 11025,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 106,
+        "line_end": 106,
+        "text": "Outpatient Orthopaedic Recovery Room Occupancy        per hour                GBP 110.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Assisted Paediatric Physiotherapy Session",
+          "Outpatient Orthopaedic Recovery Room Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:218"
+        ]
+      }
+    },
+    {
+      "service_name": "Outpatient Rheumatologic Anaesthesia Administration",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 20875,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 107,
+        "line_end": 107,
+        "text": "Outpatient Rheumatologic Anaesthesia Administration   per hour                GBP 208.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Outpatient Rheumatologic Anaesthesia Administration"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Outpatient Urologic Endoscopic Procedure",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 372925,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 108,
+        "line_end": 108,
+        "text": "Outpatient Urologic Endoscopic Procedure              per procedure           GBP 3,729.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Outpatient Urologic Endoscopic Procedure"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Outpatient Urologic Theatre Time",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 7650,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 109,
+        "line_end": 109,
+        "text": "Outpatient Urologic Theatre Time                      per hour                GBP 76.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Outpatient Urologic Theatre Time"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Postoperative Cardiac Wound Care",
+      "unit_basis": "per_item",
+      "base_rate_cents": 17325,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 110,
+        "line_end": 110,
+        "text": "Postoperative Cardiac Wound Care                      per item supplied       GBP 173.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Postoperative Cardiac Wound Care"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Standard Vascular Home Visit",
+            "days": 30,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 261,
+              "line_end": 261,
+              "text": "Postoperative Cardiac Wound Care                 30 days  Standard Vascular Home Visit",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:261"
+        ]
+      }
+    },
+    {
+      "service_name": "Postoperative Geriatric Case Conference",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 4275,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 111,
+        "line_end": 111,
+        "text": "Postoperative Geriatric Case Conference               per hour                GBP 42.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Postoperative Geriatric Case Conference"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Postoperative Geriatric Imaging Interpretation",
+      "unit_basis": "per_test",
+      "base_rate_cents": 43925,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 112,
+        "line_end": 112,
+        "text": "Postoperative Geriatric Imaging Interpretation        per test                GBP 439.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Postoperative Geriatric Imaging Interpretation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Postoperative Oncology Diagnostic Imaging",
+      "unit_basis": "per_item",
+      "base_rate_cents": 23250,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 113,
+        "line_end": 113,
+        "text": "Postoperative Oncology Diagnostic Imaging             per item supplied       GBP 232.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Postoperative Oncology Diagnostic Imaging"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:202"
+        ]
+      }
+    },
+    {
+      "service_name": "Postoperative Otolaryngologic Telemetry Monitoring",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 10000,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 114,
+        "line_end": 114,
+        "text": "Postoperative Otolaryngologic Telemetry Monitoring    per hour                GBP 100.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Postoperative Otolaryngologic Telemetry Monitoring"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:203"
+        ]
+      }
+    },
+    {
+      "service_name": "Postoperative Paediatric Imaging Interpretation",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 88600,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 115,
+        "line_end": 115,
+        "text": "Postoperative Paediatric Imaging Interpretation       per procedure           GBP 886.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Postoperative Paediatric Imaging Interpretation"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Outpatient Obstetric Dialysis Session",
+            "days": 14,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 262,
+              "line_end": 262,
+              "text": "Postoperative Paediatric Imaging Interpretation  14 days  Outpatient Obstetric Dialysis Session",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:262"
+        ]
+      }
+    },
+    {
+      "service_name": "Postoperative Paediatric Sterilisation Service",
+      "unit_basis": "per_item",
+      "base_rate_cents": 16050,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 116,
+        "line_end": 116,
+        "text": "Postoperative Paediatric Sterilisation Service        per item supplied       GBP 160.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Postoperative Paediatric Sterilisation Service"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:204"
+        ]
+      }
+    },
+    {
+      "service_name": "Postoperative Palliative Recovery Room Occupancy",
+      "unit_basis": "per_night",
+      "base_rate_cents": 86550,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 117,
+        "line_end": 117,
+        "text": "Postoperative Palliative Recovery Room Occupancy      per night of occupancy  GBP 865.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Continuous Psychiatric Rehabilitation Programme",
+          "Postoperative Palliative Recovery Room Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:219"
+        ]
+      }
+    },
+    {
+      "service_name": "Postoperative Rheumatologic Nursing Observation",
+      "unit_basis": "per_day",
+      "base_rate_cents": 46425,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 118,
+        "line_end": 118,
+        "text": "Postoperative Rheumatologic Nursing Observation       per day of service      GBP 464.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Postoperative Rheumatologic Nursing Observation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:205"
+        ]
+      }
+    },
+    {
+      "service_name": "Preoperative Geriatric Diagnostic Imaging",
+      "unit_basis": "per_test",
+      "base_rate_cents": 19550,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 119,
+        "line_end": 119,
+        "text": "Preoperative Geriatric Diagnostic Imaging             per test                GBP 195.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Preoperative Geriatric Diagnostic Imaging"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:170"
+        ]
+      }
+    },
+    {
+      "service_name": "Preoperative Haematology Imaging Interpretation",
+      "unit_basis": "per_test",
+      "base_rate_cents": 11375,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 120,
+        "line_end": 120,
+        "text": "Preoperative Haematology Imaging Interpretation       per test                GBP 113.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Preoperative Haematology Imaging Interpretation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:171"
+        ]
+      }
+    },
+    {
+      "service_name": "Preoperative Musculoskeletal Recovery Room Occupancy",
+      "unit_basis": "per_night",
+      "base_rate_cents": 162775,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 121,
+        "line_end": 121,
+        "text": "Preoperative Musculoskeletal Recovery Room Occupancy  per night of occupancy  GBP 1,627.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Preoperative Musculoskeletal Recovery Room Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Preoperative Oncology Diagnostic Imaging",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 102650,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 122,
+        "line_end": 122,
+        "text": "Preoperative Oncology Diagnostic Imaging              per procedure           GBP 1,026.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Preoperative Oncology Diagnostic Imaging"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:206"
+        ]
+      }
+    },
+    {
+      "service_name": "Routine Cardiac Home Visit",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 16200,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 123,
+        "line_end": 123,
+        "text": "Routine Cardiac Home Visit                            per visit               GBP 162.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Routine Cardiac Home Visit"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:172"
+        ]
+      }
+    },
+    {
+      "service_name": "Specialist Cardiac Ventilation Support",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 18125,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 124,
+        "line_end": 124,
+        "text": "Specialist Cardiac Ventilation Support                per hour                GBP 181.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Specialist Cardiac Ventilation Support"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Bedside Cardiac Home Visit",
+            "days": 30,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 263,
+              "line_end": 263,
+              "text": "Specialist Cardiac Ventilation Support           30 days  Bedside Cardiac Home Visit",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:263"
+        ]
+      }
+    },
+    {
+      "service_name": "Specialist Gastrointestinal Imaging Interpretation",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 83625,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 125,
+        "line_end": 125,
+        "text": "Specialist Gastrointestinal Imaging Interpretation    per procedure           GBP 836.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Specialist Gastrointestinal Imaging Interpretation"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Specialist Hepatic Discharge Planning",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 41175,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 126,
+        "line_end": 126,
+        "text": "Specialist Hepatic Discharge Planning                 per visit               GBP 411.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Specialist Hepatic Discharge Planning"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:173"
+        ]
+      }
+    },
+    {
+      "service_name": "Specialist Immunologic Consultation",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 114500,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 127,
+        "line_end": 127,
+        "text": "Specialist Immunologic Consultation                   per procedure           GBP 1,145.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Specialist Immunologic Consultation",
+          "Supervised Rheumatologic Dialysis Session"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:222"
+        ]
+      }
+    },
+    {
+      "service_name": "Standard Hepatic Infusion Therapy",
+      "unit_basis": "per_unit_dispensed",
+      "base_rate_cents": 3975,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 128,
+        "line_end": 128,
+        "text": "Standard Hepatic Infusion Therapy                     per unit dispensed      GBP 39.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Standard Hepatic Infusion Therapy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:174"
+        ]
+      }
+    },
+    {
+      "service_name": "Standard Oncology Ward Bed Occupancy",
+      "unit_basis": "per_day",
+      "base_rate_cents": 57950,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 129,
+        "line_end": 129,
+        "text": "Standard Oncology Ward Bed Occupancy                  per day of service      GBP 579.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Standard Oncology Ward Bed Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": "Standard Oncology Ward Bed Occupancy",
+        "cumulative_scope": "all_patients_prior_lines",
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:238"
+        ]
+      }
+    },
+    {
+      "service_name": "Standard Ophthalmic Laboratory Panel",
+      "unit_basis": "per_item",
+      "base_rate_cents": 17925,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 130,
+        "line_end": 130,
+        "text": "Standard Ophthalmic Laboratory Panel                  per item supplied       GBP 179.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Standard Ophthalmic Laboratory Panel"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Extended Renal Ward Bed Occupancy",
+            "days": 30,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 264,
+              "line_end": 264,
+              "text": "Standard Ophthalmic Laboratory Panel             30 days  Extended Renal Ward Bed Occupancy",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:264"
+        ]
+      }
+    },
+    {
+      "service_name": "Standard Orthopaedic Critical Care Occupancy",
+      "unit_basis": "per_night",
+      "base_rate_cents": 148975,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 131,
+        "line_end": 131,
+        "text": "Standard Orthopaedic Critical Care Occupancy          per night of occupancy  GBP 1,489.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Standard Orthopaedic Critical Care Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": "Standard Orthopaedic Critical Care Occupancy",
+        "cumulative_scope": "all_patients_prior_lines",
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:239"
+        ]
+      }
+    },
+    {
+      "service_name": "Standard Paediatric Dialysis Session",
+      "unit_basis": "per_procedure",
+      "base_rate_cents": 368050,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 132,
+        "line_end": 132,
+        "text": "Standard Paediatric Dialysis Session                  per procedure           GBP 3,680.50",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Standard Paediatric Dialysis Session"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Standard Vascular Home Visit",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 26200,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 133,
+        "line_end": 133,
+        "text": "Standard Vascular Home Visit                          per visit               GBP 262.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Standard Vascular Home Visit"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Supervised Gastrointestinal Nursing Observation",
+      "unit_basis": "per_night",
+      "base_rate_cents": 156825,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 134,
+        "line_end": 134,
+        "text": "Supervised Gastrointestinal Nursing Observation       per night of occupancy  GBP 1,568.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Supervised Gastrointestinal Nursing Observation"
+        ],
+        "exclusion_windows": [
+          {
+            "related_service": "Comprehensive Neurological Endoscopic Procedure",
+            "days": 7,
+            "direction": "both",
+            "source": {
+              "document_id": "conditional_reimbursement_agreement.txt",
+              "line_start": 265,
+              "line_end": 265,
+              "text": "Supervised Gastrointestinal Nursing Observation  7 days   Comprehensive Neurological Endoscopic Procedure",
+              "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+            }
+          }
+        ],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:265"
+        ]
+      }
+    },
+    {
+      "service_name": "Supervised Immunologic Ward Bed Occupancy",
+      "unit_basis": "per_night",
+      "base_rate_cents": 194400,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 135,
+        "line_end": 135,
+        "text": "Supervised Immunologic Ward Bed Occupancy             per night of occupancy  GBP 1,944.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Supervised Immunologic Ward Bed Occupancy"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:175"
+        ]
+      }
+    },
+    {
+      "service_name": "Supervised Pulmonary Anaesthesia Administration",
+      "unit_basis": "per_hour",
+      "base_rate_cents": 13500,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 136,
+        "line_end": 136,
+        "text": "Supervised Pulmonary Anaesthesia Administration       per hour                GBP 135.00",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Supervised Pulmonary Anaesthesia Administration"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": []
+      }
+    },
+    {
+      "service_name": "Supervised Pulmonary Home Visit",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 28675,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 137,
+        "line_end": 137,
+        "text": "Supervised Pulmonary Home Visit                       per visit               GBP 286.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Supervised Pulmonary Home Visit"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:176"
+        ]
+      }
+    },
+    {
+      "service_name": "Supervised Rheumatologic Dialysis Session",
+      "unit_basis": "per_visit",
+      "base_rate_cents": 17375,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 138,
+        "line_end": 138,
+        "text": "Supervised Rheumatologic Dialysis Session             per visit               GBP 173.75",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Specialist Immunologic Consultation",
+          "Supervised Rheumatologic Dialysis Session"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:222"
+        ]
+      }
+    },
+    {
+      "service_name": "Supervised Vascular Radiotherapy Fraction",
+      "unit_basis": "per_item",
+      "base_rate_cents": 15825,
+      "daily_cap": null,
+      "source": {
+        "document_id": "conditional_reimbursement_agreement.txt",
+        "line_start": 139,
+        "line_end": 139,
+        "text": "Supervised Vascular Radiotherapy Fraction             per item supplied       GBP 158.25",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+      },
+      "rule_dependencies": {
+        "required_fields": [
+          "service",
+          "patient_id",
+          "service_date",
+          "quantity",
+          "line_id"
+        ],
+        "same_patient_same_day_services": [
+          "Supervised Vascular Radiotherapy Fraction"
+        ],
+        "exclusion_windows": [],
+        "cumulative_service": null,
+        "cumulative_scope": null,
+        "source_clauses": [
+          "conditional_reimbursement_agreement.txt:177"
+        ]
+      }
+    }
+  ],
+  "definitions": {
+    "service_day": "calendar_date_of_line_service_date"
+  },
+  "calculation_rules": {
+    "adjustment_order": [
+      "bundle_substitution",
+      "facility_multiplier",
+      "plan_tier_multiplier",
+      "premium_or_uplift",
+      "volume_discount"
+    ],
+    "rounding": "half_up_cent",
+    "round_after_each_adjustment": true,
+    "line_total": "effective_unit_rate_cents * billed_quantity",
+    "invoice_total": "sum(line_totals_cents)"
+  },
+  "threshold_premiums": {
+    "group_by": [
+      "patient_id",
+      "service",
+      "service_date"
+    ],
+    "rules": [
+      {
+        "service_name": "Advanced Vascular Endoscopic Procedure",
+        "quantity": 10,
+        "comparison": "greater_than",
+        "uplift_percent": 25,
+        "unit_basis": "per_procedure",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 160,
+          "line_end": 160,
+          "text": "Advanced Vascular Endoscopic Procedure             more than 10 procedures                  +25%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Ambulatory Gastrointestinal Nutritional Support",
+        "quantity": 16,
+        "comparison": "greater_than",
+        "uplift_percent": 15,
+        "unit_basis": "per_unit_dispensed",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 161,
+          "line_end": 161,
+          "text": "Ambulatory Gastrointestinal Nutritional Support    more than 16 units                       +15%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Assisted Cardiac Ventilation Support",
+        "quantity": 12,
+        "comparison": "greater_than",
+        "uplift_percent": 30,
+        "unit_basis": "per_day",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 162,
+          "line_end": 162,
+          "text": "Assisted Cardiac Ventilation Support               more than 12 days                        +30%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Continuous Infectious Critical Care Occupancy",
+        "quantity": 6,
+        "comparison": "greater_than",
+        "uplift_percent": 40,
+        "unit_basis": "per_hour",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 163,
+          "line_end": 163,
+          "text": "Continuous Infectious Critical Care Occupancy      more than 6 hours                        +40%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Elective Ophthalmic Radiotherapy Fraction",
+        "quantity": 8,
+        "comparison": "greater_than",
+        "uplift_percent": 30,
+        "unit_basis": "per_procedure",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 164,
+          "line_end": 164,
+          "text": "Elective Ophthalmic Radiotherapy Fraction          more than 8 procedures                   +30%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Emergency Rheumatologic Rehabilitation Programme",
+        "quantity": 8,
+        "comparison": "greater_than",
+        "uplift_percent": 30,
+        "unit_basis": "per_day",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 165,
+          "line_end": 165,
+          "text": "Emergency Rheumatologic Rehabilitation Programme   more than 8 days                         +30%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Extended Psychiatric Endoscopic Procedure",
+        "quantity": 6,
+        "comparison": "greater_than",
+        "uplift_percent": 25,
+        "unit_basis": "per_procedure",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 166,
+          "line_end": 166,
+          "text": "Extended Psychiatric Endoscopic Procedure          more than 6 procedures                   +25%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Intensive Paediatric Consultation",
+        "quantity": 6,
+        "comparison": "greater_than",
+        "uplift_percent": 20,
+        "unit_basis": "per_visit",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 167,
+          "line_end": 167,
+          "text": "Intensive Paediatric Consultation                  more than 6 visits                       +20%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Intermittent Psychiatric Rehabilitation Programme",
+        "quantity": 6,
+        "comparison": "greater_than",
+        "uplift_percent": 30,
+        "unit_basis": "per_visit",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 168,
+          "line_end": 168,
+          "text": "Intermittent Psychiatric Rehabilitation Programme  more than 6 visits                       +30%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Outpatient Geriatric Diagnostic Imaging",
+        "quantity": 12,
+        "comparison": "greater_than",
+        "uplift_percent": 15,
+        "unit_basis": "per_procedure",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 169,
+          "line_end": 169,
+          "text": "Outpatient Geriatric Diagnostic Imaging            more than 12 procedures                  +15%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Preoperative Geriatric Diagnostic Imaging",
+        "quantity": 10,
+        "comparison": "greater_than",
+        "uplift_percent": 40,
+        "unit_basis": "per_test",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 170,
+          "line_end": 170,
+          "text": "Preoperative Geriatric Diagnostic Imaging          more than 10 tests                       +40%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Preoperative Haematology Imaging Interpretation",
+        "quantity": 16,
+        "comparison": "greater_than",
+        "uplift_percent": 15,
+        "unit_basis": "per_test",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 171,
+          "line_end": 171,
+          "text": "Preoperative Haematology Imaging Interpretation    more than 16 tests                       +15%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Routine Cardiac Home Visit",
+        "quantity": 10,
+        "comparison": "greater_than",
+        "uplift_percent": 25,
+        "unit_basis": "per_visit",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 172,
+          "line_end": 172,
+          "text": "Routine Cardiac Home Visit                         more than 10 visits                      +25%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Specialist Hepatic Discharge Planning",
+        "quantity": 6,
+        "comparison": "greater_than",
+        "uplift_percent": 15,
+        "unit_basis": "per_visit",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 173,
+          "line_end": 173,
+          "text": "Specialist Hepatic Discharge Planning              more than 6 visits                       +15%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Standard Hepatic Infusion Therapy",
+        "quantity": 6,
+        "comparison": "greater_than",
+        "uplift_percent": 15,
+        "unit_basis": "per_unit_dispensed",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 174,
+          "line_end": 174,
+          "text": "Standard Hepatic Infusion Therapy                  more than 6 units                        +15%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Supervised Immunologic Ward Bed Occupancy",
+        "quantity": 10,
+        "comparison": "greater_than",
+        "uplift_percent": 25,
+        "unit_basis": "per_night",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 175,
+          "line_end": 175,
+          "text": "Supervised Immunologic Ward Bed Occupancy          more than 10 nights                      +25%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Supervised Pulmonary Home Visit",
+        "quantity": 10,
+        "comparison": "greater_than",
+        "uplift_percent": 30,
+        "unit_basis": "per_visit",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 176,
+          "line_end": 176,
+          "text": "Supervised Pulmonary Home Visit                    more than 10 visits                      +30%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Supervised Vascular Radiotherapy Fraction",
+        "quantity": 10,
+        "comparison": "greater_than",
+        "uplift_percent": 15,
+        "unit_basis": "per_item",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 177,
+          "line_end": 177,
+          "text": "Supervised Vascular Radiotherapy Fraction          more than 10 items                       +15%",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      }
+    ]
+  },
+  "daily_caps": {
+    "group_by": [
+      "patient_id",
+      "service",
+      "service_date"
+    ],
+    "rules": [
+      {
+        "service_name": "Advanced Orthopaedic Ward Bed Occupancy",
+        "quantity": 12,
+        "unit_basis": "per_night",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 189,
+          "line_end": 189,
+          "text": "Advanced Orthopaedic Ward Bed Occupancy               12 nights",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Ambulatory Cardiac Ward Bed Occupancy",
+        "quantity": 4,
+        "unit_basis": "per_day",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 190,
+          "line_end": 190,
+          "text": "Ambulatory Cardiac Ward Bed Occupancy                 4 days",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Ambulatory Immunologic Ward Bed Occupancy",
+        "quantity": 4,
+        "unit_basis": "per_day",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 191,
+          "line_end": 191,
+          "text": "Ambulatory Immunologic Ward Bed Occupancy             4 days",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Assisted Gastrointestinal Anaesthesia Administration",
+        "quantity": 24,
+        "unit_basis": "per_hour",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 192,
+          "line_end": 192,
+          "text": "Assisted Gastrointestinal Anaesthesia Administration  24 hours",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Assisted Urologic Nursing Observation",
+        "quantity": 4,
+        "unit_basis": "per_day",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 193,
+          "line_end": 193,
+          "text": "Assisted Urologic Nursing Observation                 4 days",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Bedside Gastrointestinal Biopsy Procedure",
+        "quantity": 8,
+        "unit_basis": "per_item",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 194,
+          "line_end": 194,
+          "text": "Bedside Gastrointestinal Biopsy Procedure             8 items",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Elective Gastrointestinal Nursing Observation",
+        "quantity": 6,
+        "unit_basis": "per_day",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 195,
+          "line_end": 195,
+          "text": "Elective Gastrointestinal Nursing Observation         6 days",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Extended Hepatic Transfusion Service",
+        "quantity": 8,
+        "unit_basis": "per_unit_dispensed",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 196,
+          "line_end": 196,
+          "text": "Extended Hepatic Transfusion Service                  8 units",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Extended Urologic Telemetry Monitoring",
+        "quantity": 12,
+        "unit_basis": "per_day",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 197,
+          "line_end": 197,
+          "text": "Extended Urologic Telemetry Monitoring                12 days",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Focused Metabolic Biopsy Procedure",
+        "quantity": 8,
+        "unit_basis": "per_item",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 198,
+          "line_end": 198,
+          "text": "Focused Metabolic Biopsy Procedure                    8 items",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Inpatient Orthopaedic Anaesthesia Administration",
+        "quantity": 8,
+        "unit_basis": "per_procedure",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 199,
+          "line_end": 199,
+          "text": "Inpatient Orthopaedic Anaesthesia Administration      8 procedures",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Intensive Geriatric Case Conference",
+        "quantity": 8,
+        "unit_basis": "per_visit",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 200,
+          "line_end": 200,
+          "text": "Intensive Geriatric Case Conference                   8 visits",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Intensive Urologic Specimen Analysis",
+        "quantity": 24,
+        "unit_basis": "per_item",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 201,
+          "line_end": 201,
+          "text": "Intensive Urologic Specimen Analysis                  24 items",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Postoperative Oncology Diagnostic Imaging",
+        "quantity": 12,
+        "unit_basis": "per_item",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 202,
+          "line_end": 202,
+          "text": "Postoperative Oncology Diagnostic Imaging             12 items",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Postoperative Otolaryngologic Telemetry Monitoring",
+        "quantity": 24,
+        "unit_basis": "per_hour",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 203,
+          "line_end": 203,
+          "text": "Postoperative Otolaryngologic Telemetry Monitoring    24 hours",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Postoperative Paediatric Sterilisation Service",
+        "quantity": 8,
+        "unit_basis": "per_item",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 204,
+          "line_end": 204,
+          "text": "Postoperative Paediatric Sterilisation Service        8 items",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Postoperative Rheumatologic Nursing Observation",
+        "quantity": 6,
+        "unit_basis": "per_day",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 205,
+          "line_end": 205,
+          "text": "Postoperative Rheumatologic Nursing Observation       6 days",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Preoperative Oncology Diagnostic Imaging",
+        "quantity": 8,
+        "unit_basis": "per_procedure",
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 206,
+          "line_end": 206,
+          "text": "Preoperative Oncology Diagnostic Imaging              8 procedures",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      }
+    ]
+  },
+  "non_business_day_uplifts": {
+    "eligible_days": [
+      "Saturday",
+      "Sunday"
+    ],
+    "rules": []
+  },
+  "volume_discounts": {
+    "scope": "whole_contract_term_all_patients",
+    "group_by": [
+      "service"
+    ],
+    "sort_by": [
+      "service_date",
+      "line_id"
+    ],
+    "include_current_line_in_threshold": false,
+    "multiple_thresholds": "deepest_discount_only",
+    "rules": [
+      {
+        "service_name": "Ambulatory Musculoskeletal Ventilation Support",
+        "quantity": 80,
+        "comparison": "greater_than",
+        "discount_percent": 15,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 236,
+          "line_end": 236,
+          "text": "Ambulatory Musculoskeletal Ventilation Support  eighty (80)                     fifteen percent (15%)",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Ambulatory Musculoskeletal Ventilation Support",
+        "quantity": 240,
+        "comparison": "greater_than",
+        "discount_percent": 30,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 237,
+          "line_end": 237,
+          "text": "Ambulatory Musculoskeletal Ventilation Support  two hundred and forty (240)     thirty percent (30%)",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Standard Oncology Ward Bed Occupancy",
+        "quantity": 120,
+        "comparison": "greater_than",
+        "discount_percent": 10,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 238,
+          "line_end": 238,
+          "text": "Standard Oncology Ward Bed Occupancy            one hundred and twenty (120)    ten percent (10%)",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_name": "Standard Orthopaedic Critical Care Occupancy",
+        "quantity": 120,
+        "comparison": "greater_than",
+        "discount_percent": 10,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 239,
+          "line_end": 239,
+          "text": "Standard Orthopaedic Critical Care Occupancy    one hundred and twenty (120)    ten percent (10%)",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      }
+    ]
+  },
+  "bundles": {
+    "group_by": [
+      "patient_id",
+      "service_date"
+    ],
+    "condition": "both_services_present",
+    "replaces": "base_unit_rates",
+    "rules": [
+      {
+        "service_a": "Ambulatory Obstetric Case Conference",
+        "service_b": "Focused Vascular Infusion Therapy",
+        "bundled_rate_a_cents": 11875,
+        "bundled_rate_b_cents": 4900,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 216,
+          "line_end": 216,
+          "text": "Ambulatory Obstetric Case Conference             GBP 118.75          Focused Vascular Infusion Therapy                  GBP 49.00",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_a": "Ambulatory Paediatric Critical Care Occupancy",
+        "service_b": "Ambulatory Rheumatologic Rehabilitation Programme",
+        "bundled_rate_a_cents": 3550,
+        "bundled_rate_b_cents": 28750,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 217,
+          "line_end": 217,
+          "text": "Ambulatory Paediatric Critical Care Occupancy    GBP 35.50           Ambulatory Rheumatologic Rehabilitation Programme  GBP 287.50",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_a": "Assisted Paediatric Physiotherapy Session",
+        "service_b": "Outpatient Orthopaedic Recovery Room Occupancy",
+        "bundled_rate_a_cents": 2675,
+        "bundled_rate_b_cents": 9375,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 218,
+          "line_end": 218,
+          "text": "Assisted Paediatric Physiotherapy Session        GBP 26.75           Outpatient Orthopaedic Recovery Room Occupancy     GBP 93.75",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_a": "Continuous Psychiatric Rehabilitation Programme",
+        "service_b": "Postoperative Palliative Recovery Room Occupancy",
+        "bundled_rate_a_cents": 28625,
+        "bundled_rate_b_cents": 70975,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 219,
+          "line_end": 219,
+          "text": "Continuous Psychiatric Rehabilitation Programme  GBP 286.25          Postoperative Palliative Recovery Room Occupancy   GBP 709.75",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_a": "Elective Obstetric Transfusion Service",
+        "service_b": "Intermittent Rheumatologic Dialysis Session",
+        "bundled_rate_a_cents": 1250,
+        "bundled_rate_b_cents": 111675,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 220,
+          "line_end": 220,
+          "text": "Elective Obstetric Transfusion Service           GBP 12.50           Intermittent Rheumatologic Dialysis Session        GBP 1,116.75",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_a": "Emergency Cardiac Physiotherapy Session",
+        "service_b": "Extended Obstetric Case Conference",
+        "bundled_rate_a_cents": 8400,
+        "bundled_rate_b_cents": 35200,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 221,
+          "line_end": 221,
+          "text": "Emergency Cardiac Physiotherapy Session          GBP 84.00           Extended Obstetric Case Conference                 GBP 352.00",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "service_a": "Specialist Immunologic Consultation",
+        "service_b": "Supervised Rheumatologic Dialysis Session",
+        "bundled_rate_a_cents": 91600,
+        "bundled_rate_b_cents": 13900,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 222,
+          "line_end": 222,
+          "text": "Specialist Immunologic Consultation              GBP 916.00          Supervised Rheumatologic Dialysis Session          GBP 139.00",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      }
+    ]
+  },
+  "exclusion_windows": {
+    "direction": "both",
+    "patient_scope": {
+      "value": "same_patient",
+      "status": "reviewed_interpretation"
+    },
+    "boundary_inclusive": null,
+    "rules": [
+      {
+        "excluded_service": "Advanced Paediatric Theatre Time",
+        "related_service": "Bedside Cardiac Home Visit",
+        "window_days": 30,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 251,
+          "line_end": 251,
+          "text": "Advanced Paediatric Theatre Time                 30 days  Bedside Cardiac Home Visit",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Ambulatory Haematology Transfusion Service",
+        "related_service": "Postoperative Geriatric Imaging Interpretation",
+        "window_days": 7,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 252,
+          "line_end": 252,
+          "text": "Ambulatory Haematology Transfusion Service       7 days   Postoperative Geriatric Imaging Interpretation",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Assisted Paediatric Theatre Time",
+        "related_service": "Outpatient Cardiac Physiotherapy Session",
+        "window_days": 10,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 253,
+          "line_end": 253,
+          "text": "Assisted Paediatric Theatre Time                 10 days  Outpatient Cardiac Physiotherapy Session",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Comprehensive Ophthalmic Laboratory Panel",
+        "related_service": "Ambulatory Musculoskeletal Specimen Analysis",
+        "window_days": 7,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 254,
+          "line_end": 254,
+          "text": "Comprehensive Ophthalmic Laboratory Panel        7 days   Ambulatory Musculoskeletal Specimen Analysis",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Continuous Gastrointestinal Transfusion Service",
+        "related_service": "Postoperative Geriatric Case Conference",
+        "window_days": 10,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 255,
+          "line_end": 255,
+          "text": "Continuous Gastrointestinal Transfusion Service  10 days  Postoperative Geriatric Case Conference",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Focused Urologic Case Conference",
+        "related_service": "Outpatient Urologic Endoscopic Procedure",
+        "window_days": 21,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 256,
+          "line_end": 256,
+          "text": "Focused Urologic Case Conference                 21 days  Outpatient Urologic Endoscopic Procedure",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Focused Vascular Transport Service",
+        "related_service": "Bedside Cardiac Home Visit",
+        "window_days": 14,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 257,
+          "line_end": 257,
+          "text": "Focused Vascular Transport Service               14 days  Bedside Cardiac Home Visit",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Inpatient Psychiatric Home Visit",
+        "related_service": "Extended Hepatic Discharge Planning",
+        "window_days": 14,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 258,
+          "line_end": 258,
+          "text": "Inpatient Psychiatric Home Visit                 14 days  Extended Hepatic Discharge Planning",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Intensive Rheumatologic Radiotherapy Fraction",
+        "related_service": "Standard Paediatric Dialysis Session",
+        "window_days": 10,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 259,
+          "line_end": 259,
+          "text": "Intensive Rheumatologic Radiotherapy Fraction    10 days  Standard Paediatric Dialysis Session",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Intermittent Neurological Laboratory Panel",
+        "related_service": "Intermittent Urologic Telemetry Monitoring",
+        "window_days": 30,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 260,
+          "line_end": 260,
+          "text": "Intermittent Neurological Laboratory Panel       30 days  Intermittent Urologic Telemetry Monitoring",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Postoperative Cardiac Wound Care",
+        "related_service": "Standard Vascular Home Visit",
+        "window_days": 30,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 261,
+          "line_end": 261,
+          "text": "Postoperative Cardiac Wound Care                 30 days  Standard Vascular Home Visit",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Postoperative Paediatric Imaging Interpretation",
+        "related_service": "Outpatient Obstetric Dialysis Session",
+        "window_days": 14,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 262,
+          "line_end": 262,
+          "text": "Postoperative Paediatric Imaging Interpretation  14 days  Outpatient Obstetric Dialysis Session",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Specialist Cardiac Ventilation Support",
+        "related_service": "Bedside Cardiac Home Visit",
+        "window_days": 30,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 263,
+          "line_end": 263,
+          "text": "Specialist Cardiac Ventilation Support           30 days  Bedside Cardiac Home Visit",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Standard Ophthalmic Laboratory Panel",
+        "related_service": "Extended Renal Ward Bed Occupancy",
+        "window_days": 30,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 264,
+          "line_end": 264,
+          "text": "Standard Ophthalmic Laboratory Panel             30 days  Extended Renal Ward Bed Occupancy",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      },
+      {
+        "excluded_service": "Supervised Gastrointestinal Nursing Observation",
+        "related_service": "Comprehensive Neurological Endoscopic Procedure",
+        "window_days": 7,
+        "source": {
+          "document_id": "conditional_reimbursement_agreement.txt",
+          "line_start": 265,
+          "line_end": 265,
+          "text": "Supervised Gastrointestinal Nursing Observation  7 days   Comprehensive Neurological Endoscopic Procedure",
+          "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c"
+        }
+      }
+    ]
+  },
+  "invoice_requirements": {
+    "contract_number_must_match": true,
+    "invoice_id_must_be_unique": true,
+    "service_date_within_contract_term": true,
+    "service_date_not_after_invoice_date": true,
+    "duplicate_service_key": [
+      "patient_id",
+      "service",
+      "service_date"
+    ],
+    "duplicate_scope": "within_and_across_invoices",
+    "service_date_within_admission_discharge": "not_stated"
+  },
+  "matching_guidance": {
+    "token_aliases": {
+      "ent": "otolaryngologic",
+      "interm": "intermittent",
+      "diag": "diagnostic",
+      "img": "imaging",
+      "steril": "sterilisation",
+      "fract": "fraction",
+      "endosc": "endoscopic",
+      "proc": "procedure",
+      "consult": "consultation",
+      "telem": "telemetry",
+      "monit": "monitoring",
+      "spclst": "specialist",
+      "wnd": "wound",
+      "thtr": "theatre",
+      "tm": "time",
+      "vst": "visit",
+      "cont": "continuous",
+      "rehab": "rehabilitation",
+      "psych": "psychiatric",
+      "beds": "bedside",
+      "emer": "emergency",
+      "ortho": "orthopaedic",
+      "anaes": "anaesthesia",
+      "admin": "administration",
+      "vasc": "vascular",
+      "gi": "gastrointestinal",
+      "plng": "planning",
+      "supv": "supervised",
+      "spcm": "specimen",
+      "pharm": "pharmaceutical"
+    },
+    "reviewed_descriptions": []
+  },
+  "uncertainty_policy": {
+    "mode": "rule_dependency_bounds",
+    "precise_dependency_scopes": true,
+    "improved_usage_bounds": true
+  }
+}

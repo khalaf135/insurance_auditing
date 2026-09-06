@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629528-jDkv9LMlAWTczsz3JCNf",
+  "object": "chat.completion",
+  "created": 1788629528,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Standard Orthopaedic Isolation Room Occupancy\",\n      \"line_end\": 304,\n      \"line_start\": 304,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Standard Orthopaedic Isolation Room Occupancy\\\", \\\"unit_basis\\\": \\\"per_day\\\", \\\"unit_basis_source\\\": \\\"per day of service\\\", \\\"base_rate_cents\\\": 33275, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 304,\n      \"line_start\": 304,\n      \"section\": \"bundles\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_a\\\": \\\"Standard Orthopaedic Isolation Room Occupancy\\\", \\\"service_b\\\": \\\"Outpatient Haematology Biopsy Procedure\\\", \\\"bundled_rate_a_cents\\\": 27275, \\\"bundled_rate_b_cents\\\": 73625}\"\n    },\n    {\n      \"key\": \"Supervised Rheumatologic Critical Care Occupancy\",\n      \"line_end\": 306,\n      \"line_start\": 306,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Rheumatologic Critical Care Occupancy\\\", \\\"unit_basis\\\": \\\"per_night\\\", \\\"unit_basis_source\\\": \\\"per night of occupancy\\\", \\\"base_rate_cents\\\": 72800, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Advanced Gastrointestinal Endoscopic Procedure\",\n      \"line_end\": 308,\n      \"line_start\": 308,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Advanced Gastrointestinal Endoscopic Procedure\\\", \\\"unit_basis\\\": \\\"per_procedure\\\", \\\"unit_basis_source\\\": \\\"per procedure\\\", \\\"base_rate_cents\\\": 377750, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 308,\n      \"line_start\": 308,\n      \"section\": \"volume_discounts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Advanced Gastrointestinal Endoscopic Procedure\\\", \\\"quantity\\\": 120, \\\"comparison\\\": \\\"greater_than\\\", \\\"discount_percent\\\": 12.0, \\\"unit_basis\\\": \\\"per_procedure\\\"}\"\n    },\n    {\n      \"key\": \"Bedside Obstetric Physiotherapy Session\",\n      \"line_end\": 310,\n      \"line_start\": 310,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Bedside Obstetric Physiotherapy Session\\\", \\\"unit_basis\\\": \\\"per_hour\\\", \\\"unit_basis_source\\\": \\\"per hour\\\", \\\"base_rate_cents\\\": 6950, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 310,\n      \"line_start\": 310,\n      \"section\": \"bundles\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_a\\\": \\\"Bedside Obstetric Physiotherapy Session\\\", \\\"service_b\\\": \\\"Postoperative Orthopaedic Isolation Room Occupancy\\\", \\\"bundled_rate_a_cents\\\": 5200, \\\"bundled_rate_b_cents\\\": 90350}\"\n    },\n    {\n      \"key\": \"Elective Cardiac Nursing Observation\",\n      \"line_end\": 312,\n      \"line_start\": 312,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Elective Cardiac Nursing Observation\\\", \\\"unit_basis\\\": \\\"per_hour\\\", \\\"unit_basis_source\\\": \\\"per hour\\\", \\\"base_rate_cents\\\": 6775, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 312,\n      \"line_start\": 312,\n      \"section\": \"threshold_premiums\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Elective Cardiac Nursing Observation\\\", \\\"quantity\\\": 12, \\\"comparison\\\": \\\"greater_than\\\", \\\"uplift_percent\\\": 40.0, \\\"unit_basis\\\": \\\"per_hour\\\"}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a18PTHSGsMC31RnuAkbZn1ZnmgALjQNjUS6h87DT+WovJ9i2o1FeuxwjMWqiuhvt667Xsw1U8AaTUfgmbqisowq8kfJ8dOm8r4oprGSXC7Q=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4171,
+    "completion_tokens": 1112,
+    "total_tokens": 5283,
+    "cost": 0.0040313,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040313,
+      "upstream_inference_prompt_cost": 0.0012513,
+      "upstream_inference_completions_cost": 0.00278
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

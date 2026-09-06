@@ -1,0 +1,140 @@
+{
+  "hospitals": [
+    {
+      "hospital": "H1",
+      "file": "hospital_1.json",
+      "services": 108,
+      "rules": {
+        "threshold_premiums": 9,
+        "non_business_day_uplifts": 7,
+        "volume_discounts": 11,
+        "daily_caps": 7,
+        "bundles": 3,
+        "exclusion_windows": 6
+      },
+      "extensions": {
+        "rate_versions": 0,
+        "additional_services": 0,
+        "document_precedence": 0,
+        "facility_multipliers": 0,
+        "plan_tier_multipliers": 0,
+        "other_rules": 0
+      },
+      "conflicts": 0,
+      "review_notes": 0,
+      "uncovered_currency_lines": 0,
+      "processed_chunks": 3,
+      "planned_chunks": 3
+    },
+    {
+      "hospital": "H2",
+      "file": "hospital_2.json",
+      "services": 76,
+      "rules": {
+        "threshold_premiums": 9,
+        "non_business_day_uplifts": 8,
+        "volume_discounts": 12,
+        "daily_caps": 9,
+        "bundles": 6,
+        "exclusion_windows": 6
+      },
+      "extensions": {
+        "rate_versions": 0,
+        "additional_services": 0,
+        "document_precedence": 0,
+        "facility_multipliers": 0,
+        "plan_tier_multipliers": 0,
+        "other_rules": 20
+      },
+      "conflicts": 0,
+      "review_notes": 2,
+      "uncovered_currency_lines": 0,
+      "processed_chunks": 22,
+      "planned_chunks": 22
+    },
+    {
+      "hospital": "H3",
+      "file": "hospital_3.json",
+      "services": 118,
+      "rules": {
+        "threshold_premiums": 14,
+        "non_business_day_uplifts": 12,
+        "volume_discounts": 19,
+        "daily_caps": 12,
+        "bundles": 5,
+        "exclusion_windows": 10
+      },
+      "extensions": {
+        "rate_versions": 7,
+        "additional_services": 2,
+        "document_precedence": 1,
+        "facility_multipliers": 0,
+        "plan_tier_multipliers": 0,
+        "other_rules": 0
+      },
+      "conflicts": 0,
+      "review_notes": 1,
+      "uncovered_currency_lines": 0,
+      "processed_chunks": 5,
+      "planned_chunks": 5
+    },
+    {
+      "hospital": "H4",
+      "file": "hospital_4.json",
+      "services": 98,
+      "rules": {
+        "threshold_premiums": 18,
+        "non_business_day_uplifts": 0,
+        "volume_discounts": 4,
+        "daily_caps": 18,
+        "bundles": 7,
+        "exclusion_windows": 15
+      },
+      "extensions": {
+        "rate_versions": 0,
+        "additional_services": 0,
+        "document_precedence": 0,
+        "facility_multipliers": 0,
+        "plan_tier_multipliers": 0,
+        "other_rules": 1
+      },
+      "conflicts": 0,
+      "review_notes": 1,
+      "uncovered_currency_lines": 0,
+      "processed_chunks": 4,
+      "planned_chunks": 4
+    },
+    {
+      "hospital": "H5",
+      "file": "hospital_5.json",
+      "services": 84,
+      "rules": {
+        "threshold_premiums": 10,
+        "non_business_day_uplifts": 9,
+        "volume_discounts": 15,
+        "daily_caps": 9,
+        "bundles": 3,
+        "exclusion_windows": 7
+      },
+      "extensions": {
+        "rate_versions": 0,
+        "additional_services": 0,
+        "document_precedence": 0,
+        "facility_multipliers": 84,
+        "plan_tier_multipliers": 84,
+        "other_rules": 1
+      },
+      "conflicts": 0,
+      "review_notes": 2,
+      "uncovered_currency_lines": 0,
+      "processed_chunks": 9,
+      "planned_chunks": 9
+    }
+  ],
+  "usage": [],
+  "cost_usd": 0,
+  "spending_note": "Local sequential spending guard, not a provider-enforced hard cap; missing provider cost uses existing client estimate.",
+  "status": "review_drafts_not_audit_ready",
+  "model": "google/gemini-3.5-flash-lite",
+  "source_code_sha256": "8b2bf3d31ab2d2e8e6d3faed7a08dcff104fef10477f4011df77a2eeaded915f"
+}

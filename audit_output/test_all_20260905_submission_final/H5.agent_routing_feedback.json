@@ -1,0 +1,3082 @@
+[
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 43,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 27,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 35,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 35,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 32,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 31,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 20,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 39,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 31,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 39,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nursing obs",
+    "descriptions": [
+      "OBS  DERM NURSING /PH-3348"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 36,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 39,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 29,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 32,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 37,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 27,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 30,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 26,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 38,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 31,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 27,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 41,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 30,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic nurs observation",
+    "descriptions": [
+      "DERM - NURS OBSERVATION"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Dermatologic Nursing Observation",
+      "Specialist Dermatologic Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 37,
+        "rate_support": {
+          "Inpatient Dermatologic Nursing Observation": 1.0,
+          "Specialist Dermatologic Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 36,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 29,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 29,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 26,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 24,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 38,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 31,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 26,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 38,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 26,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 35,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULTATION"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 33,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 0.0,
+          "Supervised Palliative Consultation": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "consultation pall",
+    "descriptions": [
+      "PALL CONSULT"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Comprehensive Palliative Consultation",
+      "Supervised Palliative Consultation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Comprehensive Palliative Consultation": 1.0,
+          "Supervised Palliative Consultation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 24,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 20,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 26,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging vascular",
+    "descriptions": [
+      "VASC  - DIAGNOSTIC IMG"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Elective Vascular Diagnostic Imaging",
+      "Supervised Vascular Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 22,
+        "rate_support": {
+          "Elective Vascular Diagnostic Imaging": 0.0,
+          "Supervised Vascular Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 49,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 34,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 43,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 33,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 37,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 41,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 35,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 25,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 29,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 50,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 34,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 38,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 40,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf hep",
+    "descriptions": [
+      "HEP CS CONF /PH-8928"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Hepatic Case Conference",
+      "Intensive Hepatic Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 44,
+        "rate_support": {
+          "Ambulatory Hepatic Case Conference": 1.0,
+          "Intensive Hepatic Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.9523809523809523
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.9285714285714286
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.9444444444444444
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.9444444444444444
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.9473684210526315
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.9375
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.9375
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.9565217391304348
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 20,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.95
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 0.9565217391304348
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disch metabolic planning",
+    "descriptions": [
+      "METABOLIC  DISCH PLNG"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Emergency Metabolic Discharge Planning",
+      "Supervised Metabolic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Emergency Metabolic Discharge Planning": 0.0,
+          "Supervised Metabolic Discharge Planning": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 24,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 22,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "immunologic occupancy recovery room",
+    "descriptions": [
+      "IMMUNOLOGIC  RECOV RM OCC /PH-9870"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Immunologic Recovery Room Occupancy",
+      "Preoperative Immunologic Recovery Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 22,
+        "rate_support": {
+          "Inpatient Immunologic Recovery Room Occupancy": 0.0,
+          "Preoperative Immunologic Recovery Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  }
+]

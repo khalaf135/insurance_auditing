@@ -1,0 +1,4855 @@
+{
+  "H3:text:5c98eb84f351b842": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "All description words match Outpatient Renal Specimen Analysis.",
+      "service_name": "Outpatient Renal Specimen Analysis",
+      "token_expansions": [
+        {
+          "expansion": "outpatient",
+          "token": "outpatient"
+        },
+        {
+          "expansion": "renal",
+          "token": "ren"
+        },
+        {
+          "expansion": "specimen",
+          "token": "spcm"
+        },
+        {
+          "expansion": "analysis",
+          "token": "anly"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Outpatient Renal Specimen Analysis",
+      "basis": "ai_description_mapping",
+      "explanation": "All description words match Outpatient Renal Specimen Analysis.",
+      "token_expansions": {
+        "anly": "analysis"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:b3e9c76f05650d08": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "All description words match Bedside Urologic Laboratory Panel.",
+      "service_name": "Bedside Urologic Laboratory Panel",
+      "token_expansions": [
+        {
+          "expansion": "bedside",
+          "token": "beds"
+        },
+        {
+          "expansion": "urologic",
+          "token": "urologic"
+        },
+        {
+          "expansion": "laboratory",
+          "token": "lab"
+        },
+        {
+          "expansion": "panel",
+          "token": "pnl"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Bedside Urologic Laboratory Panel",
+      "basis": "ai_description_mapping",
+      "explanation": "All description words match Bedside Urologic Laboratory Panel.",
+      "token_expansions": {
+        "pnl": "panel"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:0bf3450998051941": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "Missing anatomical or clinical specifier; multiple laboratory panel services match.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "bedside",
+          "token": "beds"
+        },
+        {
+          "expansion": "laboratory",
+          "token": "laboratory"
+        },
+        {
+          "expansion": "panel",
+          "token": "pnl"
+        }
+      ]
+    },
+    "resolution": null
+  },
+  "H3:text:6a70824d7f03039a": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "All description words match Specialist Gastrointestinal Specimen Analysis.",
+      "service_name": "Specialist Gastrointestinal Specimen Analysis",
+      "token_expansions": [
+        {
+          "expansion": "specialist",
+          "token": "spclst"
+        },
+        {
+          "expansion": "gastrointestinal",
+          "token": "gi"
+        },
+        {
+          "expansion": "specimen",
+          "token": "specimen"
+        },
+        {
+          "expansion": "analysis",
+          "token": "anly"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Specialist Gastrointestinal Specimen Analysis",
+      "basis": "ai_description_mapping",
+      "explanation": "All description words match Specialist Gastrointestinal Specimen Analysis.",
+      "token_expansions": {
+        "anly": "analysis"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:b42f7e25f807ff3f": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "All description words match Preoperative Paediatric Laboratory Panel.",
+      "service_name": "Preoperative Paediatric Laboratory Panel",
+      "token_expansions": [
+        {
+          "expansion": "preoperative",
+          "token": "preop"
+        },
+        {
+          "expansion": "paediatric",
+          "token": "paed"
+        },
+        {
+          "expansion": "laboratory",
+          "token": "lab"
+        },
+        {
+          "expansion": "panel",
+          "token": "pnl"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Preoperative Paediatric Laboratory Panel",
+      "basis": "ai_description_mapping",
+      "explanation": "All description words match Preoperative Paediatric Laboratory Panel.",
+      "token_expansions": {
+        "paed": "paediatric",
+        "pnl": "panel"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:3949c54e6a953a8e": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "All description words match Postoperative Otolaryngologic Laboratory Panel.",
+      "service_name": "Postoperative Otolaryngologic Laboratory Panel",
+      "token_expansions": [
+        {
+          "expansion": "postoperative",
+          "token": "postop"
+        },
+        {
+          "expansion": "otolaryngologic",
+          "token": "ent"
+        },
+        {
+          "expansion": "laboratory",
+          "token": "laboratory"
+        },
+        {
+          "expansion": "panel",
+          "token": "pnl"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Postoperative Otolaryngologic Laboratory Panel",
+      "basis": "ai_description_mapping",
+      "explanation": "All description words match Postoperative Otolaryngologic Laboratory Panel.",
+      "token_expansions": {
+        "pnl": "panel"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:21f801dc80f74c61": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "All description words match Supervised Neurological Laboratory Panel.",
+      "service_name": "Supervised Neurological Laboratory Panel",
+      "token_expansions": [
+        {
+          "expansion": "supervised",
+          "token": "supv"
+        },
+        {
+          "expansion": "neurological",
+          "token": "neurological"
+        },
+        {
+          "expansion": "laboratory",
+          "token": "lab"
+        },
+        {
+          "expansion": "panel",
+          "token": "pnl"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Supervised Neurological Laboratory Panel",
+      "basis": "ai_description_mapping",
+      "explanation": "All description words match Supervised Neurological Laboratory Panel.",
+      "token_expansions": {
+        "pnl": "panel"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:776caf5a1ddc8812": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "All description words match Continuous Gastrointestinal Laboratory Panel.",
+      "service_name": "Continuous Gastrointestinal Laboratory Panel",
+      "token_expansions": [
+        {
+          "expansion": "continuous",
+          "token": "cont"
+        },
+        {
+          "expansion": "gastrointestinal",
+          "token": "gi"
+        },
+        {
+          "expansion": "laboratory",
+          "token": "lab"
+        },
+        {
+          "expansion": "panel",
+          "token": "pnl"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Gastrointestinal Laboratory Panel",
+      "basis": "ai_description_mapping",
+      "explanation": "All description words match Continuous Gastrointestinal Laboratory Panel.",
+      "token_expansions": {
+        "pnl": "panel"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:8736d558297c13d5": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "The description maps directly to Intensive Ophthalmic Laboratory Panel after expanding abbreviations.",
+      "service_name": "Intensive Ophthalmic Laboratory Panel",
+      "token_expansions": [
+        {
+          "expansion": "Intensive",
+          "token": "intens"
+        },
+        {
+          "expansion": "Ophthalmic",
+          "token": "ophth"
+        },
+        {
+          "expansion": "Laboratory",
+          "token": "lab"
+        },
+        {
+          "expansion": "Panel",
+          "token": "pnl"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intensive Ophthalmic Laboratory Panel",
+      "basis": "ai_description_mapping",
+      "explanation": "The description maps directly to Intensive Ophthalmic Laboratory Panel after expanding abbreviations.",
+      "token_expansions": {
+        "pnl": "panel"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:07712cb41b636ba4": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "The description maps directly to Routine Endocrine Specimen Analysis after expanding abbreviations.",
+      "service_name": "Routine Endocrine Specimen Analysis",
+      "token_expansions": [
+        {
+          "expansion": "Routine",
+          "token": "rtn"
+        },
+        {
+          "expansion": "Endocrine",
+          "token": "endo"
+        },
+        {
+          "expansion": "Specimen",
+          "token": "spcm"
+        },
+        {
+          "expansion": "Analysis",
+          "token": "anly"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Routine Endocrine Specimen Analysis",
+      "basis": "ai_description_mapping",
+      "explanation": "The description maps directly to Routine Endocrine Specimen Analysis after expanding abbreviations.",
+      "token_expansions": {
+        "endo": "endocrine",
+        "anly": "analysis"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:a22dfde2ddd04f70": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "The description maps directly to Comprehensive Palliative Diagnostic Imaging after expanding abbreviations.",
+      "service_name": "Comprehensive Palliative Diagnostic Imaging",
+      "token_expansions": [
+        {
+          "expansion": "Comprehensive",
+          "token": "compr"
+        },
+        {
+          "expansion": "Palliative",
+          "token": "pall"
+        },
+        {
+          "expansion": "Imaging",
+          "token": "img"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Comprehensive Palliative Diagnostic Imaging",
+      "basis": "ai_description_mapping",
+      "explanation": "The description maps directly to Comprehensive Palliative Diagnostic Imaging after expanding abbreviations.",
+      "token_expansions": {
+        "compr": "comprehensive",
+        "pall": "palliative"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:b54d2285a8d7347c": {
+    "status": "rejected",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "The description corresponds to Continuous Renal Isolation Room Occupancy based on the isolation room occupancy context.",
+      "service_name": "Continuous Renal Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "Occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "Continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "Isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "Room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:cb4b7dc284092ce1": {
+    "status": "accepted",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "The description maps directly to Advanced Metabolic Discharge Planning after expanding abbreviations.",
+      "service_name": "Advanced Metabolic Discharge Planning",
+      "token_expansions": [
+        {
+          "expansion": "Advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "Metabolic",
+          "token": "metab"
+        },
+        {
+          "expansion": "Discharge",
+          "token": "disch"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Metabolic Discharge Planning",
+      "basis": "ai_description_mapping",
+      "explanation": "The description maps directly to Advanced Metabolic Discharge Planning after expanding abbreviations.",
+      "token_expansions": {
+        "metab": "metabolic",
+        "disch": "discharge"
+      },
+      "validation": "unique_catalogue_match_after_AI_proposed_expansion; expansion_semantics_not_independently_verified"
+    }
+  },
+  "H3:text:d5ba45858cc9859b": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description lacks a specific organ or clinical specialty prefix required to distinguish between multiple rheumatology imaging interpretation services.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "Rheumatologic",
+          "token": "rheum"
+        },
+        {
+          "expansion": "Imaging",
+          "token": "img"
+        },
+        {
+          "expansion": "Interpretation",
+          "token": "interp"
+        }
+      ]
+    },
+    "resolution": null
+  },
+  "H3:text:8a5a53aa56fde3ab": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description lacks the specific clinical specialty modifier required to resolve the supervised laboratory panel.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "Panel",
+          "token": "pnl"
+        },
+        {
+          "expansion": "Supervised",
+          "token": "supv"
+        },
+        {
+          "expansion": "Laboratory",
+          "token": "lab"
+        }
+      ]
+    },
+    "resolution": null
+  },
+  "H3:text:1cae29b10004a223": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description lacks the specific clinical specialty required to resolve which intensive laboratory panel is intended.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "Intensive",
+          "token": "intensive"
+        },
+        {
+          "expansion": "Laboratory",
+          "token": "laboratory"
+        },
+        {
+          "expansion": "Panel",
+          "token": "pnl"
+        }
+      ]
+    },
+    "resolution": null
+  },
+  "H3:text:7219c3d4b4edce27": {
+    "status": "rejected",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "The description maps directly to Advanced Rheumatologic Pharmaceutical Dispensing.",
+      "service_name": "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "token_expansions": [
+        {
+          "expansion": "Advanced",
+          "token": "rheum"
+        },
+        {
+          "expansion": "Rheumatologic",
+          "token": "rheum"
+        },
+        {
+          "expansion": "Pharmaceutical",
+          "token": "pharm"
+        },
+        {
+          "expansion": "Dispensing",
+          "token": "disp"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:0ff32780adba0dca": {
+    "status": "rejected",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "The description maps directly to Preoperative Cardiac Discharge Planning.",
+      "service_name": "Preoperative Cardiac Discharge Planning",
+      "token_expansions": [
+        {
+          "expansion": "Preoperative",
+          "token": "card"
+        },
+        {
+          "expansion": "Cardiac",
+          "token": "card"
+        },
+        {
+          "expansion": "Discharge",
+          "token": "disch"
+        },
+        {
+          "expansion": "Planning",
+          "token": "plng"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:e747cdb7623e06a7": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "Missing service modifier or exact match for beds metab.",
+      "service_name": null,
+      "token_expansions": []
+    },
+    "resolution": null
+  },
+  "H3:text:05551e6880586bb9": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "Missing service modifier or exact match for elect img.",
+      "service_name": null,
+      "token_expansions": []
+    },
+    "resolution": null
+  },
+  "H3:text:82dde07a37c584bf": {
+    "status": "rejected",
+    "answer": {
+      "decision": "text_match",
+      "explanation": "The description maps directly to Routine Obstetric Diagnostic Imaging.",
+      "service_name": "Routine Obstetric Diagnostic Imaging",
+      "token_expansions": [
+        {
+          "expansion": "Routine",
+          "token": "obst"
+        },
+        {
+          "expansion": "Obstetric",
+          "token": "obst"
+        },
+        {
+          "expansion": "Diagnostic",
+          "token": "diag"
+        },
+        {
+          "expansion": "Imaging",
+          "token": "img"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:280a755bd5f7e4b8": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "No matching service for elective gastrointestinal discharge planning.",
+      "service_name": null,
+      "token_expansions": []
+    },
+    "resolution": null
+  },
+  "H3:text:47dcb5a2fdfc0779": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "No matching service for focused rheumatologic consult.",
+      "service_name": null,
+      "token_expansions": []
+    },
+    "resolution": null
+  },
+  "H3:text:535bd81a0691592a": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "No matching service for ambulatory musculoskeletal discharge planning.",
+      "service_name": null,
+      "token_expansions": []
+    },
+    "resolution": null
+  },
+  "H3:text:5b4b951b2f24f59b": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description refers to a consultation for a preoperative paediatric service, but no matching service exists in the catalogue.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "consultation",
+          "token": "conf"
+        },
+        {
+          "expansion": "preoperative",
+          "token": "preop"
+        },
+        {
+          "expansion": "paediatric",
+          "token": "paed"
+        }
+      ]
+    },
+    "resolution": null
+  },
+  "H3:text:77e7d863e259e134": {
+    "status": "rejected",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description refers to continuous rheumatologic critical care occupancy, but no such service exists in the catalogue.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "continuous",
+          "token": "cont"
+        },
+        {
+          "expansion": "rheumatologic",
+          "token": "rheum"
+        },
+        {
+          "expansion": "critical care",
+          "token": "critical"
+        },
+        {
+          "expansion": "occupancy",
+          "token": "occ"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:8a0c4b2afce780df": {
+    "status": "rejected",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description refers to metabolic diagnostic imaging, but no matching catalogue entry exists.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "metabolic",
+          "token": "metab"
+        },
+        {
+          "expansion": "diagnostic imaging",
+          "token": "diagnostic img"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:8f6f2187cb3e42ca": {
+    "status": "rejected",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description refers to emergency musculoskeletal infusion therapy, which is not present in the catalogue.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "emergency",
+          "token": "emer"
+        },
+        {
+          "expansion": "musculoskeletal",
+          "token": "msk"
+        },
+        {
+          "expansion": "infusion therapy",
+          "token": "inf therapy"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:9e141ec06fbe9648": {
+    "status": "rejected",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description refers to an intensive infectious home visit, which does not match any service in the catalogue.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "visit",
+          "token": "vst"
+        },
+        {
+          "expansion": "intensive",
+          "token": "intens"
+        },
+        {
+          "expansion": "infectious",
+          "token": "infectious"
+        },
+        {
+          "expansion": "home visit",
+          "token": "home"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:ae877de85ed3b5c3": {
+    "status": "rejected",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description refers to an intermittent infectious case conference, but no matching service exists in the catalogue.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "intermittent",
+          "token": "intermittent"
+        },
+        {
+          "expansion": "infectious",
+          "token": "infect"
+        },
+        {
+          "expansion": "case conference",
+          "token": "cs conf"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:b00762549937c914": {
+    "status": "rejected",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description specifies intensive sterilisation service, but lacks a specialty modifier present in the catalogue.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "intensive",
+          "token": "intens"
+        },
+        {
+          "expansion": "sterilisation service",
+          "token": "steril svc"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:cdf6628595d47635": {
+    "status": "rejected",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "The description refers to outpatient metabolic telemetry monitoring, but no such service exists in the catalogue.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "monitoring",
+          "token": "monitoring"
+        },
+        {
+          "expansion": "outpatient",
+          "token": "outpt"
+        },
+        {
+          "expansion": "metabolic",
+          "token": "metabolic"
+        },
+        {
+          "expansion": "telemetry monitoring",
+          "token": "telem"
+        }
+      ]
+    },
+    "resolution": null,
+    "reason": "Proposal failed catalogue/token/reference validation"
+  },
+  "H3:text:d8b999d9762c148c": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "No catalogue service matches elective vascular physiotherapy.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "elective",
+          "token": "elect"
+        },
+        {
+          "expansion": "vascular",
+          "token": "vascular"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physio"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": null
+  },
+  "H3:text:e5aea504496cf16c": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "No comprehensive oncology wound care service exists in the catalogue.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "comprehensive",
+          "token": "compr"
+        },
+        {
+          "expansion": "oncology",
+          "token": "oncology"
+        },
+        {
+          "expansion": "wound",
+          "token": "wnd"
+        },
+        {
+          "expansion": "care",
+          "token": "cr"
+        }
+      ]
+    },
+    "resolution": null
+  },
+  "H3:text:f14804db59f206a5": {
+    "status": "unanswered",
+    "answer": {
+      "decision": "unresolved",
+      "explanation": "Inpatient hepatic anaesthesia administration does not match any catalogue entry.",
+      "service_name": null,
+      "token_expansions": [
+        {
+          "expansion": "administration",
+          "token": "administration"
+        },
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "hepatic",
+          "token": "hepatic"
+        },
+        {
+          "expansion": "anaesthesia",
+          "token": "anaes"
+        }
+      ]
+    },
+    "resolution": null
+  },
+  "H3:price:b2f08b1b3e995a88": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 29 (>=3) with 1.0 rate support for Intermittent Dermatologic Physiotherapy Session and 0.0 for competing candidates.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "derm",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 29 (>=3) with 1.0 rate support for Intermittent Dermatologic Physiotherapy Session and 0.0 for competing candidates.",
+      "reference_invoice_count": 29,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000181",
+        "INV-H3-000196",
+        "INV-H3-000223",
+        "INV-H3-000232",
+        "INV-H3-000288",
+        "INV-H3-000342",
+        "INV-H3-000432",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000539",
+        "INV-H3-000564",
+        "INV-H3-000566",
+        "INV-H3-000571",
+        "INV-H3-000572",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000625",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000767",
+        "INV-H3-000776",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000855",
+        "INV-H3-000918",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:fa8f2d80aab4d61f": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 18 (>=3) with 1.0 rate support for Continuous Immunologic Isolation Room Occupancy and 0.0 for competing candidates.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 18 (>=3) with 1.0 rate support for Continuous Immunologic Isolation Room Occupancy and 0.0 for competing candidates.",
+      "reference_invoice_count": 18,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000465",
+        "INV-H3-000595",
+        "INV-H3-000603",
+        "INV-H3-000680",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000833",
+        "INV-H3-000840",
+        "INV-H3-000918",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:30dde338dbfbf46e": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 17 (>=3) with 1.0 rate support for Advanced Geriatric Nutritional Support and 0.0 for competing candidates.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 17 (>=3) with 1.0 rate support for Advanced Geriatric Nutritional Support and 0.0 for competing candidates.",
+      "reference_invoice_count": 17,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000070",
+        "INV-H3-000093",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000251",
+        "INV-H3-000269",
+        "INV-H3-000335",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000663",
+        "INV-H3-000671",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:0c589620e2254633": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 14 (>=3) with 1.0 rate support for Advanced Paediatric Telemetry Monitoring and 0.0 for competing candidates.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 14 (>=3) with 1.0 rate support for Advanced Paediatric Telemetry Monitoring and 0.0 for competing candidates.",
+      "reference_invoice_count": 14,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000104",
+        "INV-H3-000181",
+        "INV-H3-000304",
+        "INV-H3-000417",
+        "INV-H3-000498",
+        "INV-H3-000499",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000607",
+        "INV-H3-000635",
+        "INV-H3-000663",
+        "INV-H3-000791",
+        "INV-H3-000847"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:c65cf00b57a01459": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 11 (>=3) with 1.0 rate support for Inpatient Musculoskeletal Theatre Time and 0.0 for competing candidates.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 11 (>=3) with 1.0 rate support for Inpatient Musculoskeletal Theatre Time and 0.0 for competing candidates.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000392",
+        "INV-H3-000555",
+        "INV-H3-000752",
+        "INV-H3-000816",
+        "INV-H3-000857",
+        "INV-H3-000870",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:8f57d0a17f4a5c20": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all thresholds with 21 reference invoices and 100% rate support for Intermittent Dermatologic Physiotherapy Session. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all thresholds with 21 reference invoices and 100% rate support for Intermittent Dermatologic Physiotherapy Session. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "reference_invoice_count": 21,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000181",
+        "INV-H3-000196",
+        "INV-H3-000223",
+        "INV-H3-000288",
+        "INV-H3-000342",
+        "INV-H3-000432",
+        "INV-H3-000539",
+        "INV-H3-000564",
+        "INV-H3-000566",
+        "INV-H3-000572",
+        "INV-H3-000625",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000767",
+        "INV-H3-000776",
+        "INV-H3-000855",
+        "INV-H3-000918",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:8ed60fe570d2719e": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all thresholds with 12 reference invoices and 100% rate support for Continuous Immunologic Isolation Room Occupancy. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all thresholds with 12 reference invoices and 100% rate support for Continuous Immunologic Isolation Room Occupancy. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "reference_invoice_count": 12,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000465",
+        "INV-H3-000595",
+        "INV-H3-000680",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000833",
+        "INV-H3-000840",
+        "INV-H3-000918"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:c3e5e187a780d96e": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all thresholds with 12 reference invoices and 100% rate support for Advanced Geriatric Nutritional Support. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all thresholds with 12 reference invoices and 100% rate support for Advanced Geriatric Nutritional Support. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "reference_invoice_count": 12,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000070",
+        "INV-H3-000093",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000251",
+        "INV-H3-000269",
+        "INV-H3-000335",
+        "INV-H3-000663",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:1ff560b25d7a4589": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all thresholds with 10 reference invoices and 100% rate support for Advanced Paediatric Telemetry Monitoring. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all thresholds with 10 reference invoices and 100% rate support for Advanced Paediatric Telemetry Monitoring. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "reference_invoice_count": 10,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000181",
+        "INV-H3-000304",
+        "INV-H3-000498",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000607",
+        "INV-H3-000635",
+        "INV-H3-000663",
+        "INV-H3-000847"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:d6cb5ea646c14dc8": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all thresholds with 9 reference invoices and 100% rate support for Inpatient Musculoskeletal Theatre Time. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all thresholds with 9 reference invoices and 100% rate support for Inpatient Musculoskeletal Theatre Time. Assumption: historical pricing is consistent. Alternative: systematic mispricing.",
+      "reference_invoice_count": 9,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000392",
+        "INV-H3-000752",
+        "INV-H3-000816",
+        "INV-H3-000870",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:ddca53d365abce89": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Rate support meets criteria with 25 reference invoices showing 100 percent support for Intermittent Dermatologic Physiotherapy Session.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Rate support meets criteria with 25 reference invoices showing 100 percent support for Intermittent Dermatologic Physiotherapy Session.",
+      "reference_invoice_count": 25,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000181",
+        "INV-H3-000196",
+        "INV-H3-000223",
+        "INV-H3-000232",
+        "INV-H3-000288",
+        "INV-H3-000342",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000539",
+        "INV-H3-000566",
+        "INV-H3-000571",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000625",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000767",
+        "INV-H3-000776",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000855",
+        "INV-H3-000918"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:daff646ceb6acd1a": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Rate support meets criteria with 14 reference invoices showing 100 percent support for Continuous Immunologic Isolation Room Occupancy.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Rate support meets criteria with 14 reference invoices showing 100 percent support for Continuous Immunologic Isolation Room Occupancy.",
+      "reference_invoice_count": 14,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000465",
+        "INV-H3-000595",
+        "INV-H3-000603",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000833",
+        "INV-H3-000918",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:fc18371a9791ae48": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Rate support meets criteria with 10 reference invoices showing 100 percent support for Advanced Geriatric Nutritional Support.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "supp"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Rate support meets criteria with 10 reference invoices showing 100 percent support for Advanced Geriatric Nutritional Support.",
+      "reference_invoice_count": 10,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000093",
+        "INV-H3-000251",
+        "INV-H3-000269",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000671",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:8e2abd56d6d38282": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Rate support meets criteria with 9 reference invoices showing 100 percent support for Advanced Paediatric Telemetry Monitoring.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Rate support meets criteria with 9 reference invoices showing 100 percent support for Advanced Paediatric Telemetry Monitoring.",
+      "reference_invoice_count": 9,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000104",
+        "INV-H3-000181",
+        "INV-H3-000304",
+        "INV-H3-000417",
+        "INV-H3-000498",
+        "INV-H3-000499",
+        "INV-H3-000607",
+        "INV-H3-000635",
+        "INV-H3-000791"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:3f01bf84192986a2": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Rate support meets criteria with 9 reference invoices showing 100 percent support for Inpatient Musculoskeletal Theatre Time.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Rate support meets criteria with 9 reference invoices showing 100 percent support for Inpatient Musculoskeletal Theatre Time.",
+      "reference_invoice_count": 9,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000392",
+        "INV-H3-000555",
+        "INV-H3-000752",
+        "INV-H3-000816",
+        "INV-H3-000857"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:1ed67f27837d8ead": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 23 (>=3) with 1.0 rate support for Intermittent Dermatologic Physiotherapy Session and 0.0 for the alternative. Assumption: consistent coding pattern in historical pricing.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "derm",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 23 (>=3) with 1.0 rate support for Intermittent Dermatologic Physiotherapy Session and 0.0 for the alternative. Assumption: consistent coding pattern in historical pricing.",
+      "reference_invoice_count": 23,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000196",
+        "INV-H3-000232",
+        "INV-H3-000342",
+        "INV-H3-000432",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000539",
+        "INV-H3-000564",
+        "INV-H3-000566",
+        "INV-H3-000571",
+        "INV-H3-000572",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000776",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000855",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:b685239bc31fb870": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 14 (>=3) with 1.0 rate support for Continuous Immunologic Isolation Room Occupancy and 0.0 for alternative. Assumption: pricing fingerprint uniquely identifies service.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 14 (>=3) with 1.0 rate support for Continuous Immunologic Isolation Room Occupancy and 0.0 for alternative. Assumption: pricing fingerprint uniquely identifies service.",
+      "reference_invoice_count": 14,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000595",
+        "INV-H3-000603",
+        "INV-H3-000680",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000833",
+        "INV-H3-000840",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:366b118c0788ac45": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 14 (>=3) with 1.0 rate support for Advanced Geriatric Nutritional Support and 0.0 for alternative. Assumption: pricing consistency indicates correct mapping.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "supp"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 14 (>=3) with 1.0 rate support for Advanced Geriatric Nutritional Support and 0.0 for alternative. Assumption: pricing consistency indicates correct mapping.",
+      "reference_invoice_count": 14,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000070",
+        "INV-H3-000093",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000269",
+        "INV-H3-000335",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000663",
+        "INV-H3-000671"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:4e5252694ee9d198": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 12 (>=3) with 1.0 rate support for Advanced Paediatric Telemetry Monitoring and 0.0 for alternative. Assumption: historical pricing pattern supports this identity.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 12 (>=3) with 1.0 rate support for Advanced Paediatric Telemetry Monitoring and 0.0 for alternative. Assumption: historical pricing pattern supports this identity.",
+      "reference_invoice_count": 12,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000104",
+        "INV-H3-000304",
+        "INV-H3-000417",
+        "INV-H3-000498",
+        "INV-H3-000499",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000635",
+        "INV-H3-000663",
+        "INV-H3-000791",
+        "INV-H3-000847"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:0703203d3b3f295b": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoice count is 8 (>=3) with 1.0 rate support for Inpatient Musculoskeletal Theatre Time and 0.0 for alternative. Assumption: historical pricing matches intended service.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoice count is 8 (>=3) with 1.0 rate support for Inpatient Musculoskeletal Theatre Time and 0.0 for alternative. Assumption: historical pricing matches intended service.",
+      "reference_invoice_count": 8,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000392",
+        "INV-H3-000555",
+        "INV-H3-000816",
+        "INV-H3-000857",
+        "INV-H3-000870",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:520ff8941f98daf8": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 18 reference invoices with 100 percent rate support for Intermittent Dermatologic Physiotherapy Session.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 18 reference invoices with 100 percent rate support for Intermittent Dermatologic Physiotherapy Session.",
+      "reference_invoice_count": 18,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000181",
+        "INV-H3-000223",
+        "INV-H3-000232",
+        "INV-H3-000288",
+        "INV-H3-000432",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000564",
+        "INV-H3-000571",
+        "INV-H3-000572",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000625",
+        "INV-H3-000767",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000918",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:00b14c435f76b1b0": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 14 reference invoices with 100 percent rate support for Continuous Immunologic Isolation Room Occupancy.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 14 reference invoices with 100 percent rate support for Continuous Immunologic Isolation Room Occupancy.",
+      "reference_invoice_count": 14,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000465",
+        "INV-H3-000603",
+        "INV-H3-000680",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000840",
+        "INV-H3-000918",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:ba0f0516c3205499": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 15 reference invoices with 100 percent rate support for Advanced Geriatric Nutritional Support.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 15 reference invoices with 100 percent rate support for Advanced Geriatric Nutritional Support.",
+      "reference_invoice_count": 15,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000070",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000251",
+        "INV-H3-000335",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000663",
+        "INV-H3-000671",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:fca2292ddbecf9ae": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 11 reference invoices with 100 percent rate support for Advanced Paediatric Telemetry Monitoring.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 11 reference invoices with 100 percent rate support for Advanced Paediatric Telemetry Monitoring.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000104",
+        "INV-H3-000181",
+        "INV-H3-000417",
+        "INV-H3-000499",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000607",
+        "INV-H3-000663",
+        "INV-H3-000791",
+        "INV-H3-000847"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:cc951bce8a01ccd0": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 7 reference invoices with 100 percent rate support for Inpatient Musculoskeletal Theatre Time.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 7 reference invoices with 100 percent rate support for Inpatient Musculoskeletal Theatre Time.",
+      "reference_invoice_count": 7,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000555",
+        "INV-H3-000752",
+        "INV-H3-000857",
+        "INV-H3-000870",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:7c9e4eb516d8c28f": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met rate support criteria with 25 reference invoices and 100 percent rate support for Intermittent Dermatologic Physiotherapy Session.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physio"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Met rate support criteria with 25 reference invoices and 100 percent rate support for Intermittent Dermatologic Physiotherapy Session.",
+      "reference_invoice_count": 25,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000181",
+        "INV-H3-000196",
+        "INV-H3-000223",
+        "INV-H3-000245",
+        "INV-H3-000288",
+        "INV-H3-000342",
+        "INV-H3-000432",
+        "INV-H3-000539",
+        "INV-H3-000564",
+        "INV-H3-000566",
+        "INV-H3-000572",
+        "INV-H3-000625",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000767",
+        "INV-H3-000776",
+        "INV-H3-000824",
+        "INV-H3-000855",
+        "INV-H3-000862",
+        "INV-H3-000886",
+        "INV-H3-000918",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:ec4304a80786ba63": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met rate support criteria with 15 reference invoices and 100 percent rate support for Continuous Immunologic Isolation Room Occupancy.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Met rate support criteria with 15 reference invoices and 100 percent rate support for Continuous Immunologic Isolation Room Occupancy.",
+      "reference_invoice_count": 15,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000144",
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000305",
+        "INV-H3-000465",
+        "INV-H3-000595",
+        "INV-H3-000680",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000833",
+        "INV-H3-000840",
+        "INV-H3-000917",
+        "INV-H3-000918"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:9b255397a20d5049": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met rate support criteria with 14 reference invoices and 100 percent rate support for Advanced Geriatric Nutritional Support.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Met rate support criteria with 14 reference invoices and 100 percent rate support for Advanced Geriatric Nutritional Support.",
+      "reference_invoice_count": 14,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000070",
+        "INV-H3-000093",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000251",
+        "INV-H3-000269",
+        "INV-H3-000315",
+        "INV-H3-000335",
+        "INV-H3-000611",
+        "INV-H3-000663",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:e9a293a899b4d52e": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met rate support criteria with 14 reference invoices and 100 percent rate support for Advanced Paediatric Telemetry Monitoring.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Met rate support criteria with 14 reference invoices and 100 percent rate support for Advanced Paediatric Telemetry Monitoring.",
+      "reference_invoice_count": 14,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000181",
+        "INV-H3-000304",
+        "INV-H3-000433",
+        "INV-H3-000498",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000607",
+        "INV-H3-000635",
+        "INV-H3-000663",
+        "INV-H3-000732",
+        "INV-H3-000847",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:ee2c76c49bad3879": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met rate support criteria with 11 reference invoices and 100 percent rate support for Inpatient Musculoskeletal Theatre Time.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Met rate support criteria with 11 reference invoices and 100 percent rate support for Inpatient Musculoskeletal Theatre Time.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000392",
+        "INV-H3-000689",
+        "INV-H3-000752",
+        "INV-H3-000816",
+        "INV-H3-000870",
+        "INV-H3-000917",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:2fdb71c73ccb23bc": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 21 reference invoices and 100 percent rate support for Intermittent Dermatologic Physiotherapy Session.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 21 reference invoices and 100 percent rate support for Intermittent Dermatologic Physiotherapy Session.",
+      "reference_invoice_count": 21,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000181",
+        "INV-H3-000196",
+        "INV-H3-000223",
+        "INV-H3-000245",
+        "INV-H3-000288",
+        "INV-H3-000342",
+        "INV-H3-000539",
+        "INV-H3-000566",
+        "INV-H3-000625",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000767",
+        "INV-H3-000776",
+        "INV-H3-000824",
+        "INV-H3-000855",
+        "INV-H3-000862",
+        "INV-H3-000886",
+        "INV-H3-000918"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:2cf285c7653dcab9": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 11 reference invoices and 100 percent rate support for Continuous Immunologic Isolation Room Occupancy.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 11 reference invoices and 100 percent rate support for Continuous Immunologic Isolation Room Occupancy.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000144",
+        "INV-H3-000305",
+        "INV-H3-000465",
+        "INV-H3-000595",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000833",
+        "INV-H3-000917",
+        "INV-H3-000918"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:d487c86e0433e769": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 7 reference invoices and 100 percent rate support for Advanced Geriatric Nutritional Support.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 7 reference invoices and 100 percent rate support for Advanced Geriatric Nutritional Support.",
+      "reference_invoice_count": 7,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000093",
+        "INV-H3-000251",
+        "INV-H3-000269",
+        "INV-H3-000315",
+        "INV-H3-000611",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:ae5bcf2d928ae313": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 9 reference invoices and 100 percent rate support for Advanced Paediatric Telemetry Monitoring.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 9 reference invoices and 100 percent rate support for Advanced Paediatric Telemetry Monitoring.",
+      "reference_invoice_count": 9,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000181",
+        "INV-H3-000304",
+        "INV-H3-000433",
+        "INV-H3-000498",
+        "INV-H3-000607",
+        "INV-H3-000635",
+        "INV-H3-000732",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:c87fae47ea928050": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 9 reference invoices and 100 percent rate support for Inpatient Musculoskeletal Theatre Time.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 9 reference invoices and 100 percent rate support for Inpatient Musculoskeletal Theatre Time.",
+      "reference_invoice_count": 9,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000392",
+        "INV-H3-000689",
+        "INV-H3-000752",
+        "INV-H3-000816",
+        "INV-H3-000917"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:ae92c0a2af27b565": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoices show 100 percent support for Intermittent Dermatologic Physiotherapy Session with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoices show 100 percent support for Intermittent Dermatologic Physiotherapy Session with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "reference_invoice_count": 19,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000196",
+        "INV-H3-000245",
+        "INV-H3-000342",
+        "INV-H3-000432",
+        "INV-H3-000539",
+        "INV-H3-000564",
+        "INV-H3-000566",
+        "INV-H3-000572",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000776",
+        "INV-H3-000824",
+        "INV-H3-000855",
+        "INV-H3-000862",
+        "INV-H3-000886",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:b381a4590f10e708": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoices show 100 percent support for Continuous Immunologic Isolation Room Occupancy with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoices show 100 percent support for Continuous Immunologic Isolation Room Occupancy with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000144",
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000305",
+        "INV-H3-000595",
+        "INV-H3-000680",
+        "INV-H3-000833",
+        "INV-H3-000840",
+        "INV-H3-000917"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:67aeb54d85eb256f": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoices show 100 percent support for Advanced Geriatric Nutritional Support with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoices show 100 percent support for Advanced Geriatric Nutritional Support with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000070",
+        "INV-H3-000093",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000269",
+        "INV-H3-000315",
+        "INV-H3-000335",
+        "INV-H3-000611",
+        "INV-H3-000663"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:07025d9c2c6ce370": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoices show 100 percent support for Advanced Paediatric Telemetry Monitoring with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoices show 100 percent support for Advanced Paediatric Telemetry Monitoring with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "reference_invoice_count": 12,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000304",
+        "INV-H3-000433",
+        "INV-H3-000498",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000635",
+        "INV-H3-000663",
+        "INV-H3-000732",
+        "INV-H3-000847",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:71b2104c6934271e": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference invoices show 100 percent support for Inpatient Musculoskeletal Theatre Time with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference invoices show 100 percent support for Inpatient Musculoskeletal Theatre Time with no competing candidate support. Alternative explanation is systematic miscoding.",
+      "reference_invoice_count": 8,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000392",
+        "INV-H3-000689",
+        "INV-H3-000816",
+        "INV-H3-000870",
+        "INV-H3-000917",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:56f47e342e6d7023": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 100 percent across 14 reference invoices supports Intermittent Dermatologic Physiotherapy Session, though systematic miscoding remains an alternative explanation.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 100 percent across 14 reference invoices supports Intermittent Dermatologic Physiotherapy Session, though systematic miscoding remains an alternative explanation.",
+      "reference_invoice_count": 14,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000181",
+        "INV-H3-000223",
+        "INV-H3-000245",
+        "INV-H3-000288",
+        "INV-H3-000432",
+        "INV-H3-000564",
+        "INV-H3-000572",
+        "INV-H3-000625",
+        "INV-H3-000767",
+        "INV-H3-000824",
+        "INV-H3-000862",
+        "INV-H3-000886",
+        "INV-H3-000918",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:9adc68043d68fa11": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 100 percent across 11 reference invoices supports Continuous Immunologic Isolation Room Occupancy, though systematic miscoding remains an alternative explanation.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 100 percent across 11 reference invoices supports Continuous Immunologic Isolation Room Occupancy, though systematic miscoding remains an alternative explanation.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000144",
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000305",
+        "INV-H3-000465",
+        "INV-H3-000680",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000840",
+        "INV-H3-000917",
+        "INV-H3-000918"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:e006819d1bbf0fdf": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 100 percent across 12 reference invoices supports Advanced Geriatric Nutritional Support, though systematic miscoding remains an alternative explanation.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 100 percent across 12 reference invoices supports Advanced Geriatric Nutritional Support, though systematic miscoding remains an alternative explanation.",
+      "reference_invoice_count": 12,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000070",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000251",
+        "INV-H3-000315",
+        "INV-H3-000335",
+        "INV-H3-000611",
+        "INV-H3-000663",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:41c30d24a4cfa247": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 100 percent across 11 reference invoices supports Advanced Paediatric Telemetry Monitoring, though systematic miscoding remains an alternative explanation.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 100 percent across 11 reference invoices supports Advanced Paediatric Telemetry Monitoring, though systematic miscoding remains an alternative explanation.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000181",
+        "INV-H3-000433",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000607",
+        "INV-H3-000663",
+        "INV-H3-000732",
+        "INV-H3-000847",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:c0b088b54533c587": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 100 percent across 7 reference invoices supports Inpatient Musculoskeletal Theatre Time, though systematic miscoding remains an alternative explanation.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 100 percent across 7 reference invoices supports Inpatient Musculoskeletal Theatre Time, though systematic miscoding remains an alternative explanation.",
+      "reference_invoice_count": 7,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000689",
+        "INV-H3-000752",
+        "INV-H3-000870",
+        "INV-H3-000917",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:8596ff10b669a612": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 29 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 29 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "reference_invoice_count": 29,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000181",
+        "INV-H3-000196",
+        "INV-H3-000223",
+        "INV-H3-000232",
+        "INV-H3-000245",
+        "INV-H3-000288",
+        "INV-H3-000342",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000539",
+        "INV-H3-000566",
+        "INV-H3-000571",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000625",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000767",
+        "INV-H3-000776",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000824",
+        "INV-H3-000855",
+        "INV-H3-000862",
+        "INV-H3-000886",
+        "INV-H3-000918"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:a7ff8f178362ffce": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 17 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 17 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "reference_invoice_count": 17,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000144",
+        "INV-H3-000305",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000465",
+        "INV-H3-000595",
+        "INV-H3-000603",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000833",
+        "INV-H3-000917",
+        "INV-H3-000918",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:0203e43331583978": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 12 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 12 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "reference_invoice_count": 12,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000093",
+        "INV-H3-000251",
+        "INV-H3-000269",
+        "INV-H3-000315",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000611",
+        "INV-H3-000671",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:2fdafba7474370a6": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 13 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 13 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "reference_invoice_count": 13,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000104",
+        "INV-H3-000181",
+        "INV-H3-000304",
+        "INV-H3-000417",
+        "INV-H3-000433",
+        "INV-H3-000498",
+        "INV-H3-000499",
+        "INV-H3-000607",
+        "INV-H3-000635",
+        "INV-H3-000732",
+        "INV-H3-000791",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:c6681c99f5707550": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 11 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 11 reference invoices with 100 percent rate support. Alternative explanation is systematic pricing fingerprint match.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000392",
+        "INV-H3-000555",
+        "INV-H3-000689",
+        "INV-H3-000752",
+        "INV-H3-000816",
+        "INV-H3-000857",
+        "INV-H3-000917"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:5b50289432a394bc": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Intermittent Dermatologic Physiotherapy Session.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "derm",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Intermittent Dermatologic Physiotherapy Session.",
+      "reference_invoice_count": 23,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000196",
+        "INV-H3-000232",
+        "INV-H3-000245",
+        "INV-H3-000342",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000539",
+        "INV-H3-000566",
+        "INV-H3-000571",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000776",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000824",
+        "INV-H3-000855",
+        "INV-H3-000862",
+        "INV-H3-000886"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:8ab4d09c42637282": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Continuous Immunologic Isolation Room Occupancy.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Continuous Immunologic Isolation Room Occupancy.",
+      "reference_invoice_count": 13,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000144",
+        "INV-H3-000305",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000595",
+        "INV-H3-000603",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000833",
+        "INV-H3-000917",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:8e33377df873c847": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Advanced Geriatric Nutritional Support.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Advanced Geriatric Nutritional Support.",
+      "reference_invoice_count": 9,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000093",
+        "INV-H3-000269",
+        "INV-H3-000315",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000611",
+        "INV-H3-000671"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:fe4a76f1efe096f7": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Advanced Paediatric Telemetry Monitoring.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Advanced Paediatric Telemetry Monitoring.",
+      "reference_invoice_count": 11,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000104",
+        "INV-H3-000304",
+        "INV-H3-000417",
+        "INV-H3-000433",
+        "INV-H3-000498",
+        "INV-H3-000499",
+        "INV-H3-000635",
+        "INV-H3-000732",
+        "INV-H3-000791",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:febb128b68e21461": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Inpatient Musculoskeletal Theatre Time.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Reference count exceeds threshold and rate support meets criteria for Inpatient Musculoskeletal Theatre Time.",
+      "reference_invoice_count": 8,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000392",
+        "INV-H3-000555",
+        "INV-H3-000689",
+        "INV-H3-000816",
+        "INV-H3-000857",
+        "INV-H3-000917"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:a1e7ef23377f2f6a": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Historical rate support meets criteria with 18 references supporting Intermittent Dermatologic Physiotherapy Session at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic mispricing.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Historical rate support meets criteria with 18 references supporting Intermittent Dermatologic Physiotherapy Session at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic mispricing.",
+      "reference_invoice_count": 18,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000181",
+        "INV-H3-000223",
+        "INV-H3-000232",
+        "INV-H3-000245",
+        "INV-H3-000288",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000571",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000625",
+        "INV-H3-000767",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000824",
+        "INV-H3-000862",
+        "INV-H3-000886",
+        "INV-H3-000918"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:421e910df940a408": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Historical rate support meets criteria with 13 references supporting Continuous Immunologic Isolation Room Occupancy at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic miscoding.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Historical rate support meets criteria with 13 references supporting Continuous Immunologic Isolation Room Occupancy at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic miscoding.",
+      "reference_invoice_count": 13,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000144",
+        "INV-H3-000305",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000465",
+        "INV-H3-000603",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000917",
+        "INV-H3-000918",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:ea7c7180c3e8fd30": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Historical rate support meets criteria with 10 references supporting Advanced Geriatric Nutritional Support at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic mispricing.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Historical rate support meets criteria with 10 references supporting Advanced Geriatric Nutritional Support at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic mispricing.",
+      "reference_invoice_count": 10,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000251",
+        "INV-H3-000315",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000611",
+        "INV-H3-000671",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:a14da4a8e65ee56e": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Historical rate support meets criteria with 10 references supporting Advanced Paediatric Telemetry Monitoring at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic miscoding.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Historical rate support meets criteria with 10 references supporting Advanced Paediatric Telemetry Monitoring at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic miscoding.",
+      "reference_invoice_count": 10,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000104",
+        "INV-H3-000181",
+        "INV-H3-000417",
+        "INV-H3-000433",
+        "INV-H3-000499",
+        "INV-H3-000607",
+        "INV-H3-000732",
+        "INV-H3-000791",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:e9e5ed8790732881": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Historical rate support meets criteria with 7 references supporting Inpatient Musculoskeletal Theatre Time at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic mispricing.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Historical rate support meets criteria with 7 references supporting Inpatient Musculoskeletal Theatre Time at 1.0 support and 0.0 for competing candidates. Alternative explanation: systematic mispricing.",
+      "reference_invoice_count": 7,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000555",
+        "INV-H3-000689",
+        "INV-H3-000752",
+        "INV-H3-000857",
+        "INV-H3-000917"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:94de4786338b9485": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 27 reference invoices with 100% rate support for Intermittent Dermatologic Physiotherapy Session. Alternative explanation is systematic miscoding.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 27 reference invoices with 100% rate support for Intermittent Dermatologic Physiotherapy Session. Alternative explanation is systematic miscoding.",
+      "reference_invoice_count": 27,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000027",
+        "INV-H3-000051",
+        "INV-H3-000169",
+        "INV-H3-000196",
+        "INV-H3-000232",
+        "INV-H3-000245",
+        "INV-H3-000342",
+        "INV-H3-000432",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000539",
+        "INV-H3-000564",
+        "INV-H3-000566",
+        "INV-H3-000571",
+        "INV-H3-000572",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000652",
+        "INV-H3-000698",
+        "INV-H3-000776",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000824",
+        "INV-H3-000855",
+        "INV-H3-000862",
+        "INV-H3-000886",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:d808227efbe8a15b": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 17 reference invoices with 100% rate support for Continuous Immunologic Isolation Room Occupancy. Alternative explanation is systematic mispricing.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 17 reference invoices with 100% rate support for Continuous Immunologic Isolation Room Occupancy. Alternative explanation is systematic mispricing.",
+      "reference_invoice_count": 17,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000127",
+        "INV-H3-000144",
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000305",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000595",
+        "INV-H3-000603",
+        "INV-H3-000680",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000833",
+        "INV-H3-000840",
+        "INV-H3-000917",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:b590c6d81de72163": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 16 reference invoices with 100% rate support for Advanced Geriatric Nutritional Support. Alternative explanation is systematic miscoding.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 16 reference invoices with 100% rate support for Advanced Geriatric Nutritional Support. Alternative explanation is systematic miscoding.",
+      "reference_invoice_count": 16,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000070",
+        "INV-H3-000093",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000269",
+        "INV-H3-000315",
+        "INV-H3-000335",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000611",
+        "INV-H3-000663",
+        "INV-H3-000671"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:7a94d2f0517e73da": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 16 reference invoices with 100% rate support for Advanced Paediatric Telemetry Monitoring. Alternative explanation is systematic mispricing.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 16 reference invoices with 100% rate support for Advanced Paediatric Telemetry Monitoring. Alternative explanation is systematic mispricing.",
+      "reference_invoice_count": 16,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000104",
+        "INV-H3-000304",
+        "INV-H3-000417",
+        "INV-H3-000433",
+        "INV-H3-000498",
+        "INV-H3-000499",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000635",
+        "INV-H3-000663",
+        "INV-H3-000732",
+        "INV-H3-000791",
+        "INV-H3-000847",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:5539a00b37878752": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Supported by 10 reference invoices with 100% rate support for Inpatient Musculoskeletal Theatre Time. Alternative explanation is systematic miscoding.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Supported by 10 reference invoices with 100% rate support for Inpatient Musculoskeletal Theatre Time. Alternative explanation is systematic miscoding.",
+      "reference_invoice_count": 10,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000078",
+        "INV-H3-000084",
+        "INV-H3-000392",
+        "INV-H3-000555",
+        "INV-H3-000689",
+        "INV-H3-000816",
+        "INV-H3-000857",
+        "INV-H3-000870",
+        "INV-H3-000917",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:618ebed5a0158429": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 1.0 across 16 reference invoices for Intermittent Dermatologic Physiotherapy Session.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 1.0 across 16 reference invoices for Intermittent Dermatologic Physiotherapy Session.",
+      "reference_invoice_count": 16,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000232",
+        "INV-H3-000245",
+        "INV-H3-000432",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000564",
+        "INV-H3-000571",
+        "INV-H3-000572",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000824",
+        "INV-H3-000862",
+        "INV-H3-000886",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:ce3c634adf6f0c89": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 1.0 across 13 reference invoices for Continuous Immunologic Isolation Room Occupancy.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 1.0 across 13 reference invoices for Continuous Immunologic Isolation Room Occupancy.",
+      "reference_invoice_count": 13,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000144",
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000305",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000603",
+        "INV-H3-000680",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000840",
+        "INV-H3-000917",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:00d4a45d84b1e2ce": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 1.0 across 14 reference invoices for Advanced Geriatric Nutritional Support.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 1.0 across 14 reference invoices for Advanced Geriatric Nutritional Support.",
+      "reference_invoice_count": 14,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000070",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000315",
+        "INV-H3-000335",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000611",
+        "INV-H3-000663",
+        "INV-H3-000671"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:0722c2fb252cb5ba": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 1.0 across 13 reference invoices for Advanced Paediatric Telemetry Monitoring.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 1.0 across 13 reference invoices for Advanced Paediatric Telemetry Monitoring.",
+      "reference_invoice_count": 13,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000104",
+        "INV-H3-000417",
+        "INV-H3-000433",
+        "INV-H3-000499",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000663",
+        "INV-H3-000732",
+        "INV-H3-000791",
+        "INV-H3-000847",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:6f2e04badce22897": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Strong historical rate support of 1.0 across 6 reference invoices for Inpatient Musculoskeletal Theatre Time.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Strong historical rate support of 1.0 across 6 reference invoices for Inpatient Musculoskeletal Theatre Time.",
+      "reference_invoice_count": 6,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000555",
+        "INV-H3-000689",
+        "INV-H3-000857",
+        "INV-H3-000870",
+        "INV-H3-000917",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:683f92cb6e1c8426": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 22 reference invoices and 100 percent rate support for Intermittent Dermatologic Physiotherapy Session.",
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "token_expansions": [
+        {
+          "expansion": "dermatologic",
+          "token": "derm"
+        },
+        {
+          "expansion": "physiotherapy",
+          "token": "physiotherapy"
+        },
+        {
+          "expansion": "session",
+          "token": "sess"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Intermittent Dermatologic Physiotherapy Session",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 22 reference invoices and 100 percent rate support for Intermittent Dermatologic Physiotherapy Session.",
+      "reference_invoice_count": 22,
+      "rate_support": {
+        "Intermittent Dermatologic Physiotherapy Session": 1.0,
+        "Postoperative Dermatologic Physiotherapy Session": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000181",
+        "INV-H3-000223",
+        "INV-H3-000232",
+        "INV-H3-000245",
+        "INV-H3-000288",
+        "INV-H3-000432",
+        "INV-H3-000495",
+        "INV-H3-000520",
+        "INV-H3-000564",
+        "INV-H3-000571",
+        "INV-H3-000572",
+        "INV-H3-000581",
+        "INV-H3-000588",
+        "INV-H3-000625",
+        "INV-H3-000767",
+        "INV-H3-000796",
+        "INV-H3-000799",
+        "INV-H3-000824",
+        "INV-H3-000862",
+        "INV-H3-000886",
+        "INV-H3-000918",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:cb01308db72de5f1": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 17 reference invoices and 100 percent rate support for Continuous Immunologic Isolation Room Occupancy.",
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "token_expansions": [
+        {
+          "expansion": "occupancy",
+          "token": "occupancy"
+        },
+        {
+          "expansion": "continuous",
+          "token": "continuous"
+        },
+        {
+          "expansion": "isolation",
+          "token": "isol"
+        },
+        {
+          "expansion": "room",
+          "token": "room"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Continuous Immunologic Isolation Room Occupancy",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 17 reference invoices and 100 percent rate support for Continuous Immunologic Isolation Room Occupancy.",
+      "reference_invoice_count": 17,
+      "rate_support": {
+        "Continuous Immunologic Isolation Room Occupancy": 1.0,
+        "Continuous Renal Isolation Room Occupancy": 0.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000144",
+        "INV-H3-000172",
+        "INV-H3-000220",
+        "INV-H3-000305",
+        "INV-H3-000308",
+        "INV-H3-000449",
+        "INV-H3-000465",
+        "INV-H3-000603",
+        "INV-H3-000680",
+        "INV-H3-000711",
+        "INV-H3-000781",
+        "INV-H3-000804",
+        "INV-H3-000805",
+        "INV-H3-000840",
+        "INV-H3-000917",
+        "INV-H3-000918",
+        "INV-H3-000936"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:366fd23c0dd3e4b2": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 17 reference invoices and 100 percent rate support for Advanced Geriatric Nutritional Support.",
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "token_expansions": [
+        {
+          "expansion": "support",
+          "token": "supp"
+        },
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "nutritional",
+          "token": "nutr"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Geriatric Nutritional Support",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 17 reference invoices and 100 percent rate support for Advanced Geriatric Nutritional Support.",
+      "reference_invoice_count": 17,
+      "rate_support": {
+        "Advanced Dermatologic Nutritional Support": 0.0,
+        "Advanced Geriatric Nutritional Support": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000026",
+        "INV-H3-000031",
+        "INV-H3-000049",
+        "INV-H3-000070",
+        "INV-H3-000094",
+        "INV-H3-000098",
+        "INV-H3-000209",
+        "INV-H3-000220",
+        "INV-H3-000251",
+        "INV-H3-000315",
+        "INV-H3-000335",
+        "INV-H3-000455",
+        "INV-H3-000603",
+        "INV-H3-000611",
+        "INV-H3-000663",
+        "INV-H3-000671",
+        "INV-H3-000927"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:38f039442f1d1105": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 15 reference invoices and 100 percent rate support for Advanced Paediatric Telemetry Monitoring.",
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "token_expansions": [
+        {
+          "expansion": "advanced",
+          "token": "adv"
+        },
+        {
+          "expansion": "telemetry",
+          "token": "telemetry"
+        },
+        {
+          "expansion": "monitoring",
+          "token": "monit"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Advanced Paediatric Telemetry Monitoring",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 15 reference invoices and 100 percent rate support for Advanced Paediatric Telemetry Monitoring.",
+      "reference_invoice_count": 15,
+      "rate_support": {
+        "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+        "Advanced Paediatric Telemetry Monitoring": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000012",
+        "INV-H3-000104",
+        "INV-H3-000181",
+        "INV-H3-000417",
+        "INV-H3-000433",
+        "INV-H3-000499",
+        "INV-H3-000501",
+        "INV-H3-000530",
+        "INV-H3-000607",
+        "INV-H3-000663",
+        "INV-H3-000732",
+        "INV-H3-000791",
+        "INV-H3-000847",
+        "INV-H3-000864",
+        "INV-H3-000914"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  },
+  "H3:price:833b7c8f838b8fba": {
+    "status": "accepted",
+    "answer": {
+      "decision": "inferred_match",
+      "explanation": "Met all criteria with 9 reference invoices and 100 percent rate support for Inpatient Musculoskeletal Theatre Time.",
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "token_expansions": [
+        {
+          "expansion": "inpatient",
+          "token": "inpt"
+        },
+        {
+          "expansion": "theatre",
+          "token": "thtr"
+        },
+        {
+          "expansion": "time",
+          "token": "tm"
+        }
+      ]
+    },
+    "resolution": {
+      "service_name": "Inpatient Musculoskeletal Theatre Time",
+      "basis": "price_pattern_inference",
+      "explanation": "Met all criteria with 9 reference invoices and 100 percent rate support for Inpatient Musculoskeletal Theatre Time.",
+      "reference_invoice_count": 9,
+      "rate_support": {
+        "Inpatient Metabolic Theatre Time": 0.0,
+        "Inpatient Musculoskeletal Theatre Time": 1.0
+      },
+      "assumption": "Equivalent description variants usually identify one service and reference prices are mostly contract-consistent. Systematic miscoding can invalidate this inference.",
+      "validation": "catalogue_membership_and_repeated_price_compatibility_not_independent_identity_proof",
+      "reference_invoice_ids": [
+        "INV-H3-000194",
+        "INV-H3-000230",
+        "INV-H3-000555",
+        "INV-H3-000689",
+        "INV-H3-000752",
+        "INV-H3-000857",
+        "INV-H3-000870",
+        "INV-H3-000917",
+        "INV-H3-000926"
+      ],
+      "reference_scope": "original_wording_variant",
+      "evidence_tier": "standard_price_inference"
+    }
+  }
+}

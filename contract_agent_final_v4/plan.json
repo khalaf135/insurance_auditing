@@ -1,0 +1,135 @@
+[
+  {
+    "hospital": "hospital_1",
+    "source_inventory": [
+      {
+        "path": "provider_services_agreement.md",
+        "sha256": "695c50dbb32667446f8330e1fddf785981dd544bd5c2b0d28ac9bb402ad15853",
+        "status": "verified_text_alternate",
+        "alternate_of": "provider_services_agreement.txt"
+      },
+      {
+        "path": "provider_services_agreement.txt",
+        "sha256": "34d4c9dfb90e9d4467f79a58adb95d939dfc782ea53711fb2ff360c2be07ab30",
+        "status": "selected",
+        "method": "text"
+      }
+    ],
+    "chunks": 3
+  },
+  {
+    "hospital": "hospital_2",
+    "source_inventory": [
+      {
+        "path": "master_services_agreement.md",
+        "sha256": "c18ef5741215e525b211a141ea4bc66c6319e799d00f1a61d0b6c8a621c88db4",
+        "status": "verified_text_alternate",
+        "alternate_of": "master_services_agreement.txt"
+      },
+      {
+        "path": "master_services_agreement.pdf",
+        "sha256": "9fce7e56a8b9ac3d7b456ee82f886668ea4f2c15a6a08883188acf707382edc0",
+        "status": "unverified_format_alternate",
+        "alternate_of": "master_services_agreement.txt"
+      },
+      {
+        "path": "master_services_agreement.txt",
+        "sha256": "73a9f6180ce94d902e5f2e701c2768d70ce8933c2132b56ebb308df02323d0fa",
+        "status": "selected",
+        "method": "text"
+      },
+      {
+        "path": "master_services_agreement_scanned.pdf",
+        "sha256": "eb12d59eba6ad14f2bf891eee1c482253fe8a6a0c368c1c7eb1b0c75b268e706",
+        "status": "unverified_scanned_alternate",
+        "alternate_of": "master_services_agreement",
+        "note": "Named scanned copy; clean sibling selected. Content equivalence is not proven. Use a PDF-only folder with --ocr to extract it independently."
+      }
+    ],
+    "chunks": 22
+  },
+  {
+    "hospital": "hospital_3",
+    "source_inventory": [
+      {
+        "path": "amendment_no_1.md",
+        "sha256": "29d072052cbb33e9eec4fef238d0462070d353bc7b183dfc80d33e8e148e2f1c",
+        "status": "verified_text_alternate",
+        "alternate_of": "amendment_no_1.txt"
+      },
+      {
+        "path": "amendment_no_1.txt",
+        "sha256": "2ca9978ac10a1562918bc67fc37fcd4fbe31296727b9174869d6569722ce4033",
+        "status": "selected",
+        "method": "text"
+      },
+      {
+        "path": "appendix_b_rate_schedule.md",
+        "sha256": "a584918c6222a75c45a7188132a7bb5aff87f374a4ac20ed6a7324a8c8a593d0",
+        "status": "verified_text_alternate",
+        "alternate_of": "appendix_b_rate_schedule.txt"
+      },
+      {
+        "path": "appendix_b_rate_schedule.txt",
+        "sha256": "2b856e968899ad79a946ede4f41205d8446a00e30b6e58a91f80fc7a9c3dfc5c",
+        "status": "selected",
+        "method": "text"
+      },
+      {
+        "path": "base_agreement.md",
+        "sha256": "47240db1f9867a166700db86fb444908ddb9c244d9f28e9868418ee989334264",
+        "status": "verified_text_alternate",
+        "alternate_of": "base_agreement.txt"
+      },
+      {
+        "path": "base_agreement.txt",
+        "sha256": "111f293347b3624d772311e2983ec1c3628ee0cbb9c098d9aba8ad2e74fc559d",
+        "status": "selected",
+        "method": "text"
+      }
+    ],
+    "chunks": 5
+  },
+  {
+    "hospital": "hospital_4",
+    "source_inventory": [
+      {
+        "path": "conditional_reimbursement_agreement.md",
+        "sha256": "715c7db32ff8c6fcd28bb7c9bcba7c2b14137d473305197950e901a08df73ec3",
+        "status": "verified_text_alternate",
+        "alternate_of": "conditional_reimbursement_agreement.txt"
+      },
+      {
+        "path": "conditional_reimbursement_agreement.txt",
+        "sha256": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c",
+        "status": "selected",
+        "method": "text"
+      }
+    ],
+    "chunks": 4
+  },
+  {
+    "hospital": "hospital_5",
+    "source_inventory": [
+      {
+        "path": "network_reimbursement_agreement.md",
+        "sha256": "cbdd2f9c2bc3b31e6ba8f3ae1c4910e6e9aba79970df333500d886b0e5f83ffa",
+        "status": "verified_text_alternate",
+        "alternate_of": "network_reimbursement_agreement.txt"
+      },
+      {
+        "path": "network_reimbursement_agreement.txt",
+        "sha256": "8a7e4301254c313e541c0eaf0600a496154d8896178fafb86d291fb010c85829",
+        "status": "selected",
+        "method": "text"
+      },
+      {
+        "path": "network_reimbursement_agreement_rate_tables.pdf",
+        "sha256": "b3dc44588419aca4172cd74ab2fe787354df733f044bf580857ae086aa959624",
+        "status": "selected",
+        "method": "pdf_text"
+      }
+    ],
+    "chunks": 9
+  }
+]

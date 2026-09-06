@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629539-TmRak166GIGaQ74TmARR",
+  "object": "chat.completion",
+  "created": 1788629539,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Inpatient Ophthalmic Recovery Room Occupancy\",\n      \"line_end\": 446,\n      \"line_start\": 446,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Inpatient Ophthalmic Recovery Room Occupancy\\\", \\\"unit_basis\\\": \\\"per_hour\\\", \\\"unit_basis_source\\\": \\\"per hour\\\", \\\"base_rate_cents\\\": 7725, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Intensive Neurological Rehabilitation Programme\",\n      \"line_end\": 448,\n      \"line_start\": 448,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intensive Neurological Rehabilitation Programme\\\", \\\"unit_basis\\\": \\\"per_visit\\\", \\\"unit_basis_source\\\": \\\"per visit\\\", \\\"base_rate_cents\\\": 14125, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Intensive Neurological Rehabilitation Programme\",\n      \"line_end\": 448,\n      \"line_start\": 448,\n      \"section\": \"daily_caps\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intensive Neurological Rehabilitation Programme\\\", \\\"quantity\\\": 12, \\\"unit_basis\\\": \\\"per_visit\\\"}\"\n    },\n    {\n      \"key\": \"Postoperative Neurological Rehabilitation Programme\",\n      \"line_end\": 450,\n      \"line_start\": 450,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Postoperative Neurological Rehabilitation Programme\\\", \\\"unit_basis\\\": \\\"per_day\\\", \\\"unit_basis_source\\\": \\\"per day of service\\\", \\\"base_rate_cents\\\": 52250, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Postoperative Neurological Rehabilitation Programme\",\n      \"line_end\": 450,\n      \"line_start\": 450,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Postoperative Neurological Rehabilitation Programme\\\", \\\"related_service\\\": \\\"Bedside Ophthalmic Radiotherapy Fraction\\\", \\\"window_days\\\": 7}\"\n    },\n    {\n      \"key\": \"Preoperative Neurological Isolation Room Occupancy\",\n      \"line_end\": 452,\n      \"line_start\": 452,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Preoperative Neurological Isolation Room Occupancy\\\", \\\"unit_basis\\\": \\\"per_night\\\", \\\"unit_basis_source\\\": \\\"per night of occupancy\\\", \\\"base_rate_cents\\\": 170475, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Preoperative Neurological Isolation Room Occupancy\",\n      \"line_end\": 452,\n      \"line_start\": 452,\n      \"section\": \"threshold_premiums\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Preoperative Neurological Isolation Room Occupancy\\\", \\\"quantity\\\": 6, \\\"comparison\\\": \\\"greater_than\\\", \\\"uplift_percent\\\": 25, \\\"unit_basis\\\": \\\"per_night\\\"}\"\n    },\n    {\n      \"key\": \"Routine Ophthalmic Laboratory Panel\",\n      \"line_end\": 454,\n      \"line_start\": 454,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Routine Ophthalmic Laboratory Panel\\\", \\\"unit_basis\\\": \\\"per_item\\\", \\\"unit_basis_source\\\": \\\"per item supplied\\\", \\\"base_rate_cents\\\": 23100, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Standard Paediatric Infusion Therapy\",\n      \"line_end\": 456,\n      \"line_start\": 456,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Standard Paediatric Infusion Therapy\\\", \\\"unit_basis\\\": \\\"per_hour\\\", \\\"unit_basis_source\\\": \\\"per hour\\\", \\\"base_rate_cents\\\": 12750, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Standard Paediatric Infusion Therapy\",\n      \"line_end\": 456,\n      \"line_start\": 456,\n      \"section\": \"daily_caps\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Standard Paediatric Infusion Therapy\\\", \\\"quantity\\\": 4, \\\"unit_basis\\\": \\\"per_hour\\\"}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1+S3x169bpfxc7VXISPRjQFZAJbeew6cCyb9qfdlqWs7Pt2K7V30JTVNgXMYq0+Gt4x/vtvXrgw2Z6DWMW+r/IpvH1RRTHZqGGMC+6gUm4=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4024,
+    "completion_tokens": 1195,
+    "total_tokens": 5219,
+    "cost": 0.0041947,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0041947,
+      "upstream_inference_prompt_cost": 0.0012072,
+      "upstream_inference_completions_cost": 0.0029875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,5510 @@
+[
+  {
+    "record_index": 0,
+    "invoice_id": "INV-H1-000001",
+    "patient_id": "PT-H1-000013",
+    "fold": 2
+  },
+  {
+    "record_index": 1,
+    "invoice_id": "INV-H1-000002",
+    "patient_id": "PT-H1-000008",
+    "fold": 1
+  },
+  {
+    "record_index": 2,
+    "invoice_id": "INV-H1-000003",
+    "patient_id": "PT-H1-000162",
+    "fold": 4
+  },
+  {
+    "record_index": 3,
+    "invoice_id": "INV-H1-000004",
+    "patient_id": "PT-H1-000171",
+    "fold": 3
+  },
+  {
+    "record_index": 4,
+    "invoice_id": "INV-H1-000005",
+    "patient_id": "PT-H1-000084",
+    "fold": 2
+  },
+  {
+    "record_index": 5,
+    "invoice_id": "INV-H1-000006",
+    "patient_id": "PT-H1-000029",
+    "fold": 0
+  },
+  {
+    "record_index": 6,
+    "invoice_id": "INV-H1-000007",
+    "patient_id": "PT-H1-000054",
+    "fold": 3
+  },
+  {
+    "record_index": 7,
+    "invoice_id": "INV-H1-000008",
+    "patient_id": "PT-H1-000059",
+    "fold": 0
+  },
+  {
+    "record_index": 8,
+    "invoice_id": "INV-H1-000009",
+    "patient_id": "PT-H1-000069",
+    "fold": 2
+  },
+  {
+    "record_index": 9,
+    "invoice_id": "INV-H1-000010",
+    "patient_id": "PT-H1-000191",
+    "fold": 2
+  },
+  {
+    "record_index": 10,
+    "invoice_id": "INV-H1-000011",
+    "patient_id": "PT-H1-000119",
+    "fold": 4
+  },
+  {
+    "record_index": 11,
+    "invoice_id": "INV-H1-000012",
+    "patient_id": "PT-H1-000178",
+    "fold": 4
+  },
+  {
+    "record_index": 12,
+    "invoice_id": "INV-H1-000013",
+    "patient_id": "PT-H1-000216",
+    "fold": 4
+  },
+  {
+    "record_index": 13,
+    "invoice_id": "INV-H1-000014",
+    "patient_id": "PT-H1-000158",
+    "fold": 2
+  },
+  {
+    "record_index": 14,
+    "invoice_id": "INV-H1-000015",
+    "patient_id": "PT-H1-000172",
+    "fold": 1
+  },
+  {
+    "record_index": 15,
+    "invoice_id": "INV-H1-000016",
+    "patient_id": "PT-H1-000098",
+    "fold": 0
+  },
+  {
+    "record_index": 16,
+    "invoice_id": "INV-H1-000017",
+    "patient_id": "PT-H1-000179",
+    "fold": 4
+  },
+  {
+    "record_index": 17,
+    "invoice_id": "INV-H1-000018",
+    "patient_id": "PT-H1-000181",
+    "fold": 2
+  },
+  {
+    "record_index": 18,
+    "invoice_id": "INV-H1-000019",
+    "patient_id": "PT-H1-000155",
+    "fold": 3
+  },
+  {
+    "record_index": 19,
+    "invoice_id": "INV-H1-000020",
+    "patient_id": "PT-H1-000037",
+    "fold": 2
+  },
+  {
+    "record_index": 20,
+    "invoice_id": "INV-H1-000021",
+    "patient_id": "PT-H1-000105",
+    "fold": 1
+  },
+  {
+    "record_index": 21,
+    "invoice_id": "INV-H1-000022",
+    "patient_id": "PT-H1-000210",
+    "fold": 0
+  },
+  {
+    "record_index": 22,
+    "invoice_id": "INV-H1-000023",
+    "patient_id": "PT-H1-000118",
+    "fold": 1
+  },
+  {
+    "record_index": 23,
+    "invoice_id": "INV-H1-000024",
+    "patient_id": "PT-H1-000019",
+    "fold": 3
+  },
+  {
+    "record_index": 24,
+    "invoice_id": "INV-H1-000025",
+    "patient_id": "PT-H1-000033",
+    "fold": 2
+  },
+  {
+    "record_index": 25,
+    "invoice_id": "INV-H1-000026",
+    "patient_id": "PT-H1-000115",
+    "fold": 3
+  },
+  {
+    "record_index": 26,
+    "invoice_id": "INV-H1-000027",
+    "patient_id": "PT-H1-000137",
+    "fold": 4
+  },
+  {
+    "record_index": 27,
+    "invoice_id": "INV-H1-000028",
+    "patient_id": "PT-H1-000012",
+    "fold": 1
+  },
+  {
+    "record_index": 28,
+    "invoice_id": "INV-H1-000029",
+    "patient_id": "PT-H1-000083",
+    "fold": 1
+  },
+  {
+    "record_index": 29,
+    "invoice_id": "INV-H1-000030",
+    "patient_id": "PT-H1-000154",
+    "fold": 3
+  },
+  {
+    "record_index": 30,
+    "invoice_id": "INV-H1-000031",
+    "patient_id": "PT-H1-000220",
+    "fold": 4
+  },
+  {
+    "record_index": 31,
+    "invoice_id": "INV-H1-000032",
+    "patient_id": "PT-H1-000137",
+    "fold": 4
+  },
+  {
+    "record_index": 32,
+    "invoice_id": "INV-H1-000033",
+    "patient_id": "PT-H1-000006",
+    "fold": 3
+  },
+  {
+    "record_index": 33,
+    "invoice_id": "INV-H1-000034",
+    "patient_id": "PT-H1-000179",
+    "fold": 4
+  },
+  {
+    "record_index": 34,
+    "invoice_id": "INV-H1-000035",
+    "patient_id": "PT-H1-000101",
+    "fold": 0
+  },
+  {
+    "record_index": 35,
+    "invoice_id": "INV-H1-000036",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 36,
+    "invoice_id": "INV-H1-000037",
+    "patient_id": "PT-H1-000229",
+    "fold": 2
+  },
+  {
+    "record_index": 37,
+    "invoice_id": "INV-H1-000038",
+    "patient_id": "PT-H1-000021",
+    "fold": 3
+  },
+  {
+    "record_index": 38,
+    "invoice_id": "INV-H1-000039",
+    "patient_id": "PT-H1-000097",
+    "fold": 4
+  },
+  {
+    "record_index": 39,
+    "invoice_id": "INV-H1-000040",
+    "patient_id": "PT-H1-000162",
+    "fold": 4
+  },
+  {
+    "record_index": 40,
+    "invoice_id": "INV-H1-000041",
+    "patient_id": "PT-H1-000180",
+    "fold": 0
+  },
+  {
+    "record_index": 41,
+    "invoice_id": "INV-H1-000042",
+    "patient_id": "PT-H1-000029",
+    "fold": 0
+  },
+  {
+    "record_index": 42,
+    "invoice_id": "INV-H1-000043",
+    "patient_id": "PT-H1-000102",
+    "fold": 2
+  },
+  {
+    "record_index": 43,
+    "invoice_id": "INV-H1-000044",
+    "patient_id": "PT-H1-000126",
+    "fold": 4
+  },
+  {
+    "record_index": 44,
+    "invoice_id": "INV-H1-000045",
+    "patient_id": "PT-H1-000166",
+    "fold": 1
+  },
+  {
+    "record_index": 45,
+    "invoice_id": "INV-H1-000046",
+    "patient_id": "PT-H1-000224",
+    "fold": 4
+  },
+  {
+    "record_index": 46,
+    "invoice_id": "INV-H1-000047",
+    "patient_id": "PT-H1-000087",
+    "fold": 3
+  },
+  {
+    "record_index": 47,
+    "invoice_id": "INV-H1-000048",
+    "patient_id": "PT-H1-000025",
+    "fold": 4
+  },
+  {
+    "record_index": 48,
+    "invoice_id": "INV-H1-000049",
+    "patient_id": "PT-H1-000038",
+    "fold": 1
+  },
+  {
+    "record_index": 49,
+    "invoice_id": "INV-H1-000050",
+    "patient_id": "PT-H1-000081",
+    "fold": 2
+  },
+  {
+    "record_index": 50,
+    "invoice_id": "INV-H1-000051",
+    "patient_id": "PT-H1-000098",
+    "fold": 0
+  },
+  {
+    "record_index": 51,
+    "invoice_id": "INV-H1-000052",
+    "patient_id": "PT-H1-000151",
+    "fold": 0
+  },
+  {
+    "record_index": 52,
+    "invoice_id": "INV-H1-000053",
+    "patient_id": "PT-H1-000153",
+    "fold": 2
+  },
+  {
+    "record_index": 53,
+    "invoice_id": "INV-H1-000054",
+    "patient_id": "PT-H1-000129",
+    "fold": 3
+  },
+  {
+    "record_index": 54,
+    "invoice_id": "INV-H1-000055",
+    "patient_id": "PT-H1-000179",
+    "fold": 4
+  },
+  {
+    "record_index": 55,
+    "invoice_id": "INV-H1-000056",
+    "patient_id": "PT-H1-000213",
+    "fold": 3
+  },
+  {
+    "record_index": 56,
+    "invoice_id": "INV-H1-000057",
+    "patient_id": "PT-H1-000035",
+    "fold": 4
+  },
+  {
+    "record_index": 57,
+    "invoice_id": "INV-H1-000058",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 58,
+    "invoice_id": "INV-H1-000059",
+    "patient_id": "PT-H1-000187",
+    "fold": 3
+  },
+  {
+    "record_index": 59,
+    "invoice_id": "INV-H1-000060",
+    "patient_id": "PT-H1-000134",
+    "fold": 2
+  },
+  {
+    "record_index": 60,
+    "invoice_id": "INV-H1-000061",
+    "patient_id": "PT-H1-000059",
+    "fold": 0
+  },
+  {
+    "record_index": 61,
+    "invoice_id": "INV-H1-000062",
+    "patient_id": "PT-H1-000026",
+    "fold": 2
+  },
+  {
+    "record_index": 62,
+    "invoice_id": "INV-H1-000063",
+    "patient_id": "PT-H1-000173",
+    "fold": 4
+  },
+  {
+    "record_index": 63,
+    "invoice_id": "INV-H1-000064",
+    "patient_id": "PT-H1-000091",
+    "fold": 2
+  },
+  {
+    "record_index": 64,
+    "invoice_id": "INV-H1-000065",
+    "patient_id": "PT-H1-000040",
+    "fold": 0
+  },
+  {
+    "record_index": 65,
+    "invoice_id": "INV-H1-000066",
+    "patient_id": "PT-H1-000207",
+    "fold": 4
+  },
+  {
+    "record_index": 66,
+    "invoice_id": "INV-H1-000067",
+    "patient_id": "PT-H1-000002",
+    "fold": 4
+  },
+  {
+    "record_index": 67,
+    "invoice_id": "INV-H1-000068",
+    "patient_id": "PT-H1-000054",
+    "fold": 3
+  },
+  {
+    "record_index": 68,
+    "invoice_id": "INV-H1-000069",
+    "patient_id": "PT-H1-000012",
+    "fold": 1
+  },
+  {
+    "record_index": 69,
+    "invoice_id": "INV-H1-000070",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 70,
+    "invoice_id": "INV-H1-000071",
+    "patient_id": "PT-H1-000155",
+    "fold": 3
+  },
+  {
+    "record_index": 71,
+    "invoice_id": "INV-H1-000072",
+    "patient_id": "PT-H1-000163",
+    "fold": 4
+  },
+  {
+    "record_index": 72,
+    "invoice_id": "INV-H1-000073",
+    "patient_id": "PT-H1-000229",
+    "fold": 2
+  },
+  {
+    "record_index": 73,
+    "invoice_id": "INV-H1-000074",
+    "patient_id": "PT-H1-000012",
+    "fold": 1
+  },
+  {
+    "record_index": 74,
+    "invoice_id": "INV-H1-000075",
+    "patient_id": "PT-H1-000140",
+    "fold": 2
+  },
+  {
+    "record_index": 75,
+    "invoice_id": "INV-H1-000076",
+    "patient_id": "PT-H1-000142",
+    "fold": 2
+  },
+  {
+    "record_index": 76,
+    "invoice_id": "INV-H1-000077",
+    "patient_id": "PT-H1-000212",
+    "fold": 4
+  },
+  {
+    "record_index": 77,
+    "invoice_id": "INV-H1-000078",
+    "patient_id": "PT-H1-000055",
+    "fold": 1
+  },
+  {
+    "record_index": 78,
+    "invoice_id": "INV-H1-000079",
+    "patient_id": "PT-H1-000031",
+    "fold": 4
+  },
+  {
+    "record_index": 79,
+    "invoice_id": "INV-H1-000080",
+    "patient_id": "PT-H1-000071",
+    "fold": 0
+  },
+  {
+    "record_index": 80,
+    "invoice_id": "INV-H1-000081",
+    "patient_id": "PT-H1-000170",
+    "fold": 0
+  },
+  {
+    "record_index": 81,
+    "invoice_id": "INV-H1-000082",
+    "patient_id": "PT-H1-000109",
+    "fold": 3
+  },
+  {
+    "record_index": 82,
+    "invoice_id": "INV-H1-000083",
+    "patient_id": "PT-H1-000051",
+    "fold": 1
+  },
+  {
+    "record_index": 83,
+    "invoice_id": "INV-H1-000084",
+    "patient_id": "PT-H1-000003",
+    "fold": 2
+  },
+  {
+    "record_index": 84,
+    "invoice_id": "INV-H1-000085",
+    "patient_id": "PT-H1-000076",
+    "fold": 2
+  },
+  {
+    "record_index": 85,
+    "invoice_id": "INV-H1-000086",
+    "patient_id": "PT-H1-000175",
+    "fold": 0
+  },
+  {
+    "record_index": 86,
+    "invoice_id": "INV-H1-000087",
+    "patient_id": "PT-H1-000110",
+    "fold": 2
+  },
+  {
+    "record_index": 87,
+    "invoice_id": "INV-H1-000088",
+    "patient_id": "PT-H1-000024",
+    "fold": 3
+  },
+  {
+    "record_index": 88,
+    "invoice_id": "INV-H1-000089",
+    "patient_id": "PT-H1-000154",
+    "fold": 3
+  },
+  {
+    "record_index": 89,
+    "invoice_id": "INV-H1-000090",
+    "patient_id": "PT-H1-000099",
+    "fold": 2
+  },
+  {
+    "record_index": 90,
+    "invoice_id": "INV-H1-000091",
+    "patient_id": "PT-H1-000124",
+    "fold": 2
+  },
+  {
+    "record_index": 91,
+    "invoice_id": "INV-H1-000092",
+    "patient_id": "PT-H1-000197",
+    "fold": 3
+  },
+  {
+    "record_index": 92,
+    "invoice_id": "INV-H1-000093",
+    "patient_id": "PT-H1-000071",
+    "fold": 0
+  },
+  {
+    "record_index": 93,
+    "invoice_id": "INV-H1-000094",
+    "patient_id": "PT-H1-000074",
+    "fold": 4
+  },
+  {
+    "record_index": 94,
+    "invoice_id": "INV-H1-000095",
+    "patient_id": "PT-H1-000034",
+    "fold": 0
+  },
+  {
+    "record_index": 95,
+    "invoice_id": "INV-H1-000096",
+    "patient_id": "PT-H1-000071",
+    "fold": 0
+  },
+  {
+    "record_index": 96,
+    "invoice_id": "INV-H1-000097",
+    "patient_id": "PT-H1-000193",
+    "fold": 1
+  },
+  {
+    "record_index": 97,
+    "invoice_id": "INV-H1-000098",
+    "patient_id": "PT-H1-000107",
+    "fold": 0
+  },
+  {
+    "record_index": 98,
+    "invoice_id": "INV-H1-000099",
+    "patient_id": "PT-H1-000131",
+    "fold": 1
+  },
+  {
+    "record_index": 99,
+    "invoice_id": "INV-H1-000100",
+    "patient_id": "PT-H1-000144",
+    "fold": 2
+  },
+  {
+    "record_index": 100,
+    "invoice_id": "INV-H1-000101",
+    "patient_id": "PT-H1-000175",
+    "fold": 0
+  },
+  {
+    "record_index": 101,
+    "invoice_id": "INV-H1-000102",
+    "patient_id": "PT-H1-000075",
+    "fold": 2
+  },
+  {
+    "record_index": 102,
+    "invoice_id": "INV-H1-000103",
+    "patient_id": "PT-H1-000170",
+    "fold": 0
+  },
+  {
+    "record_index": 103,
+    "invoice_id": "INV-H1-000104",
+    "patient_id": "PT-H1-000082",
+    "fold": 0
+  },
+  {
+    "record_index": 104,
+    "invoice_id": "INV-H1-000105",
+    "patient_id": "PT-H1-000108",
+    "fold": 1
+  },
+  {
+    "record_index": 105,
+    "invoice_id": "INV-H1-000106",
+    "patient_id": "PT-H1-000210",
+    "fold": 0
+  },
+  {
+    "record_index": 106,
+    "invoice_id": "INV-H1-000107",
+    "patient_id": "PT-H1-000160",
+    "fold": 3
+  },
+  {
+    "record_index": 107,
+    "invoice_id": "INV-H1-000108",
+    "patient_id": "PT-H1-000043",
+    "fold": 0
+  },
+  {
+    "record_index": 108,
+    "invoice_id": "INV-H1-000109",
+    "patient_id": "PT-H1-000098",
+    "fold": 0
+  },
+  {
+    "record_index": 109,
+    "invoice_id": "INV-H1-000110",
+    "patient_id": "PT-H1-000139",
+    "fold": 0
+  },
+  {
+    "record_index": 110,
+    "invoice_id": "INV-H1-000111",
+    "patient_id": "PT-H1-000151",
+    "fold": 0
+  },
+  {
+    "record_index": 111,
+    "invoice_id": "INV-H1-000112",
+    "patient_id": "PT-H1-000165",
+    "fold": 4
+  },
+  {
+    "record_index": 112,
+    "invoice_id": "INV-H1-000113",
+    "patient_id": "PT-H1-000107",
+    "fold": 0
+  },
+  {
+    "record_index": 113,
+    "invoice_id": "INV-H1-000114",
+    "patient_id": "PT-H1-000174",
+    "fold": 3
+  },
+  {
+    "record_index": 114,
+    "invoice_id": "INV-H1-000115",
+    "patient_id": "PT-H1-000222",
+    "fold": 1
+  },
+  {
+    "record_index": 115,
+    "invoice_id": "INV-H1-000116",
+    "patient_id": "PT-H1-000046",
+    "fold": 1
+  },
+  {
+    "record_index": 116,
+    "invoice_id": "INV-H1-000117",
+    "patient_id": "PT-H1-000215",
+    "fold": 1
+  },
+  {
+    "record_index": 117,
+    "invoice_id": "INV-H1-000118",
+    "patient_id": "PT-H1-000086",
+    "fold": 0
+  },
+  {
+    "record_index": 118,
+    "invoice_id": "INV-H1-000119",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 119,
+    "invoice_id": "INV-H1-000120",
+    "patient_id": "PT-H1-000118",
+    "fold": 1
+  },
+  {
+    "record_index": 120,
+    "invoice_id": "INV-H1-000121",
+    "patient_id": "PT-H1-000151",
+    "fold": 0
+  },
+  {
+    "record_index": 121,
+    "invoice_id": "INV-H1-000122",
+    "patient_id": "PT-H1-000075",
+    "fold": 2
+  },
+  {
+    "record_index": 122,
+    "invoice_id": "INV-H1-000123",
+    "patient_id": "PT-H1-000135",
+    "fold": 2
+  },
+  {
+    "record_index": 123,
+    "invoice_id": "INV-H1-000124",
+    "patient_id": "PT-H1-000058",
+    "fold": 0
+  },
+  {
+    "record_index": 124,
+    "invoice_id": "INV-H1-000125",
+    "patient_id": "PT-H1-000205",
+    "fold": 2
+  },
+  {
+    "record_index": 125,
+    "invoice_id": "INV-H1-000126",
+    "patient_id": "PT-H1-000088",
+    "fold": 1
+  },
+  {
+    "record_index": 126,
+    "invoice_id": "INV-H1-000127",
+    "patient_id": "PT-H1-000042",
+    "fold": 0
+  },
+  {
+    "record_index": 127,
+    "invoice_id": "INV-H1-000128",
+    "patient_id": "PT-H1-000114",
+    "fold": 2
+  },
+  {
+    "record_index": 128,
+    "invoice_id": "INV-H1-000129",
+    "patient_id": "PT-H1-000173",
+    "fold": 4
+  },
+  {
+    "record_index": 129,
+    "invoice_id": "INV-H1-000130",
+    "patient_id": "PT-H1-000210",
+    "fold": 0
+  },
+  {
+    "record_index": 130,
+    "invoice_id": "INV-H1-000131",
+    "patient_id": "PT-H1-000055",
+    "fold": 1
+  },
+  {
+    "record_index": 131,
+    "invoice_id": "INV-H1-000132",
+    "patient_id": "PT-H1-000135",
+    "fold": 2
+  },
+  {
+    "record_index": 132,
+    "invoice_id": "INV-H1-000133",
+    "patient_id": "PT-H1-000172",
+    "fold": 1
+  },
+  {
+    "record_index": 133,
+    "invoice_id": "INV-H1-000134",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 134,
+    "invoice_id": "INV-H1-000135",
+    "patient_id": "PT-H1-000153",
+    "fold": 2
+  },
+  {
+    "record_index": 135,
+    "invoice_id": "INV-H1-000136",
+    "patient_id": "PT-H1-000188",
+    "fold": 2
+  },
+  {
+    "record_index": 136,
+    "invoice_id": "INV-H1-000137",
+    "patient_id": "PT-H1-000203",
+    "fold": 1
+  },
+  {
+    "record_index": 137,
+    "invoice_id": "INV-H1-000138",
+    "patient_id": "PT-H1-000219",
+    "fold": 3
+  },
+  {
+    "record_index": 138,
+    "invoice_id": "INV-H1-000139",
+    "patient_id": "PT-H1-000068",
+    "fold": 2
+  },
+  {
+    "record_index": 139,
+    "invoice_id": "INV-H1-000140",
+    "patient_id": "PT-H1-000122",
+    "fold": 3
+  },
+  {
+    "record_index": 140,
+    "invoice_id": "INV-H1-000141",
+    "patient_id": "PT-H1-000159",
+    "fold": 2
+  },
+  {
+    "record_index": 141,
+    "invoice_id": "INV-H1-000142",
+    "patient_id": "PT-H1-000205",
+    "fold": 2
+  },
+  {
+    "record_index": 142,
+    "invoice_id": "INV-H1-000143",
+    "patient_id": "PT-H1-000078",
+    "fold": 4
+  },
+  {
+    "record_index": 143,
+    "invoice_id": "INV-H1-000144",
+    "patient_id": "PT-H1-000080",
+    "fold": 1
+  },
+  {
+    "record_index": 144,
+    "invoice_id": "INV-H1-000145",
+    "patient_id": "PT-H1-000083",
+    "fold": 1
+  },
+  {
+    "record_index": 145,
+    "invoice_id": "INV-H1-000146",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 146,
+    "invoice_id": "INV-H1-000147",
+    "patient_id": "PT-H1-000152",
+    "fold": 2
+  },
+  {
+    "record_index": 147,
+    "invoice_id": "INV-H1-000148",
+    "patient_id": "PT-H1-000054",
+    "fold": 3
+  },
+  {
+    "record_index": 148,
+    "invoice_id": "INV-H1-000149",
+    "patient_id": "PT-H1-000018",
+    "fold": 0
+  },
+  {
+    "record_index": 149,
+    "invoice_id": "INV-H1-000150",
+    "patient_id": "PT-H1-000121",
+    "fold": 1
+  },
+  {
+    "record_index": 150,
+    "invoice_id": "INV-H1-000151",
+    "patient_id": "PT-H1-000121",
+    "fold": 1
+  },
+  {
+    "record_index": 151,
+    "invoice_id": "INV-H1-000152",
+    "patient_id": "PT-H1-000106",
+    "fold": 1
+  },
+  {
+    "record_index": 152,
+    "invoice_id": "INV-H1-000153",
+    "patient_id": "PT-H1-000131",
+    "fold": 1
+  },
+  {
+    "record_index": 153,
+    "invoice_id": "INV-H1-000154",
+    "patient_id": "PT-H1-000224",
+    "fold": 4
+  },
+  {
+    "record_index": 154,
+    "invoice_id": "INV-H1-000068",
+    "patient_id": "PT-H1-000021",
+    "fold": 3
+  },
+  {
+    "record_index": 155,
+    "invoice_id": "INV-H1-000156",
+    "patient_id": "PT-H1-000027",
+    "fold": 0
+  },
+  {
+    "record_index": 156,
+    "invoice_id": "INV-H1-000157",
+    "patient_id": "PT-H1-000098",
+    "fold": 0
+  },
+  {
+    "record_index": 157,
+    "invoice_id": "INV-H1-000158",
+    "patient_id": "PT-H1-000133",
+    "fold": 3
+  },
+  {
+    "record_index": 158,
+    "invoice_id": "INV-H1-000159",
+    "patient_id": "PT-H1-000214",
+    "fold": 4
+  },
+  {
+    "record_index": 159,
+    "invoice_id": "INV-H1-000160",
+    "patient_id": "PT-H1-000026",
+    "fold": 2
+  },
+  {
+    "record_index": 160,
+    "invoice_id": "INV-H1-000161",
+    "patient_id": "PT-H1-000052",
+    "fold": 4
+  },
+  {
+    "record_index": 161,
+    "invoice_id": "INV-H1-000162",
+    "patient_id": "PT-H1-000096",
+    "fold": 1
+  },
+  {
+    "record_index": 162,
+    "invoice_id": "INV-H1-000163",
+    "patient_id": "PT-H1-000062",
+    "fold": 2
+  },
+  {
+    "record_index": 163,
+    "invoice_id": "INV-H1-000164",
+    "patient_id": "PT-H1-000086",
+    "fold": 0
+  },
+  {
+    "record_index": 164,
+    "invoice_id": "INV-H1-000165",
+    "patient_id": "PT-H1-000101",
+    "fold": 0
+  },
+  {
+    "record_index": 165,
+    "invoice_id": "INV-H1-000166",
+    "patient_id": "PT-H1-000017",
+    "fold": 0
+  },
+  {
+    "record_index": 166,
+    "invoice_id": "INV-H1-000167",
+    "patient_id": "PT-H1-000126",
+    "fold": 4
+  },
+  {
+    "record_index": 167,
+    "invoice_id": "INV-H1-000168",
+    "patient_id": "PT-H1-000039",
+    "fold": 2
+  },
+  {
+    "record_index": 168,
+    "invoice_id": "INV-H1-000169",
+    "patient_id": "PT-H1-000157",
+    "fold": 0
+  },
+  {
+    "record_index": 169,
+    "invoice_id": "INV-H1-000170",
+    "patient_id": "PT-H1-000209",
+    "fold": 1
+  },
+  {
+    "record_index": 170,
+    "invoice_id": "INV-H1-000171",
+    "patient_id": "PT-H1-000009",
+    "fold": 1
+  },
+  {
+    "record_index": 171,
+    "invoice_id": "INV-H1-000172",
+    "patient_id": "PT-H1-000222",
+    "fold": 1
+  },
+  {
+    "record_index": 172,
+    "invoice_id": "INV-H1-000173",
+    "patient_id": "PT-H1-000196",
+    "fold": 1
+  },
+  {
+    "record_index": 173,
+    "invoice_id": "INV-H1-000174",
+    "patient_id": "PT-H1-000192",
+    "fold": 2
+  },
+  {
+    "record_index": 174,
+    "invoice_id": "INV-H1-000175",
+    "patient_id": "PT-H1-000038",
+    "fold": 1
+  },
+  {
+    "record_index": 175,
+    "invoice_id": "INV-H1-000176",
+    "patient_id": "PT-H1-000099",
+    "fold": 2
+  },
+  {
+    "record_index": 176,
+    "invoice_id": "INV-H1-000177",
+    "patient_id": "PT-H1-000147",
+    "fold": 2
+  },
+  {
+    "record_index": 177,
+    "invoice_id": "INV-H1-000178",
+    "patient_id": "PT-H1-000048",
+    "fold": 1
+  },
+  {
+    "record_index": 178,
+    "invoice_id": "INV-H1-000179",
+    "patient_id": "PT-H1-000127",
+    "fold": 3
+  },
+  {
+    "record_index": 179,
+    "invoice_id": "INV-H1-000180",
+    "patient_id": "PT-H1-000162",
+    "fold": 4
+  },
+  {
+    "record_index": 180,
+    "invoice_id": "INV-H1-000181",
+    "patient_id": "PT-H1-000159",
+    "fold": 2
+  },
+  {
+    "record_index": 181,
+    "invoice_id": "INV-H1-000182",
+    "patient_id": "PT-H1-000185",
+    "fold": 0
+  },
+  {
+    "record_index": 182,
+    "invoice_id": "INV-H1-000183",
+    "patient_id": "PT-H1-000079",
+    "fold": 3
+  },
+  {
+    "record_index": 183,
+    "invoice_id": "INV-H1-000184",
+    "patient_id": "PT-H1-000103",
+    "fold": 4
+  },
+  {
+    "record_index": 184,
+    "invoice_id": "INV-H1-000185",
+    "patient_id": "PT-H1-000123",
+    "fold": 0
+  },
+  {
+    "record_index": 185,
+    "invoice_id": "INV-H1-000186",
+    "patient_id": "PT-H1-000028",
+    "fold": 4
+  },
+  {
+    "record_index": 186,
+    "invoice_id": "INV-H1-000187",
+    "patient_id": "PT-H1-000105",
+    "fold": 1
+  },
+  {
+    "record_index": 187,
+    "invoice_id": "INV-H1-000188",
+    "patient_id": "PT-H1-000059",
+    "fold": 0
+  },
+  {
+    "record_index": 188,
+    "invoice_id": "INV-H1-000152",
+    "patient_id": "PT-H1-000118",
+    "fold": 1
+  },
+  {
+    "record_index": 189,
+    "invoice_id": "INV-H1-000190",
+    "patient_id": "PT-H1-000121",
+    "fold": 1
+  },
+  {
+    "record_index": 190,
+    "invoice_id": "INV-H1-000191",
+    "patient_id": "PT-H1-000034",
+    "fold": 0
+  },
+  {
+    "record_index": 191,
+    "invoice_id": "INV-H1-000192",
+    "patient_id": "PT-H1-000082",
+    "fold": 0
+  },
+  {
+    "record_index": 192,
+    "invoice_id": "INV-H1-000193",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 193,
+    "invoice_id": "INV-H1-000194",
+    "patient_id": "PT-H1-000170",
+    "fold": 0
+  },
+  {
+    "record_index": 194,
+    "invoice_id": "INV-H1-000195",
+    "patient_id": "PT-H1-000152",
+    "fold": 2
+  },
+  {
+    "record_index": 195,
+    "invoice_id": "INV-H1-000196",
+    "patient_id": "PT-H1-000010",
+    "fold": 4
+  },
+  {
+    "record_index": 196,
+    "invoice_id": "INV-H1-000197",
+    "patient_id": "PT-H1-000085",
+    "fold": 0
+  },
+  {
+    "record_index": 197,
+    "invoice_id": "INV-H1-000198",
+    "patient_id": "PT-H1-000096",
+    "fold": 1
+  },
+  {
+    "record_index": 198,
+    "invoice_id": "INV-H1-000199",
+    "patient_id": "PT-H1-000044",
+    "fold": 4
+  },
+  {
+    "record_index": 199,
+    "invoice_id": "INV-H1-000200",
+    "patient_id": "PT-H1-000156",
+    "fold": 4
+  },
+  {
+    "record_index": 200,
+    "invoice_id": "INV-H1-000201",
+    "patient_id": "PT-H1-000049",
+    "fold": 2
+  },
+  {
+    "record_index": 201,
+    "invoice_id": "INV-H1-000202",
+    "patient_id": "PT-H1-000107",
+    "fold": 0
+  },
+  {
+    "record_index": 202,
+    "invoice_id": "INV-H1-000203",
+    "patient_id": "PT-H1-000127",
+    "fold": 3
+  },
+  {
+    "record_index": 203,
+    "invoice_id": "INV-H1-000204",
+    "patient_id": "PT-H1-000064",
+    "fold": 1
+  },
+  {
+    "record_index": 204,
+    "invoice_id": "INV-H1-000205",
+    "patient_id": "PT-H1-000033",
+    "fold": 2
+  },
+  {
+    "record_index": 205,
+    "invoice_id": "INV-H1-000206",
+    "patient_id": "PT-H1-000153",
+    "fold": 2
+  },
+  {
+    "record_index": 206,
+    "invoice_id": "INV-H1-000207",
+    "patient_id": "PT-H1-000156",
+    "fold": 4
+  },
+  {
+    "record_index": 207,
+    "invoice_id": "INV-H1-000208",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 208,
+    "invoice_id": "INV-H1-000209",
+    "patient_id": "PT-H1-000134",
+    "fold": 2
+  },
+  {
+    "record_index": 209,
+    "invoice_id": "INV-H1-000210",
+    "patient_id": "PT-H1-000194",
+    "fold": 3
+  },
+  {
+    "record_index": 210,
+    "invoice_id": "INV-H1-000211",
+    "patient_id": "PT-H1-000199",
+    "fold": 2
+  },
+  {
+    "record_index": 211,
+    "invoice_id": "INV-H1-000212",
+    "patient_id": "PT-H1-000027",
+    "fold": 0
+  },
+  {
+    "record_index": 212,
+    "invoice_id": "INV-H1-000213",
+    "patient_id": "PT-H1-000171",
+    "fold": 3
+  },
+  {
+    "record_index": 213,
+    "invoice_id": "INV-H1-000214",
+    "patient_id": "PT-H1-000111",
+    "fold": 0
+  },
+  {
+    "record_index": 214,
+    "invoice_id": "INV-H1-000215",
+    "patient_id": "PT-H1-000127",
+    "fold": 3
+  },
+  {
+    "record_index": 215,
+    "invoice_id": "INV-H1-000216",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 216,
+    "invoice_id": "INV-H1-000217",
+    "patient_id": "PT-H1-000048",
+    "fold": 1
+  },
+  {
+    "record_index": 217,
+    "invoice_id": "INV-H1-000218",
+    "patient_id": "PT-H1-000117",
+    "fold": 1
+  },
+  {
+    "record_index": 218,
+    "invoice_id": "INV-H1-000219",
+    "patient_id": "PT-H1-000037",
+    "fold": 2
+  },
+  {
+    "record_index": 219,
+    "invoice_id": "INV-H1-000220",
+    "patient_id": "PT-H1-000223",
+    "fold": 1
+  },
+  {
+    "record_index": 220,
+    "invoice_id": "INV-H1-000221",
+    "patient_id": "PT-H1-000086",
+    "fold": 0
+  },
+  {
+    "record_index": 221,
+    "invoice_id": "INV-H1-000222",
+    "patient_id": "PT-H1-000127",
+    "fold": 3
+  },
+  {
+    "record_index": 222,
+    "invoice_id": "INV-H1-000223",
+    "patient_id": "PT-H1-000170",
+    "fold": 0
+  },
+  {
+    "record_index": 223,
+    "invoice_id": "INV-H1-000224",
+    "patient_id": "PT-H1-000150",
+    "fold": 0
+  },
+  {
+    "record_index": 224,
+    "invoice_id": "INV-H1-000225",
+    "patient_id": "PT-H1-000173",
+    "fold": 4
+  },
+  {
+    "record_index": 225,
+    "invoice_id": "INV-H1-000226",
+    "patient_id": "PT-H1-000227",
+    "fold": 4
+  },
+  {
+    "record_index": 226,
+    "invoice_id": "INV-H1-000227",
+    "patient_id": "PT-H1-000055",
+    "fold": 1
+  },
+  {
+    "record_index": 227,
+    "invoice_id": "INV-H1-000228",
+    "patient_id": "PT-H1-000215",
+    "fold": 1
+  },
+  {
+    "record_index": 228,
+    "invoice_id": "INV-H1-000229",
+    "patient_id": "PT-H1-000111",
+    "fold": 0
+  },
+  {
+    "record_index": 229,
+    "invoice_id": "INV-H1-000230",
+    "patient_id": "PT-H1-000015",
+    "fold": 2
+  },
+  {
+    "record_index": 230,
+    "invoice_id": "INV-H1-000231",
+    "patient_id": "PT-H1-000031",
+    "fold": 4
+  },
+  {
+    "record_index": 231,
+    "invoice_id": "INV-H1-000232",
+    "patient_id": "PT-H1-000031",
+    "fold": 4
+  },
+  {
+    "record_index": 232,
+    "invoice_id": "INV-H1-000233",
+    "patient_id": "PT-H1-000223",
+    "fold": 1
+  },
+  {
+    "record_index": 233,
+    "invoice_id": "INV-H1-000234",
+    "patient_id": "PT-H1-000021",
+    "fold": 3
+  },
+  {
+    "record_index": 234,
+    "invoice_id": "INV-H1-000235",
+    "patient_id": "PT-H1-000167",
+    "fold": 4
+  },
+  {
+    "record_index": 235,
+    "invoice_id": "INV-H1-000236",
+    "patient_id": "PT-H1-000015",
+    "fold": 2
+  },
+  {
+    "record_index": 236,
+    "invoice_id": "INV-H1-000237",
+    "patient_id": "PT-H1-000196",
+    "fold": 1
+  },
+  {
+    "record_index": 237,
+    "invoice_id": "INV-H1-000238",
+    "patient_id": "PT-H1-000101",
+    "fold": 0
+  },
+  {
+    "record_index": 238,
+    "invoice_id": "INV-H1-000239",
+    "patient_id": "PT-H1-000126",
+    "fold": 4
+  },
+  {
+    "record_index": 239,
+    "invoice_id": "INV-H1-000240",
+    "patient_id": "PT-H1-000152",
+    "fold": 2
+  },
+  {
+    "record_index": 240,
+    "invoice_id": "INV-H1-000241",
+    "patient_id": "PT-H1-000229",
+    "fold": 2
+  },
+  {
+    "record_index": 241,
+    "invoice_id": "INV-H1-000242",
+    "patient_id": "PT-H1-000013",
+    "fold": 2
+  },
+  {
+    "record_index": 242,
+    "invoice_id": "INV-H1-000243",
+    "patient_id": "PT-H1-000031",
+    "fold": 4
+  },
+  {
+    "record_index": 243,
+    "invoice_id": "INV-H1-000244",
+    "patient_id": "PT-H1-000076",
+    "fold": 2
+  },
+  {
+    "record_index": 244,
+    "invoice_id": "INV-H1-000245",
+    "patient_id": "PT-H1-000141",
+    "fold": 4
+  },
+  {
+    "record_index": 245,
+    "invoice_id": "INV-H1-000246",
+    "patient_id": "PT-H1-000003",
+    "fold": 2
+  },
+  {
+    "record_index": 246,
+    "invoice_id": "INV-H1-000247",
+    "patient_id": "PT-H1-000121",
+    "fold": 1
+  },
+  {
+    "record_index": 247,
+    "invoice_id": "INV-H1-000248",
+    "patient_id": "PT-H1-000194",
+    "fold": 3
+  },
+  {
+    "record_index": 248,
+    "invoice_id": "INV-H1-000249",
+    "patient_id": "PT-H1-000061",
+    "fold": 1
+  },
+  {
+    "record_index": 249,
+    "invoice_id": "INV-H1-000250",
+    "patient_id": "PT-H1-000075",
+    "fold": 2
+  },
+  {
+    "record_index": 250,
+    "invoice_id": "INV-H1-000251",
+    "patient_id": "PT-H1-000054",
+    "fold": 3
+  },
+  {
+    "record_index": 251,
+    "invoice_id": "INV-H1-000252",
+    "patient_id": "PT-H1-000092",
+    "fold": 0
+  },
+  {
+    "record_index": 252,
+    "invoice_id": "INV-H1-000253",
+    "patient_id": "PT-H1-000004",
+    "fold": 0
+  },
+  {
+    "record_index": 253,
+    "invoice_id": "INV-H1-000254",
+    "patient_id": "PT-H1-000067",
+    "fold": 0
+  },
+  {
+    "record_index": 254,
+    "invoice_id": "INV-H1-000255",
+    "patient_id": "PT-H1-000136",
+    "fold": 1
+  },
+  {
+    "record_index": 255,
+    "invoice_id": "INV-H1-000256",
+    "patient_id": "PT-H1-000156",
+    "fold": 4
+  },
+  {
+    "record_index": 256,
+    "invoice_id": "INV-H1-000257",
+    "patient_id": "PT-H1-000131",
+    "fold": 1
+  },
+  {
+    "record_index": 257,
+    "invoice_id": "INV-H1-000258",
+    "patient_id": "PT-H1-000186",
+    "fold": 2
+  },
+  {
+    "record_index": 258,
+    "invoice_id": "INV-H1-000259",
+    "patient_id": "PT-H1-000167",
+    "fold": 4
+  },
+  {
+    "record_index": 259,
+    "invoice_id": "INV-H1-000260",
+    "patient_id": "PT-H1-000074",
+    "fold": 4
+  },
+  {
+    "record_index": 260,
+    "invoice_id": "INV-H1-000261",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 261,
+    "invoice_id": "INV-H1-000262",
+    "patient_id": "PT-H1-000139",
+    "fold": 0
+  },
+  {
+    "record_index": 262,
+    "invoice_id": "INV-H1-000263",
+    "patient_id": "PT-H1-000030",
+    "fold": 2
+  },
+  {
+    "record_index": 263,
+    "invoice_id": "INV-H1-000264",
+    "patient_id": "PT-H1-000034",
+    "fold": 0
+  },
+  {
+    "record_index": 264,
+    "invoice_id": "INV-H1-000265",
+    "patient_id": "PT-H1-000162",
+    "fold": 4
+  },
+  {
+    "record_index": 265,
+    "invoice_id": "INV-H1-000266",
+    "patient_id": "PT-H1-000077",
+    "fold": 4
+  },
+  {
+    "record_index": 266,
+    "invoice_id": "INV-H1-000267",
+    "patient_id": "PT-H1-000036",
+    "fold": 3
+  },
+  {
+    "record_index": 267,
+    "invoice_id": "INV-H1-000268",
+    "patient_id": "PT-H1-000006",
+    "fold": 3
+  },
+  {
+    "record_index": 268,
+    "invoice_id": "INV-H1-000269",
+    "patient_id": "PT-H1-000090",
+    "fold": 0
+  },
+  {
+    "record_index": 269,
+    "invoice_id": "INV-H1-000270",
+    "patient_id": "PT-H1-000028",
+    "fold": 4
+  },
+  {
+    "record_index": 270,
+    "invoice_id": "INV-H1-000271",
+    "patient_id": "PT-H1-000166",
+    "fold": 1
+  },
+  {
+    "record_index": 271,
+    "invoice_id": "INV-H1-000272",
+    "patient_id": "PT-H1-000206",
+    "fold": 0
+  },
+  {
+    "record_index": 272,
+    "invoice_id": "INV-H1-000273",
+    "patient_id": "PT-H1-000001",
+    "fold": 4
+  },
+  {
+    "record_index": 273,
+    "invoice_id": "INV-H1-000274",
+    "patient_id": "PT-H1-000152",
+    "fold": 2
+  },
+  {
+    "record_index": 274,
+    "invoice_id": "INV-H1-000275",
+    "patient_id": "PT-H1-000164",
+    "fold": 4
+  },
+  {
+    "record_index": 275,
+    "invoice_id": "INV-H1-000276",
+    "patient_id": "PT-H1-000220",
+    "fold": 4
+  },
+  {
+    "record_index": 276,
+    "invoice_id": "INV-H1-000277",
+    "patient_id": "PT-H1-000015",
+    "fold": 2
+  },
+  {
+    "record_index": 277,
+    "invoice_id": "INV-H1-000278",
+    "patient_id": "PT-H1-000154",
+    "fold": 3
+  },
+  {
+    "record_index": 278,
+    "invoice_id": "INV-H1-000279",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 279,
+    "invoice_id": "INV-H1-000280",
+    "patient_id": "PT-H1-000227",
+    "fold": 4
+  },
+  {
+    "record_index": 280,
+    "invoice_id": "INV-H1-000281",
+    "patient_id": "PT-H1-000113",
+    "fold": 2
+  },
+  {
+    "record_index": 281,
+    "invoice_id": "INV-H1-000282",
+    "patient_id": "PT-H1-000156",
+    "fold": 4
+  },
+  {
+    "record_index": 282,
+    "invoice_id": "INV-H1-000283",
+    "patient_id": "PT-H1-000132",
+    "fold": 1
+  },
+  {
+    "record_index": 283,
+    "invoice_id": "INV-H1-000284",
+    "patient_id": "PT-H1-000114",
+    "fold": 2
+  },
+  {
+    "record_index": 284,
+    "invoice_id": "INV-H1-000285",
+    "patient_id": "PT-H1-000211",
+    "fold": 4
+  },
+  {
+    "record_index": 285,
+    "invoice_id": "INV-H1-000286",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 286,
+    "invoice_id": "INV-H1-000287",
+    "patient_id": "PT-H1-000149",
+    "fold": 1
+  },
+  {
+    "record_index": 287,
+    "invoice_id": "INV-H1-000288",
+    "patient_id": "PT-H1-000072",
+    "fold": 4
+  },
+  {
+    "record_index": 288,
+    "invoice_id": "INV-H1-000289",
+    "patient_id": "PT-H1-000191",
+    "fold": 2
+  },
+  {
+    "record_index": 289,
+    "invoice_id": "INV-H1-000290",
+    "patient_id": "PT-H1-000225",
+    "fold": 0
+  },
+  {
+    "record_index": 290,
+    "invoice_id": "INV-H1-000291",
+    "patient_id": "PT-H1-000185",
+    "fold": 0
+  },
+  {
+    "record_index": 291,
+    "invoice_id": "INV-H1-000292",
+    "patient_id": "PT-H1-000191",
+    "fold": 2
+  },
+  {
+    "record_index": 292,
+    "invoice_id": "INV-H1-000293",
+    "patient_id": "PT-H1-000072",
+    "fold": 4
+  },
+  {
+    "record_index": 293,
+    "invoice_id": "INV-H1-000294",
+    "patient_id": "PT-H1-000021",
+    "fold": 3
+  },
+  {
+    "record_index": 294,
+    "invoice_id": "INV-H1-000295",
+    "patient_id": "PT-H1-000041",
+    "fold": 2
+  },
+  {
+    "record_index": 295,
+    "invoice_id": "INV-H1-000296",
+    "patient_id": "PT-H1-000062",
+    "fold": 2
+  },
+  {
+    "record_index": 296,
+    "invoice_id": "INV-H1-000297",
+    "patient_id": "PT-H1-000219",
+    "fold": 3
+  },
+  {
+    "record_index": 297,
+    "invoice_id": "INV-H1-000298",
+    "patient_id": "PT-H1-000173",
+    "fold": 4
+  },
+  {
+    "record_index": 298,
+    "invoice_id": "INV-H1-000299",
+    "patient_id": "PT-H1-000054",
+    "fold": 3
+  },
+  {
+    "record_index": 299,
+    "invoice_id": "INV-H1-000300",
+    "patient_id": "PT-H1-000116",
+    "fold": 0
+  },
+  {
+    "record_index": 300,
+    "invoice_id": "INV-H1-000301",
+    "patient_id": "PT-H1-000042",
+    "fold": 0
+  },
+  {
+    "record_index": 301,
+    "invoice_id": "INV-H1-000302",
+    "patient_id": "PT-H1-000212",
+    "fold": 4
+  },
+  {
+    "record_index": 302,
+    "invoice_id": "INV-H1-000303",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 303,
+    "invoice_id": "INV-H1-000304",
+    "patient_id": "PT-H1-000001",
+    "fold": 4
+  },
+  {
+    "record_index": 304,
+    "invoice_id": "INV-H1-000305",
+    "patient_id": "PT-H1-000205",
+    "fold": 2
+  },
+  {
+    "record_index": 305,
+    "invoice_id": "INV-H1-000306",
+    "patient_id": "PT-H1-000111",
+    "fold": 0
+  },
+  {
+    "record_index": 306,
+    "invoice_id": "INV-H1-000307",
+    "patient_id": "PT-H1-000119",
+    "fold": 4
+  },
+  {
+    "record_index": 307,
+    "invoice_id": "INV-H1-000308",
+    "patient_id": "PT-H1-000145",
+    "fold": 2
+  },
+  {
+    "record_index": 308,
+    "invoice_id": "INV-H1-000309",
+    "patient_id": "PT-H1-000012",
+    "fold": 1
+  },
+  {
+    "record_index": 309,
+    "invoice_id": "INV-H1-000310",
+    "patient_id": "PT-H1-000042",
+    "fold": 0
+  },
+  {
+    "record_index": 310,
+    "invoice_id": "INV-H1-000311",
+    "patient_id": "PT-H1-000111",
+    "fold": 0
+  },
+  {
+    "record_index": 311,
+    "invoice_id": "INV-H1-000312",
+    "patient_id": "PT-H1-000006",
+    "fold": 3
+  },
+  {
+    "record_index": 312,
+    "invoice_id": "INV-H1-000313",
+    "patient_id": "PT-H1-000033",
+    "fold": 2
+  },
+  {
+    "record_index": 313,
+    "invoice_id": "INV-H1-000314",
+    "patient_id": "PT-H1-000111",
+    "fold": 0
+  },
+  {
+    "record_index": 314,
+    "invoice_id": "INV-H1-000315",
+    "patient_id": "PT-H1-000127",
+    "fold": 3
+  },
+  {
+    "record_index": 315,
+    "invoice_id": "INV-H1-000316",
+    "patient_id": "PT-H1-000071",
+    "fold": 0
+  },
+  {
+    "record_index": 316,
+    "invoice_id": "INV-H1-000317",
+    "patient_id": "PT-H1-000106",
+    "fold": 1
+  },
+  {
+    "record_index": 317,
+    "invoice_id": "INV-H1-000318",
+    "patient_id": "PT-H1-000100",
+    "fold": 3
+  },
+  {
+    "record_index": 318,
+    "invoice_id": "INV-H1-000319",
+    "patient_id": "PT-H1-000193",
+    "fold": 1
+  },
+  {
+    "record_index": 319,
+    "invoice_id": "INV-H1-000320",
+    "patient_id": "PT-H1-000082",
+    "fold": 0
+  },
+  {
+    "record_index": 320,
+    "invoice_id": "INV-H1-000321",
+    "patient_id": "PT-H1-000100",
+    "fold": 3
+  },
+  {
+    "record_index": 321,
+    "invoice_id": "INV-H1-000322",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 322,
+    "invoice_id": "INV-H1-000323",
+    "patient_id": "PT-H1-000151",
+    "fold": 0
+  },
+  {
+    "record_index": 323,
+    "invoice_id": "INV-H1-000324",
+    "patient_id": "PT-H1-000035",
+    "fold": 4
+  },
+  {
+    "record_index": 324,
+    "invoice_id": "INV-H1-000325",
+    "patient_id": "PT-H1-000181",
+    "fold": 2
+  },
+  {
+    "record_index": 325,
+    "invoice_id": "INV-H1-000326",
+    "patient_id": "PT-H1-000189",
+    "fold": 3
+  },
+  {
+    "record_index": 326,
+    "invoice_id": "INV-H1-000327",
+    "patient_id": "PT-H1-000208",
+    "fold": 2
+  },
+  {
+    "record_index": 327,
+    "invoice_id": "INV-H1-000328",
+    "patient_id": "PT-H1-000148",
+    "fold": 0
+  },
+  {
+    "record_index": 328,
+    "invoice_id": "INV-H1-000329",
+    "patient_id": "PT-H1-000008",
+    "fold": 1
+  },
+  {
+    "record_index": 329,
+    "invoice_id": "INV-H1-000330",
+    "patient_id": "PT-H1-000196",
+    "fold": 1
+  },
+  {
+    "record_index": 330,
+    "invoice_id": "INV-H1-000331",
+    "patient_id": "PT-H1-000206",
+    "fold": 0
+  },
+  {
+    "record_index": 331,
+    "invoice_id": "INV-H1-000332",
+    "patient_id": "PT-H1-000082",
+    "fold": 0
+  },
+  {
+    "record_index": 332,
+    "invoice_id": "INV-H1-000333",
+    "patient_id": "PT-H1-000019",
+    "fold": 3
+  },
+  {
+    "record_index": 333,
+    "invoice_id": "INV-H1-000334",
+    "patient_id": "PT-H1-000039",
+    "fold": 2
+  },
+  {
+    "record_index": 334,
+    "invoice_id": "INV-H1-000335",
+    "patient_id": "PT-H1-000108",
+    "fold": 1
+  },
+  {
+    "record_index": 335,
+    "invoice_id": "INV-H1-000336",
+    "patient_id": "PT-H1-000032",
+    "fold": 0
+  },
+  {
+    "record_index": 336,
+    "invoice_id": "INV-H1-000337",
+    "patient_id": "PT-H1-000200",
+    "fold": 0
+  },
+  {
+    "record_index": 337,
+    "invoice_id": "INV-H1-000338",
+    "patient_id": "PT-H1-000222",
+    "fold": 1
+  },
+  {
+    "record_index": 338,
+    "invoice_id": "INV-H1-000339",
+    "patient_id": "PT-H1-000109",
+    "fold": 3
+  },
+  {
+    "record_index": 339,
+    "invoice_id": "INV-H1-000340",
+    "patient_id": "PT-H1-000142",
+    "fold": 2
+  },
+  {
+    "record_index": 340,
+    "invoice_id": "INV-H1-000341",
+    "patient_id": "PT-H1-000182",
+    "fold": 1
+  },
+  {
+    "record_index": 341,
+    "invoice_id": "INV-H1-000342",
+    "patient_id": "PT-H1-000162",
+    "fold": 4
+  },
+  {
+    "record_index": 342,
+    "invoice_id": "INV-H1-000343",
+    "patient_id": "PT-H1-000095",
+    "fold": 3
+  },
+  {
+    "record_index": 343,
+    "invoice_id": "INV-H1-000344",
+    "patient_id": "PT-H1-000229",
+    "fold": 2
+  },
+  {
+    "record_index": 344,
+    "invoice_id": "INV-H1-000345",
+    "patient_id": "PT-H1-000168",
+    "fold": 0
+  },
+  {
+    "record_index": 345,
+    "invoice_id": "INV-H1-000346",
+    "patient_id": "PT-H1-000016",
+    "fold": 4
+  },
+  {
+    "record_index": 346,
+    "invoice_id": "INV-H1-000347",
+    "patient_id": "PT-H1-000043",
+    "fold": 0
+  },
+  {
+    "record_index": 347,
+    "invoice_id": "INV-H1-000348",
+    "patient_id": "PT-H1-000093",
+    "fold": 1
+  },
+  {
+    "record_index": 348,
+    "invoice_id": "INV-H1-000349",
+    "patient_id": "PT-H1-000103",
+    "fold": 4
+  },
+  {
+    "record_index": 349,
+    "invoice_id": "INV-H1-000350",
+    "patient_id": "PT-H1-000092",
+    "fold": 0
+  },
+  {
+    "record_index": 350,
+    "invoice_id": "INV-H1-000351",
+    "patient_id": "PT-H1-000138",
+    "fold": 4
+  },
+  {
+    "record_index": 351,
+    "invoice_id": "INV-H1-000352",
+    "patient_id": "PT-H1-000194",
+    "fold": 3
+  },
+  {
+    "record_index": 352,
+    "invoice_id": "INV-H1-000353",
+    "patient_id": "PT-H1-000034",
+    "fold": 0
+  },
+  {
+    "record_index": 353,
+    "invoice_id": "INV-H1-000354",
+    "patient_id": "PT-H1-000014",
+    "fold": 0
+  },
+  {
+    "record_index": 354,
+    "invoice_id": "INV-H1-000355",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 355,
+    "invoice_id": "INV-H1-000356",
+    "patient_id": "PT-H1-000099",
+    "fold": 2
+  },
+  {
+    "record_index": 356,
+    "invoice_id": "INV-H1-000357",
+    "patient_id": "PT-H1-000171",
+    "fold": 3
+  },
+  {
+    "record_index": 357,
+    "invoice_id": "INV-H1-000358",
+    "patient_id": "PT-H1-000021",
+    "fold": 3
+  },
+  {
+    "record_index": 358,
+    "invoice_id": "INV-H1-000359",
+    "patient_id": "PT-H1-000178",
+    "fold": 4
+  },
+  {
+    "record_index": 359,
+    "invoice_id": "INV-H1-000360",
+    "patient_id": "PT-H1-000219",
+    "fold": 3
+  },
+  {
+    "record_index": 360,
+    "invoice_id": "INV-H1-000361",
+    "patient_id": "PT-H1-000046",
+    "fold": 1
+  },
+  {
+    "record_index": 361,
+    "invoice_id": "INV-H1-000362",
+    "patient_id": "PT-H1-000075",
+    "fold": 2
+  },
+  {
+    "record_index": 362,
+    "invoice_id": "INV-H1-000363",
+    "patient_id": "PT-H1-000198",
+    "fold": 1
+  },
+  {
+    "record_index": 363,
+    "invoice_id": "INV-H1-000364",
+    "patient_id": "PT-H1-000178",
+    "fold": 4
+  },
+  {
+    "record_index": 364,
+    "invoice_id": "INV-H1-000365",
+    "patient_id": "PT-H1-000034",
+    "fold": 0
+  },
+  {
+    "record_index": 365,
+    "invoice_id": "INV-H1-000366",
+    "patient_id": "PT-H1-000136",
+    "fold": 1
+  },
+  {
+    "record_index": 366,
+    "invoice_id": "INV-H1-000367",
+    "patient_id": "PT-H1-000206",
+    "fold": 0
+  },
+  {
+    "record_index": 367,
+    "invoice_id": "INV-H1-000368",
+    "patient_id": "PT-H1-000086",
+    "fold": 0
+  },
+  {
+    "record_index": 368,
+    "invoice_id": "INV-H1-000369",
+    "patient_id": "PT-H1-000150",
+    "fold": 0
+  },
+  {
+    "record_index": 369,
+    "invoice_id": "INV-H1-000370",
+    "patient_id": "PT-H1-000014",
+    "fold": 0
+  },
+  {
+    "record_index": 370,
+    "invoice_id": "INV-H1-000371",
+    "patient_id": "PT-H1-000030",
+    "fold": 2
+  },
+  {
+    "record_index": 371,
+    "invoice_id": "INV-H1-000372",
+    "patient_id": "PT-H1-000093",
+    "fold": 1
+  },
+  {
+    "record_index": 372,
+    "invoice_id": "INV-H1-000373",
+    "patient_id": "PT-H1-000217",
+    "fold": 2
+  },
+  {
+    "record_index": 373,
+    "invoice_id": "INV-H1-000374",
+    "patient_id": "PT-H1-000086",
+    "fold": 0
+  },
+  {
+    "record_index": 374,
+    "invoice_id": "INV-H1-000375",
+    "patient_id": "PT-H1-000145",
+    "fold": 2
+  },
+  {
+    "record_index": 375,
+    "invoice_id": "INV-H1-000376",
+    "patient_id": "PT-H1-000055",
+    "fold": 1
+  },
+  {
+    "record_index": 376,
+    "invoice_id": "INV-H1-000377",
+    "patient_id": "PT-H1-000129",
+    "fold": 3
+  },
+  {
+    "record_index": 377,
+    "invoice_id": "INV-H1-000378",
+    "patient_id": "PT-H1-000193",
+    "fold": 1
+  },
+  {
+    "record_index": 378,
+    "invoice_id": "INV-H1-000379",
+    "patient_id": "PT-H1-000016",
+    "fold": 4
+  },
+  {
+    "record_index": 379,
+    "invoice_id": "INV-H1-000380",
+    "patient_id": "PT-H1-000048",
+    "fold": 1
+  },
+  {
+    "record_index": 380,
+    "invoice_id": "INV-H1-000381",
+    "patient_id": "PT-H1-000137",
+    "fold": 4
+  },
+  {
+    "record_index": 381,
+    "invoice_id": "INV-H1-000382",
+    "patient_id": "PT-H1-000169",
+    "fold": 4
+  },
+  {
+    "record_index": 382,
+    "invoice_id": "INV-H1-000383",
+    "patient_id": "PT-H1-000116",
+    "fold": 0
+  },
+  {
+    "record_index": 383,
+    "invoice_id": "INV-H1-000384",
+    "patient_id": "PT-H1-000058",
+    "fold": 0
+  },
+  {
+    "record_index": 384,
+    "invoice_id": "INV-H1-000385",
+    "patient_id": "PT-H1-000229",
+    "fold": 2
+  },
+  {
+    "record_index": 385,
+    "invoice_id": "INV-H1-000386",
+    "patient_id": "PT-H1-000055",
+    "fold": 1
+  },
+  {
+    "record_index": 386,
+    "invoice_id": "INV-H1-000387",
+    "patient_id": "PT-H1-000003",
+    "fold": 2
+  },
+  {
+    "record_index": 387,
+    "invoice_id": "INV-H1-000388",
+    "patient_id": "PT-H1-000045",
+    "fold": 1
+  },
+  {
+    "record_index": 388,
+    "invoice_id": "INV-H1-000389",
+    "patient_id": "PT-H1-000062",
+    "fold": 2
+  },
+  {
+    "record_index": 389,
+    "invoice_id": "INV-H1-000390",
+    "patient_id": "PT-H1-000172",
+    "fold": 1
+  },
+  {
+    "record_index": 390,
+    "invoice_id": "INV-H1-000391",
+    "patient_id": "PT-H1-000202",
+    "fold": 1
+  },
+  {
+    "record_index": 391,
+    "invoice_id": "INV-H1-000392",
+    "patient_id": "PT-H1-000228",
+    "fold": 3
+  },
+  {
+    "record_index": 392,
+    "invoice_id": "INV-H1-000393",
+    "patient_id": "PT-H1-000067",
+    "fold": 0
+  },
+  {
+    "record_index": 393,
+    "invoice_id": "INV-H1-000394",
+    "patient_id": "PT-H1-000070",
+    "fold": 4
+  },
+  {
+    "record_index": 394,
+    "invoice_id": "INV-H1-000395",
+    "patient_id": "PT-H1-000099",
+    "fold": 2
+  },
+  {
+    "record_index": 395,
+    "invoice_id": "INV-H1-000396",
+    "patient_id": "PT-H1-000127",
+    "fold": 3
+  },
+  {
+    "record_index": 396,
+    "invoice_id": "INV-H1-000397",
+    "patient_id": "PT-H1-000170",
+    "fold": 0
+  },
+  {
+    "record_index": 397,
+    "invoice_id": "INV-H1-000398",
+    "patient_id": "PT-H1-000184",
+    "fold": 3
+  },
+  {
+    "record_index": 398,
+    "invoice_id": "INV-H1-000399",
+    "patient_id": "PT-H1-000083",
+    "fold": 1
+  },
+  {
+    "record_index": 399,
+    "invoice_id": "INV-H1-000400",
+    "patient_id": "PT-H1-000090",
+    "fold": 0
+  },
+  {
+    "record_index": 400,
+    "invoice_id": "INV-H1-000401",
+    "patient_id": "PT-H1-000092",
+    "fold": 0
+  },
+  {
+    "record_index": 401,
+    "invoice_id": "INV-H1-000402",
+    "patient_id": "PT-H1-000113",
+    "fold": 2
+  },
+  {
+    "record_index": 402,
+    "invoice_id": "INV-H1-000403",
+    "patient_id": "PT-H1-000201",
+    "fold": 3
+  },
+  {
+    "record_index": 403,
+    "invoice_id": "INV-H1-000404",
+    "patient_id": "PT-H1-000051",
+    "fold": 1
+  },
+  {
+    "record_index": 404,
+    "invoice_id": "INV-H1-000405",
+    "patient_id": "PT-H1-000055",
+    "fold": 1
+  },
+  {
+    "record_index": 405,
+    "invoice_id": "INV-H1-000406",
+    "patient_id": "PT-H1-000047",
+    "fold": 1
+  },
+  {
+    "record_index": 406,
+    "invoice_id": "INV-H1-000407",
+    "patient_id": "PT-H1-000018",
+    "fold": 0
+  },
+  {
+    "record_index": 407,
+    "invoice_id": "INV-H1-000408",
+    "patient_id": "PT-H1-000148",
+    "fold": 0
+  },
+  {
+    "record_index": 408,
+    "invoice_id": "INV-H1-000409",
+    "patient_id": "PT-H1-000208",
+    "fold": 2
+  },
+  {
+    "record_index": 409,
+    "invoice_id": "INV-H1-000410",
+    "patient_id": "PT-H1-000222",
+    "fold": 1
+  },
+  {
+    "record_index": 410,
+    "invoice_id": "INV-H1-000411",
+    "patient_id": "PT-H1-000168",
+    "fold": 0
+  },
+  {
+    "record_index": 411,
+    "invoice_id": "INV-H1-000412",
+    "patient_id": "PT-H1-000208",
+    "fold": 2
+  },
+  {
+    "record_index": 412,
+    "invoice_id": "INV-H1-000413",
+    "patient_id": "PT-H1-000062",
+    "fold": 2
+  },
+  {
+    "record_index": 413,
+    "invoice_id": "INV-H1-000414",
+    "patient_id": "PT-H1-000215",
+    "fold": 1
+  },
+  {
+    "record_index": 414,
+    "invoice_id": "INV-H1-000415",
+    "patient_id": "PT-H1-000036",
+    "fold": 3
+  },
+  {
+    "record_index": 415,
+    "invoice_id": "INV-H1-000416",
+    "patient_id": "PT-H1-000112",
+    "fold": 0
+  },
+  {
+    "record_index": 416,
+    "invoice_id": "INV-H1-000417",
+    "patient_id": "PT-H1-000177",
+    "fold": 3
+  },
+  {
+    "record_index": 417,
+    "invoice_id": "INV-H1-000418",
+    "patient_id": "PT-H1-000003",
+    "fold": 2
+  },
+  {
+    "record_index": 418,
+    "invoice_id": "INV-H1-000419",
+    "patient_id": "PT-H1-000201",
+    "fold": 3
+  },
+  {
+    "record_index": 419,
+    "invoice_id": "INV-H1-000420",
+    "patient_id": "PT-H1-000201",
+    "fold": 3
+  },
+  {
+    "record_index": 420,
+    "invoice_id": "INV-H1-000421",
+    "patient_id": "PT-H1-000091",
+    "fold": 2
+  },
+  {
+    "record_index": 421,
+    "invoice_id": "INV-H1-000422",
+    "patient_id": "PT-H1-000040",
+    "fold": 0
+  },
+  {
+    "record_index": 422,
+    "invoice_id": "INV-H1-000423",
+    "patient_id": "PT-H1-000094",
+    "fold": 3
+  },
+  {
+    "record_index": 423,
+    "invoice_id": "INV-H1-000424",
+    "patient_id": "PT-H1-000008",
+    "fold": 1
+  },
+  {
+    "record_index": 424,
+    "invoice_id": "INV-H1-000425",
+    "patient_id": "PT-H1-000020",
+    "fold": 2
+  },
+  {
+    "record_index": 425,
+    "invoice_id": "INV-H1-000426",
+    "patient_id": "PT-H1-000061",
+    "fold": 1
+  },
+  {
+    "record_index": 426,
+    "invoice_id": "INV-H1-000427",
+    "patient_id": "PT-H1-000071",
+    "fold": 0
+  },
+  {
+    "record_index": 427,
+    "invoice_id": "INV-H1-000428",
+    "patient_id": "PT-H1-000122",
+    "fold": 3
+  },
+  {
+    "record_index": 428,
+    "invoice_id": "INV-H1-000429",
+    "patient_id": "PT-H1-000006",
+    "fold": 3
+  },
+  {
+    "record_index": 429,
+    "invoice_id": "INV-H1-000430",
+    "patient_id": "PT-H1-000042",
+    "fold": 0
+  },
+  {
+    "record_index": 430,
+    "invoice_id": "INV-H1-000431",
+    "patient_id": "PT-H1-000075",
+    "fold": 2
+  },
+  {
+    "record_index": 431,
+    "invoice_id": "INV-H1-000432",
+    "patient_id": "PT-H1-000157",
+    "fold": 0
+  },
+  {
+    "record_index": 432,
+    "invoice_id": "INV-H1-000433",
+    "patient_id": "PT-H1-000040",
+    "fold": 0
+  },
+  {
+    "record_index": 433,
+    "invoice_id": "INV-H1-000434",
+    "patient_id": "PT-H1-000065",
+    "fold": 1
+  },
+  {
+    "record_index": 434,
+    "invoice_id": "INV-H1-000435",
+    "patient_id": "PT-H1-000140",
+    "fold": 2
+  },
+  {
+    "record_index": 435,
+    "invoice_id": "INV-H1-000436",
+    "patient_id": "PT-H1-000123",
+    "fold": 0
+  },
+  {
+    "record_index": 436,
+    "invoice_id": "INV-H1-000437",
+    "patient_id": "PT-H1-000225",
+    "fold": 0
+  },
+  {
+    "record_index": 437,
+    "invoice_id": "INV-H1-000438",
+    "patient_id": "PT-H1-000032",
+    "fold": 0
+  },
+  {
+    "record_index": 438,
+    "invoice_id": "INV-H1-000439",
+    "patient_id": "PT-H1-000187",
+    "fold": 3
+  },
+  {
+    "record_index": 439,
+    "invoice_id": "INV-H1-000440",
+    "patient_id": "PT-H1-000158",
+    "fold": 2
+  },
+  {
+    "record_index": 440,
+    "invoice_id": "INV-H1-000441",
+    "patient_id": "PT-H1-000208",
+    "fold": 2
+  },
+  {
+    "record_index": 441,
+    "invoice_id": "INV-H1-000442",
+    "patient_id": "PT-H1-000014",
+    "fold": 0
+  },
+  {
+    "record_index": 442,
+    "invoice_id": "INV-H1-000443",
+    "patient_id": "PT-H1-000112",
+    "fold": 0
+  },
+  {
+    "record_index": 443,
+    "invoice_id": "INV-H1-000444",
+    "patient_id": "PT-H1-000150",
+    "fold": 0
+  },
+  {
+    "record_index": 444,
+    "invoice_id": "INV-H1-000445",
+    "patient_id": "PT-H1-000125",
+    "fold": 1
+  },
+  {
+    "record_index": 445,
+    "invoice_id": "INV-H1-000446",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 446,
+    "invoice_id": "INV-H1-000447",
+    "patient_id": "PT-H1-000113",
+    "fold": 2
+  },
+  {
+    "record_index": 447,
+    "invoice_id": "INV-H1-000448",
+    "patient_id": "PT-H1-000152",
+    "fold": 2
+  },
+  {
+    "record_index": 448,
+    "invoice_id": "INV-H1-000449",
+    "patient_id": "PT-H1-000207",
+    "fold": 4
+  },
+  {
+    "record_index": 449,
+    "invoice_id": "INV-H1-000450",
+    "patient_id": "PT-H1-000221",
+    "fold": 2
+  },
+  {
+    "record_index": 450,
+    "invoice_id": "INV-H1-000451",
+    "patient_id": "PT-H1-000039",
+    "fold": 2
+  },
+  {
+    "record_index": 451,
+    "invoice_id": "INV-H1-000452",
+    "patient_id": "PT-H1-000052",
+    "fold": 4
+  },
+  {
+    "record_index": 452,
+    "invoice_id": "INV-H1-000453",
+    "patient_id": "PT-H1-000129",
+    "fold": 3
+  },
+  {
+    "record_index": 453,
+    "invoice_id": "INV-H1-000454",
+    "patient_id": "PT-H1-000133",
+    "fold": 3
+  },
+  {
+    "record_index": 454,
+    "invoice_id": "INV-H1-000455",
+    "patient_id": "PT-H1-000137",
+    "fold": 4
+  },
+  {
+    "record_index": 455,
+    "invoice_id": "INV-H1-000456",
+    "patient_id": "PT-H1-000174",
+    "fold": 3
+  },
+  {
+    "record_index": 456,
+    "invoice_id": "INV-H1-000457",
+    "patient_id": "PT-H1-000023",
+    "fold": 4
+  },
+  {
+    "record_index": 457,
+    "invoice_id": "INV-H1-000458",
+    "patient_id": "PT-H1-000179",
+    "fold": 4
+  },
+  {
+    "record_index": 458,
+    "invoice_id": "INV-H1-000459",
+    "patient_id": "PT-H1-000001",
+    "fold": 4
+  },
+  {
+    "record_index": 459,
+    "invoice_id": "INV-H1-000460",
+    "patient_id": "PT-H1-000055",
+    "fold": 1
+  },
+  {
+    "record_index": 460,
+    "invoice_id": "INV-H1-000461",
+    "patient_id": "PT-H1-000193",
+    "fold": 1
+  },
+  {
+    "record_index": 461,
+    "invoice_id": "INV-H1-000462",
+    "patient_id": "PT-H1-000095",
+    "fold": 3
+  },
+  {
+    "record_index": 462,
+    "invoice_id": "INV-H1-000463",
+    "patient_id": "PT-H1-000046",
+    "fold": 1
+  },
+  {
+    "record_index": 463,
+    "invoice_id": "INV-H1-000464",
+    "patient_id": "PT-H1-000058",
+    "fold": 0
+  },
+  {
+    "record_index": 464,
+    "invoice_id": "INV-H1-000465",
+    "patient_id": "PT-H1-000036",
+    "fold": 3
+  },
+  {
+    "record_index": 465,
+    "invoice_id": "INV-H1-000466",
+    "patient_id": "PT-H1-000097",
+    "fold": 4
+  },
+  {
+    "record_index": 466,
+    "invoice_id": "INV-H1-000467",
+    "patient_id": "PT-H1-000195",
+    "fold": 2
+  },
+  {
+    "record_index": 467,
+    "invoice_id": "INV-H1-000468",
+    "patient_id": "PT-H1-000084",
+    "fold": 2
+  },
+  {
+    "record_index": 468,
+    "invoice_id": "INV-H1-000469",
+    "patient_id": "PT-H1-000092",
+    "fold": 0
+  },
+  {
+    "record_index": 469,
+    "invoice_id": "INV-H1-000470",
+    "patient_id": "PT-H1-000053",
+    "fold": 2
+  },
+  {
+    "record_index": 470,
+    "invoice_id": "INV-H1-000471",
+    "patient_id": "PT-H1-000076",
+    "fold": 2
+  },
+  {
+    "record_index": 471,
+    "invoice_id": "INV-H1-000472",
+    "patient_id": "PT-H1-000118",
+    "fold": 1
+  },
+  {
+    "record_index": 472,
+    "invoice_id": "INV-H1-000473",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 473,
+    "invoice_id": "INV-H1-000474",
+    "patient_id": "PT-H1-000178",
+    "fold": 4
+  },
+  {
+    "record_index": 474,
+    "invoice_id": "INV-H1-000475",
+    "patient_id": "PT-H1-000217",
+    "fold": 2
+  },
+  {
+    "record_index": 475,
+    "invoice_id": "INV-H1-000476",
+    "patient_id": "PT-H1-000029",
+    "fold": 0
+  },
+  {
+    "record_index": 476,
+    "invoice_id": "INV-H1-000477",
+    "patient_id": "PT-H1-000206",
+    "fold": 0
+  },
+  {
+    "record_index": 477,
+    "invoice_id": "INV-H1-000478",
+    "patient_id": "PT-H1-000224",
+    "fold": 4
+  },
+  {
+    "record_index": 478,
+    "invoice_id": "INV-H1-000479",
+    "patient_id": "PT-H1-000006",
+    "fold": 3
+  },
+  {
+    "record_index": 479,
+    "invoice_id": "INV-H1-000480",
+    "patient_id": "PT-H1-000224",
+    "fold": 4
+  },
+  {
+    "record_index": 480,
+    "invoice_id": "INV-H1-000481",
+    "patient_id": "PT-H1-000131",
+    "fold": 1
+  },
+  {
+    "record_index": 481,
+    "invoice_id": "INV-H1-000482",
+    "patient_id": "PT-H1-000191",
+    "fold": 2
+  },
+  {
+    "record_index": 482,
+    "invoice_id": "INV-H1-000457",
+    "patient_id": "PT-H1-000104",
+    "fold": 4
+  },
+  {
+    "record_index": 483,
+    "invoice_id": "INV-H1-000484",
+    "patient_id": "PT-H1-000110",
+    "fold": 2
+  },
+  {
+    "record_index": 484,
+    "invoice_id": "INV-H1-000485",
+    "patient_id": "PT-H1-000031",
+    "fold": 4
+  },
+  {
+    "record_index": 485,
+    "invoice_id": "INV-H1-000486",
+    "patient_id": "PT-H1-000100",
+    "fold": 3
+  },
+  {
+    "record_index": 486,
+    "invoice_id": "INV-H1-000487",
+    "patient_id": "PT-H1-000189",
+    "fold": 3
+  },
+  {
+    "record_index": 487,
+    "invoice_id": "INV-H1-000488",
+    "patient_id": "PT-H1-000030",
+    "fold": 2
+  },
+  {
+    "record_index": 488,
+    "invoice_id": "INV-H1-000489",
+    "patient_id": "PT-H1-000045",
+    "fold": 1
+  },
+  {
+    "record_index": 489,
+    "invoice_id": "INV-H1-000490",
+    "patient_id": "PT-H1-000156",
+    "fold": 4
+  },
+  {
+    "record_index": 490,
+    "invoice_id": "INV-H1-000491",
+    "patient_id": "PT-H1-000036",
+    "fold": 3
+  },
+  {
+    "record_index": 491,
+    "invoice_id": "INV-H1-000492",
+    "patient_id": "PT-H1-000055",
+    "fold": 1
+  },
+  {
+    "record_index": 492,
+    "invoice_id": "INV-H1-000493",
+    "patient_id": "PT-H1-000112",
+    "fold": 0
+  },
+  {
+    "record_index": 493,
+    "invoice_id": "INV-H1-000494",
+    "patient_id": "PT-H1-000122",
+    "fold": 3
+  },
+  {
+    "record_index": 494,
+    "invoice_id": "INV-H1-000495",
+    "patient_id": "PT-H1-000199",
+    "fold": 2
+  },
+  {
+    "record_index": 495,
+    "invoice_id": "INV-H1-000496",
+    "patient_id": "PT-H1-000009",
+    "fold": 1
+  },
+  {
+    "record_index": 496,
+    "invoice_id": "INV-H1-000497",
+    "patient_id": "PT-H1-000201",
+    "fold": 3
+  },
+  {
+    "record_index": 497,
+    "invoice_id": "INV-H1-000498",
+    "patient_id": "PT-H1-000030",
+    "fold": 2
+  },
+  {
+    "record_index": 498,
+    "invoice_id": "INV-H1-000499",
+    "patient_id": "PT-H1-000090",
+    "fold": 0
+  },
+  {
+    "record_index": 499,
+    "invoice_id": "INV-H1-000500",
+    "patient_id": "PT-H1-000183",
+    "fold": 0
+  },
+  {
+    "record_index": 500,
+    "invoice_id": "INV-H1-000501",
+    "patient_id": "PT-H1-000032",
+    "fold": 0
+  },
+  {
+    "record_index": 501,
+    "invoice_id": "INV-H1-000502",
+    "patient_id": "PT-H1-000096",
+    "fold": 1
+  },
+  {
+    "record_index": 502,
+    "invoice_id": "INV-H1-000503",
+    "patient_id": "PT-H1-000144",
+    "fold": 2
+  },
+  {
+    "record_index": 503,
+    "invoice_id": "INV-H1-000504",
+    "patient_id": "PT-H1-000035",
+    "fold": 4
+  },
+  {
+    "record_index": 504,
+    "invoice_id": "INV-H1-000505",
+    "patient_id": "PT-H1-000123",
+    "fold": 0
+  },
+  {
+    "record_index": 505,
+    "invoice_id": "INV-H1-000506",
+    "patient_id": "PT-H1-000173",
+    "fold": 4
+  },
+  {
+    "record_index": 506,
+    "invoice_id": "INV-H1-000507",
+    "patient_id": "PT-H1-000214",
+    "fold": 4
+  },
+  {
+    "record_index": 507,
+    "invoice_id": "INV-H1-000508",
+    "patient_id": "PT-H1-000203",
+    "fold": 1
+  },
+  {
+    "record_index": 508,
+    "invoice_id": "INV-H1-000509",
+    "patient_id": "PT-H1-000098",
+    "fold": 0
+  },
+  {
+    "record_index": 509,
+    "invoice_id": "INV-H1-000510",
+    "patient_id": "PT-H1-000190",
+    "fold": 2
+  },
+  {
+    "record_index": 510,
+    "invoice_id": "INV-H1-000511",
+    "patient_id": "PT-H1-000167",
+    "fold": 4
+  },
+  {
+    "record_index": 511,
+    "invoice_id": "INV-H1-000512",
+    "patient_id": "PT-H1-000191",
+    "fold": 2
+  },
+  {
+    "record_index": 512,
+    "invoice_id": "INV-H1-000513",
+    "patient_id": "PT-H1-000204",
+    "fold": 4
+  },
+  {
+    "record_index": 513,
+    "invoice_id": "INV-H1-000514",
+    "patient_id": "PT-H1-000221",
+    "fold": 2
+  },
+  {
+    "record_index": 514,
+    "invoice_id": "INV-H1-000515",
+    "patient_id": "PT-H1-000138",
+    "fold": 4
+  },
+  {
+    "record_index": 515,
+    "invoice_id": "INV-H1-000516",
+    "patient_id": "PT-H1-000214",
+    "fold": 4
+  },
+  {
+    "record_index": 516,
+    "invoice_id": "INV-H1-000517",
+    "patient_id": "PT-H1-000184",
+    "fold": 3
+  },
+  {
+    "record_index": 517,
+    "invoice_id": "INV-H1-000518",
+    "patient_id": "PT-H1-000103",
+    "fold": 4
+  },
+  {
+    "record_index": 518,
+    "invoice_id": "INV-H1-000519",
+    "patient_id": "PT-H1-000143",
+    "fold": 3
+  },
+  {
+    "record_index": 519,
+    "invoice_id": "INV-H1-000520",
+    "patient_id": "PT-H1-000027",
+    "fold": 0
+  },
+  {
+    "record_index": 520,
+    "invoice_id": "INV-H1-000521",
+    "patient_id": "PT-H1-000090",
+    "fold": 0
+  },
+  {
+    "record_index": 521,
+    "invoice_id": "INV-H1-000522",
+    "patient_id": "PT-H1-000211",
+    "fold": 4
+  },
+  {
+    "record_index": 522,
+    "invoice_id": "INV-H1-000523",
+    "patient_id": "PT-H1-000197",
+    "fold": 3
+  },
+  {
+    "record_index": 523,
+    "invoice_id": "INV-H1-000524",
+    "patient_id": "PT-H1-000006",
+    "fold": 3
+  },
+  {
+    "record_index": 524,
+    "invoice_id": "INV-H1-000429",
+    "patient_id": "PT-H1-000095",
+    "fold": 3
+  },
+  {
+    "record_index": 525,
+    "invoice_id": "INV-H1-000526",
+    "patient_id": "PT-H1-000129",
+    "fold": 3
+  },
+  {
+    "record_index": 526,
+    "invoice_id": "INV-H1-000527",
+    "patient_id": "PT-H1-000062",
+    "fold": 2
+  },
+  {
+    "record_index": 527,
+    "invoice_id": "INV-H1-000528",
+    "patient_id": "PT-H1-000108",
+    "fold": 1
+  },
+  {
+    "record_index": 528,
+    "invoice_id": "INV-H1-000529",
+    "patient_id": "PT-H1-000203",
+    "fold": 1
+  },
+  {
+    "record_index": 529,
+    "invoice_id": "INV-H1-000530",
+    "patient_id": "PT-H1-000083",
+    "fold": 1
+  },
+  {
+    "record_index": 530,
+    "invoice_id": "INV-H1-000531",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 531,
+    "invoice_id": "INV-H1-000532",
+    "patient_id": "PT-H1-000203",
+    "fold": 1
+  },
+  {
+    "record_index": 532,
+    "invoice_id": "INV-H1-000533",
+    "patient_id": "PT-H1-000068",
+    "fold": 2
+  },
+  {
+    "record_index": 533,
+    "invoice_id": "INV-H1-000534",
+    "patient_id": "PT-H1-000044",
+    "fold": 4
+  },
+  {
+    "record_index": 534,
+    "invoice_id": "INV-H1-000535",
+    "patient_id": "PT-H1-000023",
+    "fold": 4
+  },
+  {
+    "record_index": 535,
+    "invoice_id": "INV-H1-000536",
+    "patient_id": "PT-H1-000082",
+    "fold": 0
+  },
+  {
+    "record_index": 536,
+    "invoice_id": "INV-H1-000537",
+    "patient_id": "PT-H1-000140",
+    "fold": 2
+  },
+  {
+    "record_index": 537,
+    "invoice_id": "INV-H1-000538",
+    "patient_id": "PT-H1-000205",
+    "fold": 2
+  },
+  {
+    "record_index": 538,
+    "invoice_id": "INV-H1-000539",
+    "patient_id": "PT-H1-000147",
+    "fold": 2
+  },
+  {
+    "record_index": 539,
+    "invoice_id": "INV-H1-000540",
+    "patient_id": "PT-H1-000086",
+    "fold": 0
+  },
+  {
+    "record_index": 540,
+    "invoice_id": "INV-H1-000541",
+    "patient_id": "PT-H1-000023",
+    "fold": 4
+  },
+  {
+    "record_index": 541,
+    "invoice_id": "INV-H1-000542",
+    "patient_id": "PT-H1-000005",
+    "fold": 0
+  },
+  {
+    "record_index": 542,
+    "invoice_id": "INV-H1-000543",
+    "patient_id": "PT-H1-000046",
+    "fold": 1
+  },
+  {
+    "record_index": 543,
+    "invoice_id": "INV-H1-000544",
+    "patient_id": "PT-H1-000081",
+    "fold": 2
+  },
+  {
+    "record_index": 544,
+    "invoice_id": "INV-H1-000545",
+    "patient_id": "PT-H1-000111",
+    "fold": 0
+  },
+  {
+    "record_index": 545,
+    "invoice_id": "INV-H1-000546",
+    "patient_id": "PT-H1-000140",
+    "fold": 2
+  },
+  {
+    "record_index": 546,
+    "invoice_id": "INV-H1-000547",
+    "patient_id": "PT-H1-000106",
+    "fold": 1
+  },
+  {
+    "record_index": 547,
+    "invoice_id": "INV-H1-000548",
+    "patient_id": "PT-H1-000025",
+    "fold": 4
+  },
+  {
+    "record_index": 548,
+    "invoice_id": "INV-H1-000549",
+    "patient_id": "PT-H1-000118",
+    "fold": 1
+  },
+  {
+    "record_index": 549,
+    "invoice_id": "INV-H1-000550",
+    "patient_id": "PT-H1-000082",
+    "fold": 0
+  },
+  {
+    "record_index": 550,
+    "invoice_id": "INV-H1-000551",
+    "patient_id": "PT-H1-000049",
+    "fold": 2
+  },
+  {
+    "record_index": 551,
+    "invoice_id": "INV-H1-000552",
+    "patient_id": "PT-H1-000100",
+    "fold": 3
+  },
+  {
+    "record_index": 552,
+    "invoice_id": "INV-H1-000553",
+    "patient_id": "PT-H1-000214",
+    "fold": 4
+  },
+  {
+    "record_index": 553,
+    "invoice_id": "INV-H1-000554",
+    "patient_id": "PT-H1-000041",
+    "fold": 2
+  },
+  {
+    "record_index": 554,
+    "invoice_id": "INV-H1-000555",
+    "patient_id": "PT-H1-000116",
+    "fold": 0
+  },
+  {
+    "record_index": 555,
+    "invoice_id": "INV-H1-000556",
+    "patient_id": "PT-H1-000065",
+    "fold": 1
+  },
+  {
+    "record_index": 556,
+    "invoice_id": "INV-H1-000557",
+    "patient_id": "PT-H1-000080",
+    "fold": 1
+  },
+  {
+    "record_index": 557,
+    "invoice_id": "INV-H1-000558",
+    "patient_id": "PT-H1-000143",
+    "fold": 3
+  },
+  {
+    "record_index": 558,
+    "invoice_id": "INV-H1-000559",
+    "patient_id": "PT-H1-000148",
+    "fold": 0
+  },
+  {
+    "record_index": 559,
+    "invoice_id": "INV-H1-000560",
+    "patient_id": "PT-H1-000153",
+    "fold": 2
+  },
+  {
+    "record_index": 560,
+    "invoice_id": "INV-H1-000561",
+    "patient_id": "PT-H1-000092",
+    "fold": 0
+  },
+  {
+    "record_index": 561,
+    "invoice_id": "INV-H1-000562",
+    "patient_id": "PT-H1-000046",
+    "fold": 1
+  },
+  {
+    "record_index": 562,
+    "invoice_id": "INV-H1-000563",
+    "patient_id": "PT-H1-000196",
+    "fold": 1
+  },
+  {
+    "record_index": 563,
+    "invoice_id": "INV-H1-000564",
+    "patient_id": "PT-H1-000024",
+    "fold": 3
+  },
+  {
+    "record_index": 564,
+    "invoice_id": "INV-H1-000565",
+    "patient_id": "PT-H1-000096",
+    "fold": 1
+  },
+  {
+    "record_index": 565,
+    "invoice_id": "INV-H1-000566",
+    "patient_id": "PT-H1-000134",
+    "fold": 2
+  },
+  {
+    "record_index": 566,
+    "invoice_id": "INV-H1-000567",
+    "patient_id": "PT-H1-000001",
+    "fold": 4
+  },
+  {
+    "record_index": 567,
+    "invoice_id": "INV-H1-000568",
+    "patient_id": "PT-H1-000028",
+    "fold": 4
+  },
+  {
+    "record_index": 568,
+    "invoice_id": "INV-H1-000569",
+    "patient_id": "PT-H1-000210",
+    "fold": 0
+  },
+  {
+    "record_index": 569,
+    "invoice_id": "INV-H1-000570",
+    "patient_id": "PT-H1-000022",
+    "fold": 3
+  },
+  {
+    "record_index": 570,
+    "invoice_id": "INV-H1-000571",
+    "patient_id": "PT-H1-000155",
+    "fold": 3
+  },
+  {
+    "record_index": 571,
+    "invoice_id": "INV-H1-000572",
+    "patient_id": "PT-H1-000218",
+    "fold": 0
+  },
+  {
+    "record_index": 572,
+    "invoice_id": "INV-H1-000573",
+    "patient_id": "PT-H1-000222",
+    "fold": 1
+  },
+  {
+    "record_index": 573,
+    "invoice_id": "INV-H1-000574",
+    "patient_id": "PT-H1-000080",
+    "fold": 1
+  },
+  {
+    "record_index": 574,
+    "invoice_id": "INV-H1-000575",
+    "patient_id": "PT-H1-000201",
+    "fold": 3
+  },
+  {
+    "record_index": 575,
+    "invoice_id": "INV-H1-000576",
+    "patient_id": "PT-H1-000177",
+    "fold": 3
+  },
+  {
+    "record_index": 576,
+    "invoice_id": "INV-H1-000577",
+    "patient_id": "PT-H1-000146",
+    "fold": 2
+  },
+  {
+    "record_index": 577,
+    "invoice_id": "INV-H1-000578",
+    "patient_id": "PT-H1-000136",
+    "fold": 1
+  },
+  {
+    "record_index": 578,
+    "invoice_id": "INV-H1-000579",
+    "patient_id": "PT-H1-000087",
+    "fold": 3
+  },
+  {
+    "record_index": 579,
+    "invoice_id": "INV-H1-000580",
+    "patient_id": "PT-H1-000063",
+    "fold": 0
+  },
+  {
+    "record_index": 580,
+    "invoice_id": "INV-H1-000581",
+    "patient_id": "PT-H1-000088",
+    "fold": 1
+  },
+  {
+    "record_index": 581,
+    "invoice_id": "INV-H1-000582",
+    "patient_id": "PT-H1-000081",
+    "fold": 2
+  },
+  {
+    "record_index": 582,
+    "invoice_id": "INV-H1-000583",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 583,
+    "invoice_id": "INV-H1-000584",
+    "patient_id": "PT-H1-000039",
+    "fold": 2
+  },
+  {
+    "record_index": 584,
+    "invoice_id": "INV-H1-000585",
+    "patient_id": "PT-H1-000085",
+    "fold": 0
+  },
+  {
+    "record_index": 585,
+    "invoice_id": "INV-H1-000586",
+    "patient_id": "PT-H1-000096",
+    "fold": 1
+  },
+  {
+    "record_index": 586,
+    "invoice_id": "INV-H1-000587",
+    "patient_id": "PT-H1-000123",
+    "fold": 0
+  },
+  {
+    "record_index": 587,
+    "invoice_id": "INV-H1-000588",
+    "patient_id": "PT-H1-000220",
+    "fold": 4
+  },
+  {
+    "record_index": 588,
+    "invoice_id": "INV-H1-000589",
+    "patient_id": "PT-H1-000123",
+    "fold": 0
+  },
+  {
+    "record_index": 589,
+    "invoice_id": "INV-H1-000590",
+    "patient_id": "PT-H1-000126",
+    "fold": 4
+  },
+  {
+    "record_index": 590,
+    "invoice_id": "INV-H1-000591",
+    "patient_id": "PT-H1-000221",
+    "fold": 2
+  },
+  {
+    "record_index": 591,
+    "invoice_id": "INV-H1-000592",
+    "patient_id": "PT-H1-000143",
+    "fold": 3
+  },
+  {
+    "record_index": 592,
+    "invoice_id": "INV-H1-000593",
+    "patient_id": "PT-H1-000145",
+    "fold": 2
+  },
+  {
+    "record_index": 593,
+    "invoice_id": "INV-H1-000594",
+    "patient_id": "PT-H1-000194",
+    "fold": 3
+  },
+  {
+    "record_index": 594,
+    "invoice_id": "INV-H1-000595",
+    "patient_id": "PT-H1-000034",
+    "fold": 0
+  },
+  {
+    "record_index": 595,
+    "invoice_id": "INV-H1-000596",
+    "patient_id": "PT-H1-000080",
+    "fold": 1
+  },
+  {
+    "record_index": 596,
+    "invoice_id": "INV-H1-000597",
+    "patient_id": "PT-H1-000184",
+    "fold": 3
+  },
+  {
+    "record_index": 597,
+    "invoice_id": "INV-H1-000598",
+    "patient_id": "PT-H1-000004",
+    "fold": 0
+  },
+  {
+    "record_index": 598,
+    "invoice_id": "INV-H1-000599",
+    "patient_id": "PT-H1-000173",
+    "fold": 4
+  },
+  {
+    "record_index": 599,
+    "invoice_id": "INV-H1-000600",
+    "patient_id": "PT-H1-000085",
+    "fold": 0
+  },
+  {
+    "record_index": 600,
+    "invoice_id": "INV-H1-000548",
+    "patient_id": "PT-H1-000138",
+    "fold": 4
+  },
+  {
+    "record_index": 601,
+    "invoice_id": "INV-H1-000602",
+    "patient_id": "PT-H1-000211",
+    "fold": 4
+  },
+  {
+    "record_index": 602,
+    "invoice_id": "INV-H1-000603",
+    "patient_id": "PT-H1-000027",
+    "fold": 0
+  },
+  {
+    "record_index": 603,
+    "invoice_id": "INV-H1-000604",
+    "patient_id": "PT-H1-000182",
+    "fold": 1
+  },
+  {
+    "record_index": 604,
+    "invoice_id": "INV-H1-000605",
+    "patient_id": "PT-H1-000194",
+    "fold": 3
+  },
+  {
+    "record_index": 605,
+    "invoice_id": "INV-H1-000606",
+    "patient_id": "PT-H1-000009",
+    "fold": 1
+  },
+  {
+    "record_index": 606,
+    "invoice_id": "INV-H1-000607",
+    "patient_id": "PT-H1-000229",
+    "fold": 2
+  },
+  {
+    "record_index": 607,
+    "invoice_id": "INV-H1-000608",
+    "patient_id": "PT-H1-000023",
+    "fold": 4
+  },
+  {
+    "record_index": 608,
+    "invoice_id": "INV-H1-000609",
+    "patient_id": "PT-H1-000148",
+    "fold": 0
+  },
+  {
+    "record_index": 609,
+    "invoice_id": "INV-H1-000610",
+    "patient_id": "PT-H1-000173",
+    "fold": 4
+  },
+  {
+    "record_index": 610,
+    "invoice_id": "INV-H1-000611",
+    "patient_id": "PT-H1-000098",
+    "fold": 0
+  },
+  {
+    "record_index": 611,
+    "invoice_id": "INV-H1-000612",
+    "patient_id": "PT-H1-000028",
+    "fold": 4
+  },
+  {
+    "record_index": 612,
+    "invoice_id": "INV-H1-000613",
+    "patient_id": "PT-H1-000018",
+    "fold": 0
+  },
+  {
+    "record_index": 613,
+    "invoice_id": "INV-H1-000614",
+    "patient_id": "PT-H1-000026",
+    "fold": 2
+  },
+  {
+    "record_index": 614,
+    "invoice_id": "INV-H1-000615",
+    "patient_id": "PT-H1-000115",
+    "fold": 3
+  },
+  {
+    "record_index": 615,
+    "invoice_id": "INV-H1-000616",
+    "patient_id": "PT-H1-000094",
+    "fold": 3
+  },
+  {
+    "record_index": 616,
+    "invoice_id": "INV-H1-000617",
+    "patient_id": "PT-H1-000088",
+    "fold": 1
+  },
+  {
+    "record_index": 617,
+    "invoice_id": "INV-H1-000618",
+    "patient_id": "PT-H1-000089",
+    "fold": 2
+  },
+  {
+    "record_index": 618,
+    "invoice_id": "INV-H1-000619",
+    "patient_id": "PT-H1-000133",
+    "fold": 3
+  },
+  {
+    "record_index": 619,
+    "invoice_id": "INV-H1-000620",
+    "patient_id": "PT-H1-000018",
+    "fold": 0
+  },
+  {
+    "record_index": 620,
+    "invoice_id": "INV-H1-000621",
+    "patient_id": "PT-H1-000147",
+    "fold": 2
+  },
+  {
+    "record_index": 621,
+    "invoice_id": "INV-H1-000622",
+    "patient_id": "PT-H1-000208",
+    "fold": 2
+  },
+  {
+    "record_index": 622,
+    "invoice_id": "INV-H1-000623",
+    "patient_id": "PT-H1-000001",
+    "fold": 4
+  },
+  {
+    "record_index": 623,
+    "invoice_id": "INV-H1-000624",
+    "patient_id": "PT-H1-000209",
+    "fold": 1
+  },
+  {
+    "record_index": 624,
+    "invoice_id": "INV-H1-000625",
+    "patient_id": "PT-H1-000225",
+    "fold": 0
+  },
+  {
+    "record_index": 625,
+    "invoice_id": "INV-H1-000626",
+    "patient_id": "PT-H1-000004",
+    "fold": 0
+  },
+  {
+    "record_index": 626,
+    "invoice_id": "INV-H1-000627",
+    "patient_id": "PT-H1-000143",
+    "fold": 3
+  },
+  {
+    "record_index": 627,
+    "invoice_id": "INV-H1-000628",
+    "patient_id": "PT-H1-000051",
+    "fold": 1
+  },
+  {
+    "record_index": 628,
+    "invoice_id": "INV-H1-000629",
+    "patient_id": "PT-H1-000115",
+    "fold": 3
+  },
+  {
+    "record_index": 629,
+    "invoice_id": "INV-H1-000630",
+    "patient_id": "PT-H1-000046",
+    "fold": 1
+  },
+  {
+    "record_index": 630,
+    "invoice_id": "INV-H1-000631",
+    "patient_id": "PT-H1-000029",
+    "fold": 0
+  },
+  {
+    "record_index": 631,
+    "invoice_id": "INV-H1-000632",
+    "patient_id": "PT-H1-000143",
+    "fold": 3
+  },
+  {
+    "record_index": 632,
+    "invoice_id": "INV-H1-000633",
+    "patient_id": "PT-H1-000146",
+    "fold": 2
+  },
+  {
+    "record_index": 633,
+    "invoice_id": "INV-H1-000634",
+    "patient_id": "PT-H1-000221",
+    "fold": 2
+  },
+  {
+    "record_index": 634,
+    "invoice_id": "INV-H1-000635",
+    "patient_id": "PT-H1-000112",
+    "fold": 0
+  },
+  {
+    "record_index": 635,
+    "invoice_id": "INV-H1-000636",
+    "patient_id": "PT-H1-000183",
+    "fold": 0
+  },
+  {
+    "record_index": 636,
+    "invoice_id": "INV-H1-000637",
+    "patient_id": "PT-H1-000206",
+    "fold": 0
+  },
+  {
+    "record_index": 637,
+    "invoice_id": "INV-H1-000638",
+    "patient_id": "PT-H1-000094",
+    "fold": 3
+  },
+  {
+    "record_index": 638,
+    "invoice_id": "INV-H1-000639",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 639,
+    "invoice_id": "INV-H1-000640",
+    "patient_id": "PT-H1-000166",
+    "fold": 1
+  },
+  {
+    "record_index": 640,
+    "invoice_id": "INV-H1-000641",
+    "patient_id": "PT-H1-000003",
+    "fold": 2
+  },
+  {
+    "record_index": 641,
+    "invoice_id": "INV-H1-000642",
+    "patient_id": "PT-H1-000150",
+    "fold": 0
+  },
+  {
+    "record_index": 642,
+    "invoice_id": "INV-H1-000643",
+    "patient_id": "PT-H1-000017",
+    "fold": 0
+  },
+  {
+    "record_index": 643,
+    "invoice_id": "INV-H1-000644",
+    "patient_id": "PT-H1-000088",
+    "fold": 1
+  },
+  {
+    "record_index": 644,
+    "invoice_id": "INV-H1-000645",
+    "patient_id": "PT-H1-000058",
+    "fold": 0
+  },
+  {
+    "record_index": 645,
+    "invoice_id": "INV-H1-000646",
+    "patient_id": "PT-H1-000188",
+    "fold": 2
+  },
+  {
+    "record_index": 646,
+    "invoice_id": "INV-H1-000647",
+    "patient_id": "PT-H1-000037",
+    "fold": 2
+  },
+  {
+    "record_index": 647,
+    "invoice_id": "INV-H1-000648",
+    "patient_id": "PT-H1-000059",
+    "fold": 0
+  },
+  {
+    "record_index": 648,
+    "invoice_id": "INV-H1-000649",
+    "patient_id": "PT-H1-000044",
+    "fold": 4
+  },
+  {
+    "record_index": 649,
+    "invoice_id": "INV-H1-000650",
+    "patient_id": "PT-H1-000115",
+    "fold": 3
+  },
+  {
+    "record_index": 650,
+    "invoice_id": "INV-H1-000651",
+    "patient_id": "PT-H1-000119",
+    "fold": 4
+  },
+  {
+    "record_index": 651,
+    "invoice_id": "INV-H1-000652",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 652,
+    "invoice_id": "INV-H1-000653",
+    "patient_id": "PT-H1-000146",
+    "fold": 2
+  },
+  {
+    "record_index": 653,
+    "invoice_id": "INV-H1-000654",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 654,
+    "invoice_id": "INV-H1-000655",
+    "patient_id": "PT-H1-000004",
+    "fold": 0
+  },
+  {
+    "record_index": 655,
+    "invoice_id": "INV-H1-000656",
+    "patient_id": "PT-H1-000083",
+    "fold": 1
+  },
+  {
+    "record_index": 656,
+    "invoice_id": "INV-H1-000657",
+    "patient_id": "PT-H1-000176",
+    "fold": 1
+  },
+  {
+    "record_index": 657,
+    "invoice_id": "INV-H1-000658",
+    "patient_id": "PT-H1-000031",
+    "fold": 4
+  },
+  {
+    "record_index": 658,
+    "invoice_id": "INV-H1-000659",
+    "patient_id": "PT-H1-000092",
+    "fold": 0
+  },
+  {
+    "record_index": 659,
+    "invoice_id": "INV-H1-000660",
+    "patient_id": "PT-H1-000035",
+    "fold": 4
+  },
+  {
+    "record_index": 660,
+    "invoice_id": "INV-H1-000661",
+    "patient_id": "PT-H1-000171",
+    "fold": 3
+  },
+  {
+    "record_index": 661,
+    "invoice_id": "INV-H1-000662",
+    "patient_id": "PT-H1-000075",
+    "fold": 2
+  },
+  {
+    "record_index": 662,
+    "invoice_id": "INV-H1-000663",
+    "patient_id": "PT-H1-000164",
+    "fold": 4
+  },
+  {
+    "record_index": 663,
+    "invoice_id": "INV-H1-000664",
+    "patient_id": "PT-H1-000007",
+    "fold": 0
+  },
+  {
+    "record_index": 664,
+    "invoice_id": "INV-H1-000665",
+    "patient_id": "PT-H1-000049",
+    "fold": 2
+  },
+  {
+    "record_index": 665,
+    "invoice_id": "INV-H1-000666",
+    "patient_id": "PT-H1-000151",
+    "fold": 0
+  },
+  {
+    "record_index": 666,
+    "invoice_id": "INV-H1-000667",
+    "patient_id": "PT-H1-000160",
+    "fold": 3
+  },
+  {
+    "record_index": 667,
+    "invoice_id": "INV-H1-000668",
+    "patient_id": "PT-H1-000124",
+    "fold": 2
+  },
+  {
+    "record_index": 668,
+    "invoice_id": "INV-H1-000669",
+    "patient_id": "PT-H1-000185",
+    "fold": 0
+  },
+  {
+    "record_index": 669,
+    "invoice_id": "INV-H1-000670",
+    "patient_id": "PT-H1-000091",
+    "fold": 2
+  },
+  {
+    "record_index": 670,
+    "invoice_id": "INV-H1-000671",
+    "patient_id": "PT-H1-000125",
+    "fold": 1
+  },
+  {
+    "record_index": 671,
+    "invoice_id": "INV-H1-000672",
+    "patient_id": "PT-H1-000175",
+    "fold": 0
+  },
+  {
+    "record_index": 672,
+    "invoice_id": "INV-H1-000673",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 673,
+    "invoice_id": "INV-H1-000674",
+    "patient_id": "PT-H1-000194",
+    "fold": 3
+  },
+  {
+    "record_index": 674,
+    "invoice_id": "INV-H1-000675",
+    "patient_id": "PT-H1-000221",
+    "fold": 2
+  },
+  {
+    "record_index": 675,
+    "invoice_id": "INV-H1-000676",
+    "patient_id": "PT-H1-000001",
+    "fold": 4
+  },
+  {
+    "record_index": 676,
+    "invoice_id": "INV-H1-000677",
+    "patient_id": "PT-H1-000016",
+    "fold": 4
+  },
+  {
+    "record_index": 677,
+    "invoice_id": "INV-H1-000678",
+    "patient_id": "PT-H1-000113",
+    "fold": 2
+  },
+  {
+    "record_index": 678,
+    "invoice_id": "INV-H1-000679",
+    "patient_id": "PT-H1-000162",
+    "fold": 4
+  },
+  {
+    "record_index": 679,
+    "invoice_id": "INV-H1-000680",
+    "patient_id": "PT-H1-000188",
+    "fold": 2
+  },
+  {
+    "record_index": 680,
+    "invoice_id": "INV-H1-000681",
+    "patient_id": "PT-H1-000028",
+    "fold": 4
+  },
+  {
+    "record_index": 681,
+    "invoice_id": "INV-H1-000682",
+    "patient_id": "PT-H1-000029",
+    "fold": 0
+  },
+  {
+    "record_index": 682,
+    "invoice_id": "INV-H1-000683",
+    "patient_id": "PT-H1-000087",
+    "fold": 3
+  },
+  {
+    "record_index": 683,
+    "invoice_id": "INV-H1-000684",
+    "patient_id": "PT-H1-000118",
+    "fold": 1
+  },
+  {
+    "record_index": 684,
+    "invoice_id": "INV-H1-000685",
+    "patient_id": "PT-H1-000007",
+    "fold": 0
+  },
+  {
+    "record_index": 685,
+    "invoice_id": "INV-H1-000686",
+    "patient_id": "PT-H1-000134",
+    "fold": 2
+  },
+  {
+    "record_index": 686,
+    "invoice_id": "INV-H1-000687",
+    "patient_id": "PT-H1-000154",
+    "fold": 3
+  },
+  {
+    "record_index": 687,
+    "invoice_id": "INV-H1-000688",
+    "patient_id": "PT-H1-000194",
+    "fold": 3
+  },
+  {
+    "record_index": 688,
+    "invoice_id": "INV-H1-000689",
+    "patient_id": "PT-H1-000195",
+    "fold": 2
+  },
+  {
+    "record_index": 689,
+    "invoice_id": "INV-H1-000690",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 690,
+    "invoice_id": "INV-H1-000691",
+    "patient_id": "PT-H1-000175",
+    "fold": 0
+  },
+  {
+    "record_index": 691,
+    "invoice_id": "INV-H1-000692",
+    "patient_id": "PT-H1-000189",
+    "fold": 3
+  },
+  {
+    "record_index": 692,
+    "invoice_id": "INV-H1-000693",
+    "patient_id": "PT-H1-000198",
+    "fold": 1
+  },
+  {
+    "record_index": 693,
+    "invoice_id": "INV-H1-000694",
+    "patient_id": "PT-H1-000204",
+    "fold": 4
+  },
+  {
+    "record_index": 694,
+    "invoice_id": "INV-H1-000695",
+    "patient_id": "PT-H1-000159",
+    "fold": 2
+  },
+  {
+    "record_index": 695,
+    "invoice_id": "INV-H1-000696",
+    "patient_id": "PT-H1-000071",
+    "fold": 0
+  },
+  {
+    "record_index": 696,
+    "invoice_id": "INV-H1-000697",
+    "patient_id": "PT-H1-000120",
+    "fold": 4
+  },
+  {
+    "record_index": 697,
+    "invoice_id": "INV-H1-000698",
+    "patient_id": "PT-H1-000028",
+    "fold": 4
+  },
+  {
+    "record_index": 698,
+    "invoice_id": "INV-H1-000699",
+    "patient_id": "PT-H1-000123",
+    "fold": 0
+  },
+  {
+    "record_index": 699,
+    "invoice_id": "INV-H1-000700",
+    "patient_id": "PT-H1-000184",
+    "fold": 3
+  },
+  {
+    "record_index": 700,
+    "invoice_id": "INV-H1-000701",
+    "patient_id": "PT-H1-000085",
+    "fold": 0
+  },
+  {
+    "record_index": 701,
+    "invoice_id": "INV-H1-000702",
+    "patient_id": "PT-H1-000169",
+    "fold": 4
+  },
+  {
+    "record_index": 702,
+    "invoice_id": "INV-H1-000703",
+    "patient_id": "PT-H1-000140",
+    "fold": 2
+  },
+  {
+    "record_index": 703,
+    "invoice_id": "INV-H1-000704",
+    "patient_id": "PT-H1-000051",
+    "fold": 1
+  },
+  {
+    "record_index": 704,
+    "invoice_id": "INV-H1-000705",
+    "patient_id": "PT-H1-000070",
+    "fold": 4
+  },
+  {
+    "record_index": 705,
+    "invoice_id": "INV-H1-000706",
+    "patient_id": "PT-H1-000074",
+    "fold": 4
+  },
+  {
+    "record_index": 706,
+    "invoice_id": "INV-H1-000707",
+    "patient_id": "PT-H1-000195",
+    "fold": 2
+  },
+  {
+    "record_index": 707,
+    "invoice_id": "INV-H1-000708",
+    "patient_id": "PT-H1-000207",
+    "fold": 4
+  },
+  {
+    "record_index": 708,
+    "invoice_id": "INV-H1-000709",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 709,
+    "invoice_id": "INV-H1-000710",
+    "patient_id": "PT-H1-000038",
+    "fold": 1
+  },
+  {
+    "record_index": 710,
+    "invoice_id": "INV-H1-000711",
+    "patient_id": "PT-H1-000134",
+    "fold": 2
+  },
+  {
+    "record_index": 711,
+    "invoice_id": "INV-H1-000712",
+    "patient_id": "PT-H1-000177",
+    "fold": 3
+  },
+  {
+    "record_index": 712,
+    "invoice_id": "INV-H1-000713",
+    "patient_id": "PT-H1-000212",
+    "fold": 4
+  },
+  {
+    "record_index": 713,
+    "invoice_id": "INV-H1-000714",
+    "patient_id": "PT-H1-000165",
+    "fold": 4
+  },
+  {
+    "record_index": 714,
+    "invoice_id": "INV-H1-000715",
+    "patient_id": "PT-H1-000190",
+    "fold": 2
+  },
+  {
+    "record_index": 715,
+    "invoice_id": "INV-H1-000716",
+    "patient_id": "PT-H1-000061",
+    "fold": 1
+  },
+  {
+    "record_index": 716,
+    "invoice_id": "INV-H1-000717",
+    "patient_id": "PT-H1-000158",
+    "fold": 2
+  },
+  {
+    "record_index": 717,
+    "invoice_id": "INV-H1-000718",
+    "patient_id": "PT-H1-000162",
+    "fold": 4
+  },
+  {
+    "record_index": 718,
+    "invoice_id": "INV-H1-000719",
+    "patient_id": "PT-H1-000207",
+    "fold": 4
+  },
+  {
+    "record_index": 719,
+    "invoice_id": "INV-H1-000720",
+    "patient_id": "PT-H1-000002",
+    "fold": 4
+  },
+  {
+    "record_index": 720,
+    "invoice_id": "INV-H1-000721",
+    "patient_id": "PT-H1-000167",
+    "fold": 4
+  },
+  {
+    "record_index": 721,
+    "invoice_id": "INV-H1-000722",
+    "patient_id": "PT-H1-000101",
+    "fold": 0
+  },
+  {
+    "record_index": 722,
+    "invoice_id": "INV-H1-000723",
+    "patient_id": "PT-H1-000124",
+    "fold": 2
+  },
+  {
+    "record_index": 723,
+    "invoice_id": "INV-H1-000724",
+    "patient_id": "PT-H1-000016",
+    "fold": 4
+  },
+  {
+    "record_index": 724,
+    "invoice_id": "INV-H1-000725",
+    "patient_id": "PT-H1-000212",
+    "fold": 4
+  },
+  {
+    "record_index": 725,
+    "invoice_id": "INV-H1-000726",
+    "patient_id": "PT-H1-000065",
+    "fold": 1
+  },
+  {
+    "record_index": 726,
+    "invoice_id": "INV-H1-000727",
+    "patient_id": "PT-H1-000128",
+    "fold": 0
+  },
+  {
+    "record_index": 727,
+    "invoice_id": "INV-H1-000728",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 728,
+    "invoice_id": "INV-H1-000729",
+    "patient_id": "PT-H1-000129",
+    "fold": 3
+  },
+  {
+    "record_index": 729,
+    "invoice_id": "INV-H1-000730",
+    "patient_id": "PT-H1-000188",
+    "fold": 2
+  },
+  {
+    "record_index": 730,
+    "invoice_id": "INV-H1-000731",
+    "patient_id": "PT-H1-000122",
+    "fold": 3
+  },
+  {
+    "record_index": 731,
+    "invoice_id": "INV-H1-000732",
+    "patient_id": "PT-H1-000030",
+    "fold": 2
+  },
+  {
+    "record_index": 732,
+    "invoice_id": "INV-H1-000733",
+    "patient_id": "PT-H1-000021",
+    "fold": 3
+  },
+  {
+    "record_index": 733,
+    "invoice_id": "INV-H1-000734",
+    "patient_id": "PT-H1-000143",
+    "fold": 3
+  },
+  {
+    "record_index": 734,
+    "invoice_id": "INV-H1-000735",
+    "patient_id": "PT-H1-000083",
+    "fold": 1
+  },
+  {
+    "record_index": 735,
+    "invoice_id": "INV-H1-000736",
+    "patient_id": "PT-H1-000104",
+    "fold": 4
+  },
+  {
+    "record_index": 736,
+    "invoice_id": "INV-H1-000737",
+    "patient_id": "PT-H1-000221",
+    "fold": 2
+  },
+  {
+    "record_index": 737,
+    "invoice_id": "INV-H1-000738",
+    "patient_id": "PT-H1-000053",
+    "fold": 2
+  },
+  {
+    "record_index": 738,
+    "invoice_id": "INV-H1-000739",
+    "patient_id": "PT-H1-000140",
+    "fold": 2
+  },
+  {
+    "record_index": 739,
+    "invoice_id": "INV-H1-000740",
+    "patient_id": "PT-H1-000067",
+    "fold": 0
+  },
+  {
+    "record_index": 740,
+    "invoice_id": "INV-H1-000741",
+    "patient_id": "PT-H1-000027",
+    "fold": 0
+  },
+  {
+    "record_index": 741,
+    "invoice_id": "INV-H1-000742",
+    "patient_id": "PT-H1-000226",
+    "fold": 2
+  },
+  {
+    "record_index": 742,
+    "invoice_id": "INV-H1-000743",
+    "patient_id": "PT-H1-000087",
+    "fold": 3
+  },
+  {
+    "record_index": 743,
+    "invoice_id": "INV-H1-000744",
+    "patient_id": "PT-H1-000213",
+    "fold": 3
+  },
+  {
+    "record_index": 744,
+    "invoice_id": "INV-H1-000745",
+    "patient_id": "PT-H1-000227",
+    "fold": 4
+  },
+  {
+    "record_index": 745,
+    "invoice_id": "INV-H1-000746",
+    "patient_id": "PT-H1-000010",
+    "fold": 4
+  },
+  {
+    "record_index": 746,
+    "invoice_id": "INV-H1-000747",
+    "patient_id": "PT-H1-000011",
+    "fold": 1
+  },
+  {
+    "record_index": 747,
+    "invoice_id": "INV-H1-000748",
+    "patient_id": "PT-H1-000081",
+    "fold": 2
+  },
+  {
+    "record_index": 748,
+    "invoice_id": "INV-H1-000749",
+    "patient_id": "PT-H1-000226",
+    "fold": 2
+  },
+  {
+    "record_index": 749,
+    "invoice_id": "INV-H1-000750",
+    "patient_id": "PT-H1-000121",
+    "fold": 1
+  },
+  {
+    "record_index": 750,
+    "invoice_id": "INV-H1-000751",
+    "patient_id": "PT-H1-000196",
+    "fold": 1
+  },
+  {
+    "record_index": 751,
+    "invoice_id": "INV-H1-000752",
+    "patient_id": "PT-H1-000137",
+    "fold": 4
+  },
+  {
+    "record_index": 752,
+    "invoice_id": "INV-H1-000753",
+    "patient_id": "PT-H1-000215",
+    "fold": 1
+  },
+  {
+    "record_index": 753,
+    "invoice_id": "INV-H1-000754",
+    "patient_id": "PT-H1-000123",
+    "fold": 0
+  },
+  {
+    "record_index": 754,
+    "invoice_id": "INV-H1-000755",
+    "patient_id": "PT-H1-000152",
+    "fold": 2
+  },
+  {
+    "record_index": 755,
+    "invoice_id": "INV-H1-000756",
+    "patient_id": "PT-H1-000160",
+    "fold": 3
+  },
+  {
+    "record_index": 756,
+    "invoice_id": "INV-H1-000757",
+    "patient_id": "PT-H1-000187",
+    "fold": 3
+  },
+  {
+    "record_index": 757,
+    "invoice_id": "INV-H1-000758",
+    "patient_id": "PT-H1-000055",
+    "fold": 1
+  },
+  {
+    "record_index": 758,
+    "invoice_id": "INV-H1-000759",
+    "patient_id": "PT-H1-000134",
+    "fold": 2
+  },
+  {
+    "record_index": 759,
+    "invoice_id": "INV-H1-000760",
+    "patient_id": "PT-H1-000031",
+    "fold": 4
+  },
+  {
+    "record_index": 760,
+    "invoice_id": "INV-H1-000761",
+    "patient_id": "PT-H1-000130",
+    "fold": 2
+  },
+  {
+    "record_index": 761,
+    "invoice_id": "INV-H1-000762",
+    "patient_id": "PT-H1-000135",
+    "fold": 2
+  },
+  {
+    "record_index": 762,
+    "invoice_id": "INV-H1-000763",
+    "patient_id": "PT-H1-000059",
+    "fold": 0
+  },
+  {
+    "record_index": 763,
+    "invoice_id": "INV-H1-000764",
+    "patient_id": "PT-H1-000079",
+    "fold": 3
+  },
+  {
+    "record_index": 764,
+    "invoice_id": "INV-H1-000765",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 765,
+    "invoice_id": "INV-H1-000766",
+    "patient_id": "PT-H1-000182",
+    "fold": 1
+  },
+  {
+    "record_index": 766,
+    "invoice_id": "INV-H1-000767",
+    "patient_id": "PT-H1-000041",
+    "fold": 2
+  },
+  {
+    "record_index": 767,
+    "invoice_id": "INV-H1-000768",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 768,
+    "invoice_id": "INV-H1-000769",
+    "patient_id": "PT-H1-000074",
+    "fold": 4
+  },
+  {
+    "record_index": 769,
+    "invoice_id": "INV-H1-000770",
+    "patient_id": "PT-H1-000079",
+    "fold": 3
+  },
+  {
+    "record_index": 770,
+    "invoice_id": "INV-H1-000771",
+    "patient_id": "PT-H1-000096",
+    "fold": 1
+  },
+  {
+    "record_index": 771,
+    "invoice_id": "INV-H1-000772",
+    "patient_id": "PT-H1-000186",
+    "fold": 2
+  },
+  {
+    "record_index": 772,
+    "invoice_id": "INV-H1-000773",
+    "patient_id": "PT-H1-000138",
+    "fold": 4
+  },
+  {
+    "record_index": 773,
+    "invoice_id": "INV-H1-000774",
+    "patient_id": "PT-H1-000010",
+    "fold": 4
+  },
+  {
+    "record_index": 774,
+    "invoice_id": "INV-H1-000775",
+    "patient_id": "PT-H1-000097",
+    "fold": 4
+  },
+  {
+    "record_index": 775,
+    "invoice_id": "INV-H1-000776",
+    "patient_id": "PT-H1-000117",
+    "fold": 1
+  },
+  {
+    "record_index": 776,
+    "invoice_id": "INV-H1-000777",
+    "patient_id": "PT-H1-000219",
+    "fold": 3
+  },
+  {
+    "record_index": 777,
+    "invoice_id": "INV-H1-000778",
+    "patient_id": "PT-H1-000021",
+    "fold": 3
+  },
+  {
+    "record_index": 778,
+    "invoice_id": "INV-H1-000779",
+    "patient_id": "PT-H1-000056",
+    "fold": 3
+  },
+  {
+    "record_index": 779,
+    "invoice_id": "INV-H1-000780",
+    "patient_id": "PT-H1-000076",
+    "fold": 2
+  },
+  {
+    "record_index": 780,
+    "invoice_id": "INV-H1-000781",
+    "patient_id": "PT-H1-000082",
+    "fold": 0
+  },
+  {
+    "record_index": 781,
+    "invoice_id": "INV-H1-000782",
+    "patient_id": "PT-H1-000129",
+    "fold": 3
+  },
+  {
+    "record_index": 782,
+    "invoice_id": "INV-H1-000783",
+    "patient_id": "PT-H1-000166",
+    "fold": 1
+  },
+  {
+    "record_index": 783,
+    "invoice_id": "INV-H1-000784",
+    "patient_id": "PT-H1-000207",
+    "fold": 4
+  },
+  {
+    "record_index": 784,
+    "invoice_id": "INV-H1-000785",
+    "patient_id": "PT-H1-000031",
+    "fold": 4
+  },
+  {
+    "record_index": 785,
+    "invoice_id": "INV-H1-000786",
+    "patient_id": "PT-H1-000101",
+    "fold": 0
+  },
+  {
+    "record_index": 786,
+    "invoice_id": "INV-H1-000787",
+    "patient_id": "PT-H1-000123",
+    "fold": 0
+  },
+  {
+    "record_index": 787,
+    "invoice_id": "INV-H1-000788",
+    "patient_id": "PT-H1-000014",
+    "fold": 0
+  },
+  {
+    "record_index": 788,
+    "invoice_id": "INV-H1-000789",
+    "patient_id": "PT-H1-000071",
+    "fold": 0
+  },
+  {
+    "record_index": 789,
+    "invoice_id": "INV-H1-000790",
+    "patient_id": "PT-H1-000118",
+    "fold": 1
+  },
+  {
+    "record_index": 790,
+    "invoice_id": "INV-H1-000791",
+    "patient_id": "PT-H1-000009",
+    "fold": 1
+  },
+  {
+    "record_index": 791,
+    "invoice_id": "INV-H1-000792",
+    "patient_id": "PT-H1-000095",
+    "fold": 3
+  },
+  {
+    "record_index": 792,
+    "invoice_id": "INV-H1-000793",
+    "patient_id": "PT-H1-000140",
+    "fold": 2
+  },
+  {
+    "record_index": 793,
+    "invoice_id": "INV-H1-000794",
+    "patient_id": "PT-H1-000001",
+    "fold": 4
+  },
+  {
+    "record_index": 794,
+    "invoice_id": "INV-H1-000795",
+    "patient_id": "PT-H1-000076",
+    "fold": 2
+  },
+  {
+    "record_index": 795,
+    "invoice_id": "INV-H1-000796",
+    "patient_id": "PT-H1-000151",
+    "fold": 0
+  },
+  {
+    "record_index": 796,
+    "invoice_id": "INV-H1-000797",
+    "patient_id": "PT-H1-000225",
+    "fold": 0
+  },
+  {
+    "record_index": 797,
+    "invoice_id": "INV-H1-000798",
+    "patient_id": "PT-H1-000004",
+    "fold": 0
+  },
+  {
+    "record_index": 798,
+    "invoice_id": "INV-H1-000799",
+    "patient_id": "PT-H1-000145",
+    "fold": 2
+  },
+  {
+    "record_index": 799,
+    "invoice_id": "INV-H1-000800",
+    "patient_id": "PT-H1-000164",
+    "fold": 4
+  },
+  {
+    "record_index": 800,
+    "invoice_id": "INV-H1-000801",
+    "patient_id": "PT-H1-000136",
+    "fold": 1
+  },
+  {
+    "record_index": 801,
+    "invoice_id": "INV-H1-000802",
+    "patient_id": "PT-H1-000079",
+    "fold": 3
+  },
+  {
+    "record_index": 802,
+    "invoice_id": "INV-H1-000803",
+    "patient_id": "PT-H1-000130",
+    "fold": 2
+  },
+  {
+    "record_index": 803,
+    "invoice_id": "INV-H1-000804",
+    "patient_id": "PT-H1-000168",
+    "fold": 0
+  },
+  {
+    "record_index": 804,
+    "invoice_id": "INV-H1-000805",
+    "patient_id": "PT-H1-000170",
+    "fold": 0
+  },
+  {
+    "record_index": 805,
+    "invoice_id": "INV-H1-000806",
+    "patient_id": "PT-H1-000017",
+    "fold": 0
+  },
+  {
+    "record_index": 806,
+    "invoice_id": "INV-H1-000807",
+    "patient_id": "PT-H1-000031",
+    "fold": 4
+  },
+  {
+    "record_index": 807,
+    "invoice_id": "INV-H1-000808",
+    "patient_id": "PT-H1-000182",
+    "fold": 1
+  },
+  {
+    "record_index": 808,
+    "invoice_id": "INV-H1-000809",
+    "patient_id": "PT-H1-000150",
+    "fold": 0
+  },
+  {
+    "record_index": 809,
+    "invoice_id": "INV-H1-000810",
+    "patient_id": "PT-H1-000154",
+    "fold": 3
+  },
+  {
+    "record_index": 810,
+    "invoice_id": "INV-H1-000811",
+    "patient_id": "PT-H1-000178",
+    "fold": 4
+  },
+  {
+    "record_index": 811,
+    "invoice_id": "INV-H1-000812",
+    "patient_id": "PT-H1-000212",
+    "fold": 4
+  },
+  {
+    "record_index": 812,
+    "invoice_id": "INV-H1-000813",
+    "patient_id": "PT-H1-000030",
+    "fold": 2
+  },
+  {
+    "record_index": 813,
+    "invoice_id": "INV-H1-000814",
+    "patient_id": "PT-H1-000108",
+    "fold": 1
+  },
+  {
+    "record_index": 814,
+    "invoice_id": "INV-H1-000815",
+    "patient_id": "PT-H1-000144",
+    "fold": 2
+  },
+  {
+    "record_index": 815,
+    "invoice_id": "INV-H1-000816",
+    "patient_id": "PT-H1-000201",
+    "fold": 3
+  },
+  {
+    "record_index": 816,
+    "invoice_id": "INV-H1-000817",
+    "patient_id": "PT-H1-000034",
+    "fold": 0
+  },
+  {
+    "record_index": 817,
+    "invoice_id": "INV-H1-000818",
+    "patient_id": "PT-H1-000044",
+    "fold": 4
+  },
+  {
+    "record_index": 818,
+    "invoice_id": "INV-H1-000819",
+    "patient_id": "PT-H1-000100",
+    "fold": 3
+  },
+  {
+    "record_index": 819,
+    "invoice_id": "INV-H1-000820",
+    "patient_id": "PT-H1-000214",
+    "fold": 4
+  },
+  {
+    "record_index": 820,
+    "invoice_id": "INV-H1-000821",
+    "patient_id": "PT-H1-000193",
+    "fold": 1
+  },
+  {
+    "record_index": 821,
+    "invoice_id": "INV-H1-000822",
+    "patient_id": "PT-H1-000208",
+    "fold": 2
+  },
+  {
+    "record_index": 822,
+    "invoice_id": "INV-H1-000823",
+    "patient_id": "PT-H1-000004",
+    "fold": 0
+  },
+  {
+    "record_index": 823,
+    "invoice_id": "INV-H1-000824",
+    "patient_id": "PT-H1-000022",
+    "fold": 3
+  },
+  {
+    "record_index": 824,
+    "invoice_id": "INV-H1-000825",
+    "patient_id": "PT-H1-000192",
+    "fold": 2
+  },
+  {
+    "record_index": 825,
+    "invoice_id": "INV-H1-000826",
+    "patient_id": "PT-H1-000053",
+    "fold": 2
+  },
+  {
+    "record_index": 826,
+    "invoice_id": "INV-H1-000827",
+    "patient_id": "PT-H1-000001",
+    "fold": 4
+  },
+  {
+    "record_index": 827,
+    "invoice_id": "INV-H1-000828",
+    "patient_id": "PT-H1-000056",
+    "fold": 3
+  },
+  {
+    "record_index": 828,
+    "invoice_id": "INV-H1-000829",
+    "patient_id": "PT-H1-000174",
+    "fold": 3
+  },
+  {
+    "record_index": 829,
+    "invoice_id": "INV-H1-000830",
+    "patient_id": "PT-H1-000229",
+    "fold": 2
+  },
+  {
+    "record_index": 830,
+    "invoice_id": "INV-H1-000831",
+    "patient_id": "PT-H1-000111",
+    "fold": 0
+  },
+  {
+    "record_index": 831,
+    "invoice_id": "INV-H1-000832",
+    "patient_id": "PT-H1-000197",
+    "fold": 3
+  },
+  {
+    "record_index": 832,
+    "invoice_id": "INV-H1-000833",
+    "patient_id": "PT-H1-000045",
+    "fold": 1
+  },
+  {
+    "record_index": 833,
+    "invoice_id": "INV-H1-000834",
+    "patient_id": "PT-H1-000188",
+    "fold": 2
+  },
+  {
+    "record_index": 834,
+    "invoice_id": "INV-H1-000835",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 835,
+    "invoice_id": "INV-H1-000836",
+    "patient_id": "PT-H1-000058",
+    "fold": 0
+  },
+  {
+    "record_index": 836,
+    "invoice_id": "INV-H1-000837",
+    "patient_id": "PT-H1-000062",
+    "fold": 2
+  },
+  {
+    "record_index": 837,
+    "invoice_id": "INV-H1-000838",
+    "patient_id": "PT-H1-000073",
+    "fold": 0
+  },
+  {
+    "record_index": 838,
+    "invoice_id": "INV-H1-000839",
+    "patient_id": "PT-H1-000079",
+    "fold": 3
+  },
+  {
+    "record_index": 839,
+    "invoice_id": "INV-H1-000840",
+    "patient_id": "PT-H1-000144",
+    "fold": 2
+  },
+  {
+    "record_index": 840,
+    "invoice_id": "INV-H1-000841",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 841,
+    "invoice_id": "INV-H1-000842",
+    "patient_id": "PT-H1-000229",
+    "fold": 2
+  },
+  {
+    "record_index": 842,
+    "invoice_id": "INV-H1-000843",
+    "patient_id": "PT-H1-000098",
+    "fold": 0
+  },
+  {
+    "record_index": 843,
+    "invoice_id": "INV-H1-000844",
+    "patient_id": "PT-H1-000109",
+    "fold": 3
+  },
+  {
+    "record_index": 844,
+    "invoice_id": "INV-H1-000845",
+    "patient_id": "PT-H1-000199",
+    "fold": 2
+  },
+  {
+    "record_index": 845,
+    "invoice_id": "INV-H1-000846",
+    "patient_id": "PT-H1-000046",
+    "fold": 1
+  },
+  {
+    "record_index": 846,
+    "invoice_id": "INV-H1-000847",
+    "patient_id": "PT-H1-000229",
+    "fold": 2
+  },
+  {
+    "record_index": 847,
+    "invoice_id": "INV-H1-000848",
+    "patient_id": "PT-H1-000087",
+    "fold": 3
+  },
+  {
+    "record_index": 848,
+    "invoice_id": "INV-H1-000849",
+    "patient_id": "PT-H1-000182",
+    "fold": 1
+  },
+  {
+    "record_index": 849,
+    "invoice_id": "INV-H1-000850",
+    "patient_id": "PT-H1-000065",
+    "fold": 1
+  },
+  {
+    "record_index": 850,
+    "invoice_id": "INV-H1-000851",
+    "patient_id": "PT-H1-000176",
+    "fold": 1
+  },
+  {
+    "record_index": 851,
+    "invoice_id": "INV-H1-000852",
+    "patient_id": "PT-H1-000003",
+    "fold": 2
+  },
+  {
+    "record_index": 852,
+    "invoice_id": "INV-H1-000853",
+    "patient_id": "PT-H1-000106",
+    "fold": 1
+  },
+  {
+    "record_index": 853,
+    "invoice_id": "INV-H1-000854",
+    "patient_id": "PT-H1-000037",
+    "fold": 2
+  },
+  {
+    "record_index": 854,
+    "invoice_id": "INV-H1-000855",
+    "patient_id": "PT-H1-000159",
+    "fold": 2
+  },
+  {
+    "record_index": 855,
+    "invoice_id": "INV-H1-000856",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 856,
+    "invoice_id": "INV-H1-000857",
+    "patient_id": "PT-H1-000018",
+    "fold": 0
+  },
+  {
+    "record_index": 857,
+    "invoice_id": "INV-H1-000858",
+    "patient_id": "PT-H1-000065",
+    "fold": 1
+  },
+  {
+    "record_index": 858,
+    "invoice_id": "INV-H1-000859",
+    "patient_id": "PT-H1-000068",
+    "fold": 2
+  },
+  {
+    "record_index": 859,
+    "invoice_id": "INV-H1-000860",
+    "patient_id": "PT-H1-000178",
+    "fold": 4
+  },
+  {
+    "record_index": 860,
+    "invoice_id": "INV-H1-000861",
+    "patient_id": "PT-H1-000151",
+    "fold": 0
+  },
+  {
+    "record_index": 861,
+    "invoice_id": "INV-H1-000862",
+    "patient_id": "PT-H1-000072",
+    "fold": 4
+  },
+  {
+    "record_index": 862,
+    "invoice_id": "INV-H1-000863",
+    "patient_id": "PT-H1-000191",
+    "fold": 2
+  },
+  {
+    "record_index": 863,
+    "invoice_id": "INV-H1-000864",
+    "patient_id": "PT-H1-000113",
+    "fold": 2
+  },
+  {
+    "record_index": 864,
+    "invoice_id": "INV-H1-000865",
+    "patient_id": "PT-H1-000029",
+    "fold": 0
+  },
+  {
+    "record_index": 865,
+    "invoice_id": "INV-H1-000866",
+    "patient_id": "PT-H1-000120",
+    "fold": 4
+  },
+  {
+    "record_index": 866,
+    "invoice_id": "INV-H1-000867",
+    "patient_id": "PT-H1-000158",
+    "fold": 2
+  },
+  {
+    "record_index": 867,
+    "invoice_id": "INV-H1-000868",
+    "patient_id": "PT-H1-000030",
+    "fold": 2
+  },
+  {
+    "record_index": 868,
+    "invoice_id": "INV-H1-000869",
+    "patient_id": "PT-H1-000084",
+    "fold": 2
+  },
+  {
+    "record_index": 869,
+    "invoice_id": "INV-H1-000870",
+    "patient_id": "PT-H1-000211",
+    "fold": 4
+  },
+  {
+    "record_index": 870,
+    "invoice_id": "INV-H1-000871",
+    "patient_id": "PT-H1-000118",
+    "fold": 1
+  },
+  {
+    "record_index": 871,
+    "invoice_id": "INV-H1-000872",
+    "patient_id": "PT-H1-000170",
+    "fold": 0
+  },
+  {
+    "record_index": 872,
+    "invoice_id": "INV-H1-000873",
+    "patient_id": "PT-H1-000161",
+    "fold": 3
+  },
+  {
+    "record_index": 873,
+    "invoice_id": "INV-H1-000874",
+    "patient_id": "PT-H1-000140",
+    "fold": 2
+  },
+  {
+    "record_index": 874,
+    "invoice_id": "INV-H1-000875",
+    "patient_id": "PT-H1-000037",
+    "fold": 2
+  },
+  {
+    "record_index": 875,
+    "invoice_id": "INV-H1-000876",
+    "patient_id": "PT-H1-000080",
+    "fold": 1
+  },
+  {
+    "record_index": 876,
+    "invoice_id": "INV-H1-000877",
+    "patient_id": "PT-H1-000085",
+    "fold": 0
+  },
+  {
+    "record_index": 877,
+    "invoice_id": "INV-H1-000878",
+    "patient_id": "PT-H1-000143",
+    "fold": 3
+  },
+  {
+    "record_index": 878,
+    "invoice_id": "INV-H1-000879",
+    "patient_id": "PT-H1-000170",
+    "fold": 0
+  },
+  {
+    "record_index": 879,
+    "invoice_id": "INV-H1-000880",
+    "patient_id": "PT-H1-000100",
+    "fold": 3
+  },
+  {
+    "record_index": 880,
+    "invoice_id": "INV-H1-000881",
+    "patient_id": "PT-H1-000151",
+    "fold": 0
+  },
+  {
+    "record_index": 881,
+    "invoice_id": "INV-H1-000882",
+    "patient_id": "PT-H1-000057",
+    "fold": 1
+  },
+  {
+    "record_index": 882,
+    "invoice_id": "INV-H1-000883",
+    "patient_id": "PT-H1-000130",
+    "fold": 2
+  },
+  {
+    "record_index": 883,
+    "invoice_id": "INV-H1-000884",
+    "patient_id": "PT-H1-000199",
+    "fold": 2
+  },
+  {
+    "record_index": 884,
+    "invoice_id": "INV-H1-000885",
+    "patient_id": "PT-H1-000008",
+    "fold": 1
+  },
+  {
+    "record_index": 885,
+    "invoice_id": "INV-H1-000886",
+    "patient_id": "PT-H1-000093",
+    "fold": 1
+  },
+  {
+    "record_index": 886,
+    "invoice_id": "INV-H1-000887",
+    "patient_id": "PT-H1-000170",
+    "fold": 0
+  },
+  {
+    "record_index": 887,
+    "invoice_id": "INV-H1-000888",
+    "patient_id": "PT-H1-000014",
+    "fold": 0
+  },
+  {
+    "record_index": 888,
+    "invoice_id": "INV-H1-000889",
+    "patient_id": "PT-H1-000103",
+    "fold": 4
+  },
+  {
+    "record_index": 889,
+    "invoice_id": "INV-H1-000890",
+    "patient_id": "PT-H1-000171",
+    "fold": 3
+  },
+  {
+    "record_index": 890,
+    "invoice_id": "INV-H1-000891",
+    "patient_id": "PT-H1-000162",
+    "fold": 4
+  },
+  {
+    "record_index": 891,
+    "invoice_id": "INV-H1-000892",
+    "patient_id": "PT-H1-000075",
+    "fold": 2
+  },
+  {
+    "record_index": 892,
+    "invoice_id": "INV-H1-000893",
+    "patient_id": "PT-H1-000020",
+    "fold": 2
+  },
+  {
+    "record_index": 893,
+    "invoice_id": "INV-H1-000894",
+    "patient_id": "PT-H1-000163",
+    "fold": 4
+  },
+  {
+    "record_index": 894,
+    "invoice_id": "INV-H1-000895",
+    "patient_id": "PT-H1-000195",
+    "fold": 2
+  },
+  {
+    "record_index": 895,
+    "invoice_id": "INV-H1-000896",
+    "patient_id": "PT-H1-000025",
+    "fold": 4
+  },
+  {
+    "record_index": 896,
+    "invoice_id": "INV-H1-000897",
+    "patient_id": "PT-H1-000145",
+    "fold": 2
+  },
+  {
+    "record_index": 897,
+    "invoice_id": "INV-H1-000898",
+    "patient_id": "PT-H1-000149",
+    "fold": 1
+  },
+  {
+    "record_index": 898,
+    "invoice_id": "INV-H1-000899",
+    "patient_id": "PT-H1-000159",
+    "fold": 2
+  },
+  {
+    "record_index": 899,
+    "invoice_id": "INV-H1-000900",
+    "patient_id": "PT-H1-000222",
+    "fold": 1
+  },
+  {
+    "record_index": 900,
+    "invoice_id": "INV-H1-000901",
+    "patient_id": "PT-H1-000065",
+    "fold": 1
+  },
+  {
+    "record_index": 901,
+    "invoice_id": "INV-H1-000902",
+    "patient_id": "PT-H1-000171",
+    "fold": 3
+  },
+  {
+    "record_index": 902,
+    "invoice_id": "INV-H1-000903",
+    "patient_id": "PT-H1-000048",
+    "fold": 1
+  },
+  {
+    "record_index": 903,
+    "invoice_id": "INV-H1-000904",
+    "patient_id": "PT-H1-000169",
+    "fold": 4
+  },
+  {
+    "record_index": 904,
+    "invoice_id": "INV-H1-000905",
+    "patient_id": "PT-H1-000218",
+    "fold": 0
+  },
+  {
+    "record_index": 905,
+    "invoice_id": "INV-H1-000906",
+    "patient_id": "PT-H1-000009",
+    "fold": 1
+  },
+  {
+    "record_index": 906,
+    "invoice_id": "INV-H1-000907",
+    "patient_id": "PT-H1-000210",
+    "fold": 0
+  },
+  {
+    "record_index": 907,
+    "invoice_id": "INV-H1-000908",
+    "patient_id": "PT-H1-000013",
+    "fold": 2
+  },
+  {
+    "record_index": 908,
+    "invoice_id": "INV-H1-000909",
+    "patient_id": "PT-H1-000142",
+    "fold": 2
+  },
+  {
+    "record_index": 909,
+    "invoice_id": "INV-H1-000910",
+    "patient_id": "PT-H1-000067",
+    "fold": 0
+  },
+  {
+    "record_index": 910,
+    "invoice_id": "INV-H1-000911",
+    "patient_id": "PT-H1-000200",
+    "fold": 0
+  },
+  {
+    "record_index": 911,
+    "invoice_id": "INV-H1-000912",
+    "patient_id": "PT-H1-000034",
+    "fold": 0
+  },
+  {
+    "record_index": 912,
+    "invoice_id": "INV-H1-000913",
+    "patient_id": "PT-H1-000045",
+    "fold": 1
+  },
+  {
+    "record_index": 913,
+    "invoice_id": "INV-H1-000914",
+    "patient_id": "PT-H1-000221",
+    "fold": 2
+  },
+  {
+    "record_index": 914,
+    "invoice_id": "INV-H1-000915",
+    "patient_id": "PT-H1-000026",
+    "fold": 2
+  },
+  {
+    "record_index": 915,
+    "invoice_id": "INV-H1-000916",
+    "patient_id": "PT-H1-000078",
+    "fold": 4
+  },
+  {
+    "record_index": 916,
+    "invoice_id": "INV-H1-000917",
+    "patient_id": "PT-H1-000116",
+    "fold": 0
+  },
+  {
+    "record_index": 917,
+    "invoice_id": "INV-H1-000918",
+    "patient_id": "PT-H1-000223",
+    "fold": 1
+  }
+]

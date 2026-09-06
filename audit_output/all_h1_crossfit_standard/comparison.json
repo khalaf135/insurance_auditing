@@ -1,0 +1,82 @@
+{
+  "before": {
+    "records": 918,
+    "eligible": 908,
+    "excluded_duplicate_or_missing_ids": 10,
+    "correct": 884,
+    "incorrect": 4,
+    "unanswered": 20,
+    "accuracy_on_answered_percent": 99.55,
+    "coverage_percent": 97.8,
+    "correct_of_all_eligible_percent": 97.36,
+    "true_positives": 52,
+    "false_positives": 4,
+    "error_recall_including_abstentions_percent": 98.11,
+    "actual_erroneous": 53,
+    "actual_correct": 855,
+    "totals_provided": 853,
+    "exact_total_matches": 853,
+    "evaluation": "development_set_pilot_not_held_out"
+  },
+  "after": {
+    "records": 918,
+    "eligible": 908,
+    "excluded_duplicate_or_missing_ids": 10,
+    "correct": 900,
+    "incorrect": 4,
+    "unanswered": 4,
+    "accuracy_on_answered_percent": 99.56,
+    "coverage_percent": 99.56,
+    "correct_of_all_eligible_percent": 99.12,
+    "true_positives": 52,
+    "false_positives": 4,
+    "error_recall_including_abstentions_percent": 98.11,
+    "actual_erroneous": 53,
+    "actual_correct": 855,
+    "totals_provided": 869,
+    "exact_total_matches": 869,
+    "evaluation": "development_set_pilot_not_held_out"
+  },
+  "previous_20_unanswered": {
+    "records": 20,
+    "eligible": 20,
+    "excluded_duplicate_or_missing_ids": 0,
+    "correct": 16,
+    "incorrect": 0,
+    "unanswered": 4,
+    "accuracy_on_answered_percent": 100.0,
+    "coverage_percent": 80.0,
+    "correct_of_all_eligible_percent": 80.0,
+    "true_positives": 0,
+    "false_positives": 0,
+    "error_recall_including_abstentions_percent": 0.0,
+    "actual_erroneous": 1,
+    "actual_correct": 19,
+    "totals_provided": 16,
+    "exact_total_matches": 16,
+    "evaluation": "development_set_pilot_not_held_out"
+  },
+  "newly_answered": 16,
+  "previously_answered_now_unanswered": 0,
+  "previously_correct_now_incorrect": 0,
+  "previously_exact_totals_now_wrong": 0,
+  "remaining_reasons": [
+    {
+      "reason_codes": [
+        "INCOMPLETE_PATIENT_HISTORY"
+      ],
+      "count": 3
+    },
+    {
+      "reason_codes": [
+        "INCOMPLETE_PATIENT_HISTORY",
+        "UNCLEAR_SERVICE_DESCRIPTION"
+      ],
+      "count": 1
+    }
+  ],
+  "new_api_calls": 0,
+  "additional_api_cost_usd": 0,
+  "experimental_policy_enabled": false,
+  "prior_files_preserved": true
+}

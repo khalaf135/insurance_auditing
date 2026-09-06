@@ -1,0 +1,20 @@
+{
+  "tests_passed": 224,
+  "records_verified": 4886,
+  "submission_rows": 2743,
+  "only_template_csv": true,
+  "all_predictions_unchanged": true,
+  "manual_reviewed": 12,
+  "manual_promotions": 0,
+  "manual_source_hashes_verified": 15,
+  "h1_per_category_independent_parity": true,
+  "report_table_verified": true,
+  "current_source_hashes_verified": true,
+  "new_api_calls": 0,
+  "budget_unchanged": true,
+  "root_submission_sha256": "a0e356c82bb56bc62d6fd9b6e4e2c0c0529e6da553941d852cbdbde42a59a026",
+  "evaluation_pages": 2,
+  "decision_log_pages": 1,
+  "required_text_checked": true,
+  "pdf_pages_visually_checked": true
+}

@@ -1,0 +1,3827 @@
+[
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "cardiac physiotherapy session",
+    "descriptions": [
+      "CARDIAC physio SESS /CW-4455"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Cardiac Physiotherapy Session",
+      "Outpatient Cardiac Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Emergency Cardiac Physiotherapy Session": 1.0,
+          "Outpatient Cardiac Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "gastrointestinal nurs obs",
+    "descriptions": [
+      "OBS - gi NURS /CW-2992"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Elective Gastrointestinal Nursing Observation": 1.0,
+          "Supervised Gastrointestinal Nursing Observation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 20,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "programme rehabilitation rheum",
+    "descriptions": [
+      "RHEUM rehabilitation PROGRAMME /CW-4700"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 22,
+        "rate_support": {
+          "Ambulatory Rheumatologic Rehabilitation Programme": 1.0,
+          "Emergency Rheumatologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "CONF ger CS"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 1.0,
+          "Postoperative Geriatric Case Conference": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "case conf geriatric",
+    "descriptions": [
+      "ger - CASE conf"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Intensive Geriatric Case Conference": 0.0,
+          "Postoperative Geriatric Case Conference": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "bed occupancy oncology ward",
+    "descriptions": [
+      "occupancy ONC wd BD"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Advanced Oncology Ward Bed Occupancy",
+      "Standard Oncology Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Advanced Oncology Ward Bed Occupancy": 0.0,
+          "Standard Oncology Ward Bed Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "ambulatory bed occupancy ward",
+    "descriptions": [
+      "amb WD bed OCC /CW-2964"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Ambulatory Cardiac Ward Bed Occupancy",
+      "Ambulatory Immunologic Ward Bed Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Ambulatory Cardiac Ward Bed Occupancy": 1.0,
+          "Ambulatory Immunologic Ward Bed Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 6,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card home visit",
+    "descriptions": [
+      "card  - HOME vst"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Bedside Cardiac Home Visit": 1.0,
+          "Routine Cardiac Home Visit": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card support vent",
+    "descriptions": [
+      "card VENT support"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Assisted Cardiac Ventilation Support": 0.0,
+          "Specialist Cardiac Ventilation Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 5,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 4,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 5,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 6,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 4,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "discharge hep planning",
+    "descriptions": [
+      "hep - DISCHARGE plng /CW-2290"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Extended Hepatic Discharge Planning": 1.0,
+          "Specialist Hepatic Discharge Planning": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  }
+]

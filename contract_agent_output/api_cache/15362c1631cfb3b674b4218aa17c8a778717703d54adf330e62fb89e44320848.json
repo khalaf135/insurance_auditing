@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629787-4FLGEbOi9cqmBYEzhgEH",
+  "object": "chat.completion",
+  "created": 1788629787,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Routine Neurological Biopsy Procedure\",\n      \"line_end\": 74,\n      \"line_start\": 74,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Routine Neurological Biopsy Procedure\\\",\\\"unit_basis\\\":\\\"per item supplied\\\",\\\"unit_basis_source\\\":\\\"per item supplied\\\",\\\"base_rate_cents\\\":18625,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Routine Psychiatric Physiotherapy Session\",\n      \"line_end\": 75,\n      \"line_start\": 75,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Routine Psychiatric Physiotherapy Session\\\",\\\"unit_basis\\\":\\\"per visit\\\",\\\"unit_basis_source\\\":\\\"per visit\\\",\\\"base_rate_cents\\\":30950,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Routine Psychiatric Telemetry Monitoring\",\n      \"line_end\": 76,\n      \"line_start\": 76,\n      \"section\": \"services\",\n      \"uncertainty\": \"Ambiguous/composite basis such as 'per hour, per item'\",\n      \"value_json\": \"{\\\"service_name\\\":\\\"Routine Psychiatric Telemetry Monitoring\\\",\\\"unit_basis\\\":null,\\\"unit_basis_source\\\":\\\"per hour, per item\\\",\\\"base_rate_cents\\\":2950,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Routine Urologic Radiotherapy Fraction\",\n      \"line_end\": 77,\n      \"line_start\": 77,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Routine Urologic Radiotherapy Fraction\\\",\\\"unit_basis\\\":\\\"per item supplied\\\",\\\"unit_basis_source\\\":\\\"per item supplied\\\",\\\"base_rate_cents\\\":5100,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Routine Urologic Transport Service\",\n      \"line_end\": 78,\n      \"line_start\": 78,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Routine Urologic Transport Service\\\",\\\"unit_basis\\\":\\\"per visit\\\",\\\"unit_basis_source\\\":\\\"per visit\\\",\\\"base_rate_cents\\\":15250,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Specialist Dermatologic Nursing Observation\",\n      \"line_end\": 79,\n      \"line_start\": 79,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Specialist Dermatologic Nursing Observation\\\",\\\"unit_basis\\\":\\\"per hour\\\",\\\"unit_basis_source\\\":\\\"per hour\\\",\\\"base_rate_cents\\\":10450,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Specialist Gastrointestinal Pharmaceutical Dispensing\",\n      \"line_end\": 80,\n      \"line_start\": 80,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Specialist Gastrointestinal Pharmaceutical Dispensing\\\",\\\"unit_basis\\\":\\\"per unit dispensed\\\",\\\"unit_basis_source\\\":\\\"per unit dispensed\\\",\\\"base_rate_cents\\\":4125,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Specialist Metabolic Sterilisation Service\",\n      \"line_end\": 81,\n      \"line_start\": 81,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Specialist Metabolic Sterilisation Service\\\",\\\"unit_basis\\\":\\\"per item supplied\\\",\\\"unit_basis_source\\\":\\\"per item supplied\\\",\\\"base_rate_cents\\\":19825,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Standard Infectious Ventilation Support\",\n      \"line_end\": 82,\n      \"line_start\": 82,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Standard Infectious Ventilation Support\\\",\\\"unit_basis\\\":\\\"per hour\\\",\\\"unit_basis_source\\\":\\\"per hour\\\",\\\"base_rate_cents\\\":19225,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Standard Paediatric Radiotherapy Fraction\",\n      \"line_end\": 83,\n      \"line_start\": 83,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Standard Paediatric Radiotherapy Fraction\\\",\\\"unit_basis\\\":\\\"per procedure\\\",\\\"unit_basis_source\\\":\\\"per procedure\\\",\\\"base_rate_cents\\\":117900,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Standard Psychiatric Discharge Planning\",\n      \"line_end\": 84,\n      \"line_start\": 84,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Standard Psychiatric Discharge Planning\\\",\\\"unit_basis\\\":\\\"per hour\\\",\\\"unit_basis_source\\\":\\\"per hour\\\",\\\"base_rate_cents\\\":5200,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Supervised Immunologic Sterilisation Service\",\n      \"line_end\": 85,\n      \"line_start\": 85,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Supervised Immunologic Sterilisation Service\\\",\\\"unit_basis\\\":\\\"per procedure\\\",\\\"unit_basis_source\\\":\\\"per procedure\\\",\\\"base_rate_cents\\\":268575,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Supervised Metabolic Discharge Planning\",\n      \"line_end\": 86,\n      \"line_start\": 86,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Supervised Metabolic Discharge Planning\\\",\\\"unit_basis\\\":\\\"per hour\\\",\\\"unit_basis_source\\\":\\\"per hour\\\",\\\"base_rate_cents\\\":16775,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Supervised Otolaryngologic Specimen Analysis\",\n      \"line_end\": 87,\n      \"line_start\": 87,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Supervised Otolaryngologic Specimen Analysis\\\",\\\"unit_basis\\\":\\\"per item supplied\\\",\\\"unit_basis_source\\\":\\\"per item supplied\\\",\\\"base_rate_cents\\\":28300,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Supervised Palliative Consultation\",\n      \"line_end\": 88,\n      \"line_start\": 88,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Supervised Palliative Consultation\\\",\\\"unit_basis\\\":\\\"per procedure\\\",\\\"unit_basis_source\\\":\\\"per procedure\\\",\\\"base_rate_cents\\\":441425,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Supervised Vascular Consultation\",\n      \"line_end\": 89,\n      \"line_start\": 89,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Supervised Vascular Consultation\\\",\\\"unit_basis\\\":\\\"per procedure\\\",\\\"unit_basis_source\\\":\\\"per procedure\\\",\\\"base_rate_cents\\\":156100,\\\"daily_cap\\\":null}\"\n    },\n    {\n      \"key\": \"Supervised Vascular Diagnostic Imaging\",\n      \"line_end\": 90,\n      \"line_start\": 90,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\":\\\"Supervised Vascular Diagnostic Imaging\\\",\\\"unit_basis\\\":\\\"per test\\\",\\\"unit_basis_source\\\":\\\"per test\\\",\\\"base_rate_cents\\\":20175,\\\"daily_cap\\\":null}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a19AVZDbW9x3nzpaBi5+4XT2C7etIPrnhOSxzCyKt+LXcMsyz/3T3uLlFFDN1ldTInJhjr49PiLkMYulyKgrUwnUWs18y6Aid4H6wwAV4tE=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4868,
+    "completion_tokens": 1922,
+    "total_tokens": 6790,
+    "cost": 0.0062654,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0062654,
+      "upstream_inference_prompt_cost": 0.0014604,
+      "upstream_inference_completions_cost": 0.004805
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

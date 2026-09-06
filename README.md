@@ -1,117 +1,106 @@
-# Invoice Audit Exercise
+# Hospital invoice auditor
 
-Meridian Health Assurance Group reimburses five hospitals under five separately
-negotiated service contracts. Each hospital submits invoices for the patients
-it has treated. Some of those invoices are wrong — a rate that does not match
-the contract, an adjustment applied when it was not due or omitted when it was,
-a quantity beyond a contractual limit, a service billed twice.
+Each hospital is checked against **its own contract**. Contract JSON supplies
+the rules. When a service description or source unit needs review, a specialized
+agent can propose an interpretation; code validates it before using it. Cases
+that still cannot be decided remain explicitly **not answered**.
 
-Your job is to find the wrong ones.
+## Start here
 
-## What you have
+Prepared deliverables:
 
-```
-contracts/hospital_1/ ... contracts/hospital_5/
-    The five contracts, as Markdown and as plain text. Each hospital's
-    contract is presented differently; one of them is split across several
-    documents. Read whichever format suits your tooling.
+- [submission.csv](submission.csv): snapshot of the final verified run, with only the six template columns.
+- [Evaluation report](output/pdf/evaluation_report.pdf): two pages, with results, simplified category performance and four failure types; [editable source](docs/EVALUATION.md).
+- [One-page decision log](output/pdf/decision_log.pdf): a brief development story followed by assumptions, ambiguities and decisions; [editable source](docs/DECISION_LOG.md).
+- [How I used AI and versioned prompts](prompts/README.md): the development workflow, representative request summaries, and five exact prompt snapshots with iteration links.
+- [Source-review journal](audit_output/manual_review_submission/source_review_12.json): 12 representative unresolved cases, no forced answers; not a complete human review.
 
-invoices/hospital_N_invoices.csv
-    One row per invoice: invoice_id, hospital_id, contract_number,
-    invoice_date, patient_id, facility_code, plan_tier, admission_date,
-    discharge_date, invoice_total_cents.
+Normal runs write a fresh dated folder; the root submission is the prepared
+snapshot, not an automatically overwritten copy. Run evaluation metrics are
+recomputed in `evaluation.json`. Optional PDF regeneration:
+`python3 -m pip install -r docs/requirements.txt`, then `python3 docs/render_reports.py`.
+The reports describe the prepared snapshot; review their figures after changing rules.
 
-invoices/hospital_N_line_items.csv
-    One row per line item: line_id, invoice_id, line_no, service_date,
-    description, quantity, unit_basis_as_billed, unit_price_cents,
-    line_total_cents.
+Use Python 3.11 or newer. The audit and tests need no additional packages.
 
-invoices/hospital_N_invoices.jsonl
-    The same data, one JSON object per invoice, with the line items nested.
-    Use whichever shape you prefer; they carry identical information.
+Ready to push? See [publishing instructions](docs/PUBLISHING.md). The ignore rules
+keep the required offline evidence but exclude secrets and redundant local runs.
+`origin` is the submission repository; `upstream` preserves the original exercise repository.
 
-labels/hospital_1_labels.csv
-    Ground truth for hospital 1 only — your development set.
-
-submission_template.csv
-    The format your predictions must take.
+```sh
+python3 main.py
 ```
 
-All money is an integer number of cents. There are no floating-point amounts
-anywhere in the data, and there should be none in your answer.
+This runs the tests, audits all five hospitals using existing cached AI answers,
+prints answered/unanswered counts, and saves a new `audit_output/test_all_<timestamp>/`
+folder. **No new API calls are made by default.**
 
-The line-item `description` is the hospital's own free-text billing
-description. It is not a contract term, it is not a code, and the same
-contracted service is described many different ways across the data.
-Establishing which contracted service a description refers to is part of the
-task.
+Other useful commands:
 
-## The task
+```sh
+python3 test.py                 # Only the local regression tests
+python3 main.py --compare       # Compare the latest completed run with H1 labels
+python3 main.py --execute-ai    # Allow new invoice-agent calls within the shared $2 budget
+```
 
-For hospitals hospital_2, hospital_3, hospital_4, hospital_5, decide for each invoice whether it is erroneous, and
-submit your predictions in the format of `submission_template.csv`:
+The budget includes previous spending and uncertain-charge reservations. It is
+a local safeguard, not an account-wide provider cap. Do not reset the ledger.
+Keep API keys in the ignored `.env`, never in code or commits.
 
-| column | meaning |
-|---|---|
-| `invoice_id` | the invoice you are making a claim about |
-| `flagged` | `1` if you believe the invoice is erroneous, `0` otherwise |
-| `error_category` | your own short label for what is wrong; free text |
-| `expected_total_cents` | what you believe the invoice *should* have totalled |
-| `billed_total_cents` | what it actually totalled |
-| `confidence` | your confidence in the row, between 0 and 1 |
+## Code: one file for each responsibility
 
-Submit a row for every invoice you have an opinion about. Rows for invoices you
-believe are correct are useful and are scored.
+- **`main.py`** — the command you run: tests, pipeline, exports, and final counts.
+- **`pipeline.py`** — coordinates all hospitals and keeps their data separate.
+- **`contract_builder.py`** — reads each hospital's contract documents and creates source-linked JSON drafts.
+- **`contracts.py`** — prepares contract rules, retrieves original clauses, and validates unit evidence.
+- **`rules.py`** — the single deterministic audit engine: dates, prices, units, discounts, bundles, and exclusions.
+- **`matching.py`** — shared service-description matching and small calculation helpers.
+- **`agents.py`** — reason-based fallback agents, proposal validation, reference groups, and cached-answer reuse.
+- **`ai_client.py`** — API requests, cached responses, credentials, and spending controls.
+- **`confidence.py`** — small, explainable evidence scores for the verdict, categories, and corrected total.
+- **`reporting.py`** — submission exports, unanswered reasons, H1 comparison, and run verification.
+- **`test.py`** — one regression-suite file containing all automated tests; no paid calls.
 
-Hospital 1 is labelled. Use it to develop and to calibrate; it is not scored.
+There are no active `v2`/`v3` Python files or duplicate runner wrappers.
+Contract creation is a separate workflow; you do not rebuild contracts for each
+invoice run. See [contract extraction](docs/CONTRACT_EXTRACTION.md).
 
-## How this is assessed
+## Data and results
 
-**Complete coverage of all five contracts is not expected.** The exercise is
-deliberately larger than the time budget. Sequencing — deciding what to attempt
-first and what to leave — and reporting honestly on what you did not attempt
-are explicitly part of what is being evaluated. A submission covering two
-hospitals well, with a clear account of why those two and what would come next,
-is a stronger result than a thin pass over all four.
+- `contracts/`, `invoices/`, `labels/`, and `submission_template.csv` retain the supplied exercise data.
+- `contract_agent_final_v4/` holds the current source-linked JSON drafts.
+- `structured_contracts/` and `config/` hold H1's reviewed input and matching policies.
+- `audit_output/` holds results, the shared invoice-agent cache and ledger, and required replay evidence.
+- `contract_agent_output/` preserves the separate contract-extraction cache and provenance.
+- [AI_USAGE.md](AI_USAGE.md) consolidates the AI-use and prompt-iteration history into one file.
+- `prompts/` contains five numbered actual prompt snapshots, not duplicate code versions.
 
-**A confidently wrong extraction is worse than a flagged uncertainty.** If you
-tell us a rate is 42.00 and it is not, that error propagates silently into
-every invoice touching that service. If you tell us you are unsure, a human
-reviews it and the cost is a few minutes. Scoring reflects this: your stated
-`confidence` is used, and calibration is measured. Say what you do not know.
+Some **data** folders retain historical names because saved evidence refers to
+those exact paths. They are not duplicate implementations to delete.
 
-## Time budget
+In the output folder printed after a run:
 
-Six to eight hours, spread over one week. That is a **cap**, not a target. Do
-not exceed it. If you find yourself at the cap with work outstanding, stop and
-write down what you would have done next — that write-up is worth more to us
-than the extra hours.
+- **`submission.csv`** — the only CSV export: exactly the six template columns, answered unique H2–H5 invoices only.
+- **`all_results.json` / `submit_all_data.json`** — internal records for every invoice, including unanswered cases and confidence explanations; not submission files.
+- **`unanswered.json`** — unresolved invoices and duplicate-ID records with reasons for manual review.
+- **`summary.json` / `remaining_blockers.json`** — counts, assumptions, budget, and remaining reasons.
+- **`evaluation.json`** — duplicate-safe H1 per-category metrics, total coverage and explicitly limited development confidence diagnostics.
 
-## AI assistance
+H2–H5 have no labels: more answers mean more coverage, not proven accuracy.
+Date quarantine and the conditional H2 billing-day interpretation remain enabled.
+An error verdict can still have an unresolved corrected total.
 
-Using AI assistance is permitted and expected. It must be disclosed. Include
-your prompts as versioned files in the repository (see deliverables) so we can
-see how you worked, not just what you produced.
+Confidence is now based on recorded evidence, not two fixed export values.
+Separate verdict/total/category scores and explanations stay in internal JSON;
+the submission has only the original six columns. These are **uncalibrated
+evidence scores, not measured probabilities**. An unresolved total caps the row
+score at 0.50; unanswered and duplicate-ID records have blank scores. See the
+[confidence policy](docs/RUNNING.md#confidence-policy) for the declared tiers and limitations.
 
-## Deliverables
+If AI cannot resolve a case, the code records why; it does not automatically send
+it to a person. Source-backed unit clarification requests are saved separately.
+The exercise permits abstention, so unresolved verdicts are not forced into the
+official submission. Manual review notes belong in the decision log, not extra CSV columns.
 
-1. **A runnable repository.** We should be able to clone it, follow your README,
-   and reproduce your submission file. Pin your dependencies.
-2. **`submission.csv`** in the template format.
-3. **A short evaluation report** giving per-category performance on the
-   hospital 1 development set, and an error analysis grouped by *failure type*
-   — not a list of individual misses, but the three or four systematic ways
-   your approach goes wrong, with an example of each.
-4. **Your prompts, as versioned files** in the repository. If you iterated on a
-   prompt, we would like to see that it was iterated on.
-5. **A one-page decision log**: the assumptions you made, the ambiguities you
-   found and could not resolve, and what you decided to do about each. If you
-   read a clause two ways and had to pick one, that belongs here.
-
-## Ground rules
-
-- The data is synthetic. There are no real patients and no real hospitals.
-- Everything you need is in this package. There is nothing to look up
-  externally.
-- If something in a contract seems genuinely ambiguous, it may well be. Record
-  your reading and move on; do not spend the budget on it.
+See [running options](docs/RUNNING.md), [the code map](docs/CODE_MAP.md),
+[cleanup and recovery](docs/CLEANUP.md), and the unchanged [original exercise](docs/EXERCISE.md).

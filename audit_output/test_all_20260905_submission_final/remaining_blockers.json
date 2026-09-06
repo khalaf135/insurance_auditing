@@ -1,0 +1,60 @@
+{
+  "eligible_unanswered": 1173,
+  "duplicate_id_records_excluded_separately": 62,
+  "overlapping_reason_counts": {
+    "unclear_description": 77,
+    "contract_unit": 423,
+    "volume_discount": 768,
+    "patient_history": 14,
+    "exclusion_boundary": 1
+  },
+  "single_reason_counts": {
+    "unclear_description": 56,
+    "contract_unit": 333,
+    "volume_discount": 674,
+    "patient_history": 3
+  },
+  "non_overlapping_reason_groups": {
+    "unclear_description": 56,
+    "contract_unit": 333,
+    "volume_discount": 674,
+    "patient_history + volume_discount": 3,
+    "patient_history + unclear_description + volume_discount": 2,
+    "contract_unit + volume_discount": 81,
+    "unclear_description + volume_discount": 6,
+    "contract_unit + unclear_description": 8,
+    "patient_history": 3,
+    "patient_history + unclear_description": 5,
+    "contract_unit + patient_history + volume_discount": 1,
+    "exclusion_boundary + volume_discount": 1
+  },
+  "multiple_reasons": 107,
+  "by_hospital_overlapping": {
+    "H2": {
+      "unclear_description": 68,
+      "contract_unit": 146,
+      "volume_discount": 170,
+      "patient_history": 5
+    },
+    "H3": {
+      "contract_unit": 80,
+      "volume_discount": 229,
+      "patient_history": 3,
+      "unclear_description": 3
+    },
+    "H4": {
+      "contract_unit": 92,
+      "volume_discount": 106,
+      "patient_history": 4,
+      "unclear_description": 2
+    },
+    "H5": {
+      "unclear_description": 4,
+      "contract_unit": 105,
+      "volume_discount": 263,
+      "patient_history": 2,
+      "exclusion_boundary": 1
+    }
+  },
+  "note": "Reason counts overlap. Correctness is not measured for unlabelled hospitals."
+}

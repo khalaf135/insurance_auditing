@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629531-ZycIp1N0Jr17OSDXVF2x",
+  "object": "chat.completion",
+  "created": 1788629531,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Extended Otolaryngologic Nutritional Support\",\n      \"line_end\": 350,\n      \"line_start\": 350,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Extended Otolaryngologic Nutritional Support\\\", \\\"unit_basis\\\": \\\"per_night\\\", \\\"unit_basis_source\\\": \\\"per night of occupancy\\\", \\\"base_rate_cents\\\": 54975, \\\"daily_caps\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 350,\n      \"line_start\": 350,\n      \"section\": \"non_business_day_uplifts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Extended Otolaryngologic Nutritional Support\\\", \\\"uplift_percent\\\": 15}\"\n    },\n    {\n      \"key\": \"Focused Ophthalmic Laboratory Panel\",\n      \"line_end\": 352,\n      \"line_start\": 352,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Focused Ophthalmic Laboratory Panel\\\", \\\"unit_basis\\\": \\\"per_test\\\", \\\"unit_basis_source\\\": \\\"per test\\\", \\\"base_rate_cents\\\": 26800, \\\"daily_caps\\\": null}\"\n    },\n    {\n      \"key\": \"Intensive Infectious Physiotherapy Session\",\n      \"line_end\": 354,\n      \"line_start\": 354,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intensive Infectious Physiotherapy Session\\\", \\\"unit_basis\\\": \\\"per_visit\\\", \\\"unit_basis_source\\\": \\\"per visit\\\", \\\"base_rate_cents\\\": 34475, \\\"daily_caps\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 354,\n      \"line_start\": 354,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Intensive Infectious Physiotherapy Session\\\", \\\"related_service\\\": \\\"Routine Ophthalmic Laboratory Panel\\\", \\\"window_days\\\": 10}\"\n    },\n    {\n      \"key\": \"Outpatient Haematology Biopsy Procedure\",\n      \"line_end\": 356,\n      \"line_start\": 356,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Outpatient Haematology Biopsy Procedure\\\", \\\"unit_basis\\\": \\\"per_procedure\\\", \\\"unit_basis_source\\\": \\\"per procedure\\\", \\\"base_rate_cents\\\": 89775, \\\"daily_caps\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 356,\n      \"line_start\": 356,\n      \"section\": \"bundles\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_a\\\": \\\"Outpatient Haematology Biopsy Procedure\\\", \\\"service_b\\\": \\\"Standard Orthopaedic Isolation Room Occupancy\\\", \\\"bundled_rate_a_cents\\\": 73625, \\\"bundled_rate_b_cents\\\": 27275}\"\n    },\n    {\n      \"key\": \"Postoperative Vascular Transport Service\",\n      \"line_end\": 358,\n      \"line_start\": 358,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Postoperative Vascular Transport Service\\\", \\\"unit_basis\\\": \\\"per_visit\\\", \\\"unit_basis_source\\\": \\\"per visit\\\", \\\"base_rate_cents\\\": 15025, \\\"daily_caps\\\": null}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a195RpwNYDnusfcLLS7AISWnEZwqJ6mhdcfA1pACmj3rf134jXSHe4TMFO0lL9Xf1XzMy1Ex7jPy0kWS8Zsjl2BXgsMxPkUQeicug2in6eU=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3894,
+    "completion_tokens": 946,
+    "total_tokens": 4840,
+    "cost": 0.0035332,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0035332,
+      "upstream_inference_prompt_cost": 0.0011682,
+      "upstream_inference_completions_cost": 0.002365
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

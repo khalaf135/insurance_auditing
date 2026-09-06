@@ -1,0 +1,77 @@
+{
+  "source_hashes": {
+    "scripts/audit_policy_experiment.py": "d92c6ad6c3f53655333e9e1c031d3e883880b117d8917e887d9cc0555d4c4889",
+    "scripts/audit_invoices_v3.py": "7b28245e760ca4926047ea414558b2612ee28c88ce40fd2a8a30a4b77c2482ea",
+    "scripts/audit_policy_rules.py": "1a1a835767b2803343c0ca2c2490d210c02b921744261ca6a101a887f5e33330"
+  },
+  "baseline_context": {
+    "method": "five-fold patient/invoice-group reference inference",
+    "split_salt": "h1-reference-crossfit-v1",
+    "folds": [
+      {
+        "fold": 0,
+        "records": 214,
+        "answered": 211
+      },
+      {
+        "fold": 1,
+        "records": 177,
+        "answered": 177
+      },
+      {
+        "fold": 2,
+        "records": 210,
+        "answered": 210
+      },
+      {
+        "fold": 3,
+        "records": 152,
+        "answered": 151
+      },
+      {
+        "fold": 4,
+        "records": 165,
+        "answered": 165
+      }
+    ],
+    "standard_gate": {
+      "minimum_reference_invoices": 3,
+      "minimum_candidate_support": 0.8,
+      "maximum_competitor_support": 0.2
+    },
+    "experimental_policy_enabled": false,
+    "reference_policy": "Five stable patient/invoice-ID groups; exclude held-out group for ALL mappings, and each historical invoice's own ID. Duplicated invoice IDs are excluded from reference evidence.",
+    "new_api_calls": 0,
+    "additional_api_cost_usd": 0,
+    "source_inputs": {
+      "/Users/abdulelah./Downloads/Aramco/insurance_auditing/structured_contracts/hospital_1.json": "dc1250a9913d2f069d4936c7721213add9c9674e5ec0ec331a9803c3a53fd04f",
+      "/Users/abdulelah./Downloads/Aramco/insurance_auditing/invoices/hospital_1_invoices.jsonl": "baf4975307b08ec9aa915f7bcd306e2d508362557a755ef8df9c891e0bcd2ac9",
+      "/Users/abdulelah./Downloads/Aramco/insurance_auditing/config/fallback_v2_policy.json": "e666605e44592a13a39a8322807bd8f28893ca8e75f5d0829f5291185691328d",
+      "/Users/abdulelah./Downloads/Aramco/insurance_auditing/audit_output/all_h1_standard_v2/results.jsonl": "967fecddd3abec93da72368a68d02590d27eb35803c9c373f46e62c2504a25a5"
+    },
+    "runner_sha256": "6983b0d365480e8415ff7d0dcfe85f9a0d92c0e84056e744810f01e8567615e3",
+    "predictions_sha256": "fa62efd050406186426fb5e6b971bfe893b296abd4251098d490edc7294b5028",
+    "caveat": "Reference groups exclude target prices, but this is still label-aware H1 development. Reused text mappings and policy were developed previously; this is not independent model cross-validation."
+  },
+  "policy": {
+    "duplicate_allocation": {
+      "allocate_later_duplicates": true
+    },
+    "duplicate_and_unknown": {
+      "allocate_later_duplicates": true,
+      "classify_unsupported_services": true
+    },
+    "with_date_quarantine": {
+      "allocate_later_duplicates": true,
+      "classify_unsupported_services": true,
+      "quarantine_invalid_history_dates": true
+    }
+  },
+  "frozen_reference_evidence": "/Users/abdulelah./Downloads/Aramco/insurance_auditing/audit_output/all_h1_crossfit_standard",
+  "predictions_sha256": {
+    "replay_control": "b978c1392a8985c63ce6954c876f7e6aeffd16384c64de37ecc81dc3371eb3af",
+    "duplicate_allocation": "2239ca9b24673f5a89c361474b3152b0cd666bb0a5db6bffe02f2dae4bd374da",
+    "duplicate_and_unknown": "c8d02bfb15fdb29be966efd2edcf35d4a0519feacfc507326706306d7b384262",
+    "with_date_quarantine": "1cdff8bce0dc809dbed72a9f751fedcd5404e7ee50239d2725aca3330edeed40"
+  }
+}

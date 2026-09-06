@@ -1,0 +1,6767 @@
+[
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 24,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy room standard",
+    "descriptions": [
+      "STD ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Standard Neurological Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 20,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEURO  REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "neurological prog rehabilitation",
+    "descriptions": [
+      "NEUROLOGICAL REHAB PROG /SA-9661"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intensive Neurological Rehabilitation Programme": 1.0,
+          "Postoperative Neurological Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "card elect service",
+    "descriptions": [
+      "ELECT CARD SVC"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "reason": "PRICE_INFERENCE_NOT_APPLICABLE: fewer than two candidates",
+    "candidate_count": 1
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 42,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 32,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 34,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 26,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 34,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 42,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 34,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 26,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 34,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 44,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 36,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 36,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "imaging interpretation neurological",
+    "descriptions": [
+      "INTERPRETATION NEURO IMG /SA-5989"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Routine Neurological Imaging Interpretation",
+      "Supervised Neurological Imaging Interpretation"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 44,
+        "rate_support": {
+          "Routine Neurological Imaging Interpretation": 1.0,
+          "Supervised Neurological Imaging Interpretation": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "isol occupancy orthopaedic room",
+    "descriptions": [
+      "ORTHOPAEDIC ISOL RM OCC"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Postoperative Orthopaedic Isolation Room Occupancy": 0.0,
+          "Standard Orthopaedic Isolation Room Occupancy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "laboratory ophthalmic pnl",
+    "descriptions": [
+      "OPHTH LAB PNL"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Focused Ophthalmic Laboratory Panel": 0.0,
+          "Routine Ophthalmic Laboratory Panel": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "analysis card specimen",
+    "descriptions": [
+      "ANALYSIS CARD SPCM"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Intermittent Cardiac Specimen Analysis": 1.0,
+          "Preoperative Cardiac Specimen Analysis": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging musculoskeletal",
+    "descriptions": [
+      "MSK  DIAG IMG"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Assisted Musculoskeletal Diagnostic Imaging",
+      "Supervised Musculoskeletal Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Assisted Musculoskeletal Diagnostic Imaging": 0.0,
+          "Supervised Musculoskeletal Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 37,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 33,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 32,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 27,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 38,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 34,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 33,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 52,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 47,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 42,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 51,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 41,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "OPHTH - ANAESTHESIA ADMIN /SA-3643"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 46,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 0.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 6,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "administration anaesthesia ophthalmic",
+    "descriptions": [
+      "ADMIN OPHTH ANAES /SA-6486"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Ophthalmic Anaesthesia Administration",
+      "Postoperative Ophthalmic Anaesthesia Administration"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Intermittent Ophthalmic Anaesthesia Administration": 1.0,
+          "Postoperative Ophthalmic Anaesthesia Administration": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 20,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 22,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "otolaryngologic prog rehabilitation",
+    "descriptions": [
+      "ENT REHAB PROG"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Intensive Otolaryngologic Rehabilitation Programme": 1.0,
+          "Intermittent Otolaryngologic Rehabilitation Programme": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 26,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 25,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 26,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 25,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 36,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 27,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 31,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 28,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical pulmonary",
+    "descriptions": [
+      "PULM PHARM DISP /SA-2727"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 32,
+        "rate_support": {
+          "Bedside Pulmonary Pharmaceutical Dispensing": 1.0,
+          "Focused Pulmonary Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 6,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "biopsy haematology procedure",
+    "descriptions": [
+      "HAEM BIOP PROC /SA-6522"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Outpatient Haematology Biopsy Procedure",
+      "Supervised Haematology Biopsy Procedure"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Outpatient Haematology Biopsy Procedure": 0.0,
+          "Supervised Haematology Biopsy Procedure": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 5,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 6,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paediatric ther",
+    "descriptions": [
+      "PAEDIATRIC  INF THER"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 1.0,
+          "Standard Paediatric Infusion Therapy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "anly dermatologic specimen",
+    "descriptions": [
+      "ANLY - DERM SPCM"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Dermatologic Specimen Analysis": 0.0,
+          "Extended Dermatologic Specimen Analysis": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "infusion paed ther",
+    "descriptions": [
+      "PAED  INF THER"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Intensive Paediatric Infusion Therapy": 0.0,
+          "Standard Paediatric Infusion Therapy": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 20,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "paed theatre time",
+    "descriptions": [
+      "PAED THEATRE TM /SA-1156"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Emergency Paediatric Theatre Time": 1.0,
+          "Postoperative Paediatric Theatre Time": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629502-OD4HsXGf415QaGfvP3Cs",
+  "object": "chat.completion",
+  "created": 1788629502,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Intermittent Ophthalmic Anaesthesia Administration\",\n      \"line_end\": 110,\n      \"line_start\": 110,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intermittent Ophthalmic Anaesthesia Administration\\\", \\\"unit_basis\\\": \\\"per_procedure\\\", \\\"unit_basis_source\\\": \\\"per procedure\\\", \\\"base_rate_cents\\\": 391950, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Intermittent Ophthalmic Anaesthesia Administration\",\n      \"line_end\": 110,\n      \"line_start\": 110,\n      \"section\": \"non_business_day_uplifts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intermittent Ophthalmic Anaesthesia Administration\\\", \\\"uplift_percent\\\": 20.0}\"\n    },\n    {\n      \"key\": \"Postoperative Orthopaedic Isolation Room Occupancy\",\n      \"line_end\": 112,\n      \"line_start\": 112,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Postoperative Orthopaedic Isolation Room Occupancy\\\", \\\"unit_basis\\\": \\\"per_night\\\", \\\"unit_basis_source\\\": \\\"per night of occupancy\\\", \\\"base_rate_cents\\\": 120475, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Postoperative Orthopaedic Isolation Room Occupancy_Bedside Obstetric Physiotherapy Session\",\n      \"line_end\": 112,\n      \"line_start\": 112,\n      \"section\": \"bundles\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_a\\\": \\\"Postoperative Orthopaedic Isolation Room Occupancy\\\", \\\"service_b\\\": \\\"Bedside Obstetric Physiotherapy Session\\\", \\\"bundled_rate_a_cents\\\": 90350, \\\"bundled_rate_b_cents\\\": 5200}\"\n    },\n    {\n      \"key\": \"Preoperative Vascular Imaging Interpretation\",\n      \"line_end\": 114,\n      \"line_start\": 114,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Preoperative Vascular Imaging Interpretation\\\", \\\"unit_basis\\\": \\\"per_test\\\", \\\"unit_basis_source\\\": \\\"per test\\\", \\\"base_rate_cents\\\": 9100, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Specialist Psychiatric Sterilisation Service\",\n      \"line_end\": 116,\n      \"line_start\": 116,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Specialist Psychiatric Sterilisation Service\\\", \\\"unit_basis\\\": \\\"per_procedure\\\", \\\"unit_basis_source\\\": \\\"per procedure\\\", \\\"base_rate_cents\\\": 213700, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Supervised Haematology Biopsy Procedure\",\n      \"line_end\": 118,\n      \"line_start\": 118,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Haematology Biopsy Procedure\\\", \\\"unit_basis\\\": \\\"per_item_supplied\\\", \\\"unit_basis_source\\\": \\\"per item supplied\\\", \\\"base_rate_cents\\\": 20800, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Supervised Haematology Biopsy Procedure\",\n      \"line_end\": 118,\n      \"line_start\": 118,\n      \"section\": \"non_business_day_uplifts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Haematology Biopsy Procedure\\\", \\\"uplift_percent\\\": 20.0}\"\n    },\n    {\n      \"key\": \"Advanced Dermatologic Specimen Analysis\",\n      \"line_end\": 120,\n      \"line_start\": 120,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Advanced Dermatologic Specimen Analysis\\\", \\\"unit_basis\\\": \\\"per_item_supplied\\\", \\\"unit_basis_source\\\": \\\"per item supplied\\\", \\\"base_rate_cents\\\": 22150, \\\"daily_cap\\\": 24}\"\n    },\n    {\n      \"key\": \"Advanced Dermatologic Specimen Analysis\",\n      \"line_end\": 120,\n      \"line_start\": 120,\n      \"section\": \"daily_caps\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Advanced Dermatologic Specimen Analysis\\\", \\\"quantity\\\": 24, \\\"unit_basis\\\": \\\"per_item_supplied\\\"}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1/CJfQwjL7/3C1wRpZb/D7s9Hus0/q1KxvT4d0+AnCzp2E/DitJT9CtYcsw8kI+ujxjtUbhkUWyQPthlMGfQpll9Vv9i+1ve3MTcoDQ2wI=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4040,
+    "completion_tokens": 1215,
+    "total_tokens": 5255,
+    "cost": 0.0042495,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0042495,
+      "upstream_inference_prompt_cost": 0.001212,
+      "upstream_inference_completions_cost": 0.0030375
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

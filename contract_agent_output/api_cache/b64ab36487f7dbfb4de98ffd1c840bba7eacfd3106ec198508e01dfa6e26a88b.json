@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629552-c7koo2agukyhqVRcBiB5",
+  "object": "chat.completion",
+  "created": 1788629552,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Ambulatory Haematology Nutritional Support\",\n      \"line_end\": 590,\n      \"line_start\": 590,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Ambulatory Haematology Nutritional Support\\\", \\\"unit_basis\\\": \\\"per_unit_dispensed\\\", \\\"unit_basis_source\\\": \\\"per unit dispensed\\\", \\\"base_rate_cents\\\": 8675, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Ambulatory Haematology Nutritional Support\",\n      \"line_end\": 590,\n      \"line_start\": 590,\n      \"section\": \"threshold_premiums\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Ambulatory Haematology Nutritional Support\\\", \\\"quantity\\\": 12, \\\"comparison\\\": \\\"greater_than\\\", \\\"uplift_percent\\\": 40, \\\"unit_basis\\\": \\\"per_day\\\"}\"\n    },\n    {\n      \"key\": \"Comprehensive Haematology Transport Service\",\n      \"line_end\": 592,\n      \"line_start\": 592,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Comprehensive Haematology Transport Service\\\", \\\"unit_basis\\\": \\\"per_item\\\", \\\"unit_basis_source\\\": \\\"per item supplied\\\", \\\"base_rate_cents\\\": 16650, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Comprehensive Haematology Transport Service_Bedside Pulmonary Pharmaceutical Dispensing\",\n      \"line_end\": 592,\n      \"line_start\": 592,\n      \"section\": \"bundles\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_a\\\": \\\"Comprehensive Haematology Transport Service\\\", \\\"service_b\\\": \\\"Bedside Pulmonary Pharmaceutical Dispensing\\\", \\\"bundled_rate_a_cents\\\": 14150, \\\"bundled_rate_b_cents\\\": 5875}\"\n    },\n    {\n      \"key\": \"Emergency Paediatric Theatre Time\",\n      \"line_end\": 594,\n      \"line_start\": 594,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Emergency Paediatric Theatre Time\\\", \\\"unit_basis\\\": \\\"per_hour\\\", \\\"unit_basis_source\\\": \\\"per hour\\\", \\\"base_rate_cents\\\": 8500, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Emergency Paediatric Theatre Time_Routine Geriatric Physiotherapy Session\",\n      \"line_end\": 594,\n      \"line_start\": 594,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Emergency Paediatric Theatre Time\\\", \\\"related_service\\\": \\\"Routine Geriatric Physiotherapy Session\\\", \\\"window_days\\\": 7}\"\n    },\n    {\n      \"key\": \"Focused Pulmonary Pharmaceutical Dispensing\",\n      \"line_end\": 596,\n      \"line_start\": 596,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Focused Pulmonary Pharmaceutical Dispensing\\\", \\\"unit_basis\\\": \\\"per_item\\\", \\\"unit_basis_source\\\": \\\"per item supplied\\\", \\\"base_rate_cents\\\": 10050, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Focused Pulmonary Pharmaceutical Dispensing_100\",\n      \"line_end\": 596,\n      \"line_start\": 596,\n      \"section\": \"volume_discounts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Focused Pulmonary Pharmaceutical Dispensing\\\", \\\"quantity\\\": 100, \\\"comparison\\\": \\\"greater_than\\\", \\\"discount_percent\\\": 15, \\\"unit_basis\\\": \\\"per_item\\\", \\\"condition\\\": \\\"counted cumulatively across the whole term of this Agreement and aggregated across all Patients\\\"}\"\n    },\n    {\n      \"key\": \"Focused Pulmonary Pharmaceutical Dispensing_300\",\n      \"line_end\": 596,\n      \"line_start\": 596,\n      \"section\": \"volume_discounts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Focused Pulmonary Pharmaceutical Dispensing\\\", \\\"quantity\\\": 300, \\\"comparison\\\": \\\"greater_than\\\", \\\"discount_percent\\\": 25, \\\"unit_basis\\\": \\\"per_item\\\", \\\"condition\\\": \\\"counted cumulatively across the whole term of this Agreement and aggregated across all Patients\\\"}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1/eseib7xsi0D24aNDxnr9yMKfuVxThv3kSeFzuJopZwbYw1KxQsVVCoLKl7ts8AZFQjFLDeGAxXmnERabhY7HfuUhc11gkjKyk8s9RsDc=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3768,
+    "completion_tokens": 1150,
+    "total_tokens": 4918,
+    "cost": 0.0040054,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0040054,
+      "upstream_inference_prompt_cost": 0.0011304,
+      "upstream_inference_completions_cost": 0.002875
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "service_name": "Intermittent Urologic Telemetry Monitoring",
+    "retrieved_source_ids": [
+      "conditional_reimbursement_agreement.txt:21",
+      "conditional_reimbursement_agreement.txt:85",
+      "conditional_reimbursement_agreement.txt:101",
+      "conditional_reimbursement_agreement.txt:102",
+      "conditional_reimbursement_agreement.txt:103",
+      "conditional_reimbursement_agreement.txt:104",
+      "conditional_reimbursement_agreement.txt:114",
+      "conditional_reimbursement_agreement.txt:197",
+      "conditional_reimbursement_agreement.txt:203",
+      "conditional_reimbursement_agreement.txt:259",
+      "conditional_reimbursement_agreement.txt:260",
+      "conditional_reimbursement_agreement.txt:261",
+      "conditional_reimbursement_agreement.txt:262"
+    ],
+    "unit_evidence": {
+      "reason": "compound_unit_not_defined",
+      "unit_options": [
+        "per_hour",
+        "per_item"
+      ],
+      "source_clauses": [
+        {
+          "source_ids": [
+            "conditional_reimbursement_agreement.txt:102"
+          ],
+          "text": "Intermittent Urologic Telemetry Monitoring            per hour, per item      GBP 72.75",
+          "unit_options": [
+            "per_hour",
+            "per_item"
+          ],
+          "conditional": false
+        }
+      ],
+      "automatically_resolvable": false,
+      "required_clarification": "Confirm the contractual billing dimension (per hour, per item, or a combined dimension), how quantity is measured, any conditions, and the effective dates. Supply an authoritative clarified contract or amendment for source ingestion; a billed unit or AI guess is not evidence."
+    },
+    "status": "not answered",
+    "accepted_unit": null,
+    "agent_call_skipped": true,
+    "reason": "Original source requires clarification; no scalar unit can pass source validation"
+  }
+]

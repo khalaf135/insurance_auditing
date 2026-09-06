@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629680-uc7TTERpwovOJAc6tuH6",
+  "object": "chat.completion",
+  "created": 1788629680,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Inpatient Psychiatric Home Visit\",\n      \"line_end\": 258,\n      \"line_start\": 258,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Inpatient Psychiatric Home Visit\\\", \\\"related_service\\\": \\\"Extended Hepatic Discharge Planning\\\", \\\"window_days\\\": 14}\"\n    },\n    {\n      \"key\": \"Intensive Rheumatologic Radiotherapy Fraction\",\n      \"line_end\": 259,\n      \"line_start\": 259,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Intensive Rheumatologic Radiotherapy Fraction\\\", \\\"related_service\\\": \\\"Standard Paediatric Dialysis Session\\\", \\\"window_days\\\": 10}\"\n    },\n    {\n      \"key\": \"Intermittent Neurological Laboratory Panel\",\n      \"line_end\": 260,\n      \"line_start\": 260,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Intermittent Neurological Laboratory Panel\\\", \\\"related_service\\\": \\\"Intermittent Urologic Telemetry Monitoring\\\", \\\"window_days\\\": 30}\"\n    },\n    {\n      \"key\": \"Postoperative Cardiac Wound Care\",\n      \"line_end\": 261,\n      \"line_start\": 261,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Postoperative Cardiac Wound Care\\\", \\\"related_service\\\": \\\"Standard Vascular Home Visit\\\", \\\"window_days\\\": 30}\"\n    },\n    {\n      \"key\": \"Postoperative Paediatric Imaging Interpretation\",\n      \"line_end\": 262,\n      \"line_start\": 262,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Postoperative Paediatric Imaging Interpretation\\\", \\\"related_service\\\": \\\"Outpatient Obstetric Dialysis Session\\\", \\\"window_days\\\": 14}\"\n    },\n    {\n      \"key\": \"Specialist Cardiac Ventilation Support\",\n      \"line_end\": 263,\n      \"line_start\": 263,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Specialist Cardiac Ventilation Support\\\", \\\"related_service\\\": \\\"Bedside Cardiac Home Visit\\\", \\\"window_days\\\": 30}\"\n    },\n    {\n      \"key\": \"Standard Ophthalmic Laboratory Panel\",\n      \"line_end\": 264,\n      \"line_start\": 264,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Standard Ophthalmic Laboratory Panel\\\", \\\"related_service\\\": \\\"Extended Renal Ward Bed Occupancy\\\", \\\"window_days\\\": 30}\"\n    },\n    {\n      \"key\": \"Supervised Gastrointestinal Nursing Observation\",\n      \"line_end\": 265,\n      \"line_start\": 265,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Supervised Gastrointestinal Nursing Observation\\\", \\\"related_service\\\": \\\"Comprehensive Neurological Endoscopic Procedure\\\", \\\"window_days\\\": 7}\"\n    },\n    {\n      \"key\": \"non_business_day_uplifts\",\n      \"line_end\": 272,\n      \"line_start\": 267,\n      \"section\": \"non_business_day_uplifts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": null, \\\"uplift_percent\\\": null, \\\"conditions\\\": \\\"None stated.\\\"}\"\n    },\n    {\n      \"key\": \"invoice_requirements_1\",\n      \"line_end\": 277,\n      \"line_start\": 277,\n      \"section\": \"invoice_requirements\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"requirement\\\": \\\"Each invoice quotes the contract number on the face of this Agreement and carries an invoice number unique across the term.\\\"}\"\n    },\n    {\n      \"key\": \"invoice_requirements_2\",\n      \"line_end\": 279,\n      \"line_start\": 279,\n      \"section\": \"invoice_requirements\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"requirement\\\": \\\"Every Service Date falls within the term stated in Section 2.1 and may not fall after the invoice date.\\\"}\"\n    },\n    {\n      \"key\": \"invoice_requirements_3\",\n      \"line_end\": 281,\n      \"line_start\": 281,\n      \"section\": \"invoice_requirements\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"requirement\\\": \\\"The same Service may not be billed twice for the same Patient and the same Service Date, whether on one invoice or across several. Section 6.2 applies to any attempt to do so.\\\"}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a19eL1nAa1jF54g9W/3QKk2sS24NaY95Zh2wTraLqHh+ONl+3XqhDDQUK8miL5CfqqY9cWdNAVTFBD1VsvjOu7JK+R627x+v/vb6nRqwEWI=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2834,
+    "completion_tokens": 1248,
+    "total_tokens": 4082,
+    "cost": 0.0039702,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0039702,
+      "upstream_inference_prompt_cost": 0.0008502,
+      "upstream_inference_completions_cost": 0.00312
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

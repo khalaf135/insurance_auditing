@@ -1,0 +1,34 @@
+{
+  "provenance": "Reviewed interpretation aids; not clauses extracted from the contract and not ground-truth labels.",
+  "revision": 2,
+  "token_aliases": {
+    "ent": "otolaryngologic", "interm": "intermittent", "diag": "diagnostic",
+    "img": "imaging", "steril": "sterilisation", "fract": "fraction",
+    "endosc": "endoscopic", "proc": "procedure", "consult": "consultation",
+    "telem": "telemetry", "monit": "monitoring", "spclst": "specialist",
+    "wnd": "wound", "thtr": "theatre", "tm": "time", "vst": "visit",
+    "cont": "continuous", "rehab": "rehabilitation", "psych": "psychiatric",
+    "beds": "bedside", "emer": "emergency", "ortho": "orthopaedic",
+    "anaes": "anaesthesia", "admin": "administration", "vasc": "vascular"
+  },
+  "history_only_service_families": [
+    {
+      "tokens": ["anaesthesia", "administration"],
+      "evidence": "Section 4 lists Advanced Metabolic Anaesthesia Administration. A description such as Extended Haem Anaes Admin conflicts with its modifiers, so never accept it as that service. Assuming the family words are truthful, it could affect anaesthesia-administration history, but not radiotherapy or recovery-room history. It may instead be outside the catalogue."
+    }
+  ],
+  "reviewed_descriptions": [
+    {"description": "Svc Preop Ent Steril", "candidates": ["Preoperative Otolaryngologic Sterilisation Service"], "status": "confirmed", "evidence": "Preop, ENT and sterilisation identify one catalogue service; Section 4."},
+    {"description": "Occupancy Bedside Ent Recovery Room", "candidates": ["Bedside Otolaryngologic Recovery Room Occupancy"], "status": "confirmed", "evidence": "Bedside plus ENT/otolaryngologic recovery room uniquely identifies the service; Section 4."},
+    {"description": "Cont Ent Telem Monit", "candidates": ["Continuous Otolaryngologic Telemetry Monitoring"], "status": "confirmed", "evidence": "Continuous ENT telemetry monitoring expands directly to the catalogue wording; Section 4."},
+    {"description": "Interm - Diag Img /NG-6221", "candidates": ["Intermittent Rheumatologic Diagnostic Imaging"], "status": "confirmed", "evidence": "Only one Intermittent Diagnostic Imaging service occurs in the catalogue. No inference from the opaque suffix or billed price; Section 4."},
+    {"description": "Fraction Std Ent Radiotherapy", "candidates": ["Standard Otolaryngologic Radiotherapy Fraction"], "status": "confirmed", "evidence": "Standard ENT radiotherapy fraction uniquely identifies the catalogue entry; Section 4."},
+    {"description": "Consultation Adv", "candidates": ["Advanced Neurological Consultation"], "status": "confirmed", "evidence": "The full rate catalogue contains only one Advanced Consultation; Section 4."},
+    {"description": "Visit Amb Hm", "candidates": ["Ambulatory Cardiac Home Visit", "Ambulatory Infectious Home Visit"], "status": "ambiguous", "evidence": "Specialty omitted. Both ambulatory home visits fit; the billed price is not independent identity evidence."},
+    {"description": "Img Vasc Diagnostic", "candidates": ["Inpatient Vascular Diagnostic Imaging", "Preoperative Vascular Diagnostic Imaging"], "status": "ambiguous", "evidence": "Inpatient/preoperative modifier is omitted. Billed unit cannot prove identity because unit errors are audited."},
+    {"description": "Psych Rehab Programme", "candidates": ["Continuous Psychiatric Rehabilitation Programme", "Routine Psychiatric Rehabilitation Programme"], "status": "ambiguous", "evidence": "Continuous/routine modifier is omitted; both psychiatric rehabilitation services remain possible."},
+    {"description": "Procedure Immun Endosc", "candidates": ["Ambulatory Immunologic Endoscopic Procedure", "Preoperative Immunologic Endoscopic Procedure"], "status": "ambiguous", "evidence": "Ambulatory/preoperative modifier is omitted; do not automatically accept the AI's first candidate."},
+    {"description": "Ren Radiotherapy Fract", "candidates": ["Emergency Renal Radiotherapy Fraction", "Inpatient Renal Radiotherapy Fraction"], "status": "ambiguous", "evidence": "Emergency/inpatient modifier is omitted; billed unit and price are not identity ground truth."},
+    {"description": "Ger Nutr Support", "candidates": ["Intensive Geriatric Nutritional Support", "Standard Geriatric Nutritional Support"], "status": "ambiguous", "evidence": "Intensive/standard modifier is omitted; preserve both possibilities."}
+  ]
+}

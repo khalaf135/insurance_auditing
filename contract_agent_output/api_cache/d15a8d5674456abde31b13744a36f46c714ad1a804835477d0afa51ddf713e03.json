@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629516-skdbKO6vfD99sX1Vgb7l",
+  "object": "chat.completion",
+  "created": 1788629516,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Postoperative Pulmonary Infusion Therapy\",\n      \"line_end\": 206,\n      \"line_start\": 206,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Postoperative Pulmonary Infusion Therapy\\\", \\\"unit_basis\\\": \\\"per_unit_dispensed\\\", \\\"unit_basis_source\\\": \\\"per unit dispensed\\\", \\\"base_rate_cents\\\": 6725, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Preoperative Obstetric Home Visit\",\n      \"line_end\": 208,\n      \"line_start\": 208,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Preoperative Obstetric Home Visit\\\", \\\"unit_basis\\\": \\\"per_visit\\\", \\\"unit_basis_source\\\": \\\"per visit\\\", \\\"base_rate_cents\\\": 18475, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Preoperative Obstetric Home Visit\",\n      \"line_end\": 208,\n      \"line_start\": 208,\n      \"section\": \"volume_discounts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Preoperative Obstetric Home Visit\\\", \\\"quantity\\\": 100, \\\"comparison\\\": \\\"greater_than\\\", \\\"discount_percent\\\": 15, \\\"unit_basis\\\": \\\"per_visit\\\"}\"\n    },\n    {\n      \"key\": \"Preoperative Obstetric Home Visit\",\n      \"line_end\": 208,\n      \"line_start\": 208,\n      \"section\": \"volume_discounts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Preoperative Obstetric Home Visit\\\", \\\"quantity\\\": 300, \\\"comparison\\\": \\\"greater_than\\\", \\\"discount_percent\\\": 25, \\\"unit_basis\\\": \\\"per_visit\\\"}\"\n    },\n    {\n      \"key\": \"Standard Neurological Isolation Room Occupancy\",\n      \"line_end\": 210,\n      \"line_start\": 210,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Standard Neurological Isolation Room Occupancy\\\", \\\"unit_basis\\\": \\\"per_day\\\", \\\"unit_basis_source\\\": \\\"per day of service\\\", \\\"base_rate_cents\\\": 78075, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Standard Neurological Isolation Room Occupancy\",\n      \"line_end\": 210,\n      \"line_start\": 210,\n      \"section\": \"non_business_day_uplifts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Standard Neurological Isolation Room Occupancy\\\", \\\"uplift_percent\\\": 15}\"\n    },\n    {\n      \"key\": \"Supervised Metabolic Laboratory Panel\",\n      \"line_end\": 212,\n      \"line_start\": 212,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Metabolic Laboratory Panel\\\", \\\"unit_basis\\\": \\\"per_item\\\", \\\"unit_basis_source\\\": \\\"per item supplied\\\", \\\"base_rate_cents\\\": 7925, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Supervised Metabolic Laboratory Panel\",\n      \"line_end\": 212,\n      \"line_start\": 212,\n      \"section\": \"threshold_premiums\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Metabolic Laboratory Panel\\\", \\\"quantity\\\": 16, \\\"comparison\\\": \\\"greater_than\\\", \\\"uplift_percent\\\": 15, \\\"unit_basis\\\": \\\"per_item\\\"}\"\n    },\n    {\n      \"key\": \"Advanced Rheumatologic Isolation Room Occupancy\",\n      \"line_end\": 214,\n      \"line_start\": 214,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Advanced Rheumatologic Isolation Room Occupancy\\\", \\\"unit_basis\\\": \\\"per_night\\\", \\\"unit_basis_source\\\": \\\"per night of occupancy\\\", \\\"base_rate_cents\\\": 141675, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Assisted Gastrointestinal Biopsy Procedure\",\n      \"line_end\": 216,\n      \"line_start\": 216,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Assisted Gastrointestinal Biopsy Procedure\\\", \\\"unit_basis\\\": \\\"per_procedure\\\", \\\"unit_basis_source\\\": \\\"per procedure\\\", \\\"base_rate_cents\\\": 379625, \\\"daily_cap\\\": null}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a19FFCwwtPNBO2OxrymOk0CbyhfGQmkbuB3VfErI8qiVS7CNHRghD6oBq4PU5SJ9cFA50xvpSv3NKWwZ5jIxrJPny188J53kNZbB2EJZr6c=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3914,
+    "completion_tokens": 1217,
+    "total_tokens": 5131,
+    "cost": 0.0042167,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0042167,
+      "upstream_inference_prompt_cost": 0.0011742,
+      "upstream_inference_completions_cost": 0.0030425
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

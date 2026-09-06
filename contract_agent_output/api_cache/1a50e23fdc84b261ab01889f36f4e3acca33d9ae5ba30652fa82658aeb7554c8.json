@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629565-XRVLCeI75oseAcrZ43OE",
+  "object": "chat.completion",
+  "created": 1788629565,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"contract_number\",\n      \"line_end\": 6,\n      \"line_start\": 6,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"\\\"INS-H3-2024-0562\\\"\"\n    },\n    {\n      \"key\": \"provider\",\n      \"line_end\": 7,\n      \"line_start\": 7,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"\\\"Rivermead General Hospital\\\"\"\n    },\n    {\n      \"key\": \"payer\",\n      \"line_end\": 8,\n      \"line_start\": 8,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"\\\"Meridian Health Assurance Group\\\"\"\n    },\n    {\n      \"key\": \"effective_from\",\n      \"line_end\": 9,\n      \"line_start\": 9,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"\\\"2024-01-01\\\"\"\n    },\n    {\n      \"key\": \"effective_to\",\n      \"line_end\": 10,\n      \"line_start\": 10,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"\\\"2025-12-31\\\"\"\n    },\n    {\n      \"key\": \"currency\",\n      \"line_end\": 11,\n      \"line_start\": 11,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"\\\"GBP\\\"\"\n    },\n    {\n      \"key\": \"rounding\",\n      \"line_end\": 12,\n      \"line_start\": 12,\n      \"section\": \"calculation_rules\",\n      \"uncertainty\": null,\n      \"value_json\": \"\\\"half_up_cent\\\"\"\n    },\n    {\n      \"key\": \"Ambulatory Otolaryngologic Imaging Interpretation\",\n      \"line_end\": 27,\n      \"line_start\": 27,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Ambulatory Otolaryngologic Imaging Interpretation\\\", \\\"unit_basis\\\": \\\"per procedure\\\", \\\"old_rate_cents\\\": 182625, \\\"new_rate_cents\\\": 208200, \\\"effective_from\\\": \\\"2025-01-01\\\", \\\"applies_by\\\": \\\"service_date\\\", \\\"conditions\\\": null}\"\n    },\n    {\n      \"key\": \"Assisted Urologic Endoscopic Procedure\",\n      \"line_end\": 28,\n      \"line_start\": 28,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Assisted Urologic Endoscopic Procedure\\\", \\\"unit_basis\\\": \\\"per procedure\\\", \\\"old_rate_cents\\\": 94250, \\\"new_rate_cents\\\": 111225, \\\"effective_from\\\": \\\"2025-01-01\\\", \\\"applies_by\\\": \\\"service_date\\\", \\\"conditions\\\": null}\"\n    },\n    {\n      \"key\": \"Bedside Neurological Radiotherapy Fraction\",\n      \"line_end\": 29,\n      \"line_start\": 29,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Bedside Neurological Radiotherapy Fraction\\\", \\\"unit_basis\\\": \\\"per item supplied\\\", \\\"old_rate_cents\\\": 2575, \\\"new_rate_cents\\\": 3050, \\\"effective_from\\\": \\\"2025-01-01\\\", \\\"applies_by\\\": \\\"service_date\\\", \\\"conditions\\\": null}\"\n    },\n    {\n      \"key\": \"Intensive Infectious Anaesthesia Administration\",\n      \"line_end\": 30,\n      \"line_start\": 30,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intensive Infectious Anaesthesia Administration\\\", \\\"unit_basis\\\": \\\"per procedure\\\", \\\"old_rate_cents\\\": 294675, \\\"new_rate_cents\\\": 312350, \\\"effective_from\\\": \\\"2025-01-01\\\", \\\"applies_by\\\": \\\"service_date\\\", \\\"conditions\\\": null}\"\n    },\n    {\n      \"key\": \"Intensive Ophthalmic Laboratory Panel\",\n      \"line_end\": 31,\n      \"line_start\": 31,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intensive Ophthalmic Laboratory Panel\\\", \\\"unit_basis\\\": \\\"per test\\\", \\\"old_rate_cents\\\": 41825, \\\"new_rate_cents\\\": 39725, \\\"effective_from\\\": \\\"2025-01-01\\\", \\\"applies_by\\\": \\\"service_date\\\", \\\"conditions\\\": null}\"\n    },\n    {\n      \"key\": \"Intensive Otolaryngologic Anaesthesia Administration\",\n      \"line_end\": 32,\n      \"line_start\": 32,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intensive Otolaryngologic Anaesthesia Administration\\\", \\\"unit_basis\\\": \\\"per procedure\\\", \\\"old_rate_cents\\\": 68025, \\\"new_rate_cents\\\": 80275, \\\"effective_from\\\": \\\"2025-01-01\\\", \\\"applies_by\\\": \\\"service_date\\\", \\\"conditions\\\": null}\"\n    },\n    {\n      \"key\": \"Specialist Psychiatric Discharge Planning\",\n      \"line_end\": 33,\n      \"line_start\": 33,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Specialist Psychiatric Discharge Planning\\\", \\\"unit_basis\\\": \\\"per visit\\\", \\\"old_rate_cents\\\": 38650, \\\"new_rate_cents\\\": 44050, \\\"effective_from\\\": \\\"2025-01-01\\\", \\\"applies_by\\\": \\\"service_date\\\", \\\"conditions\\\": null}\"\n    },\n    {\n      \"key\": \"Advanced Dermatologic Nutritional Support\",\n      \"line_end\": 41,\n      \"line_start\": 41,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Advanced Dermatologic Nutritional Support\\\", \\\"unit_basis\\\": \\\"per day of service\\\", \\\"base_rate_cents\\\": 86525, \\\"effective_from\\\": \\\"2025-01-01\\\", \\\"billable_before_effective\\\": false, \\\"conditions\\\": \\\"Not contracted before effective date and not billable in respect of earlier service dates.\\\"}\"\n    },\n    {\n      \"key\": \"Elective Pulmonary Imaging Interpretation\",\n      \"line_end\": 42,\n      \"line_start\": 42,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Elective Pulmonary Imaging Interpretation\\\", \\\"unit_basis\\\": \\\"per procedure\\\", \\\"base_rate_cents\\\": 456000, \\\"effective_from\\\": \\\"2025-01-01\\\", \\\"billable_before_effective\\\": false, \\\"conditions\\\": \\\"Not contracted before effective date and not billable in respect of earlier service dates.\\\"}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a19fuoS6FOJj295WU53GTsVU5iDWcPEef3lHLQg0sUqg8gditC+u/J1RNXgKCHrY7ypU603rTcATBKZ4Q9IpNT13mO8y8AJmWm33jnjWnE0=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3896,
+    "completion_tokens": 1866,
+    "total_tokens": 5762,
+    "cost": 0.0058338,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0058338,
+      "upstream_inference_prompt_cost": 0.0011688,
+      "upstream_inference_completions_cost": 0.004665
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

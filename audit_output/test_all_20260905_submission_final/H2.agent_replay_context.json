@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "directory": "/Users/abdulelah./Downloads/Aramco/insurance_auditing/audit_output/four_blockers_test_all_verified",
+  "verified_cached_tasks": 285,
+  "unavailable_original_batches": 0,
+  "contract_evidence_sha256": "f5f3e9cabaa63f7e2fd5581f14c97e28f4bc079b56de918fff53cb5621afec2b",
+  "replay_file_hashes": {
+    "tasks": "fe6767087f52952ec1f356b5227195e2c50c693073d723676a88100bc0e73495",
+    "decisions": "c2e168845a3962d645863db39d639db21a814a38f95385606a35b1a0e4af4041",
+    "runtime": "ea8d4117c7ee6e48eb0dda6519b25acaff60c36d0f044c53cb519734b8a5a3b1",
+    "draft": "b846ff26217dec1fd57c38a2d050f59951a0d180eae427c0f2d255b2f9790d3b"
+  },
+  "note": "Only raw API-cache-verified answers are reused; exact current task/reference evidence and validators are rechecked.",
+  "raw_answers_reused": 285,
+  "reused_answer_validation_outcomes": {
+    "accepted": 255,
+    "rejected": 11,
+    "unanswered": 19
+  }
+}

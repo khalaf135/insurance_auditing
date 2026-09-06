@@ -1,0 +1,43 @@
+[
+  {
+    "service_name": "Focused Urologic Telemetry Monitoring",
+    "retrieved_source_ids": [
+      "appendix_b_rate_schedule.txt:20",
+      "appendix_b_rate_schedule.txt:34",
+      "appendix_b_rate_schedule.txt:64",
+      "appendix_b_rate_schedule.txt:69",
+      "appendix_b_rate_schedule.txt:70",
+      "appendix_b_rate_schedule.txt:71",
+      "appendix_b_rate_schedule.txt:72",
+      "base_agreement.txt:36",
+      "base_agreement.txt:98",
+      "base_agreement.txt:99"
+    ],
+    "unit_evidence": {
+      "reason": "compound_unit_not_defined",
+      "unit_options": [
+        "per_hour",
+        "per_item"
+      ],
+      "source_clauses": [
+        {
+          "source_ids": [
+            "appendix_b_rate_schedule.txt:70"
+          ],
+          "text": "Focused Urologic Telemetry Monitoring                   per hour, per item      GBP 52.25     —",
+          "unit_options": [
+            "per_hour",
+            "per_item"
+          ],
+          "conditional": false
+        }
+      ],
+      "automatically_resolvable": false,
+      "required_clarification": "Confirm the contractual billing dimension (per hour, per item, or a combined dimension), how quantity is measured, any conditions, and the effective dates. Supply an authoritative clarified contract or amendment for source ingestion; a billed unit or AI guess is not evidence."
+    },
+    "status": "not answered",
+    "accepted_unit": null,
+    "agent_call_skipped": true,
+    "reason": "Original source requires clarification; no scalar unit can pass source validation"
+  }
+]

@@ -1,0 +1,365 @@
+{
+  "evaluation_role": "development_only_not_held_out",
+  "source_predictions": "audit_output/test_all_20260905_confidence_verified/hospital_1.details.jsonl.gz",
+  "source_labels": "labels/hospital_1_labels.csv",
+  "eligibility": {
+    "raw_prediction_records": 918,
+    "label_records": 913,
+    "unique_prediction_identifiers": 913,
+    "duplicate_prediction_ids": [
+      "INV-H1-000068",
+      "INV-H1-000152",
+      "INV-H1-000429",
+      "INV-H1-000457",
+      "INV-H1-000548"
+    ],
+    "excluded_raw_records": 10,
+    "excluded_label_records": 5,
+    "eligible_paired_records": 908,
+    "exclusion_policy": "Exclude every occurrence of duplicated prediction IDs; label IDs must also be unique. Never collapse duplicate rows into one prediction."
+  },
+  "binary_verdict": {
+    "tp": 53,
+    "tn": 855,
+    "fp": 0,
+    "fn": 0,
+    "abstentions": 0,
+    "accuracy": 1,
+    "precision": 1,
+    "recall": 1,
+    "decision_coverage": 1
+  },
+  "corrected_invoice_total": {
+    "provided": 876,
+    "exact_provided": 876,
+    "wrong_provided": 0,
+    "missing": 32,
+    "coverage": 0.9647577092511013,
+    "exact_accuracy_on_provided": 1,
+    "exact_rate_over_all_eligible": 0.9647577092511013,
+    "provided_for_label_positive_invoices": 21,
+    "total_label_positive_invoices": 53,
+    "note": "Every missing total belongs to an erroneous invoice. Missing total is an omission, not an incorrect supplied amount. Line-level suggested amounts are not necessarily final corrected amounts."
+  },
+  "category_set": {
+    "exact": 885,
+    "different": 23,
+    "exact_rate": 0.974669603524229,
+    "exact_on_label_positive": 30,
+    "label_positive": 53,
+    "exact_rate_on_label_positive": 0.5660377358490566
+  },
+  "category_micro": {
+    "tp": 90,
+    "fp": 20,
+    "fn": 7,
+    "precision": 0.8181818181818182,
+    "recall": 0.9278350515463918,
+    "f1": 0.8695652173913043
+  },
+  "per_category": {
+    "bundle_not_applied": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 5,
+      "predicted_count": 5,
+      "precision": 1,
+      "recall": 1
+    },
+    "contract_number_mismatch": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 4,
+      "predicted_count": 4,
+      "precision": 1,
+      "recall": 1
+    },
+    "cross_invoice_duplicate": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 4,
+      "predicted_count": 4,
+      "precision": 1,
+      "recall": 1
+    },
+    "daily_cap_exceeded": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 4,
+      "predicted_count": 4,
+      "precision": 1,
+      "recall": 1
+    },
+    "exclusion_window_violation": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "label_count": 3,
+      "predicted_count": 0,
+      "precision": null,
+      "recall": 0
+    },
+    "invoice_total_mismatch": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 6,
+      "predicted_count": 6,
+      "precision": 1,
+      "recall": 1
+    },
+    "line_total_arithmetic": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 6,
+      "predicted_count": 6,
+      "precision": 1,
+      "recall": 1
+    },
+    "malformed_service_date": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 6,
+      "predicted_count": 6,
+      "precision": 1,
+      "recall": 1
+    },
+    "premium_incorrectly_applied": {
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 6,
+      "predicted_count": 6,
+      "precision": 1,
+      "recall": 1
+    },
+    "premium_omitted": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 3,
+      "predicted_count": 3,
+      "precision": 1,
+      "recall": 1
+    },
+    "service_date_after_invoice_date": {
+      "tp": 5,
+      "fp": 2,
+      "fn": 0,
+      "label_count": 5,
+      "predicted_count": 7,
+      "precision": 0.7142857142857143,
+      "recall": 1
+    },
+    "service_date_out_of_window": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 5,
+      "predicted_count": 5,
+      "precision": 1,
+      "recall": 1
+    },
+    "unit_price_mismatch": {
+      "tp": 10,
+      "fp": 17,
+      "fn": 0,
+      "label_count": 10,
+      "predicted_count": 27,
+      "precision": 0.37037037037037035,
+      "recall": 1
+    },
+    "unknown_service": {
+      "tp": 8,
+      "fp": 0,
+      "fn": 4,
+      "label_count": 12,
+      "predicted_count": 8,
+      "precision": 1,
+      "recall": 0.6666666666666666
+    },
+    "volume_discount_incorrectly_applied": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 4,
+      "predicted_count": 4,
+      "precision": 1,
+      "recall": 1
+    },
+    "volume_discount_omitted": {
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "label_count": 4,
+      "predicted_count": 4,
+      "precision": 1,
+      "recall": 1
+    },
+    "wrong_unit_basis": {
+      "tp": 10,
+      "fp": 1,
+      "fn": 0,
+      "label_count": 10,
+      "predicted_count": 11,
+      "precision": 0.9090909090909091,
+      "recall": 1
+    }
+  },
+  "missing_total_reason_families": {
+    "daily_cap_allocation": 4,
+    "unresolved_service": 11,
+    "malformed_service_date": 6,
+    "unresolved_history": 4,
+    "exclusion_boundary": 3,
+    "unit_conversion": 11,
+    "duplicate_allocation": 4,
+    "note": "Counts are invoice counts within each reason family; families overlap and do not sum to 32."
+  },
+  "examples": [
+    {
+      "type": "Category taxonomy overlap",
+      "invoice_id": "INV-H1-000186",
+      "line_id": "H1-L00186-01",
+      "label_categories": [
+        "line_total_arithmetic",
+        "volume_discount_incorrectly_applied"
+      ],
+      "additional_prediction_categories": [
+        "unit_price_mismatch"
+      ],
+      "billed_unit_price_cents": 12105,
+      "expected_unit_price_cents": 13450,
+      "prior_units": 91,
+      "discount_threshold_strictly_greater_than": 120,
+      "predicted_and_label_invoice_total_cents": 1959233,
+      "contract_sections": [
+        "4",
+        "7.1",
+        "7.2"
+      ],
+      "contract_source_lines": [
+        118,
+        198,
+        204,
+        205
+      ],
+      "interpretation": "An extra generic price-error tag accompanies the correctly identified specific discount error. All 17 extra generic invoice-level tags co-occur with a labelled specific bundle/premium/discount error. This does not establish that every underlying mapped line is correct."
+    },
+    {
+      "type": "Exact exclusion boundary left unresolved",
+      "invoice_id": "INV-H1-000211",
+      "excluded_line_id": "H1-L00211-08",
+      "excluded_service": "Standard Paediatric Biopsy Procedure",
+      "excluded_date": "2024-06-14",
+      "related_line_id": "H1-L00211-04",
+      "related_service": "Advanced Infectious Critical Care Occupancy",
+      "related_date": "2024-06-24",
+      "window_days": 10,
+      "missing_category": "exclusion_window_violation",
+      "other_detected_category": "wrong_unit_basis",
+      "predicted_total_cents": null,
+      "label_total_cents": 1471325,
+      "contract_sections": [
+        "10",
+        "10.1"
+      ],
+      "contract_source_lines": [
+        238,
+        240
+      ],
+      "interpretation": "All three missed exclusion categories occur at exact boundaries. The source says within a stated number of days and both directions, without explicitly defining inclusion of the endpoint; labels enforce inclusion while the frozen engine requests review."
+    },
+    {
+      "type": "Incomplete lexical coverage and assumed service identity",
+      "unresolved_examples": [
+        {
+          "invoice_id": "INV-H1-000132",
+          "line_id": "H1-L00132-08",
+          "description": "Session  Interm Hep Dial",
+          "unrecognised_token": "hep"
+        },
+        {
+          "invoice_id": "INV-H1-000571",
+          "line_id": "H1-L00571-04",
+          "description": "Metabolic - Lab Pnl",
+          "unrecognised_token": "pnl"
+        },
+        {
+          "invoice_id": "INV-H1-000811",
+          "line_id": "H1-L00811-07",
+          "description": "Asst Specimen Anly",
+          "unrecognised_token": "anly"
+        }
+      ],
+      "assumed_identity_example": {
+        "invoice_id": "INV-H1-000236",
+        "line_id": "H1-L00236-03",
+        "description": "Fract Outpatient Radiotherapy",
+        "accepted_service": "Outpatient Metabolic Radiotherapy Fraction",
+        "method": "full_catalogue_token_constraints",
+        "label_category": "unknown_service",
+        "prediction_categories_on_line": [
+          "wrong_unit_basis",
+          "unit_price_mismatch"
+        ],
+        "contract_unit": "per_item",
+        "billed_unit": "per_visit",
+        "contract_rate_cents": 22775,
+        "billed_rate_cents": 8225,
+        "contract_source_line": 121
+      },
+      "contract_sections": [
+        "4"
+      ],
+      "interpretation": "Three label-positive unknown services remain unresolved because unsupported-service classification requires every token to be recognised. The fourth description is accepted as a unique catalogue subset and classified as unit/price errors, an identity-attribution discrepancy against the labels rather than only a redundant tag. Catalogue uniqueness does not independently prove the omitted modifier."
+    },
+    {
+      "type": "Correction quantity not established by a cap",
+      "invoice_id": "INV-H1-000049",
+      "line_id": "H1-L00049-04",
+      "service": "Comprehensive Oncology Nursing Observation",
+      "billed_quantity": 15,
+      "daily_cap": 12,
+      "unit_price_cents": 8475,
+      "predicted_total_cents": null,
+      "label_total_cents": 2706610,
+      "sum_priced_lines_before_quantity_correction_cents": 2757460,
+      "hypothetical_clamp_to_cap_total_cents": 2732035,
+      "quantity_that_would_reconcile_label_if_other_lines_unchanged": 9,
+      "contract_sections": [
+        "4",
+        "8"
+      ],
+      "contract_source_lines": [
+        77,
+        213
+      ],
+      "interpretation": "A maximum of 12 hours proves excessive billing but does not identify the original intended quantity. Clamping to the contract maximum still does not reproduce the supplied label total. Withholding the total avoids inventing the correction."
+    }
+  ],
+  "additional_taxonomy_example": {
+    "invoice_id": "INV-H1-000179",
+    "line_id": "H1-L00179-06",
+    "service_date": "2026-07-24",
+    "invoice_date": "2024-06-02",
+    "label_date_category": "service_date_out_of_window",
+    "additional_prediction_date_category": "service_date_after_invoice_date",
+    "contract_sections": [
+      "1.1",
+      "11.3"
+    ],
+    "contract_source_lines": [
+      19,
+      249
+    ],
+    "other_affected_invoice": "INV-H1-000852",
+    "interpretation": "Both additional after-invoice tags are directly supported by the raw dates and clause 11.3; the category labels list the out-of-term error without the additional date consequence. Neither is a false-positive invoice verdict."
+  }
+}

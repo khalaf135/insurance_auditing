@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "provenance": "Reviewed problem-type policies, not extracted contract clauses or invoice-label exceptions.",
+  "token_aliases": {
+    "gi": "gastrointestinal",
+    "plng": "planning",
+    "supv": "supervised",
+    "spcm": "specimen",
+    "pharm": "pharmaceutical"
+  },
+  "history_only_families": [
+    ["dialysis", "session"],
+    ["recovery", "room", "occupancy"],
+    ["discharge", "planning"],
+    ["specimen", "analysis"],
+    ["ventilation", "support"],
+    ["pharmaceutical", "dispensing"],
+    ["nutritional", "support"]
+  ],
+  "standard_inference": {
+    "minimum_reference_invoices": 3,
+    "minimum_candidate_support": 0.8,
+    "maximum_competitor_support": 0.2
+  },
+  "experimental_low_evidence_inference": {
+    "minimum_reference_invoices": 2,
+    "minimum_candidate_support": 1.0,
+    "maximum_competitor_support": 0.0
+  },
+  "reference_policy": "Exclude all original target invoice IDs and duplicate IDs. Also exclude the historical invoice itself when inferring a history line.",
+  "variant_policy": "Prefer original-wording groups (case, punctuation and opaque suffix normalised). Do not merge abbreviations or word order at this level. Use broader token-equivalent groups only if their evidence is consistent and does not conflict with available exact-variant evidence.",
+  "family_assumption": "Recognised service-family words are truthful. Contradictory modifiers may mean a different or uncontracted service. A family restricts historical effects only; it never confirms a service identity.",
+  "confidence_policy": "No numeric confidence is calibrated. All price-derived identity and history assumptions remain conditional; the two-reference policy is explicitly lower assurance."
+}

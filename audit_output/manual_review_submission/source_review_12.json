@@ -1,0 +1,519 @@
+{
+  "review_type": "AI-assisted source review by Codex; not independent human review",
+  "scope": "Targeted manual examination of 12 currently unanswered invoice blockers and their relevant original contract TXT clauses. Existing detailed traces were used for other-line arithmetic; this is not an independent full-line audit of each invoice.",
+  "population_scan": "Read-only programmatic filtering of the existing 4,886-row all_results file selected cases from 1,173 eligible unanswered invoices. That scan is not a manual review of all 1,173. Duplicate-ID records are excluded from these 12 cases.",
+  "source_run": "audit_output/test_all_20260905_confidence_verified",
+  "labels_available_for_reviewed_hospitals": false,
+  "new_api_calls": 0,
+  "code_or_prediction_changes": false,
+  "counts": {
+    "primary_invoices_reviewed": 12,
+    "new_answered": 0,
+    "retained_unanswered": 12,
+    "possible_family_constraint_followups": 3
+  },
+  "important_findings": [
+    "Generic SVC must not automatically exclude other service families: original H2 text contains both Elective Cardiac Nursing Observation and Elective Cardiac Transport Service.",
+    "The four telemetry prices exist in the sources. Their per hour, per item wording and raw per_hour_per_item bills require explicit compound-unit interpretation, not a missing-rate repair.",
+    "Unknown exact identity need not logically mean any possible service family; however negative-family constraints require explicit assumptions and testing before being used to promote answers.",
+    "Wrong historical units cannot be silently relabelled as contract units; exact exclusion boundary remains a real source ambiguity."
+  ],
+  "source_sha256": {
+    "contracts/hospital_2/master_services_agreement.txt": "73a9f6180ce94d902e5f2e701c2768d70ce8933c2132b56ebb308df02323d0fa",
+    "contracts/hospital_3/base_agreement.txt": "111f293347b3624d772311e2983ec1c3628ee0cbb9c098d9aba8ad2e74fc559d",
+    "contracts/hospital_3/appendix_b_rate_schedule.txt": "2b856e968899ad79a946ede4f41205d8446a00e30b6e58a91f80fc7a9c3dfc5c",
+    "contracts/hospital_3/amendment_no_1.txt": "2ca9978ac10a1562918bc67fc37fcd4fbe31296727b9174869d6569722ce4033",
+    "contracts/hospital_4/conditional_reimbursement_agreement.txt": "094ab83e1dcaeb2aced03f0a9ddc1c21340ece0ea8e9940c80430761c6b3bc4c",
+    "contracts/hospital_5/network_reimbursement_agreement.txt": "8a7e4301254c313e541c0eaf0600a496154d8896178fafb86d291fb010c85829",
+    "invoices/hospital_2_invoices.jsonl": "3bab78680a8afcb6fb3182fa743df27599148aa76eb854a91b64ac5c495755b7",
+    "invoices/hospital_3_invoices.jsonl": "931d80d10a6f967c9446d370d325f82e5056f50b138ceef7d8e53d3b27a4fb1e",
+    "invoices/hospital_4_invoices.jsonl": "7051b0ee2a6e4d834c14820a3851efe9dd9a03616d3f8a0beab7190e928fc934",
+    "invoices/hospital_5_invoices.jsonl": "080d1135ece4b350703fdca8a0d674c21269b8191020a2df3c386a07805144c4",
+    "audit_output/test_all_20260905_confidence_verified/all_results.json": "0c6ddc4c341c2bcaefcaf39b671070c8878b1930fce05a3f679074ae8546454f",
+    "audit_output/test_all_20260905_confidence_verified/hospital_2.details.jsonl.gz": "86551c6c994a931dabdbb014e9bcb8343dfab5ce571c4112dd2a71365c533ac5",
+    "audit_output/test_all_20260905_confidence_verified/hospital_3.details.jsonl.gz": "b09f9f47d2a4f913ad86567d3c7dc9912d222dbc5e50cd6127cc1d90a9f6fba7",
+    "audit_output/test_all_20260905_confidence_verified/hospital_4.details.jsonl.gz": "3a038db423ee30481d3c577536a222a763d05cee2c33610e8339bb86d2f0a53a",
+    "audit_output/test_all_20260905_confidence_verified/hospital_5.details.jsonl.gz": "ef6c7f8d31c363b7b62011a665576a48ec0eb354187f5f3cad6121cb8a8693b1"
+  },
+  "records": [
+    {
+      "hospital_id": "H2",
+      "record_index": 37,
+      "invoice_id": "INV-H2-000038",
+      "blocker": "ambiguous_contract_unit",
+      "line_ids": [
+        "H2-L00038-16"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            64
+          ],
+          "clause": "4.2"
+        },
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            38,
+            49,
+            51
+          ],
+          "clause": "2.6; 3.2–3.3"
+        }
+      ],
+      "observation": "Assisted Infectious Telemetry Monitoring is GBP 106.25 'per hour, per item'. Invoice explicitly uses per_hour_per_item, quantity 12, rate 10625 and total 127500 cents.",
+      "why_unresolved": "A compound item-hour interpretation is plausible and arithmetic 12×10625=127500 is correct. The source does not explicitly define whether quantity is already item-hours or how separate hours/items should be represented. No original clause resolves that interpretation; price is not missing.",
+      "needed": "A general, source-approved compound-unit interpretation and quantity semantics, then tests across all affected services. Do not silently choose per_hour or per_item.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H2",
+      "record_index": 14,
+      "invoice_id": "INV-H2-000015",
+      "blocker": "unclear_service_description",
+      "line_ids": [
+        "H2-L00015-08"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            312
+          ],
+          "clause": "14.6"
+        },
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            406
+          ],
+          "clause": "18.5"
+        }
+      ],
+      "observation": "Description is ELECT CARD SVC. Elective Cardiac Nursing Observation and Elective Cardiac Transport Service both exist in the original contract. Current AI-expanded scope contains only Transport because it treats the literal word Service/SVC as diagnostic.",
+      "why_unresolved": "Elective/Cardiac does not distinguish those services; SVC can be a generic service label. Quantity 4, billed per_item and 9125 cents fit Transport, but billed price/unit cannot prove identity in a task detecting price/unit errors. Do not promote the apparent singleton.",
+      "needed": "Provider service code/clinical detail, or independently validated dictionary rules that explicitly handle generic SVC without falsely excluding Nursing Observation.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H2",
+      "record_index": 648,
+      "invoice_id": "INV-H2-000649",
+      "blocker": "patient_history_uncertainty",
+      "line_ids": [
+        "H2-L00649-07"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            594
+          ],
+          "clause": "26.3"
+        },
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            360
+          ],
+          "clause": "16.6"
+        },
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            57
+          ],
+          "clause": "3.6"
+        }
+      ],
+      "observation": "Emergency Paediatric Theatre Time on 2025-03-06, patient PT-H2-000141, is excluded by Routine Geriatric Physiotherapy within seven days either direction. An unresolved line H2-L00661-03 on 2025-03-12 (record 660), STD ENT ANAES ADMIN /SA-3414, is treated as potentially any service. Another physiotherapy line that day is explicitly Intensive Infectious, not Routine Geriatric.",
+      "why_unresolved": "The unresolved wording suggests anaesthesia, not the exclusion-trigger physiotherapy. A reviewed negative service-family constraint could remove this dependency without selecting an exact service, but that relies on trusting the family words despite other corrupted description fields. This review does not validate or implement such a general rule.",
+      "conditional_calculation": "If a separately validated family constraint excludes Routine Geriatric Physiotherapy for the unresolved event, 21×8500=178500; current other-line trace sum 1373532 yields 1552032, equal to billed total. This is a possible conditional 0, not a new submitted verdict or independent re-audit of all other lines.",
+      "needed": "General evidence-backed family constraints with tests; otherwise clinical/service-code clarification.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H2",
+      "record_index": 43,
+      "invoice_id": "INV-H2-000044",
+      "blocker": "volume_discount_uncertainty",
+      "line_ids": [
+        "H2-L00044-05"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            40,
+            55
+          ],
+          "clause": "2.7; 3.5"
+        },
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            406
+          ],
+          "clause": "18.5"
+        },
+        {
+          "path": "contracts/hospital_2/master_services_agreement.txt",
+          "lines": [
+            312
+          ],
+          "clause": "14.6"
+        }
+      ],
+      "observation": "Elective Cardiac Transport has prior usage bounded at 119–123 items. The four uncertain items are H2-L00015-08 (the unresolved ELECT CARD SVC case). Discount requires prior usage strictly greater than 120.",
+      "why_unresolved": "At 119 units no discount applies; at 123 a 10% discount applies. The billed discounted rate does not establish historical entitlement, and the upstream service description is not securely unique.",
+      "conditional_calculation": "No-discount line: 9125×11=100375 cents. Discounted line: half-up(9125×0.90)=8213; 8213×11=90343 cents, as billed. Current other-line trace sum is 2000000, so candidate invoice totals are 2100375 or 2090343. Cannot choose 0/1 without resolving the four prior units.",
+      "needed": "Resolve the historical service identity rather than infer entitlement from the target line price.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H3",
+      "record_index": 7,
+      "invoice_id": "INV-H3-000008",
+      "blocker": "ambiguous_contract_unit",
+      "line_ids": [
+        "H3-L00008-07"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_3/appendix_b_rate_schedule.txt",
+          "lines": [
+            70
+          ],
+          "clause": "Appendix B rate row"
+        },
+        {
+          "path": "contracts/hospital_3/base_agreement.txt",
+          "lines": [
+            21,
+            36
+          ],
+          "clause": "1.3 precedence; 2.4 Unit"
+        },
+        {
+          "path": "contracts/hospital_3/amendment_no_1.txt",
+          "lines": [
+            17,
+            19,
+            26,
+            47
+          ],
+          "clause": "A1.1; A1.2; A1.4.1"
+        }
+      ],
+      "observation": "Focused Urologic Telemetry Monitoring is GBP 52.25 'per hour, per item'. Invoice is dated January 2024 and bills per_hour_per_item, quantity 1, rate/line total 5225 cents. The full amendment was checked; it does not substitute this service/unit and applies from January 2025.",
+      "why_unresolved": "Original Appendix B retains the compound-unit wording. The amendment does not clarify it. Treating it as item-hours is plausible but not an independently confirmed quantity convention.",
+      "needed": "General compound-unit clarification, not another extraction of the same ambiguous text.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H3",
+      "record_index": 43,
+      "invoice_id": "INV-H3-000044",
+      "blocker": "volume_discount_uncertainty",
+      "line_ids": [
+        "H3-L00044-16"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_3/appendix_b_rate_schedule.txt",
+          "lines": [
+            86
+          ],
+          "clause": "Appendix B rate row"
+        },
+        {
+          "path": "contracts/hospital_3/base_agreement.txt",
+          "lines": [
+            103,
+            104,
+            109
+          ],
+          "clause": "Section 6 thresholds and ordering"
+        },
+        {
+          "path": "contracts/hospital_3/amendment_no_1.txt",
+          "lines": [
+            47
+          ],
+          "clause": "A1.4.1"
+        }
+      ],
+      "observation": "Intermittent Dermatologic Physiotherapy is per visit, 35175 cents. Discounts are 12% above 60 prior visits and 30% above 180. Historical line H3-L00029-02 (record 28) identifies the same service but quantity 2 is billed as per_unit_dispensed, not visits. Current prior usage lower bound is 5, upper bound unbounded.",
+      "why_unresolved": "The original contract supplies no conversion from units dispensed to visits. Counting the historical 2 as two visits or dropping them is an unsupported correction. The supplied target rate can be consistent with one possible history but cannot resolve the history.",
+      "conditional_calculation": "Target quantity 2: possible unit rates in current trace are 35175, 30954 or 24623 cents, giving line totals 70350, 61908 or 49246. No corrected total or verdict promoted.",
+      "needed": "Correct historical billed unit/quantity or clinical visit count; retain uncertainty until then.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H4",
+      "record_index": 1,
+      "invoice_id": "INV-H4-000002",
+      "blocker": "ambiguous_contract_unit",
+      "line_ids": [
+        "H4-L00002-15"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_4/conditional_reimbursement_agreement.txt",
+          "lines": [
+            21,
+            23
+          ],
+          "clause": "1.3 Unit; 1.4 Instance"
+        },
+        {
+          "path": "contracts/hospital_4/conditional_reimbursement_agreement.txt",
+          "lines": [
+            102
+          ],
+          "clause": "Section 3 base-rate row"
+        }
+      ],
+      "observation": "Intermittent Urologic Telemetry Monitoring is GBP 72.75 'per hour, per item'. Invoice uses per_hour_per_item, quantity 25 and total 181875 cents (=25×7275). Definitions say an Instance is one Unit, but do not separately explain item-hours.",
+      "why_unresolved": "Definitions do not settle compound quantity semantics. Correct multiplication alone does not prove contract compliance.",
+      "needed": "Source-approved compound-unit/quantity convention covering all four hospitals.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H4",
+      "record_index": 145,
+      "invoice_id": "INV-H4-000146",
+      "blocker": "patient_history_uncertainty",
+      "line_ids": [
+        "H4-L00146-07"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_4/conditional_reimbursement_agreement.txt",
+          "lines": [
+            97
+          ],
+          "clause": "Section 3 laboratory rate"
+        },
+        {
+          "path": "contracts/hospital_4/conditional_reimbursement_agreement.txt",
+          "lines": [
+            248,
+            260
+          ],
+          "clause": "9.1; exclusion row"
+        },
+        {
+          "path": "contracts/hospital_4/conditional_reimbursement_agreement.txt",
+          "lines": [
+            85,
+            102
+          ],
+          "clause": "Distinct Extended and Intermittent telemetry rates"
+        }
+      ],
+      "observation": "Intermittent Neurological Laboratory Panel on 2024-05-17 is excluded by Intermittent Urologic Telemetry within 30 days. Same-patient record 124 has an unresolved ADMIN spclst NEURO anaes /CW-6871 line dated 2024-04-24 (23 days earlier). Its identifiable family is anaesthesia. That record also has an accepted Extended Urologic Telemetry line, which is not the Intermittent service named in the exclusion.",
+      "why_unresolved": "A negative anaesthesia-versus-telemetry family constraint appears promising, without guessing exact identity. It still requires a documented trustworthy-family-word policy and tests rather than manual substitution of one target answer.",
+      "conditional_calculation": "If such a policy safely excludes the unresolved event, the laboratory line is 1×10175=10175; current other-line trace sum 2863575 yields 2873750, equal to billed total. Possible conditional 0 only; no verdict changed.",
+      "needed": "Validated general family constraints or historical service-code clarification. Do not equate Extended and Intermittent telemetry.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H5",
+      "record_index": 7,
+      "invoice_id": "INV-H5-000008",
+      "blocker": "ambiguous_contract_unit",
+      "line_ids": [
+        "H5-L00008-04"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            37,
+            125
+          ],
+          "clause": "2.3 Unit; Table 1"
+        },
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            216,
+            307
+          ],
+          "clause": "Tables 2 and 3 multipliers"
+        },
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            19
+          ],
+          "clause": "1.2 line-facility requirement"
+        }
+      ],
+      "observation": "Routine Psychiatric Telemetry Monitoring is GBP 29.50 'per hour, per item'. Invoice bills per_hour_per_item, quantity 3, amount 8850 (=3×2950). Its facility and tier multipliers are all one. Hospital 5's existing header-facility fallback remains a disclosed assumption, but does not change this service rate.",
+      "why_unresolved": "The price and multipliers are present; compound-unit quantity semantics are not explicitly clarified by the source.",
+      "needed": "Source-approved item-hour interpretation/quantity convention, not a price-based service guess.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H5",
+      "record_index": 5,
+      "invoice_id": "INV-H5-000006",
+      "blocker": "unclear_service_description",
+      "line_ids": [
+        "H5-L00006-01"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            99,
+            128
+          ],
+          "clause": "Table 1 distinct Nursing Observation services"
+        },
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            281,
+            310
+          ],
+          "clause": "Table 3 tier multipliers"
+        },
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            374,
+            375
+          ],
+          "clause": "Section 8 inpatient discounts"
+        }
+      ],
+      "observation": "OBS DERM NURSING /PH-3348 omits the distinction between Inpatient Dermatologic Nursing Observation (per day, 132400 cents) and Specialist Dermatologic Nursing Observation (per hour, 10450 cents). Invoice bills quantity 6 per_day at 139020 cents.",
+      "why_unresolved": "Billed basis/price fit the inpatient rate after BRONZE multiplier (132400×1.05=139020), but using them to select identity would hide exactly the unit/rate errors this audit is intended to detect. The opaque suffix has no source code mapping.",
+      "needed": "Clinical setting/detail or an independently validated provider code dictionary. Do not infer Inpatient solely from price or billed unit.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H5",
+      "record_index": 296,
+      "invoice_id": "INV-H5-000297",
+      "blocker": "exclusion_boundary_and_volume",
+      "line_ids": [
+        "H5-L00297-17",
+        "H5-L00297-13"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            106,
+            197,
+            288
+          ],
+          "clause": "Tables 1–3 Discharge Planning rate/multipliers"
+        },
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            394
+          ],
+          "clause": "Section 9 exclusion row"
+        },
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            374,
+            375,
+            384
+          ],
+          "clause": "Section 8 inpatient discounts/order"
+        }
+      ],
+      "observation": "Intermittent Urologic Discharge Planning is dated 2024-08-03. Continuous Pulmonary Case Conference on the same invoice is dated 2024-08-13: exactly 10 calendar days later. The source says not billable within 10 days but does not specify inclusive/exclusive boundary. A separate Inpatient Dermatologic Nursing Observation line has prior usage lower bound 263 and an unbounded upper bound, spanning 12% and 20% discount tiers.",
+      "why_unresolved": "Neither exact boundary meaning nor the separate historical usage is settled by rereading the original text. Solving either alone does not make the full invoice answerable.",
+      "conditional_calculation": "Boundary line is 11×(12125×1.2)=160050 cents if allowed; otherwise nonbillable. Nursing line possible prices in current trace are 134571 or 122338 cents. No option promoted.",
+      "needed": "Contractual clarification of boundary plus historical service/unit correction. Keep both uncertainties visible.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    },
+    {
+      "hospital_id": "H5",
+      "record_index": 41,
+      "invoice_id": "INV-H5-000042",
+      "blocker": "volume_discount_uncertainty",
+      "line_ids": [
+        "H5-L00042-09"
+      ],
+      "sources": [
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            76,
+            167,
+            258
+          ],
+          "clause": "Tables 1–3 Continuous Metabolic Endoscopic Procedure"
+        },
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            369,
+            384
+          ],
+          "clause": "Section 8 threshold and ordering"
+        },
+        {
+          "path": "contracts/hospital_5/network_reimbursement_agreement.txt",
+          "lines": [
+            99,
+            128
+          ],
+          "clause": "Nursing Observation is a distinct service family"
+        }
+      ],
+      "observation": "Continuous Metabolic Endoscopic Procedure has 15 confirmed prior procedures and a 12% discount only above 80. The sole unbounded contributor shown is H5-L00034-04 (record 33), INTERM ENDO NURS OBS, quantity 29 per_hour_per_item. Because its exact identity is unresolved, it currently can contribute arbitrarily to any service with an incompatible unit.",
+      "why_unresolved": "The explicit nursing-observation words suggest it is not an endoscopic procedure; however its specialty/intensity combination does not identify a source catalogue service. A general negative-family rule could tighten bounds without assigning an exact identity, but was not implemented or independently validated in this review.",
+      "conditional_calculation": "If a validated family constraint excludes that contributor, prior usage stays 15, target is 1×550750=550750; current other-line trace sum 1185552 yields 1736302, as billed. Possible conditional 0 only; no verdict promoted.",
+      "needed": "Evidence-backed negative family constraints with regression/independent validation, or clarification of the historical line. ENDO alone must not mean Endoscopic Procedure when nursing words are present.",
+      "current_verdict": null,
+      "review_verdict": null,
+      "decision": "retain_unanswered",
+      "independently_verified_full_invoice": false
+    }
+  ]
+}

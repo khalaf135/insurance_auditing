@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629807-BERB6kwx25FxianwEtLR",
+  "object": "chat.completion",
+  "created": 1788629807,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\"items\": [{\"key\": \"Routine Infectious Infusion Therapy\", \"line_end\": 255, \"line_start\": 255, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Routine Infectious Infusion Therapy\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 9, \\\"denominator\\\": 10}}}\"}, {\"key\": \"Routine Neurological Biopsy Procedure\", \"line_end\": 256, \"line_start\": 256, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Routine Neurological Biopsy Procedure\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 9, \\\"denominator\\\": 10}}}\"}, {\"key\": \"Routine Psychiatric Physiotherapy Session\", \"line_end\": 257, \"line_start\": 257, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Routine Psychiatric Physiotherapy Session\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 19, \\\"denominator\\\": 20}}}\"}, {\"key\": \"Routine Psychiatric Telemetry Monitoring\", \"line_end\": 258, \"line_start\": 258, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Routine Psychiatric Telemetry Monitoring\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}}}\"}, {\"key\": \"Routine Urologic Radiotherapy Fraction\", \"line_end\": 259, \"line_start\": 259, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Routine Urologic Radiotherapy Fraction\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}}}\"}, {\"key\": \"Routine Urologic Transport Service\", \"line_end\": 260, \"line_start\": 260, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Routine Urologic Transport Service\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 21, \\\"denominator\\\": 20}, \\\"F-NORTH\\\": {\\\"numerator\\\": 49, \\\"denominator\\\": 50}, \\\"F-COAST\\\": {\\\"numerator\\\": 23, \\\"denominator\\\": 25}}}\"}, {\"key\": \"Specialist Dermatologic Nursing Observation\", \"line_end\": 261, \"line_start\": 261, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Specialist Dermatologic Nursing Observation\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}}}\"}, {\"key\": \"Specialist Gastrointestinal Pharmaceutical Dispensing\", \"line_end\": 262, \"line_start\": 262, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Specialist Gastrointestinal Pharmaceutical Dispensing\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 21, \\\"denominator\\\": 20}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 19, \\\"denominator\\\": 20}}}\"}, {\"key\": \"Specialist Metabolic Sterilisation Service\", \"line_end\": 263, \"line_start\": 263, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Specialist Metabolic Sterilisation Service\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 21, \\\"denominator\\\": 20}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 23, \\\"denominator\\\": 25}}}\"}, {\"key\": \"Standard Infectious Ventilation Support\", \"line_end\": 264, \"line_start\": 264, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Standard Infectious Ventilation Support\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}}}\"}, {\"key\": \"Standard Paediatric Radiotherapy Fraction\", \"line_end\": 265, \"line_start\": 265, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Standard Paediatric Radiotherapy Fraction\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 21, \\\"denominator\\\": 20}, \\\"F-NORTH\\\": {\\\"numerator\\\": 49, \\\"denominator\\\": 50}, \\\"F-COAST\\\": {\\\"numerator\\\": 9, \\\"denominator\\\": 10}}}\"}, {\"key\": \"Standard Psychiatric Discharge Planning\", \"line_end\": 266, \"line_start\": 266, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Standard Psychiatric Discharge Planning\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 21, \\\"denominator\\\": 20}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 23, \\\"denominator\\\": 25}}}\"}, {\"key\": \"Supervised Immunologic Sterilisation Service\", \"line_end\": 267, \"line_start\": 267, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Immunologic Sterilisation Service\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 9, \\\"denominator\\\": 10}}}\"}, {\"key\": \"Supervised Metabolic Discharge Planning\", \"line_end\": 268, \"line_start\": 268, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Metabolic Discharge Planning\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 21, \\\"denominator\\\": 20}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 23, \\\"denominator\\\": 25}}}\"}, {\"key\": \"Supervised Otolaryngologic Specimen Analysis\", \"line_end\": 269, \"line_start\": 269, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Otolaryngologic Specimen Analysis\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 21, \\\"denominator\\\": 20}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 19, \\\"denominator\\\": 20}}}\"}, {\"key\": \"Supervised Palliative Consultation\", \"line_end\": 270, \"line_start\": 270, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Palliative Consultation\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 49, \\\"denominator\\\": 50}, \\\"F-COAST\\\": {\\\"numerator\\\": 23, \\\"denominator\\\": 25}}}\"}, {\"key\": \"Supervised Vascular Consultation\", \"line_end\": 271, \"line_start\": 271, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Vascular Consultation\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}}}\"}, {\"key\": \"Supervised Vascular Diagnostic Imaging\", \"line_end\": 272, \"line_start\": 272, \"section\": \"extensions\", \"uncertainty\": null, \"value_json\": \"{\\\"service_name\\\": \\\"Supervised Vascular Diagnostic Imaging\\\", \\\"multipliers\\\": {\\\"F-MAIN\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-NORTH\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}, \\\"F-COAST\\\": {\\\"numerator\\\": 1, \\\"denominator\\\": 1}}}\"}], \"warnings\": []}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1+tsoBzgicFk/znHwYh6RagfaLISLg7FwEhXQEZFYkBGtQSyoA00n53BVFGq2Fpiz2Eh5Me+aGbPz1GN4hA514iauxb4bKuH70VvR9+OqA=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3264,
+    "completion_tokens": 2270,
+    "total_tokens": 5534,
+    "cost": 0.0066542,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0066542,
+      "upstream_inference_prompt_cost": 0.0009792,
+      "upstream_inference_completions_cost": 0.005675
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

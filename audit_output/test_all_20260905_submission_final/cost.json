@@ -1,0 +1,8 @@
+{
+  "budget_usd": 2.0,
+  "calls_attempted": 214,
+  "provider_reported_cost_usd": 0.3646277,
+  "charged_or_reserved_usd": 0.403427,
+  "uncertain_requests": 1,
+  "note": "Local run guard; uncertain charges stay reserved. Not an account-wide provider cap."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629506-NgZSXyyfmPkVyDFyJpQY",
+  "object": "chat.completion",
+  "created": 1788629506,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"record_retention_reasonableness\",\n      \"line_end\": 129,\n      \"line_start\": 129,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"condition\\\": \\\"Where a record is retained for not less than seven years from the date of the invoice to which it relates, the Parties shall each act reasonably and without undue delay in giving effect to it, and neither Party shall unreasonably withhold any consent required in connection with it.\\\"}\"\n    },\n    {\n      \"key\": \"record_retention_written_agreement\",\n      \"line_end\": 131,\n      \"line_start\": 131,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"condition\\\": \\\"The Parties acknowledge that a record which is not retained for not less than seven years from the date of the invoice to which it relates may nonetheless be given effect by agreement in writing, but that nothing in this Article obliges either Party to do so.\\\"}\"\n    },\n    {\n      \"key\": \"record_retention_legal_exception\",\n      \"line_end\": 133,\n      \"line_start\": 133,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"condition\\\": \\\"For the avoidance of doubt, nothing in this Article requires a record to be retained for not less than seven years from the date of the invoice to which it relates where the requirement would be inconsistent with any mandatory legal or regulatory obligation binding on the Party concerned; in that event the Party shall notify the other and the Parties shall agree a compliant alternative.\\\"}\"\n    },\n    {\n      \"key\": \"clinical_episode_traceability\",\n      \"line_end\": 135,\n      \"line_start\": 135,\n      \"section\": \"invoice_requirements\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"requirement\\\": \\\"Each record under this Agreement shall be maintained in a form that permits each line item to be traced to the underlying clinical episode.\\\"}\"\n    },\n    {\n      \"key\": \"clinical_episode_traceability_burden\",\n      \"line_end\": 137,\n      \"line_start\": 137,\n      \"section\": \"invoice_requirements\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"requirement\\\": \\\"No record shall be treated as effective for the purposes of this Agreement unless it is maintained in a form that permits each line item to be traced to the underlying clinical episode, and the Party relying on it bears the burden of demonstrating that it was.\\\"}\"\n    },\n    {\n      \"key\": \"clinical_episode_traceability_reasonableness\",\n      \"line_end\": 139,\n      \"line_start\": 139,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"condition\\\": \\\"Where a record is maintained in a form that permits each line item to be traced to the underlying clinical episode, the Parties shall each act reasonably and without undue delay in giving effect to it, and neither Party shall unreasonably withhold any consent required in connection with it.\\\"}\"\n    },\n    {\n      \"key\": \"clinical_episode_traceability_written_agreement\",\n      \"line_end\": 141,\n      \"line_start\": 141,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"condition\\\": \\\"The Parties acknowledge that a record which is not maintained in a form that permits each line item to be traced to the underlying clinical episode may nonetheless be given effect by agreement in writing, but that nothing in this Article obliges either Party to do so.\\\"}\"\n    },\n    {\n      \"key\": \"clinical_episode_traceability_legal_exception\",\n      \"line_end\": 143,\n      \"line_start\": 143,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"condition\\\": \\\"For the avoidance of doubt, nothing in this Article requires a record to be maintained in a form that permits each line item to be traced to the underlying clinical episode where the requirement would be inconsistent with any mandatory legal or regulatory obligation binding on the Party concerned; in that event the Party shall notify the other and the Parties shall agree a compliant alternative.\\\"}\"\n    },\n    {\n      \"key\": \"machine_readable_format\",\n      \"line_end\": 145,\n      \"line_start\": 145,\n      \"section\": \"invoice_requirements\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"requirement\\\": \\\"Each record under this Agreement shall be made available in a machine-readable format upon reasonable request.\\\"}\"\n    },\n    {\n      \"key\": \"machine_readable_format_burden\",\n      \"line_end\": 147,\n      \"line_start\": 147,\n      \"section\": \"invoice_requirements\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"requirement\\\": \\\"No record shall be treated as effective for the purposes of this Agreement unless it is made available in a machine-readable format upon reasonable request, and the Party relying on it bears the burden of demonstrating that it was.\\\"}\"\n    },\n    {\n      \"key\": \"machine_readable_format_reasonableness\",\n      \"line_end\": 149,\n      \"line_start\": 149,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"condition\\\": \\\"Where a record is made available in a machine-readable format upon reasonable request, the Parties shall each act reasonably and without undue delay in giving effect to it, and neither Party shall unreasonably withhold any consent required in connection with it.\\\"}\"\n    },\n    {\n      \"key\": \"machine_readable_format_written_agreement\",\n      \"line_end\": 151,\n      \"line_start\": 151,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"condition\\\": \\\"The Parties acknowledge that a record which is not made available in a machine-readable format upon reasonable request may nonetheless be given effect by agreement in writing, but that nothing in this Article obliges either Party to do so.\\\"}\"\n    },\n    {\n      \"key\": \"machine_readable_format_legal_exception\",\n      \"line_end\": 153,\n      \"line_start\": 153,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"condition\\\": \\\"For the avoidance of doubt, nothing in this Article requires a record to be made available in a machine-readable format upon reasonable request where the requirement would be inconsistent with any mandatory legal or regulatory obligation binding on the Party concerned; in that event the Party shall notify the other and the Parties shall agree a compliant alternative.\\\"}\"\n    },\n    {\n      \"key\": \"Assisted Musculoskeletal Diagnostic Imaging\",\n      \"line_end\": 158,\n      \"line_start\": 158,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Assisted Musculoskeletal Diagnostic Imaging\\\", \\\"unit_basis\\\": \\\"per_item\\\", \\\"unit_basis_source\\\": \\\"per item supplied\\\", \\\"base_rate_cents\\\": 18050, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Continuous Renal Ventilation Support\",\n      \"line_end\": 160,\n      \"line_start\": 160,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Continuous Renal Ventilation Support\\\", \\\"unit_basis\\\": \\\"per_day\\\", \\\"unit_basis_source\\\": \\\"per day of service\\\", \\\"base_rate_cents\\\": 54325, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 160,\n      \"line_start\": 160,\n      \"section\": \"non_business_day_uplifts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Continuous Renal Ventilation Support\\\", \\\"uplift_percent\\\": 25}\"\n    },\n    {\n      \"key\": \"Emergency Haematology Transport Service\",\n      \"line_end\": 162,\n      \"line_start\": 162,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Emergency Haematology Transport Service\\\", \\\"unit_basis\\\": \\\"per_visit\\\", \\\"unit_basis_source\\\": \\\"per visit\\\", \\\"base_rate_cents\\\": 9675, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 162,\n      \"line_start\": 162,\n      \"section\": \"volume_discounts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Emergency Haematology Transport Service\\\", \\\"quantity\\\": 60, \\\"comparison\\\": \\\"greater_than\\\", \\\"discount_percent\\\": 10, \\\"unit_basis\\\": \\\"per_visit\\\", \\\"conditions\\\": \\\"counted cumulatively across the whole term of this Agreement and aggregated across all Patients\\\"}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 162,\n      \"line_start\": 162,\n      \"section\": \"volume_discounts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Emergency Haematology Transport Service\\\", \\\"quantity\\\": 180, \\\"comparison\\\": \\\"greater_than\\\", \\\"discount_percent\\\": 20, \\\"unit_basis\\\": \\\"per_visit\\\", \\\"conditions\\\": \\\"counted cumulatively across the whole term of this Agreement and aggregated across all Patients\\\"}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1/NcJbHfGvN2omHkWq6w1p0k7UzORZixuesuDDjOLuaFdphk7a3ILwUJMb73Y00eaCLAHPNyvnaEvvR6fh/nsYngIzjSpAo4WxK1TUJY34=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4762,
+    "completion_tokens": 2336,
+    "total_tokens": 7098,
+    "cost": 0.0072686,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0072686,
+      "upstream_inference_prompt_cost": 0.0014286,
+      "upstream_inference_completions_cost": 0.00584
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

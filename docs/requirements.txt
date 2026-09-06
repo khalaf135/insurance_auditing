@@ -1,0 +1,2 @@
+# Optional: reproduce the checked PDF reports; the invoice audit needs no packages.
+reportlab==4.4.9

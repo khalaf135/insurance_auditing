@@ -1,0 +1,5056 @@
+[
+  {
+    "record_index": 14,
+    "line_id": "H2-L00015-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 131,
+    "line_id": "H2-L00132-06",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 173,
+    "line_id": "H2-L00174-11",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 187,
+    "line_id": "H2-L00188-05",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 211,
+    "line_id": "H2-L00212-10",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 266,
+    "line_id": "H2-L00267-07",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 293,
+    "line_id": "H2-L00294-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 324,
+    "line_id": "H2-L00325-05",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 356,
+    "line_id": "H2-L00357-13",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 423,
+    "line_id": "H2-L00424-07",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 450,
+    "line_id": "H2-L00451-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 483,
+    "line_id": "H2-L00484-05",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 485,
+    "line_id": "H2-L00486-02",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 487,
+    "line_id": "H2-L00488-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 506,
+    "line_id": "H2-L00507-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 581,
+    "line_id": "H2-L00582-06",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 585,
+    "line_id": "H2-L00586-09",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 597,
+    "line_id": "H2-L00598-07",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 598,
+    "line_id": "H2-L00599-09",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 614,
+    "line_id": "H2-L00615-02",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 622,
+    "line_id": "H2-L00623-16",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 677,
+    "line_id": "H2-L00678-07",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 686,
+    "line_id": "H2-L00687-10",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 688,
+    "line_id": "H2-L00689-15",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 696,
+    "line_id": "H2-L00697-03",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 703,
+    "line_id": "H2-L00704-13",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 716,
+    "line_id": "H2-L00717-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 754,
+    "line_id": "H2-L00755-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 757,
+    "line_id": "H2-L00758-04",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 770,
+    "line_id": "H2-L00771-04",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 775,
+    "line_id": "H2-L00776-06",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 780,
+    "line_id": "H2-L00781-16",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 787,
+    "line_id": "H2-L00788-01",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 789,
+    "line_id": "H2-L00790-10",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 794,
+    "line_id": "H2-L00795-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 803,
+    "line_id": "H2-L00804-14",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 810,
+    "line_id": "H2-L00811-02",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 830,
+    "line_id": "H2-L00831-07",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 847,
+    "line_id": "H2-L00848-01",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 874,
+    "line_id": "H2-L00875-05",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 887,
+    "line_id": "H2-L00888-06",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 892,
+    "line_id": "H2-L00893-05",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 905,
+    "line_id": "H2-L00906-02",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 942,
+    "line_id": "H2-L00943-07",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 946,
+    "line_id": "H2-L00947-02",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 975,
+    "line_id": "H2-L00976-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 987,
+    "line_id": "H2-L00988-05",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1005,
+    "line_id": "H2-L01006-14",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1008,
+    "line_id": "H2-L01009-17",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1013,
+    "line_id": "H2-L01014-05",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1015,
+    "line_id": "H2-L01016-10",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1026,
+    "line_id": "H2-L01027-01",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1035,
+    "line_id": "H2-L01036-03",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1069,
+    "line_id": "H2-L01070-07",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1078,
+    "line_id": "H2-L01079-03",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1087,
+    "line_id": "H2-L01088-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1101,
+    "line_id": "H2-L01102-01",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1101,
+    "line_id": "H2-L01102-08",
+    "candidate_services": [
+      "Elective Cardiac Transport Service"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "elect": "elective"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 5,
+    "line_id": "H2-L00006-11",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 27,
+    "line_id": "H2-L00028-09",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 82,
+    "line_id": "H2-L00083-19",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 122,
+    "line_id": "H2-L00123-11",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 212,
+    "line_id": "H2-L00213-10",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 245,
+    "line_id": "H2-L00246-01",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 262,
+    "line_id": "H2-L00263-03",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 265,
+    "line_id": "H2-L00266-14",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 276,
+    "line_id": "H2-L00277-13",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 312,
+    "line_id": "H2-L00313-06",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 337,
+    "line_id": "H2-L00338-03",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 376,
+    "line_id": "H2-L00377-11",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 378,
+    "line_id": "H2-L00379-02",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 403,
+    "line_id": "H2-L00404-08",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 418,
+    "line_id": "H2-L00419-03",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 433,
+    "line_id": "H2-L00434-01",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 481,
+    "line_id": "H2-L00482-08",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 496,
+    "line_id": "H2-L00497-02",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 502,
+    "line_id": "H2-L00503-06",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 520,
+    "line_id": "H2-L00521-11",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 533,
+    "line_id": "H2-L00534-05",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 538,
+    "line_id": "H2-L00539-06",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 553,
+    "line_id": "H2-L00554-11",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 626,
+    "line_id": "H2-L00627-02",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 633,
+    "line_id": "H2-L00634-01",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 637,
+    "line_id": "H2-L00638-05",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 693,
+    "line_id": "H2-L00694-03",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 701,
+    "line_id": "H2-L00702-13",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 706,
+    "line_id": "H2-L00707-05",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 745,
+    "line_id": "H2-L00746-01",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 753,
+    "line_id": "H2-L00754-12",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 811,
+    "line_id": "H2-L00812-06",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 820,
+    "line_id": "H2-L00821-03",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 879,
+    "line_id": "H2-L00880-04",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 903,
+    "line_id": "H2-L00904-04",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 904,
+    "line_id": "H2-L00905-04",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 905,
+    "line_id": "H2-L00906-03",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 929,
+    "line_id": "H2-L00930-04",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 950,
+    "line_id": "H2-L00951-12",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1031,
+    "line_id": "H2-L01032-06",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1043,
+    "line_id": "H2-L01044-03",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1054,
+    "line_id": "H2-L01055-02",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1075,
+    "line_id": "H2-L01076-01",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1080,
+    "line_id": "H2-L01081-01",
+    "candidate_services": [
+      "Intensive Neurological Rehabilitation Programme",
+      "Postoperative Neurological Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 41,
+    "line_id": "H2-L00042-10",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 66,
+    "line_id": "H2-L00067-05",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 93,
+    "line_id": "H2-L00094-10",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 137,
+    "line_id": "H2-L00138-19",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 163,
+    "line_id": "H2-L00164-16",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 176,
+    "line_id": "H2-L00177-02",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 207,
+    "line_id": "H2-L00208-05",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 256,
+    "line_id": "H2-L00257-09",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 354,
+    "line_id": "H2-L00355-07",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 395,
+    "line_id": "H2-L00396-01",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 503,
+    "line_id": "H2-L00504-09",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 515,
+    "line_id": "H2-L00516-11",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 616,
+    "line_id": "H2-L00617-13",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 638,
+    "line_id": "H2-L00639-01",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 638,
+    "line_id": "H2-L00639-12",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 650,
+    "line_id": "H2-L00651-05",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 662,
+    "line_id": "H2-L00663-07",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 663,
+    "line_id": "H2-L00664-08",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 673,
+    "line_id": "H2-L00674-04",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 715,
+    "line_id": "H2-L00716-05",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 774,
+    "line_id": "H2-L00775-06",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 782,
+    "line_id": "H2-L00783-11",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 805,
+    "line_id": "H2-L00806-05",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 808,
+    "line_id": "H2-L00809-01",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 852,
+    "line_id": "H2-L00853-09",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 887,
+    "line_id": "H2-L00888-02",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 901,
+    "line_id": "H2-L00902-02",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 904,
+    "line_id": "H2-L00905-17",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 946,
+    "line_id": "H2-L00947-14",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 966,
+    "line_id": "H2-L00967-06",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 987,
+    "line_id": "H2-L00988-06",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 995,
+    "line_id": "H2-L00996-06",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 997,
+    "line_id": "H2-L00998-10",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1010,
+    "line_id": "H2-L01011-04",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1016,
+    "line_id": "H2-L01017-01",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1059,
+    "line_id": "H2-L01060-07",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1081,
+    "line_id": "H2-L01082-05",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1126,
+    "line_id": "H2-L01127-06",
+    "candidate_services": [
+      "Bedside Pulmonary Pharmaceutical Dispensing",
+      "Focused Pulmonary Pharmaceutical Dispensing"
+    ],
+    "token_expansions": {
+      "disp": "dispensing"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 4,
+    "line_id": "H2-L00005-03",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 57,
+    "line_id": "H2-L00058-10",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 175,
+    "line_id": "H2-L00176-02",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 183,
+    "line_id": "H2-L00184-10",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 217,
+    "line_id": "H2-L00218-10",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 227,
+    "line_id": "H2-L00228-02",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 229,
+    "line_id": "H2-L00230-01",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 335,
+    "line_id": "H2-L00336-08",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 368,
+    "line_id": "H2-L00369-20",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 397,
+    "line_id": "H2-L00398-16",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 491,
+    "line_id": "H2-L00492-17",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 493,
+    "line_id": "H2-L00494-05",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 521,
+    "line_id": "H2-L00522-04",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 528,
+    "line_id": "H2-L00529-13",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 586,
+    "line_id": "H2-L00587-16",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 607,
+    "line_id": "H2-L00608-08",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 664,
+    "line_id": "H2-L00665-07",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 732,
+    "line_id": "H2-L00733-04",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 844,
+    "line_id": "H2-L00845-15",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 869,
+    "line_id": "H2-L00870-02",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 898,
+    "line_id": "H2-L00899-07",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 937,
+    "line_id": "H2-L00938-08",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 946,
+    "line_id": "H2-L00947-09",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 954,
+    "line_id": "H2-L00955-07",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1021,
+    "line_id": "H2-L01022-04",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1077,
+    "line_id": "H2-L01078-07",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1081,
+    "line_id": "H2-L01082-08",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1097,
+    "line_id": "H2-L01098-04",
+    "candidate_services": [
+      "Standard Neurological Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 41,
+    "line_id": "H2-L00042-05",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 75,
+    "line_id": "H2-L00076-03",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 178,
+    "line_id": "H2-L00179-12",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 193,
+    "line_id": "H2-L00194-07",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 195,
+    "line_id": "H2-L00196-02",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 237,
+    "line_id": "H2-L00238-20",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 239,
+    "line_id": "H2-L00240-07",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 277,
+    "line_id": "H2-L00278-12",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 326,
+    "line_id": "H2-L00327-14",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 338,
+    "line_id": "H2-L00339-10",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 359,
+    "line_id": "H2-L00360-10",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 535,
+    "line_id": "H2-L00536-07",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 537,
+    "line_id": "H2-L00538-09",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 655,
+    "line_id": "H2-L00656-16",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 701,
+    "line_id": "H2-L00702-16",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 706,
+    "line_id": "H2-L00707-10",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 720,
+    "line_id": "H2-L00721-09",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 733,
+    "line_id": "H2-L00734-03",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 784,
+    "line_id": "H2-L00785-13",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 786,
+    "line_id": "H2-L00787-14",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 838,
+    "line_id": "H2-L00839-08",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 840,
+    "line_id": "H2-L00841-09",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 853,
+    "line_id": "H2-L00854-10",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 953,
+    "line_id": "H2-L00954-05",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1034,
+    "line_id": "H2-L01035-20",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1057,
+    "line_id": "H2-L01058-05",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1082,
+    "line_id": "H2-L01083-01",
+    "candidate_services": [
+      "Intensive Otolaryngologic Rehabilitation Programme",
+      "Intermittent Otolaryngologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "prog": "programme"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 150,
+    "line_id": "H2-L00151-13",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 189,
+    "line_id": "H2-L00190-10",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 191,
+    "line_id": "H2-L00192-04",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 331,
+    "line_id": "H2-L00332-15",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 362,
+    "line_id": "H2-L00363-02",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 393,
+    "line_id": "H2-L00394-05",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 522,
+    "line_id": "H2-L00523-05",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 562,
+    "line_id": "H2-L00563-01",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 591,
+    "line_id": "H2-L00592-10",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 655,
+    "line_id": "H2-L00656-08",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 659,
+    "line_id": "H2-L00660-08",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 705,
+    "line_id": "H2-L00706-10",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 781,
+    "line_id": "H2-L00782-08",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 788,
+    "line_id": "H2-L00789-11",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 862,
+    "line_id": "H2-L00863-15",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 882,
+    "line_id": "H2-L00883-02",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 918,
+    "line_id": "H2-L00919-08",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 926,
+    "line_id": "H2-L00927-04",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 968,
+    "line_id": "H2-L00969-08",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1023,
+    "line_id": "H2-L01024-10",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1082,
+    "line_id": "H2-L01083-05",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1085,
+    "line_id": "H2-L01086-05",
+    "candidate_services": [
+      "Emergency Paediatric Theatre Time",
+      "Postoperative Paediatric Theatre Time"
+    ],
+    "token_expansions": {
+      "paed": "paediatric"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 116,
+    "line_id": "H2-L00117-08",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 160,
+    "line_id": "H2-L00161-06",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 208,
+    "line_id": "H2-L00209-04",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 254,
+    "line_id": "H2-L00255-09",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 256,
+    "line_id": "H2-L00257-04",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 336,
+    "line_id": "H2-L00337-08",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 357,
+    "line_id": "H2-L00358-04",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 497,
+    "line_id": "H2-L00498-19",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 512,
+    "line_id": "H2-L00513-02",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 512,
+    "line_id": "H2-L00513-03",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 610,
+    "line_id": "H2-L00611-04",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 629,
+    "line_id": "H2-L00630-08",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 643,
+    "line_id": "H2-L00644-06",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 761,
+    "line_id": "H2-L00762-06",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 790,
+    "line_id": "H2-L00791-15",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 878,
+    "line_id": "H2-L00879-16",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 898,
+    "line_id": "H2-L00899-14",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1006,
+    "line_id": "H2-L01007-02",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1106,
+    "line_id": "H2-L01107-04",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1119,
+    "line_id": "H2-L01120-11",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1127,
+    "line_id": "H2-L01128-10",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "paed": "paediatric",
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 116,
+    "line_id": "H2-L00117-01",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 129,
+    "line_id": "H2-L00130-09",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 224,
+    "line_id": "H2-L00225-03",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 249,
+    "line_id": "H2-L00250-01",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 313,
+    "line_id": "H2-L00314-12",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 354,
+    "line_id": "H2-L00355-08",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 363,
+    "line_id": "H2-L00364-18",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 421,
+    "line_id": "H2-L00422-07",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 466,
+    "line_id": "H2-L00467-08",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 542,
+    "line_id": "H2-L00543-02",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 565,
+    "line_id": "H2-L00566-06",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 572,
+    "line_id": "H2-L00573-06",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 572,
+    "line_id": "H2-L00573-08",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 616,
+    "line_id": "H2-L00617-19",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 655,
+    "line_id": "H2-L00656-02",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 741,
+    "line_id": "H2-L00742-02",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 752,
+    "line_id": "H2-L00753-09",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 904,
+    "line_id": "H2-L00905-15",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1073,
+    "line_id": "H2-L01074-01",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1130,
+    "line_id": "H2-L01131-08",
+    "candidate_services": [
+      "Advanced Dermatologic Specimen Analysis",
+      "Extended Dermatologic Specimen Analysis"
+    ],
+    "token_expansions": {
+      "anly": "analysis"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 62,
+    "line_id": "H2-L00063-07",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 105,
+    "line_id": "H2-L00106-10",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 158,
+    "line_id": "H2-L00159-09",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 202,
+    "line_id": "H2-L00203-11",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 348,
+    "line_id": "H2-L00349-13",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 390,
+    "line_id": "H2-L00391-01",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 475,
+    "line_id": "H2-L00476-03",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 496,
+    "line_id": "H2-L00497-05",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 526,
+    "line_id": "H2-L00527-03",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 547,
+    "line_id": "H2-L00548-10",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 578,
+    "line_id": "H2-L00579-12",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 649,
+    "line_id": "H2-L00650-01",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 672,
+    "line_id": "H2-L00673-12",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 735,
+    "line_id": "H2-L00736-08",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 765,
+    "line_id": "H2-L00766-04",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 780,
+    "line_id": "H2-L00781-09",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 826,
+    "line_id": "H2-L00827-05",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 997,
+    "line_id": "H2-L00998-07",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1073,
+    "line_id": "H2-L01074-10",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1116,
+    "line_id": "H2-L01117-09",
+    "candidate_services": [
+      "Intensive Paediatric Infusion Therapy",
+      "Standard Paediatric Infusion Therapy"
+    ],
+    "token_expansions": {
+      "ther": "therapy"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 21,
+    "line_id": "H2-L00022-16",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 151,
+    "line_id": "H2-L00152-16",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 170,
+    "line_id": "H2-L00171-09",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 236,
+    "line_id": "H2-L00237-07",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 246,
+    "line_id": "H2-L00247-08",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 341,
+    "line_id": "H2-L00342-16",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 397,
+    "line_id": "H2-L00398-03",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 425,
+    "line_id": "H2-L00426-03",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 442,
+    "line_id": "H2-L00443-06",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 462,
+    "line_id": "H2-L00463-09",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 471,
+    "line_id": "H2-L00472-06",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 480,
+    "line_id": "H2-L00481-12",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 493,
+    "line_id": "H2-L00494-03",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 617,
+    "line_id": "H2-L00618-09",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 773,
+    "line_id": "H2-L00774-04",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 781,
+    "line_id": "H2-L00782-12",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 803,
+    "line_id": "H2-L00804-05",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 900,
+    "line_id": "H2-L00901-18",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1028,
+    "line_id": "H2-L01029-03",
+    "candidate_services": [
+      "Intermittent Cardiac Specimen Analysis",
+      "Preoperative Cardiac Specimen Analysis"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [
+      "Filled a unique catalogue-prefix abbreviation: card"
+    ],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 20,
+    "line_id": "H2-L00021-09",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 44,
+    "line_id": "H2-L00045-17",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 116,
+    "line_id": "H2-L00117-15",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 163,
+    "line_id": "H2-L00164-05",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 200,
+    "line_id": "H2-L00201-02",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 229,
+    "line_id": "H2-L00230-06",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 249,
+    "line_id": "H2-L00250-11",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 311,
+    "line_id": "H2-L00312-07",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 357,
+    "line_id": "H2-L00358-05",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 393,
+    "line_id": "H2-L00394-07",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 410,
+    "line_id": "H2-L00411-04",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 534,
+    "line_id": "H2-L00535-06",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 536,
+    "line_id": "H2-L00537-09",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 552,
+    "line_id": "H2-L00553-04",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 596,
+    "line_id": "H2-L00597-07",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 626,
+    "line_id": "H2-L00627-08",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 863,
+    "line_id": "H2-L00864-03",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 947,
+    "line_id": "H2-L00948-05",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 1015,
+    "line_id": "H2-L01016-12",
+    "candidate_services": [
+      "Focused Ophthalmic Laboratory Panel",
+      "Routine Ophthalmic Laboratory Panel"
+    ],
+    "token_expansions": {
+      "pnl": "panel"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 20,
+    "line_id": "H2-L00021-07",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 143,
+    "line_id": "H2-L00144-03",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 209,
+    "line_id": "H2-L00210-06",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 226,
+    "line_id": "H2-L00227-04",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 258,
+    "line_id": "H2-L00259-06",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 329,
+    "line_id": "H2-L00330-05",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 362,
+    "line_id": "H2-L00363-11",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 371,
+    "line_id": "H2-L00372-13",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 533,
+    "line_id": "H2-L00534-11",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 638,
+    "line_id": "H2-L00639-11",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 735,
+    "line_id": "H2-L00736-06",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 821,
+    "line_id": "H2-L00822-18",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 823,
+    "line_id": "H2-L00824-02",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 896,
+    "line_id": "H2-L00897-11",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 899,
+    "line_id": "H2-L00900-05",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 900,
+    "line_id": "H2-L00901-15",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 911,
+    "line_id": "H2-L00912-09",
+    "candidate_services": [
+      "Postoperative Orthopaedic Isolation Room Occupancy",
+      "Standard Orthopaedic Isolation Room Occupancy"
+    ],
+    "token_expansions": {
+      "isol": "isolation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  }
+]

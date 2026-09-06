@@ -1,0 +1,42 @@
+{
+  "text_tasks": 35,
+  "price_tasks": 104,
+  "decisions": {
+    "accepted": 115,
+    "rejected": 3,
+    "unanswered": 21
+  },
+  "text_resolved_lines": 814,
+  "resolutions_per_fold_including_history": [
+    941,
+    942,
+    951,
+    934,
+    942
+  ],
+  "historical_candidate_scopes": 52,
+  "four_blocker_fixes": true,
+  "description_validation_revision": 2,
+  "raw_answer_replay": {
+    "enabled": true,
+    "directory": "/Users/abdulelah./Downloads/Aramco/insurance_auditing/audit_output/four_blockers_test_all_verified",
+    "verified_cached_tasks": 110,
+    "unavailable_original_batches": 0,
+    "contract_evidence_sha256": "f6eb77298fdf4426235a95aeccdc5822b7a3a06d4f50e1ff5271f260a6f817cf",
+    "replay_file_hashes": {
+      "tasks": "02599847045d2abdb1d85ca89dfb8c5979e67cb6e0a47be5ce0483436d98bb11",
+      "decisions": "8099d5d9fe935dea6b497b8fa80df513b2fa3e4bccfc54cb247c9c1ee727057b",
+      "runtime": "46027bd125232d6a1523ecdbdcfd3f6173bf0dc88b1ddf768769d5f7b7ecbcbc",
+      "draft": "ae590d453c51bc77a2368854dec008ac4a19b4e545c253eac68733eadfaa97d0"
+    },
+    "note": "Only raw API-cache-verified answers are reused; exact current task/reference evidence and validators are rechecked.",
+    "raw_answers_reused": 110,
+    "reused_answer_validation_outcomes": {
+      "accepted": 93,
+      "rejected": 3,
+      "unanswered": 14
+    }
+  },
+  "unrouted_reason_note": "Only service-description identity is delegated. Missing units, dates, boundaries and other facts remain unresolved.",
+  "experimental_weaker_policy": false
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629494-LwJzI0XRJSqPMI2DDxdV",
+  "object": "chat.completion",
+  "created": 1788629494,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"contract_number\",\n      \"line_end\": 6,\n      \"line_start\": 6,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"INS-H2-2024-1183\"\n    },\n    {\n      \"key\": \"provider\",\n      \"line_end\": 7,\n      \"line_start\": 7,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"St. Auben Metropolitan Hospital Trust\"\n    },\n    {\n      \"key\": \"payer\",\n      \"line_end\": 8,\n      \"line_start\": 8,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"Meridian Health Assurance Group\"\n    },\n    {\n      \"key\": \"effective_from\",\n      \"line_end\": 9,\n      \"line_start\": 9,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"2024-01-01\"\n    },\n    {\n      \"key\": \"effective_to\",\n      \"line_end\": 10,\n      \"line_start\": 10,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"2025-12-31\"\n    },\n    {\n      \"key\": \"currency\",\n      \"line_end\": 11,\n      \"line_start\": 11,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"GBP\"\n    },\n    {\n      \"key\": \"facilities\",\n      \"line_end\": 21,\n      \"line_start\": 21,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"[\\\"F-MAIN\\\"]\"\n    },\n    {\n      \"key\": \"facility_multiplier\",\n      \"line_end\": 21,\n      \"line_start\": 21,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"null\"\n    },\n    {\n      \"key\": \"plan_tier_multiplier\",\n      \"line_end\": 21,\n      \"line_start\": 21,\n      \"section\": \"contract_details\",\n      \"uncertainty\": null,\n      \"value_json\": \"null\"\n    },\n    {\n      \"key\": \"service_day\",\n      \"line_end\": 30,\n      \"line_start\": 30,\n      \"section\": \"definitions\",\n      \"uncertainty\": null,\n      \"value_json\": \"The period of twenty-four (24) hours commencing at 07:00 hours and concluding at 06:59 hours on the following calendar day. A Service delivered wholly within a single calendar day is delivered on the Service Day bearing that calendar date.\"\n    },\n    {\n      \"key\": \"service_date\",\n      \"line_end\": 32,\n      \"line_start\": 32,\n      \"section\": \"definitions\",\n      \"uncertainty\": null,\n      \"value_json\": \"The date recorded against a line item on the Provider's invoice in respect of the Service to which that line item relates.\"\n    },\n    {\n      \"key\": \"business_day\",\n      \"line_end\": 34,\n      \"line_start\": 34,\n      \"section\": \"definitions\",\n      \"uncertainty\": null,\n      \"value_json\": \"A Service Day which commences on a day other than a Saturday or a Sunday.\"\n    },\n    {\n      \"key\": \"episode_of_care\",\n      \"line_end\": 36,\n      \"line_start\": 36,\n      \"section\": \"definitions\",\n      \"uncertainty\": null,\n      \"value_json\": \"The continuous period beginning with a Patient's admission and ending with that Patient's discharge, including any period of leave of absence of less than forty-eight (48) hours. An Episode of Care may span more than one Service Day and more than one calendar month.\"\n    },\n    {\n      \"key\": \"unit\",\n      \"line_end\": 38,\n      \"line_start\": 38,\n      \"section\": \"definitions\",\n      \"uncertainty\": null,\n      \"value_json\": \"One billable unit of a Service on the unit basis stated for that Service in the Article in which its rate appears.\"\n    },\n    {\n      \"key\": \"cumulative_utilisation\",\n      \"line_end\": 40,\n      \"line_start\": 40,\n      \"section\": \"definitions\",\n      \"uncertainty\": null,\n      \"value_json\": \"The running total of Units of a Service billed under this Agreement, taken in Service Date order, up to but excluding the line item being priced.\"\n    },\n    {\n      \"key\": \"rounding\",\n      \"line_end\": 47,\n      \"line_start\": 47,\n      \"section\": \"calculation_rules\",\n      \"uncertainty\": null,\n      \"value_json\": \"half_up_cent\"\n    },\n    {\n      \"key\": \"round_after_each_adjustment\",\n      \"line_end\": 47,\n      \"line_start\": 47,\n      \"section\": \"calculation_rules\",\n      \"uncertainty\": null,\n      \"value_json\": \"true\"\n    },\n    {\n      \"key\": \"adjustment_order\",\n      \"line_end\": 49,\n      \"line_start\": 49,\n      \"section\": \"calculation_rules\",\n      \"uncertainty\": null,\n      \"value_json\": \"[\\\"bundle_substitution\\\", \\\"facility_multiplier\\\", \\\"plan_tier_multiplier\\\", \\\"premium_or_uplift\\\", \\\"volume_discount\\\"]\"\n    },\n    {\n      \"key\": \"line_total\",\n      \"line_end\": 51,\n      \"line_start\": 51,\n      \"section\": \"calculation_rules\",\n      \"uncertainty\": null,\n      \"value_json\": \"The effective unit rate for that line item multiplied by the quantity billed.\"\n    },\n    {\n      \"key\": \"invoice_total\",\n      \"line_end\": 51,\n      \"line_start\": 51,\n      \"section\": \"calculation_rules\",\n      \"uncertainty\": null,\n      \"value_json\": \"The arithmetic sum of the line totals appearing on that invoice, and no other amount.\"\n    },\n    {\n      \"key\": \"Advanced Infectious Isolation Room Occupancy\",\n      \"line_end\": 62,\n      \"line_start\": 62,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Advanced Infectious Isolation Room Occupancy\\\", \\\"unit_basis\\\": \\\"per_day\\\", \\\"unit_basis_source\\\": \\\"per day of service\\\", \\\"base_rate_cents\\\": 164825, \\\"daily_cap\\\": 24}\"\n    },\n    {\n      \"key\": \"rule_advanced_infectious_isolation_room_occupancy_cap\",\n      \"line_end\": 62,\n      \"line_start\": 62,\n      \"section\": \"daily_caps\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Advanced Infectious Isolation Room Occupancy\\\", \\\"quantity\\\": 24, \\\"unit_basis\\\": \\\"per_day\\\"}\"\n    },\n    {\n      \"key\": \"Assisted Infectious Telemetry Monitoring\",\n      \"line_end\": 64,\n      \"line_start\": 64,\n      \"section\": \"services\",\n      \"uncertainty\": \"Ambiguous composite unit basis stated as 'per hour, per item'\",\n      \"value_json\": \"{\\\"service_name\\\": \\\"Assisted Infectious Telemetry Monitoring\\\", \\\"unit_basis\\\": null, \\\"unit_basis_source\\\": \\\"per hour, per item\\\", \\\"base_rate_cents\\\": 10625, \\\"daily_cap\\\": null}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1/rH3QB6KgofssURFmGrJ7GOv6pTkXc/wC9OHkSJYc7AxFNua4pRE6d5v/2AJysJlzw98GwBGKdWvnhisU7eqZmyqAKQ5UzJPZOx7U6G8Q=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3602,
+    "completion_tokens": 1980,
+    "total_tokens": 5582,
+    "cost": 0.0060306,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0060306,
+      "upstream_inference_prompt_cost": 0.0010806,
+      "upstream_inference_completions_cost": 0.00495
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

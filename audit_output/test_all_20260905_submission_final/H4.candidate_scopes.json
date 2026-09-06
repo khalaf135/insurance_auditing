@@ -1,0 +1,1868 @@
+[
+  {
+    "record_index": 41,
+    "line_id": "H4-L00042-03",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 51,
+    "line_id": "H4-L00052-02",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 52,
+    "line_id": "H4-L00053-05",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 100,
+    "line_id": "H4-L00101-04",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 111,
+    "line_id": "H4-L00112-04",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 156,
+    "line_id": "H4-L00157-03",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 167,
+    "line_id": "H4-L00168-04",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 175,
+    "line_id": "H4-L00176-05",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 176,
+    "line_id": "H4-L00177-11",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 177,
+    "line_id": "H4-L00178-07",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 192,
+    "line_id": "H4-L00193-04",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 194,
+    "line_id": "H4-L00195-13",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 223,
+    "line_id": "H4-L00224-05",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 223,
+    "line_id": "H4-L00224-09",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 225,
+    "line_id": "H4-L00226-05",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 251,
+    "line_id": "H4-L00252-02",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 252,
+    "line_id": "H4-L00253-02",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 270,
+    "line_id": "H4-L00271-01",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 271,
+    "line_id": "H4-L00272-07",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 290,
+    "line_id": "H4-L00291-11",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 323,
+    "line_id": "H4-L00324-01",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 482,
+    "line_id": "H4-L00483-06",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 514,
+    "line_id": "H4-L00515-16",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 519,
+    "line_id": "H4-L00520-10",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 544,
+    "line_id": "H4-L00545-14",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 551,
+    "line_id": "H4-L00552-05",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 561,
+    "line_id": "H4-L00562-13",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 600,
+    "line_id": "H4-L00601-07",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 653,
+    "line_id": "H4-L00654-16",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 661,
+    "line_id": "H4-L00662-03",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 685,
+    "line_id": "H4-L00686-04",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 700,
+    "line_id": "H4-L00701-13",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 701,
+    "line_id": "H4-L00702-16",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 712,
+    "line_id": "H4-L00713-15",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 719,
+    "line_id": "H4-L00720-02",
+    "candidate_services": [
+      "Intensive Geriatric Case Conference",
+      "Postoperative Geriatric Case Conference"
+    ],
+    "token_expansions": {
+      "conf": "conference"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 31,
+    "line_id": "H4-L00032-08",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 47,
+    "line_id": "H4-L00048-02",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 62,
+    "line_id": "H4-L00063-14",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 87,
+    "line_id": "H4-L00088-08",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 123,
+    "line_id": "H4-L00124-10",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 176,
+    "line_id": "H4-L00177-02",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 185,
+    "line_id": "H4-L00186-07",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 210,
+    "line_id": "H4-L00211-02",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 304,
+    "line_id": "H4-L00305-11",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 321,
+    "line_id": "H4-L00322-04",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 326,
+    "line_id": "H4-L00327-06",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 362,
+    "line_id": "H4-L00363-15",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 383,
+    "line_id": "H4-L00384-14",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 428,
+    "line_id": "H4-L00429-08",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 492,
+    "line_id": "H4-L00493-02",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 511,
+    "line_id": "H4-L00512-15",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 541,
+    "line_id": "H4-L00542-05",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 578,
+    "line_id": "H4-L00579-01",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 587,
+    "line_id": "H4-L00588-14",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 607,
+    "line_id": "H4-L00608-10",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 657,
+    "line_id": "H4-L00658-15",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 690,
+    "line_id": "H4-L00691-07",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 764,
+    "line_id": "H4-L00765-11",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 836,
+    "line_id": "H4-L00837-11",
+    "candidate_services": [
+      "Ambulatory Rheumatologic Rehabilitation Programme",
+      "Emergency Rheumatologic Rehabilitation Programme"
+    ],
+    "token_expansions": {
+      "rheum": "rheumatologic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 26,
+    "line_id": "H4-L00027-02",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 35,
+    "line_id": "H4-L00036-04",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 41,
+    "line_id": "H4-L00042-09",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 81,
+    "line_id": "H4-L00082-04",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 113,
+    "line_id": "H4-L00114-06",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 123,
+    "line_id": "H4-L00124-01",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 145,
+    "line_id": "H4-L00146-01",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 210,
+    "line_id": "H4-L00211-13",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 256,
+    "line_id": "H4-L00257-17",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 347,
+    "line_id": "H4-L00348-03",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 421,
+    "line_id": "H4-L00422-07",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 493,
+    "line_id": "H4-L00494-03",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 505,
+    "line_id": "H4-L00506-08",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 528,
+    "line_id": "H4-L00529-13",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 589,
+    "line_id": "H4-L00590-07",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 695,
+    "line_id": "H4-L00696-04",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 726,
+    "line_id": "H4-L00727-08",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 762,
+    "line_id": "H4-L00763-16",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 765,
+    "line_id": "H4-L00766-14",
+    "candidate_services": [
+      "Elective Gastrointestinal Nursing Observation",
+      "Supervised Gastrointestinal Nursing Observation"
+    ],
+    "token_expansions": {
+      "nurs": "nursing",
+      "obs": "observation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 172,
+    "line_id": "H4-L00173-19",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 203,
+    "line_id": "H4-L00204-09",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 246,
+    "line_id": "H4-L00247-14",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 276,
+    "line_id": "H4-L00277-11",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 393,
+    "line_id": "H4-L00394-11",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 404,
+    "line_id": "H4-L00405-07",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 458,
+    "line_id": "H4-L00459-08",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 478,
+    "line_id": "H4-L00479-01",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 508,
+    "line_id": "H4-L00509-06",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 522,
+    "line_id": "H4-L00523-10",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 554,
+    "line_id": "H4-L00555-08",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 627,
+    "line_id": "H4-L00628-13",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 636,
+    "line_id": "H4-L00637-03",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 664,
+    "line_id": "H4-L00665-06",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 675,
+    "line_id": "H4-L00676-15",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 715,
+    "line_id": "H4-L00716-09",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 764,
+    "line_id": "H4-L00765-03",
+    "candidate_services": [
+      "Assisted Cardiac Ventilation Support",
+      "Specialist Cardiac Ventilation Support"
+    ],
+    "token_expansions": {
+      "card": "cardiac",
+      "vent": "ventilation"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 112,
+    "line_id": "H4-L00113-05",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 169,
+    "line_id": "H4-L00170-06",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 183,
+    "line_id": "H4-L00184-04",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 194,
+    "line_id": "H4-L00195-03",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 224,
+    "line_id": "H4-L00225-16",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 277,
+    "line_id": "H4-L00278-18",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 406,
+    "line_id": "H4-L00407-17",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 455,
+    "line_id": "H4-L00456-08",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 492,
+    "line_id": "H4-L00493-04",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 530,
+    "line_id": "H4-L00531-05",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 586,
+    "line_id": "H4-L00587-01",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 637,
+    "line_id": "H4-L00638-07",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 694,
+    "line_id": "H4-L00695-01",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 705,
+    "line_id": "H4-L00706-04",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 780,
+    "line_id": "H4-L00781-02",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 814,
+    "line_id": "H4-L00815-01",
+    "candidate_services": [
+      "Bedside Cardiac Home Visit",
+      "Routine Cardiac Home Visit"
+    ],
+    "token_expansions": {
+      "card": "cardiac"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 196,
+    "line_id": "H4-L00197-10",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 222,
+    "line_id": "H4-L00223-06",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 262,
+    "line_id": "H4-L00263-04",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 440,
+    "line_id": "H4-L00441-20",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 525,
+    "line_id": "H4-L00526-11",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 615,
+    "line_id": "H4-L00616-02",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 697,
+    "line_id": "H4-L00698-08",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 701,
+    "line_id": "H4-L00702-10",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 723,
+    "line_id": "H4-L00724-02",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 761,
+    "line_id": "H4-L00762-07",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  },
+  {
+    "record_index": 782,
+    "line_id": "H4-L00783-01",
+    "candidate_services": [
+      "Extended Hepatic Discharge Planning",
+      "Specialist Hepatic Discharge Planning"
+    ],
+    "token_expansions": {
+      "hep": "hepatic"
+    },
+    "normalization_notes": [],
+    "description_validation_revision": 2,
+    "basis": "exhaustive_catalogue_after_validated_AI_expansions",
+    "assumption": "Description words and AI abbreviation meanings are accurate; identity not confirmed."
+  }
+]

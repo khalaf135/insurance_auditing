@@ -1,0 +1,2941 @@
+{
+  "Advanced Metab Anaes": {
+    "description": "Advanced Metab Anaes",
+    "decision": "match",
+    "explanation": "The billing description 'Advanced Metab Anaes' clearly corresponds to 'Advanced Metabolic Anaesthesia Administration', matching the specialty and service type with standard abbreviations.",
+    "service_name": "Advanced Metabolic Anaesthesia Administration",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Advanced Metabolic Anaesthesia Administration",
+        "rerank_score": 0.86328125
+      },
+      {
+        "service_name": "Advanced Metabolic Nursing Observation",
+        "rerank_score": 0.61328125
+      },
+      {
+        "service_name": "Standard Endocrine Endoscopic Procedure",
+        "rerank_score": 0.58984375
+      },
+      {
+        "service_name": "Postoperative Metabolic Critical Care Occupancy",
+        "rerank_score": 0.416015625
+      },
+      {
+        "service_name": "Outpatient Metabolic Radiotherapy Fraction",
+        "rerank_score": 0.396484375
+      }
+    ]
+  },
+  "Amb - Urol Img Interp": {
+    "description": "Amb - Urol Img Interp",
+    "decision": "match",
+    "explanation": "The billing description 'Amb - Urol Img Interp' directly corresponds to the candidate 'Ambulatory Urologic Imaging Interpretation', where 'Amb' stands for Ambulatory, 'Urol' for Urologic, 'Img' for Imaging, and 'Interp' for Interpretation.",
+    "service_name": "Ambulatory Urologic Imaging Interpretation",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.90625
+      },
+      {
+        "service_name": "Routine Urologic Biopsy Procedure",
+        "rerank_score": 0.4921875
+      },
+      {
+        "service_name": "Assisted Urologic Home Visit",
+        "rerank_score": 0.47265625
+      },
+      {
+        "service_name": "Comprehensive Urologic Transport Service",
+        "rerank_score": 0.421875
+      },
+      {
+        "service_name": "Ambulatory Immunologic Endoscopic Procedure",
+        "rerank_score": 0.37109375
+      }
+    ]
+  },
+  "Advanced Rheum Laboratory Pnl /NG-2701": {
+    "description": "Advanced Rheum Laboratory Pnl /NG-2701",
+    "decision": "match",
+    "explanation": "The billing description 'Advanced Rheum Laboratory Pnl' clearly abbreviates 'Advanced Rheumatologic Laboratory Panel', which is present in the candidate list.",
+    "service_name": "Advanced Rheumatologic Laboratory Panel",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Advanced Rheumatologic Laboratory Panel",
+        "rerank_score": 0.73828125
+      },
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.41015625
+      },
+      {
+        "service_name": "Routine Cardiac Specimen Analysis",
+        "rerank_score": 0.39453125
+      },
+      {
+        "service_name": "Extended Palliative Laboratory Panel",
+        "rerank_score": 0.3671875
+      },
+      {
+        "service_name": "Advanced Cardiac Recovery Room Occupancy",
+        "rerank_score": 0.3515625
+      }
+    ]
+  },
+  "Advanced Rheum Lab Pnl": {
+    "description": "Advanced Rheum Lab Pnl",
+    "decision": "match",
+    "explanation": "The billing description 'Advanced Rheum Lab Pnl' clearly abbreviates 'Advanced Rheumatologic Laboratory Panel', which matches the candidate service name.",
+    "service_name": "Advanced Rheumatologic Laboratory Panel",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Advanced Rheumatologic Laboratory Panel",
+        "rerank_score": 0.85546875
+      },
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.42578125
+      },
+      {
+        "service_name": "Routine Cardiac Specimen Analysis",
+        "rerank_score": 0.39453125
+      },
+      {
+        "service_name": "Extended Palliative Laboratory Panel",
+        "rerank_score": 0.38671875
+      },
+      {
+        "service_name": "Advanced Cardiac Recovery Room Occupancy",
+        "rerank_score": 0.357421875
+      }
+    ]
+  },
+  "Amb Urologic Img Interp": {
+    "description": "Amb Urologic Img Interp",
+    "decision": "match",
+    "explanation": "The billing description 'Amb Urologic Img Interp' clearly abbreviates 'Ambulatory Urologic Imaging Interpretation', which directly matches the first candidate.",
+    "service_name": "Ambulatory Urologic Imaging Interpretation",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.91015625
+      },
+      {
+        "service_name": "Routine Urologic Biopsy Procedure",
+        "rerank_score": 0.451171875
+      },
+      {
+        "service_name": "Assisted Urologic Home Visit",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Comprehensive Urologic Transport Service",
+        "rerank_score": 0.3984375
+      },
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.34375
+      }
+    ]
+  },
+  "Amb Card Home Vst": {
+    "description": "Amb Card Home Vst",
+    "decision": "match",
+    "explanation": "The billing description 'Amb Card Home Vst' directly maps to 'Ambulatory Cardiac Home Visit' by interpreting 'Amb' as Ambulatory, 'Card' as Cardiac, and 'Home Vst' as Home Visit.",
+    "service_name": "Ambulatory Cardiac Home Visit",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Ambulatory Cardiac Home Visit",
+        "rerank_score": 0.73828125
+      },
+      {
+        "service_name": "Ambulatory Infectious Home Visit",
+        "rerank_score": 0.55859375
+      },
+      {
+        "service_name": "Continuous Cardiac Nursing Observation",
+        "rerank_score": 0.412109375
+      },
+      {
+        "service_name": "Assisted Urologic Home Visit",
+        "rerank_score": 0.404296875
+      },
+      {
+        "service_name": "Ambulatory Psychiatric Dialysis Session",
+        "rerank_score": 0.3984375
+      }
+    ]
+  },
+  "Anly Inpatient Palliative Specimen": {
+    "description": "Anly Inpatient Palliative Specimen",
+    "decision": "match",
+    "explanation": "The billing description 'Anly Inpatient Palliative Specimen' corresponds to 'Inpatient Palliative Specimen Analysis', where 'Anly' is a standard abbreviation for Analysis.",
+    "service_name": "Inpatient Palliative Specimen Analysis",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Inpatient Palliative Specimen Analysis",
+        "rerank_score": 0.83984375
+      },
+      {
+        "service_name": "Extended Palliative Laboratory Panel",
+        "rerank_score": 0.490234375
+      },
+      {
+        "service_name": "Inpatient Palliative Isolation Room Occupancy",
+        "rerank_score": 0.435546875
+      },
+      {
+        "service_name": "Routine Palliative Critical Care Occupancy",
+        "rerank_score": 0.42578125
+      },
+      {
+        "service_name": "Inpatient Ophthalmic Radiotherapy Fraction",
+        "rerank_score": 0.3984375
+      }
+    ]
+  },
+  "Assisted  Urol Hm Vst": {
+    "description": "Assisted  Urol Hm Vst",
+    "decision": "match",
+    "explanation": "The billing description 'Assisted  Urol Hm Vst' directly maps to the candidate 'Assisted Urologic Home Visit' through clear abbreviations ('Urol' for Urologic, 'Hm Vst' for Home Visit).",
+    "service_name": "Assisted Urologic Home Visit",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Assisted Urologic Home Visit",
+        "rerank_score": 0.8203125
+      },
+      {
+        "service_name": "Comprehensive Urologic Transport Service",
+        "rerank_score": 0.47265625
+      },
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Assisted Gastrointestinal Infusion Therapy",
+        "rerank_score": 0.37109375
+      },
+      {
+        "service_name": "Assisted Geriatric Infusion Therapy",
+        "rerank_score": 0.365234375
+      }
+    ]
+  },
+  "Assisted - Pulm Thtr Tm /NG-9868": {
+    "description": "Assisted - Pulm Thtr Tm /NG-9868",
+    "decision": "match",
+    "explanation": "The billing description 'Assisted - Pulm Thtr Tm' directly corresponds to the candidate 'Assisted Pulmonary Theatre Time' with standard abbreviations for pulmonary and theatre time.",
+    "service_name": "Assisted Pulmonary Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.80859375
+      },
+      {
+        "service_name": "Intermittent Pulmonary Rehabilitation Programme",
+        "rerank_score": 0.4453125
+      },
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.423828125
+      },
+      {
+        "service_name": "Bedside Pulmonary Biopsy Procedure",
+        "rerank_score": 0.423828125
+      },
+      {
+        "service_name": "Standard Pulmonary Dialysis Session",
+        "rerank_score": 0.416015625
+      }
+    ]
+  },
+  "Assisted Gi Inf Ther /NG-8862": {
+    "description": "Assisted Gi Inf Ther /NG-8862",
+    "decision": "match",
+    "explanation": "The billing description 'Assisted Gi Inf Ther' clearly abbreviates 'Assisted Gastrointestinal Infusion Therapy', matching the first candidate.",
+    "service_name": "Assisted Gastrointestinal Infusion Therapy",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Assisted Gastrointestinal Infusion Therapy",
+        "rerank_score": 0.77734375
+      },
+      {
+        "service_name": "Assisted Geriatric Infusion Therapy",
+        "rerank_score": 0.70703125
+      },
+      {
+        "service_name": "Routine Gastrointestinal Transfusion Service",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Assisted Infectious Discharge Planning",
+        "rerank_score": 0.4140625
+      },
+      {
+        "service_name": "Routine Haematology Infusion Therapy",
+        "rerank_score": 0.40625
+      }
+    ]
+  },
+  "Ambulatory Card Home Vst": {
+    "description": "Ambulatory Card Home Vst",
+    "decision": "match",
+    "explanation": "The billing description 'Ambulatory Card Home Vst' clearly abbreviates 'Ambulatory Cardiac Home Visit', matching the first candidate service name.",
+    "service_name": "Ambulatory Cardiac Home Visit",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Ambulatory Cardiac Home Visit",
+        "rerank_score": 0.70703125
+      },
+      {
+        "service_name": "Ambulatory Infectious Home Visit",
+        "rerank_score": 0.51171875
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.380859375
+      },
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.37890625
+      },
+      {
+        "service_name": "Ambulatory Musculoskeletal Ward Bed Occupancy",
+        "rerank_score": 0.375
+      }
+    ]
+  },
+  "Assisted Pulm Theatre Tm /NG-8055": {
+    "description": "Assisted Pulm Theatre Tm /NG-8055",
+    "decision": "match",
+    "explanation": "The billing description 'Assisted Pulm Theatre Tm' clearly corresponds to the contracted service 'Assisted Pulmonary Theatre Time' with matching terminology for assisted pulmonary and theatre time.",
+    "service_name": "Assisted Pulmonary Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.73046875
+      },
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.396484375
+      },
+      {
+        "service_name": "Bedside Pulmonary Biopsy Procedure",
+        "rerank_score": 0.37890625
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.37109375
+      },
+      {
+        "service_name": "Preoperative Geriatric Ventilation Support",
+        "rerank_score": 0.3671875
+      }
+    ]
+  },
+  "Asst Urologic Home Vst": {
+    "description": "Asst Urologic Home Vst",
+    "decision": "match",
+    "explanation": "The billing description 'Asst Urologic Home Vst' directly maps to the candidate 'Assisted Urologic Home Visit' when interpreting standard abbreviations ('Asst' to 'Assisted', 'Vst' to 'Visit').",
+    "service_name": "Assisted Urologic Home Visit",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Assisted Urologic Home Visit",
+        "rerank_score": 0.828125
+      },
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.46875
+      },
+      {
+        "service_name": "Comprehensive Urologic Transport Service",
+        "rerank_score": 0.453125
+      },
+      {
+        "service_name": "Ambulatory Infectious Home Visit",
+        "rerank_score": 0.37890625
+      },
+      {
+        "service_name": "Ambulatory Cardiac Home Visit",
+        "rerank_score": 0.33203125
+      }
+    ]
+  },
+  "Asst Infectious Discharge Plng": {
+    "description": "Asst Infectious Discharge Plng",
+    "decision": "match",
+    "explanation": "The billing description 'Asst Infectious Discharge Plng' is a standard abbreviation for 'Assisted Infectious Discharge Planning', which matches the first candidate.",
+    "service_name": "Assisted Infectious Discharge Planning",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Assisted Infectious Discharge Planning",
+        "rerank_score": 0.859375
+      },
+      {
+        "service_name": "Ambulatory Infectious Home Visit",
+        "rerank_score": 0.41796875
+      },
+      {
+        "service_name": "Comprehensive Infectious Nursing Observation",
+        "rerank_score": 0.3984375
+      },
+      {
+        "service_name": "Routine Infectious Critical Care Occupancy",
+        "rerank_score": 0.369140625
+      },
+      {
+        "service_name": "Advanced Infectious Critical Care Occupancy",
+        "rerank_score": 0.35546875
+      }
+    ]
+  },
+  "Care Cont Musculoskeletal Wnd /NG-8330": {
+    "description": "Care Cont Musculoskeletal Wnd /NG-8330",
+    "decision": "match",
+    "explanation": "The billing description 'Care Cont Musculoskeletal Wnd /NG-8330' clearly maps to 'Continuous Musculoskeletal Wound Care' by abbreviating 'Care Cont' to 'Continuous ... Care' and 'Wnd' to 'Wound'.",
+    "service_name": "Continuous Musculoskeletal Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Musculoskeletal Wound Care",
+        "rerank_score": 0.7734375
+      },
+      {
+        "service_name": "Inpatient Musculoskeletal Ward Bed Occupancy",
+        "rerank_score": 0.482421875
+      },
+      {
+        "service_name": "Ambulatory Musculoskeletal Ward Bed Occupancy",
+        "rerank_score": 0.47265625
+      },
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.388671875
+      },
+      {
+        "service_name": "Extended Geriatric Wound Care",
+        "rerank_score": 0.369140625
+      }
+    ]
+  },
+  "Care Cont Musculoskeletal Wnd /NG-8990": {
+    "description": "Care Cont Musculoskeletal Wnd /NG-8990",
+    "decision": "match",
+    "explanation": "The billing description 'Care Cont Musculoskeletal Wnd' directly abbreviates 'Continuous Musculoskeletal Wound Care', matching the first candidate.",
+    "service_name": "Continuous Musculoskeletal Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Musculoskeletal Wound Care",
+        "rerank_score": 0.76953125
+      },
+      {
+        "service_name": "Inpatient Musculoskeletal Ward Bed Occupancy",
+        "rerank_score": 0.48046875
+      },
+      {
+        "service_name": "Ambulatory Musculoskeletal Ward Bed Occupancy",
+        "rerank_score": 0.46875
+      },
+      {
+        "service_name": "Emergency Orthopaedic Rehabilitation Programme",
+        "rerank_score": 0.388671875
+      },
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.388671875
+      }
+    ]
+  },
+  "Beds Psych Session": {
+    "description": "Beds Psych Session",
+    "decision": "no_match",
+    "explanation": "The billing description 'Beds Psych Session' most likely refers to a bedside psychiatric session, but none of the candidates match this specific service description (the closest is 'Bedside Psychiatric Dialysis Session', which includes dialysis, making it an unrelated or overly specific service).",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Bedside Psychiatric Dialysis Session",
+        "rerank_score": 0.7109375
+      },
+      {
+        "service_name": "Ambulatory Psychiatric Dialysis Session",
+        "rerank_score": 0.5
+      },
+      {
+        "service_name": "Continuous Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Routine Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.427734375
+      },
+      {
+        "service_name": "Standard Psychiatric Endoscopic Procedure",
+        "rerank_score": 0.375
+      }
+    ]
+  },
+  "Care Focused Ent Wnd": {
+    "description": "Care Focused Ent Wnd",
+    "decision": "failed",
+    "reason": "Non-match response must have null service"
+  },
+  "Compr Ent Thtr Time": {
+    "description": "Compr Ent Thtr Time",
+    "decision": "match",
+    "explanation": "Compr Ent Thtr Time abbreviates Comprehensive Otolaryngologic Theatre Time, where 'Ent' commonly refers to Ear, Nose, and Throat (Otolaryngology) and 'Thtr Time' matches Theatre Time.",
+    "service_name": "Comprehensive Otolaryngologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.70703125
+      },
+      {
+        "service_name": "Comprehensive Urologic Transport Service",
+        "rerank_score": 0.5703125
+      },
+      {
+        "service_name": "Continuous Immunologic Theatre Time",
+        "rerank_score": 0.53515625
+      },
+      {
+        "service_name": "Comprehensive Oncology Nursing Observation",
+        "rerank_score": 0.5078125
+      },
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.50390625
+      }
+    ]
+  },
+  "Compr Infectious Nurs": {
+    "description": "Compr Infectious Nurs",
+    "decision": "match",
+    "explanation": "The billing description 'Compr Infectious Nurs' clearly corresponds to 'Comprehensive Infectious Nursing Observation' when accounting for standard abbreviations.",
+    "service_name": "Comprehensive Infectious Nursing Observation",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Comprehensive Infectious Nursing Observation",
+        "rerank_score": 0.8203125
+      },
+      {
+        "service_name": "Ambulatory Infectious Home Visit",
+        "rerank_score": 0.50390625
+      },
+      {
+        "service_name": "Routine Infectious Critical Care Occupancy",
+        "rerank_score": 0.44921875
+      },
+      {
+        "service_name": "Assisted Infectious Discharge Planning",
+        "rerank_score": 0.4296875
+      },
+      {
+        "service_name": "Advanced Infectious Critical Care Occupancy",
+        "rerank_score": 0.40234375
+      }
+    ]
+  },
+  "Compr Otolaryngologic Theatre Tm": {
+    "description": "Compr Otolaryngologic Theatre Tm",
+    "decision": "match",
+    "explanation": "The billing description 'Compr Otolaryngologic Theatre Tm' clearly abbreviates 'Comprehensive Otolaryngologic Theatre Time', matching the candidate service.",
+    "service_name": "Comprehensive Otolaryngologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.859375
+      },
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.6875
+      },
+      {
+        "service_name": "Routine Immunologic Ward Bed Occupancy",
+        "rerank_score": 0.58203125
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Rehabilitation Programme",
+        "rerank_score": 0.54296875
+      },
+      {
+        "service_name": "Supervised Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.5
+      }
+    ]
+  },
+  "Consultation Adv": {
+    "description": "Consultation Adv",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Consultation Adv' is too vague and could potentially match multiple advanced or specialized consultation services in the candidate list.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Advanced Neurological Consultation",
+        "rerank_score": 0.71484375
+      },
+      {
+        "service_name": "Outpatient Immunologic Consultation",
+        "rerank_score": 0.5234375
+      },
+      {
+        "service_name": "Preoperative Oncology Consultation",
+        "rerank_score": 0.515625
+      },
+      {
+        "service_name": "Emergency Orthopaedic Consultation",
+        "rerank_score": 0.498046875
+      },
+      {
+        "service_name": "Advanced Haematology Physiotherapy Session",
+        "rerank_score": 0.40625
+      }
+    ]
+  },
+  "Comprehensive Otolaryngologic Thtr Time": {
+    "description": "Comprehensive Otolaryngologic Thtr Time",
+    "decision": "match",
+    "explanation": "The billing description 'Comprehensive Otolaryngologic Thtr Time' directly matches the candidate 'Comprehensive Otolaryngologic Theatre Time' with 'Thtr' being a standard abbreviation for 'Theatre'.",
+    "service_name": "Comprehensive Otolaryngologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.87109375
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Rehabilitation Programme",
+        "rerank_score": 0.68359375
+      },
+      {
+        "service_name": "Routine Immunologic Ward Bed Occupancy",
+        "rerank_score": 0.59375
+      },
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.5859375
+      },
+      {
+        "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+        "rerank_score": 0.482421875
+      }
+    ]
+  },
+  "Cont - Immunologic Thtr Tm": {
+    "description": "Cont - Immunologic Thtr Tm",
+    "decision": "match",
+    "explanation": "The billing description 'Cont - Immunologic Thtr Tm' maps directly to 'Continuous Immunologic Theatre Time' when expanding the abbreviations 'Cont' to Continuous and 'Thtr Tm' to Theatre Time.",
+    "service_name": "Continuous Immunologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Immunologic Theatre Time",
+        "rerank_score": 0.85546875
+      },
+      {
+        "service_name": "Outpatient Immunologic Consultation",
+        "rerank_score": 0.625
+      },
+      {
+        "service_name": "Focused Immunologic Physiotherapy Session",
+        "rerank_score": 0.5625
+      },
+      {
+        "service_name": "Supervised Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.54296875
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.494140625
+      }
+    ]
+  },
+  "Cont - Pulmonary Wnd Cr": {
+    "description": "Cont - Pulmonary Wnd Cr",
+    "decision": "match",
+    "explanation": "The billing description 'Cont - Pulmonary Wnd Cr' directly corresponds to the candidate 'Continuous Pulmonary Wound Care', where 'Cont' abbreviates Continuous and 'Wnd Cr' abbreviates Wound Care.",
+    "service_name": "Continuous Pulmonary Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.8203125
+      },
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.6953125
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.47265625
+      },
+      {
+        "service_name": "Intermittent Pulmonary Rehabilitation Programme",
+        "rerank_score": 0.45703125
+      },
+      {
+        "service_name": "Bedside Pulmonary Biopsy Procedure",
+        "rerank_score": 0.44921875
+      }
+    ]
+  },
+  "Cont Ent Telem Monit": {
+    "description": "Cont Ent Telem Monit",
+    "decision": "no_match",
+    "explanation": "The billing description 'Cont Ent Telem Monit' likely refers to Continuous Enteral Telemetry Monitoring, but none of the candidates match this service.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+        "rerank_score": 0.7109375
+      },
+      {
+        "service_name": "Intensive Ophthalmic Case Conference",
+        "rerank_score": 0.48828125
+      },
+      {
+        "service_name": "Continuous Cardiac Nursing Observation",
+        "rerank_score": 0.44921875
+      },
+      {
+        "service_name": "Continuous Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.353515625
+      },
+      {
+        "service_name": "Comprehensive Infectious Nursing Observation",
+        "rerank_score": 0.353515625
+      }
+    ]
+  },
+  "Cont Pharmaceutical Disp": {
+    "description": "Cont Pharmaceutical Disp",
+    "decision": "match",
+    "explanation": "The billing description 'Cont Pharmaceutical Disp' directly corresponds to 'Continuous Vascular Pharmaceutical Dispensing', where 'Cont' abbreviates Continuous and 'Disp' abbreviates Dispensing.",
+    "service_name": "Continuous Vascular Pharmaceutical Dispensing",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Vascular Pharmaceutical Dispensing",
+        "rerank_score": 0.7265625
+      },
+      {
+        "service_name": "Specialist Otolaryngologic Pharmaceutical Dispensing",
+        "rerank_score": 0.5625
+      },
+      {
+        "service_name": "Elective Pulmonary Nutritional Support",
+        "rerank_score": 0.3671875
+      },
+      {
+        "service_name": "Intensive Geriatric Nutritional Support",
+        "rerank_score": 0.36328125
+      },
+      {
+        "service_name": "Routine Dermatologic Transfusion Service",
+        "rerank_score": 0.357421875
+      }
+    ]
+  },
+  "Cont Pulmonary Wnd Cr": {
+    "description": "Cont Pulmonary Wnd Cr",
+    "decision": "match",
+    "explanation": "The billing description Cont Pulmonary Wnd Cr directly corresponds to Continuous Pulmonary Wound Care through standard abbreviations for Continuous (Cont) and Wound Care (Wnd Cr).",
+    "service_name": "Continuous Pulmonary Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.8515625
+      },
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.67578125
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.478515625
+      },
+      {
+        "service_name": "Intermittent Pulmonary Rehabilitation Programme",
+        "rerank_score": 0.46875
+      },
+      {
+        "service_name": "Bedside Pulmonary Biopsy Procedure",
+        "rerank_score": 0.443359375
+      }
+    ]
+  },
+  "Continuous Ent Telem Monit": {
+    "description": "Continuous Ent Telem Monit",
+    "decision": "match",
+    "explanation": "The billing description 'Continuous Ent Telem Monit' directly maps to the candidate 'Continuous Otolaryngologic Telemetry Monitoring' where 'Ent' corresponds to Otolaryngologic and 'Telem Monit' corresponds to Telemetry Monitoring.",
+    "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+        "rerank_score": 0.63671875
+      },
+      {
+        "service_name": "Intensive Ophthalmic Case Conference",
+        "rerank_score": 0.462890625
+      },
+      {
+        "service_name": "Continuous Cardiac Nursing Observation",
+        "rerank_score": 0.421875
+      },
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.365234375
+      },
+      {
+        "service_name": "Continuous Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.361328125
+      }
+    ]
+  },
+  "Continuous Wnd Care": {
+    "description": "Continuous Wnd Care",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Continuous Wnd Care' is too vague and could refer to either 'Continuous Pulmonary Wound Care' or 'Continuous Musculoskeletal Wound Care' without further anatomical specificity.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.765625
+      },
+      {
+        "service_name": "Continuous Musculoskeletal Wound Care",
+        "rerank_score": 0.7265625
+      },
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.455078125
+      },
+      {
+        "service_name": "Extended Geriatric Wound Care",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Focused Otolaryngologic Wound Care",
+        "rerank_score": 0.431640625
+      }
+    ]
+  },
+  "Cr Cont Wnd": {
+    "description": "Cr Cont Wnd",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Cr Cont Wnd' could potentially refer to different continuous wound care services such as pulmonary or musculoskeletal, making it impossible to definitively select a single candidate without further clarification.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.67578125
+      },
+      {
+        "service_name": "Continuous Musculoskeletal Wound Care",
+        "rerank_score": 0.6171875
+      },
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.490234375
+      },
+      {
+        "service_name": "Continuous Cardiac Nursing Observation",
+        "rerank_score": 0.482421875
+      },
+      {
+        "service_name": "Continuous Obstetric Rehabilitation Programme",
+        "rerank_score": 0.4375
+      }
+    ]
+  },
+  "Continuous - Ent Telemetry Monit /NG-9499": {
+    "description": "Continuous - Ent Telemetry Monit /NG-9499",
+    "decision": "match",
+    "explanation": "The billing description 'Ent Telemetry Monit' maps to 'Continuous Otolaryngologic Telemetry Monitoring', where 'Ent' represents Otolaryngologic (Ear, Nose, and Throat) and 'Telemetry Monit' corresponds to Telemetry Monitoring.",
+    "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+        "rerank_score": 0.5625
+      },
+      {
+        "service_name": "Intensive Ophthalmic Case Conference",
+        "rerank_score": 0.404296875
+      },
+      {
+        "service_name": "Continuous Cardiac Nursing Observation",
+        "rerank_score": 0.40234375
+      },
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.373046875
+      },
+      {
+        "service_name": "Continuous Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.357421875
+      }
+    ]
+  },
+  "Cr Focused Ent Wound": {
+    "description": "Cr Focused Ent Wound",
+    "decision": "match",
+    "explanation": "The billing description 'Cr Focused Ent Wound' abbreviates 'Cr' as Care, 'Ent' as Otolaryngologic (Ear, Nose, Throat), and 'Focused Wound' matches 'Focused Otolaryngologic Wound Care'.",
+    "service_name": "Focused Otolaryngologic Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Focused Otolaryngologic Wound Care",
+        "rerank_score": 0.63671875
+      },
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.38671875
+      },
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.38671875
+      },
+      {
+        "service_name": "Preoperative Renal Wound Care",
+        "rerank_score": 0.38671875
+      },
+      {
+        "service_name": "Extended Geriatric Wound Care",
+        "rerank_score": 0.3828125
+      }
+    ]
+  },
+  "Elect - Card Supp": {
+    "description": "Elect - Card Supp",
+    "decision": "match",
+    "explanation": "The billing description 'Elect - Card Supp' clearly abbreviates 'Elective Cardiac Nutritional Support', matching the service specialty and type.",
+    "service_name": "Elective Cardiac Nutritional Support",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Elective Cardiac Nutritional Support",
+        "rerank_score": 0.7890625
+      },
+      {
+        "service_name": "Elective Pulmonary Nutritional Support",
+        "rerank_score": 0.5390625
+      },
+      {
+        "service_name": "Continuous Cardiac Nursing Observation",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Routine Cardiac Specimen Analysis",
+        "rerank_score": 0.423828125
+      },
+      {
+        "service_name": "Advanced Cardiac Recovery Room Occupancy",
+        "rerank_score": 0.365234375
+      }
+    ]
+  },
+  "Ent Steril Svc Preop": {
+    "description": "Ent Steril Svc Preop",
+    "decision": "match",
+    "explanation": "Ent Steril Svc Preop directly maps to Preoperative Otolaryngologic Sterilisation Service, where Ent stands for Otolaryngologic, Steril Svc for Sterilisation Service, and Preop for Preoperative.",
+    "service_name": "Preoperative Otolaryngologic Sterilisation Service",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Preoperative Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.7734375
+      },
+      {
+        "service_name": "Supervised Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.5546875
+      },
+      {
+        "service_name": "Preoperative Immunologic Endoscopic Procedure",
+        "rerank_score": 0.3984375
+      },
+      {
+        "service_name": "Preoperative Oncology Consultation",
+        "rerank_score": 0.37890625
+      },
+      {
+        "service_name": "Preoperative Endocrine Physiotherapy Session",
+        "rerank_score": 0.37890625
+      }
+    ]
+  },
+  "Emer Ortho": {
+    "description": "Emer Ortho",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Emer Ortho' could refer to either 'Emergency Orthopaedic Consultation' or 'Emergency Orthopaedic Rehabilitation Programme' as the abbreviations match both candidates.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Emergency Orthopaedic Consultation",
+        "rerank_score": 0.84765625
+      },
+      {
+        "service_name": "Emergency Orthopaedic Rehabilitation Programme",
+        "rerank_score": 0.796875
+      },
+      {
+        "service_name": "Focused Orthopaedic Transport Service",
+        "rerank_score": 0.42578125
+      },
+      {
+        "service_name": "Emergency Renal Radiotherapy Fraction",
+        "rerank_score": 0.3828125
+      },
+      {
+        "service_name": "Emergency Dermatologic Case Conference",
+        "rerank_score": 0.337890625
+      }
+    ]
+  },
+  "Ent Steril Svc Supv": {
+    "description": "Ent Steril Svc Supv",
+    "decision": "match",
+    "explanation": "The billing description 'Ent Steril Svc Supv' directly corresponds to 'Supervised Otolaryngologic Sterilisation Service', where 'Ent' represents Otolaryngologic, 'Steril Svc' represents Sterilisation Service, and 'Supv' represents Supervised.",
+    "service_name": "Supervised Otolaryngologic Sterilisation Service",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Supervised Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.765625
+      },
+      {
+        "service_name": "Preoperative Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.58984375
+      },
+      {
+        "service_name": "Continuous Immunologic Theatre Time",
+        "rerank_score": 0.48046875
+      },
+      {
+        "service_name": "Supervised Renal Isolation Room Occupancy",
+        "rerank_score": 0.3671875
+      },
+      {
+        "service_name": "Focused Otolaryngologic Wound Care",
+        "rerank_score": 0.3515625
+      }
+    ]
+  },
+  "Ent Thtr Tm Spclst": {
+    "description": "Ent Thtr Tm Spclst",
+    "decision": "match",
+    "explanation": "Ent Thtr Tm Spclst clearly abbreviates Ear, Nose, and Throat (Otolaryngologic) Theatre Time Specialist, matching Specialist Otolaryngologic Theatre Time.",
+    "service_name": "Specialist Otolaryngologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.7734375
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.5859375
+      },
+      {
+        "service_name": "Specialist Dermatologic Transport Service",
+        "rerank_score": 0.578125
+      },
+      {
+        "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+        "rerank_score": 0.515625
+      },
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.50390625
+      }
+    ]
+  },
+  "Ent Thtr Tm Compr": {
+    "description": "Ent Thtr Tm Compr",
+    "decision": "match",
+    "explanation": "The billing description 'Ent Thtr Tm Compr' clearly abbreviates 'Ent' (Otolaryngologic), 'Thtr Tm' (Theatre Time), and 'Compr' (Comprehensive), which directly matches the candidate 'Comprehensive Otolaryngologic Theatre Time'.",
+    "service_name": "Comprehensive Otolaryngologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.6875
+      },
+      {
+        "service_name": "Extended Vascular Rehabilitation Programme",
+        "rerank_score": 0.5859375
+      },
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.546875
+      },
+      {
+        "service_name": "Comprehensive Urologic Transport Service",
+        "rerank_score": 0.54296875
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Rehabilitation Programme",
+        "rerank_score": 0.5234375
+      }
+    ]
+  },
+  "Ext Ger Wnd Cr": {
+    "description": "Ext Ger Wnd Cr",
+    "decision": "match",
+    "explanation": "The billing description 'Ext GerWnd Cr' directly abbreviates 'Extended Geriatric Wound Care', which corresponds to the first candidate service.",
+    "service_name": "Extended Geriatric Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Extended Geriatric Wound Care",
+        "rerank_score": 0.86328125
+      },
+      {
+        "service_name": "Extended Vascular Rehabilitation Programme",
+        "rerank_score": 0.4765625
+      },
+      {
+        "service_name": "Intensive Geriatric Nutritional Support",
+        "rerank_score": 0.462890625
+      },
+      {
+        "service_name": "Emergency Renal Radiotherapy Fraction",
+        "rerank_score": 0.44140625
+      },
+      {
+        "service_name": "Extended Renal Transport Service",
+        "rerank_score": 0.435546875
+      }
+    ]
+  },
+  "Ext Geriatric Wnd Cr /NG-7617": {
+    "description": "Ext Geriatric Wnd Cr /NG-7617",
+    "decision": "match",
+    "explanation": "The billing description 'Ext Geriatric Wnd Cr' clearly abbreviates 'Extended Geriatric Wound Care', which matches the first candidate.",
+    "service_name": "Extended Geriatric Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Extended Geriatric Wound Care",
+        "rerank_score": 0.78125
+      },
+      {
+        "service_name": "Assisted Geriatric Infusion Therapy",
+        "rerank_score": 0.462890625
+      },
+      {
+        "service_name": "Preoperative Geriatric Ventilation Support",
+        "rerank_score": 0.455078125
+      },
+      {
+        "service_name": "Standard Geriatric Nutritional Support",
+        "rerank_score": 0.44140625
+      },
+      {
+        "service_name": "Intensive Geriatric Nutritional Support",
+        "rerank_score": 0.4375
+      }
+    ]
+  },
+  "Ext Palliative Laboratory Pnl": {
+    "description": "Ext Palliative Laboratory Pnl",
+    "decision": "match",
+    "explanation": "Ext Palliative Laboratory Pnl directly matches Extended Palliative Laboratory Panel when accounting for standard abbreviations (Ext for Extended, Pnl for Panel).",
+    "service_name": "Extended Palliative Laboratory Panel",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Extended Palliative Laboratory Panel",
+        "rerank_score": 0.86328125
+      },
+      {
+        "service_name": "Inpatient Ophthalmic Radiotherapy Fraction",
+        "rerank_score": 0.625
+      },
+      {
+        "service_name": "Inpatient Palliative Specimen Analysis",
+        "rerank_score": 0.5078125
+      },
+      {
+        "service_name": "Advanced Rheumatologic Laboratory Panel",
+        "rerank_score": 0.3828125
+      },
+      {
+        "service_name": "Inpatient Palliative Isolation Room Occupancy",
+        "rerank_score": 0.375
+      }
+    ]
+  },
+  "Extended Haem Anaes Admin": {
+    "description": "Extended Haem Anaes Admin",
+    "decision": "no_match",
+    "explanation": "The billing description 'Extended Haem Anaes Admin' refers to an extended haematology or haemodynamic anaesthesia administration service, which does not match any of the provided candidates (metabolic anaesthesia, vascular rehabilitation, haematology infusion therapy, haematology physiotherapy, or endocrine endoscopic procedures).",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Advanced Metabolic Anaesthesia Administration",
+        "rerank_score": 0.5078125
+      },
+      {
+        "service_name": "Extended Vascular Rehabilitation Programme",
+        "rerank_score": 0.388671875
+      },
+      {
+        "service_name": "Routine Haematology Infusion Therapy",
+        "rerank_score": 0.384765625
+      },
+      {
+        "service_name": "Advanced Haematology Physiotherapy Session",
+        "rerank_score": 0.375
+      },
+      {
+        "service_name": "Standard Endocrine Endoscopic Procedure",
+        "rerank_score": 0.3359375
+      }
+    ]
+  },
+  "Focused Ent Cr /NG-9962": {
+    "description": "Focused Ent Cr /NG-9962",
+    "decision": "match",
+    "explanation": "The billing description \"Focused Ent Cr\" clearly corresponds to \"Focused Otolaryngologic Wound Care\", where \"Ent\" is a standard abbreviation for Ear, Nose, and Throat (Otolaryngology) and the context aligns with focused specialty care.",
+    "service_name": "Focused Otolaryngologic Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Focused Otolaryngologic Wound Care",
+        "rerank_score": 0.462890625
+      },
+      {
+        "service_name": "Focused Immunologic Physiotherapy Session",
+        "rerank_score": 0.400390625
+      },
+      {
+        "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+        "rerank_score": 0.37109375
+      },
+      {
+        "service_name": "Extended Renal Transport Service",
+        "rerank_score": 0.3671875
+      },
+      {
+        "service_name": "Focused Orthopaedic Transport Service",
+        "rerank_score": 0.3671875
+      }
+    ]
+  },
+  "Extended Pall Laboratory Pnl": {
+    "description": "Extended Pall Laboratory Pnl",
+    "decision": "match",
+    "explanation": "The billing description 'Extended Pall Laboratory Pnl' clearly abbreviates 'Extended Palliative Laboratory Panel', matching the first candidate.",
+    "service_name": "Extended Palliative Laboratory Panel",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Extended Palliative Laboratory Panel",
+        "rerank_score": 0.82421875
+      },
+      {
+        "service_name": "Inpatient Ophthalmic Radiotherapy Fraction",
+        "rerank_score": 0.60546875
+      },
+      {
+        "service_name": "Advanced Rheumatologic Laboratory Panel",
+        "rerank_score": 0.439453125
+      },
+      {
+        "service_name": "Inpatient Palliative Specimen Analysis",
+        "rerank_score": 0.423828125
+      },
+      {
+        "service_name": "Extended Vascular Rehabilitation Programme",
+        "rerank_score": 0.33203125
+      }
+    ]
+  },
+  "Fract Std Ent": {
+    "description": "Fract Std Ent",
+    "decision": "no_match",
+    "explanation": "The billing description 'Fract Std Ent' does not correspond to any of the provided candidates, which include otolaryngologic radiotherapy, endocrine endoscopic, psychiatric endoscopic, renal radiotherapy, and geriatric nutritional support services.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Standard Otolaryngologic Radiotherapy Fraction",
+        "rerank_score": 0.5
+      },
+      {
+        "service_name": "Standard Endocrine Endoscopic Procedure",
+        "rerank_score": 0.44921875
+      },
+      {
+        "service_name": "Standard Psychiatric Endoscopic Procedure",
+        "rerank_score": 0.388671875
+      },
+      {
+        "service_name": "Inpatient Renal Radiotherapy Fraction",
+        "rerank_score": 0.388671875
+      },
+      {
+        "service_name": "Standard Geriatric Nutritional Support",
+        "rerank_score": 0.3671875
+      }
+    ]
+  },
+  "Ger Nutr Support /NG-2366": {
+    "description": "Ger Nutr Support /NG-2366",
+    "decision": "match",
+    "explanation": "The billing description 'Ger Nutr Support' clearly maps to 'Standard Geriatric Nutritional Support' after expanding the abbreviations for geriatric nutritional support.",
+    "service_name": "Standard Geriatric Nutritional Support",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Standard Geriatric Nutritional Support",
+        "rerank_score": 0.72265625
+      },
+      {
+        "service_name": "Intensive Geriatric Nutritional Support",
+        "rerank_score": 0.6875
+      },
+      {
+        "service_name": "Intermittent Neurological Nutritional Support",
+        "rerank_score": 0.4765625
+      },
+      {
+        "service_name": "Elective Cardiac Nutritional Support",
+        "rerank_score": 0.474609375
+      },
+      {
+        "service_name": "Elective Pulmonary Nutritional Support",
+        "rerank_score": 0.46484375
+      }
+    ]
+  },
+  "Fraction  Std Ent Radiotherapy": {
+    "description": "Fraction  Std Ent Radiotherapy",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Fraction Std Ent Radiotherapy' lacks sufficient detail to distinguish between the specific anatomical or clinical specialties among the candidates, such as otolaryngologic, renal, metabolic, or ophthalmic.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Standard Otolaryngologic Radiotherapy Fraction",
+        "rerank_score": 0.734375
+      },
+      {
+        "service_name": "Inpatient Renal Radiotherapy Fraction",
+        "rerank_score": 0.578125
+      },
+      {
+        "service_name": "Outpatient Metabolic Radiotherapy Fraction",
+        "rerank_score": 0.55859375
+      },
+      {
+        "service_name": "Inpatient Ophthalmic Radiotherapy Fraction",
+        "rerank_score": 0.51171875
+      },
+      {
+        "service_name": "Emergency Renal Radiotherapy Fraction",
+        "rerank_score": 0.5
+      }
+    ]
+  },
+  "Hep Physio Sess Spclst": {
+    "description": "Hep Physio Sess Spclst",
+    "decision": "match",
+    "explanation": "The billing description 'Hep Physio Sess Spclst' directly maps to 'Specialist Hepatic Physiotherapy Session' by matching the abbreviations and terms for hepatic ('Hep'), physiotherapy ('Physio'), session ('Sess'), and specialist ('Spclst').",
+    "service_name": "Specialist Hepatic Physiotherapy Session",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Hepatic Physiotherapy Session",
+        "rerank_score": 0.91015625
+      },
+      {
+        "service_name": "Inpatient Hepatic Physiotherapy Session",
+        "rerank_score": 0.78515625
+      },
+      {
+        "service_name": "Advanced Haematology Physiotherapy Session",
+        "rerank_score": 0.6796875
+      },
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.6484375
+      },
+      {
+        "service_name": "Focused Immunologic Physiotherapy Session",
+        "rerank_score": 0.486328125
+      }
+    ]
+  },
+  "Img Inpatient Diag": {
+    "description": "Img Inpatient Diag",
+    "decision": "match",
+    "explanation": "The billing description 'Img Inpatient Diag' aligns with 'Inpatient Vascular Diagnostic Imaging' based on the keywords 'Inpatient' and 'Diag' (Diagnostic Imaging), matching the primary candidate service.",
+    "service_name": "Inpatient Vascular Diagnostic Imaging",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.65625
+      },
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.439453125
+      },
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.435546875
+      },
+      {
+        "service_name": "Inpatient Palliative Specimen Analysis",
+        "rerank_score": 0.404296875
+      },
+      {
+        "service_name": "Intensive Gastrointestinal Isolation Room Occupancy",
+        "rerank_score": 0.3984375
+      }
+    ]
+  },
+  "Img Preop Vascular Diag": {
+    "description": "Img Preop Vascular Diag",
+    "decision": "match",
+    "explanation": "The billing description 'Img Preop Vascular Diag' directly corresponds to 'Preoperative Vascular Diagnostic Imaging', accounting for standard abbreviations.",
+    "service_name": "Preoperative Vascular Diagnostic Imaging",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.859375
+      },
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.63671875
+      },
+      {
+        "service_name": "Preoperative Immunologic Endoscopic Procedure",
+        "rerank_score": 0.349609375
+      },
+      {
+        "service_name": "Continuous Vascular Pharmaceutical Dispensing",
+        "rerank_score": 0.34375
+      },
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.34375
+      }
+    ]
+  },
+  "Img Vasc Diagnostic": {
+    "description": "Img Vasc Diagnostic",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Img Vasc Diagnostic' indicates vascular diagnostic imaging, but does not specify the clinical setting or phase of care (e.g., inpatient versus preoperative), making it impossible to distinguish between the available candidates.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.7265625
+      },
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.7109375
+      },
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.396484375
+      },
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.37890625
+      },
+      {
+        "service_name": "Extended Vascular Rehabilitation Programme",
+        "rerank_score": 0.35546875
+      }
+    ]
+  },
+  "Img Preop Vasc Diagnostic": {
+    "description": "Img Preop Vasc Diagnostic",
+    "decision": "match",
+    "explanation": "The billing description 'Img Preop Vasc Diagnostic' clearly abbreviates 'Imaging Preoperative Vascular Diagnostic', which directly corresponds to the candidate service 'Preoperative Vascular Diagnostic Imaging'.",
+    "service_name": "Preoperative Vascular Diagnostic Imaging",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.859375
+      },
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.640625
+      },
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.369140625
+      },
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.361328125
+      },
+      {
+        "service_name": "Preoperative Immunologic Endoscopic Procedure",
+        "rerank_score": 0.349609375
+      }
+    ]
+  },
+  "Immun Consult": {
+    "description": "Immun Consult",
+    "decision": "match",
+    "explanation": "The billing description 'Immun Consult' directly corresponds to 'Outpatient Immunologic Consultation', matching the specialty and consultation service type.",
+    "service_name": "Outpatient Immunologic Consultation",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Outpatient Immunologic Consultation",
+        "rerank_score": 0.80859375
+      },
+      {
+        "service_name": "Focused Immunologic Physiotherapy Session",
+        "rerank_score": 0.462890625
+      },
+      {
+        "service_name": "Preoperative Immunologic Endoscopic Procedure",
+        "rerank_score": 0.431640625
+      },
+      {
+        "service_name": "Ambulatory Immunologic Endoscopic Procedure",
+        "rerank_score": 0.4296875
+      },
+      {
+        "service_name": "Continuous Immunologic Theatre Time",
+        "rerank_score": 0.416015625
+      }
+    ]
+  },
+  "Inpatient - Vasc Diagnostic Img": {
+    "description": "Inpatient - Vasc Diagnostic Img",
+    "decision": "match",
+    "explanation": "The billing description 'Inpatient - Vasc Diagnostic Img' directly corresponds to the candidate 'Inpatient Vascular Diagnostic Imaging', where 'Vasc' abbreviates 'Vascular' and 'Img' abbreviates 'Imaging' within an inpatient setting.",
+    "service_name": "Inpatient Vascular Diagnostic Imaging",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.890625
+      },
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.66015625
+      },
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.37109375
+      },
+      {
+        "service_name": "Inpatient Palliative Specimen Analysis",
+        "rerank_score": 0.357421875
+      },
+      {
+        "service_name": "Extended Vascular Rehabilitation Programme",
+        "rerank_score": 0.34765625
+      }
+    ]
+  },
+  "Intens Gi Isolation Room Occupancy /NG-9835": {
+    "description": "Intens Gi Isolation Room Occupancy /NG-9835",
+    "decision": "match",
+    "explanation": "The billing description 'Intens Gi Isolation Room Occupancy' clearly abbreviates 'Intensive Gastrointestinal Isolation Room Occupancy', which matches the first candidate exactly when expanding 'Intens' to 'Intensive' and 'Gi' to 'Gastrointestinal'.",
+    "service_name": "Intensive Gastrointestinal Isolation Room Occupancy",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Intensive Gastrointestinal Isolation Room Occupancy",
+        "rerank_score": 0.8046875
+      },
+      {
+        "service_name": "Extended Metabolic Isolation Room Occupancy",
+        "rerank_score": 0.455078125
+      },
+      {
+        "service_name": "Inpatient Palliative Isolation Room Occupancy",
+        "rerank_score": 0.44921875
+      },
+      {
+        "service_name": "Routine Infectious Critical Care Occupancy",
+        "rerank_score": 0.431640625
+      },
+      {
+        "service_name": "Supervised Renal Isolation Room Occupancy",
+        "rerank_score": 0.4140625
+      }
+    ]
+  },
+  "Intensive Gi Isolation Rm Occ": {
+    "description": "Intensive Gi Isolation Rm Occ",
+    "decision": "match",
+    "explanation": "The billing description 'Intensive Gi Isolation Rm Occ' directly corresponds to the candidate 'Intensive Gastrointestinal Isolation Room Occupancy', where 'Gi' abbreviates Gastrointestinal and 'Rm Occ' abbreviates Room Occupancy.",
+    "service_name": "Intensive Gastrointestinal Isolation Room Occupancy",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Intensive Gastrointestinal Isolation Room Occupancy",
+        "rerank_score": 0.875
+      },
+      {
+        "service_name": "Extended Metabolic Isolation Room Occupancy",
+        "rerank_score": 0.51953125
+      },
+      {
+        "service_name": "Inpatient Palliative Isolation Room Occupancy",
+        "rerank_score": 0.48828125
+      },
+      {
+        "service_name": "Postoperative Obstetric Isolation Room Occupancy",
+        "rerank_score": 0.435546875
+      },
+      {
+        "service_name": "Supervised Renal Isolation Room Occupancy",
+        "rerank_score": 0.4296875
+      }
+    ]
+  },
+  "Interm Rehab Programme": {
+    "description": "Interm Rehab Programme",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Interm Rehab Programme' is an abbreviation that could potentially refer to different rehabilitation programmes in the candidate list, and the provided text is insufficient to distinguish which specific programme was intended.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Intermittent Pulmonary Rehabilitation Programme",
+        "rerank_score": 0.6953125
+      },
+      {
+        "service_name": "Continuous Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.47265625
+      },
+      {
+        "service_name": "Emergency Orthopaedic Rehabilitation Programme",
+        "rerank_score": 0.451171875
+      },
+      {
+        "service_name": "Extended Vascular Rehabilitation Programme",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Routine Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.447265625
+      }
+    ]
+  },
+  "Interm Rheum Diagnostic Img /NG-6790": {
+    "description": "Interm Rheum Diagnostic Img /NG-6790",
+    "decision": "match",
+    "explanation": "The billing description 'Interm Rheum Diagnostic Img' corresponds directly to the candidate 'Intermittent Rheumatologic Diagnostic Imaging', accounting for standard abbreviations.",
+    "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.75
+      },
+      {
+        "service_name": "Advanced Rheumatologic Laboratory Panel",
+        "rerank_score": 0.4296875
+      },
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.41015625
+      },
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.400390625
+      },
+      {
+        "service_name": "Routine Cardiac Specimen Analysis",
+        "rerank_score": 0.3671875
+      }
+    ]
+  },
+  "Interm Rheumatologic Diag Img": {
+    "description": "Interm Rheumatologic Diag Img",
+    "decision": "match",
+    "explanation": "The billing description 'Interm Rheumatologic Diag Img' directly maps to the contracted service 'Intermittent Rheumatologic Diagnostic Imaging' by matching the key terms for intermittent, rheumatologic, and diagnostic imaging.",
+    "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.859375
+      },
+      {
+        "service_name": "Advanced Rheumatologic Laboratory Panel",
+        "rerank_score": 0.4765625
+      },
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.392578125
+      },
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.375
+      },
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.326171875
+      }
+    ]
+  },
+  "Obs Metab Nursing": {
+    "description": "Obs Metab Nursing",
+    "decision": "match",
+    "explanation": "The billing description 'Obs Metab Nursing' directly corresponds to the candidate 'Advanced Metabolic Nursing Observation', matching the key terms observation (Obs), metabolic (Metab), and nursing (Nursing).",
+    "service_name": "Advanced Metabolic Nursing Observation",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Advanced Metabolic Nursing Observation",
+        "rerank_score": 0.7109375
+      },
+      {
+        "service_name": "Postoperative Metabolic Critical Care Occupancy",
+        "rerank_score": 0.58203125
+      },
+      {
+        "service_name": "Comprehensive Oncology Nursing Observation",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Extended Metabolic Isolation Room Occupancy",
+        "rerank_score": 0.427734375
+      },
+      {
+        "service_name": "Advanced Metabolic Anaesthesia Administration",
+        "rerank_score": 0.427734375
+      }
+    ]
+  },
+  "Interm - Diag Img /NG-6221": {
+    "description": "Interm - Diag Img /NG-6221",
+    "decision": "no_match",
+    "explanation": "The billing description mentions Interm - Diag Img, but none of the candidates match this specific diagnostic imaging service.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.64453125
+      },
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.515625
+      },
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.4921875
+      },
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.4609375
+      },
+      {
+        "service_name": "Intermittent Dermatologic Transfusion Service",
+        "rerank_score": 0.388671875
+      }
+    ]
+  },
+  "Observation Cont Nurs": {
+    "description": "Observation Cont Nurs",
+    "decision": "match",
+    "explanation": "The billing description 'Observation Cont Nurs' closely matches the contracted service 'Continuous Cardiac Nursing Observation', abbreviating 'Continuous' to 'Cont' and 'Nursing' to 'Nurs', while prioritizing cardiac observation as the standard continuous nursing service.",
+    "service_name": "Continuous Cardiac Nursing Observation",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Cardiac Nursing Observation",
+        "rerank_score": 0.75
+      },
+      {
+        "service_name": "Comprehensive Oncology Nursing Observation",
+        "rerank_score": 0.6953125
+      },
+      {
+        "service_name": "Comprehensive Infectious Nursing Observation",
+        "rerank_score": 0.6796875
+      },
+      {
+        "service_name": "Advanced Metabolic Nursing Observation",
+        "rerank_score": 0.6015625
+      },
+      {
+        "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+        "rerank_score": 0.369140625
+      }
+    ]
+  },
+  "Occupancy - Spclst Neurological Recovery Rm /NG-4948": {
+    "description": "Occupancy - Spclst Neurological Recovery Rm /NG-4948",
+    "decision": "match",
+    "explanation": "The billing description 'Occupancy - Spclst Neurological Recovery Rm' directly corresponds to the candidate 'Specialist Neurological Recovery Room Occupancy', accounting for standard abbreviations.",
+    "service_name": "Specialist Neurological Recovery Room Occupancy",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Neurological Recovery Room Occupancy",
+        "rerank_score": 0.86328125
+      },
+      {
+        "service_name": "Advanced Neurological Consultation",
+        "rerank_score": 0.396484375
+      },
+      {
+        "service_name": "Ambulatory Musculoskeletal Ward Bed Occupancy",
+        "rerank_score": 0.38671875
+      },
+      {
+        "service_name": "Bedside Otolaryngologic Recovery Room Occupancy",
+        "rerank_score": 0.38671875
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.384765625
+      }
+    ]
+  },
+  "Occupancy Bedside Ent Recovery Room": {
+    "description": "Occupancy Bedside Ent Recovery Room",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Occupancy Bedside Ent Recovery Room' contains 'Bedside' and 'Ent' (Otolaryngology), but none of the candidates uniquely match both terms or provide sufficient context to definitively select a single service.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Bedside Otolaryngologic Recovery Room Occupancy",
+        "rerank_score": 0.68359375
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.55078125
+      },
+      {
+        "service_name": "Specialist Neurological Recovery Room Occupancy",
+        "rerank_score": 0.453125
+      },
+      {
+        "service_name": "Advanced Cardiac Recovery Room Occupancy",
+        "rerank_score": 0.443359375
+      },
+      {
+        "service_name": "Postoperative Metabolic Critical Care Occupancy",
+        "rerank_score": 0.41796875
+      }
+    ]
+  },
+  "Ortho Transp Svc": {
+    "description": "Ortho Transp Svc",
+    "decision": "match",
+    "explanation": "The billing description 'Ortho Transp Svc' clearly abbreviates 'Orthopaedic Transport Service', matching the candidate 'Focused Orthopaedic Transport Service'.",
+    "service_name": "Focused Orthopaedic Transport Service",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Focused Orthopaedic Transport Service",
+        "rerank_score": 0.78515625
+      },
+      {
+        "service_name": "Inpatient Ophthalmic Transport Service",
+        "rerank_score": 0.4765625
+      },
+      {
+        "service_name": "Emergency Orthopaedic Consultation",
+        "rerank_score": 0.431640625
+      },
+      {
+        "service_name": "Emergency Orthopaedic Rehabilitation Programme",
+        "rerank_score": 0.42578125
+      },
+      {
+        "service_name": "Comprehensive Urologic Transport Service",
+        "rerank_score": 0.421875
+      }
+    ]
+  },
+  "Paed Biop Proc Spclst": {
+    "description": "Paed Biop Proc Spclst",
+    "decision": "match",
+    "explanation": "The billing description 'Paed Biop Proc Spclst' directly corresponds to 'Specialist Paediatric Biopsy Procedure' by matching the abbreviations for paediatric (Paed), biopsy (Biop), procedure (Proc), and specialist (Spclst).",
+    "service_name": "Specialist Paediatric Biopsy Procedure",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Paediatric Biopsy Procedure",
+        "rerank_score": 0.890625
+      },
+      {
+        "service_name": "Standard Paediatric Biopsy Procedure",
+        "rerank_score": 0.75390625
+      },
+      {
+        "service_name": "Advanced Infectious Critical Care Occupancy",
+        "rerank_score": 0.52734375
+      },
+      {
+        "service_name": "Bedside Pulmonary Biopsy Procedure",
+        "rerank_score": 0.5234375
+      },
+      {
+        "service_name": "Specialist Hepatic Physiotherapy Session",
+        "rerank_score": 0.37109375
+      }
+    ]
+  },
+  "Postop Pulmonary Wnd Care /NG-1729": {
+    "description": "Postop Pulmonary Wnd Care /NG-1729",
+    "decision": "match",
+    "explanation": "The billing description 'Postop Pulmonary Wnd Care' directly matches the contracted service 'Postoperative Pulmonary Wound Care' by abbreviating 'Postoperative' to 'Postop' and 'Wound' to 'Wnd'.",
+    "service_name": "Postoperative Pulmonary Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.8203125
+      },
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.55859375
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.408203125
+      },
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.37890625
+      },
+      {
+        "service_name": "Bedside Pulmonary Biopsy Procedure",
+        "rerank_score": 0.3515625
+      }
+    ]
+  },
+  "Postoperative Pulm Wnd Cr": {
+    "description": "Postoperative Pulm Wnd Cr",
+    "decision": "match",
+    "explanation": "The billing description 'Postoperative Pulm Wnd Cr' clearly abbreviates 'Postoperative Pulmonary Wound Care', which directly matches the candidate service name.",
+    "service_name": "Postoperative Pulmonary Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.85546875
+      },
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.58984375
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.388671875
+      },
+      {
+        "service_name": "Postoperative Metabolic Critical Care Occupancy",
+        "rerank_score": 0.388671875
+      }
+    ]
+  },
+  "Postoperative Pulmonary Wnd Cr /NG-8823": {
+    "description": "Postoperative Pulmonary Wnd Cr /NG-8823",
+    "decision": "match",
+    "explanation": "The billing description 'Postoperative Pulmonary Wnd Cr' directly corresponds to the contracted service 'Postoperative Pulmonary Wound Care' with 'Wnd Cr' representing Wound Care.",
+    "service_name": "Postoperative Pulmonary Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.75390625
+      },
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.515625
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.390625
+      },
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.373046875
+      },
+      {
+        "service_name": "Postoperative Metabolic Critical Care Occupancy",
+        "rerank_score": 0.359375
+      }
+    ]
+  },
+  "Preoperative - Ren Wnd Cr": {
+    "description": "Preoperative - Ren Wnd Cr",
+    "decision": "match",
+    "explanation": "The billing description 'Preoperative - Ren Wnd Cr' directly translates to 'Preoperative Renal Wound Care', matching the abbreviations for Renal (Ren), Wound (Wnd), and Care (Cr).",
+    "service_name": "Preoperative Renal Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Preoperative Renal Wound Care",
+        "rerank_score": 0.859375
+      },
+      {
+        "service_name": "Inpatient Renal Radiotherapy Fraction",
+        "rerank_score": 0.41796875
+      },
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.40625
+      },
+      {
+        "service_name": "Preoperative Oncology Consultation",
+        "rerank_score": 0.3984375
+      },
+      {
+        "service_name": "Preoperative Endocrine Physiotherapy Session",
+        "rerank_score": 0.3984375
+      }
+    ]
+  },
+  "Procedure Immun Endosc": {
+    "description": "Procedure Immun Endosc",
+    "decision": "match",
+    "explanation": "The billing description 'Procedure Immun Endosc' abbreviates 'Immunologic Endoscopic Procedure' and indicates a procedure, matching the 'Ambulatory Immunologic Endoscopic Procedure' (or similar candidates, but since ambulatory/preoperative isn't specified, let's look closer: Ambulatory Immunologic Endoscopic Procedure matches 'Procedure Immun Endosc'). Wait, let's verify if there is ambiguity between Ambulatory and Preoperative. The description says 'Procedure Immun Endosc', which lacks ambulatory or preoperative specifiers. However, 'Ambulatory Immunologic Endoscopic Procedure' is the standard procedural match for general hospital outpatient billing.",
+    "service_name": "Ambulatory Immunologic Endoscopic Procedure",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Ambulatory Immunologic Endoscopic Procedure",
+        "rerank_score": 0.80859375
+      },
+      {
+        "service_name": "Preoperative Immunologic Endoscopic Procedure",
+        "rerank_score": 0.76171875
+      },
+      {
+        "service_name": "Outpatient Immunologic Consultation",
+        "rerank_score": 0.45703125
+      },
+      {
+        "service_name": "Standard Endocrine Endoscopic Procedure",
+        "rerank_score": 0.451171875
+      },
+      {
+        "service_name": "Standard Psychiatric Endoscopic Procedure",
+        "rerank_score": 0.423828125
+      }
+    ]
+  },
+  "Preop Renal Wnd Cr": {
+    "description": "Preop Renal Wnd Cr",
+    "decision": "match",
+    "explanation": "The billing description 'Preop Renal Wnd Cr' directly corresponds to the candidate 'Preoperative Renal Wound Care', where 'Preop' maps to Preoperative, 'Renal' to Renal, 'Wnd' to Wound, and 'Cr' to Care.",
+    "service_name": "Preoperative Renal Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Preoperative Renal Wound Care",
+        "rerank_score": 0.8359375
+      },
+      {
+        "service_name": "Inpatient Renal Radiotherapy Fraction",
+        "rerank_score": 0.421875
+      },
+      {
+        "service_name": "Emergency Renal Radiotherapy Fraction",
+        "rerank_score": 0.400390625
+      },
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.38671875
+      },
+      {
+        "service_name": "Preoperative Oncology Consultation",
+        "rerank_score": 0.37109375
+      }
+    ]
+  },
+  "Psych Rehab Programme": {
+    "description": "Psych Rehab Programme",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Psych Rehab Programme' lacks sufficient detail to distinguish between 'Continuous Psychiatric Rehabilitation Programme' and 'Routine Psychiatric Rehabilitation Programme'.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.80859375
+      },
+      {
+        "service_name": "Routine Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.80078125
+      },
+      {
+        "service_name": "Ambulatory Psychiatric Dialysis Session",
+        "rerank_score": 0.421875
+      },
+      {
+        "service_name": "Bedside Psychiatric Dialysis Session",
+        "rerank_score": 0.408203125
+      },
+      {
+        "service_name": "Comprehensive Psychiatric Transfusion Service",
+        "rerank_score": 0.37109375
+      }
+    ]
+  },
+  "Pulm Wnd Cr Postop": {
+    "description": "Pulm Wnd Cr Postop",
+    "decision": "match",
+    "explanation": "Pulm Wnd Cr Postop directly corresponds to Postoperative Pulmonary Wound Care, accounting for standard abbreviations.",
+    "service_name": "Postoperative Pulmonary Wound Care",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.86328125
+      },
+      {
+        "service_name": "Continuous Pulmonary Wound Care",
+        "rerank_score": 0.64453125
+      },
+      {
+        "service_name": "Ambulatory Pulmonary Recovery Room Occupancy",
+        "rerank_score": 0.5078125
+      },
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.435546875
+      },
+      {
+        "service_name": "Bedside Pulmonary Biopsy Procedure",
+        "rerank_score": 0.431640625
+      }
+    ]
+  },
+  "Psychiatric Rehab Programme /NG-8199": {
+    "description": "Psychiatric Rehab Programme /NG-8199",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Psychiatric Rehab Programme' matches both 'Continuous Psychiatric Rehabilitation Programme' and 'Routine Psychiatric Rehabilitation Programme', but lacks the necessary detail to distinguish between them.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Continuous Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.671875
+      },
+      {
+        "service_name": "Routine Psychiatric Rehabilitation Programme",
+        "rerank_score": 0.671875
+      },
+      {
+        "service_name": "Ambulatory Psychiatric Dialysis Session",
+        "rerank_score": 0.408203125
+      },
+      {
+        "service_name": "Bedside Psychiatric Dialysis Session",
+        "rerank_score": 0.396484375
+      },
+      {
+        "service_name": "Comprehensive Psychiatric Transfusion Service",
+        "rerank_score": 0.37890625
+      }
+    ]
+  },
+  "Ren Radiotherapy Fract": {
+    "description": "Ren Radiotherapy Fract",
+    "decision": "match",
+    "explanation": "The billing description 'Ren Radiotherapy Fract' clearly corresponds to 'Inpatient Renal Radiotherapy Fraction' based on the abbreviation 'Ren' for Renal and 'Radiotherapy Fract' for Radiotherapy Fraction, distinguishing it from emergency or other organ-specific radiotherapy candidates.",
+    "service_name": "Inpatient Renal Radiotherapy Fraction",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Inpatient Renal Radiotherapy Fraction",
+        "rerank_score": 0.8515625
+      },
+      {
+        "service_name": "Emergency Renal Radiotherapy Fraction",
+        "rerank_score": 0.7734375
+      },
+      {
+        "service_name": "Outpatient Metabolic Radiotherapy Fraction",
+        "rerank_score": 0.51953125
+      },
+      {
+        "service_name": "Standard Otolaryngologic Radiotherapy Fraction",
+        "rerank_score": 0.396484375
+      },
+      {
+        "service_name": "Inpatient Ophthalmic Radiotherapy Fraction",
+        "rerank_score": 0.375
+      }
+    ]
+  },
+  "Routine - Onc Discharge Plng": {
+    "description": "Routine - Onc Discharge Plng",
+    "decision": "match",
+    "explanation": "Routine - Onc Discharge Plng directly maps to Routine Oncology Discharge Planning by matching routine service, oncology specialty, and discharge planning.",
+    "service_name": "Routine Oncology Discharge Planning",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Routine Oncology Discharge Planning",
+        "rerank_score": 0.8671875
+      },
+      {
+        "service_name": "Comprehensive Oncology Nursing Observation",
+        "rerank_score": 0.396484375
+      },
+      {
+        "service_name": "Routine Palliative Critical Care Occupancy",
+        "rerank_score": 0.37109375
+      },
+      {
+        "service_name": "Assisted Infectious Discharge Planning",
+        "rerank_score": 0.37109375
+      },
+      {
+        "service_name": "Preoperative Oncology Consultation",
+        "rerank_score": 0.3671875
+      }
+    ]
+  },
+  "Rtn - Onc Discharge Plng": {
+    "description": "Rtn - Onc Discharge Plng",
+    "decision": "match",
+    "explanation": "The billing description 'Rtn - Onc Discharge Plng' clearly abbreviates 'Routine Oncology Discharge Planning', which matches the corresponding candidate service name.",
+    "service_name": "Routine Oncology Discharge Planning",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Routine Oncology Discharge Planning",
+        "rerank_score": 0.80859375
+      },
+      {
+        "service_name": "Comprehensive Oncology Nursing Observation",
+        "rerank_score": 0.400390625
+      },
+      {
+        "service_name": "Assisted Infectious Discharge Planning",
+        "rerank_score": 0.390625
+      },
+      {
+        "service_name": "Preoperative Oncology Consultation",
+        "rerank_score": 0.365234375
+      },
+      {
+        "service_name": "Inpatient Renal Radiotherapy Fraction",
+        "rerank_score": 0.353515625
+      }
+    ]
+  },
+  "Rtn - Transf Svc": {
+    "description": "Rtn - Transf Svc",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Rtn - Transf Svc' abbreviates to Routine Transfusion Service, but multiple specialty-specific routine transfusion services exist in the candidates list (Dermatologic and Gastrointestinal) without enough information to distinguish between them.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Routine Dermatologic Transfusion Service",
+        "rerank_score": 0.63671875
+      },
+      {
+        "service_name": "Routine Gastrointestinal Transfusion Service",
+        "rerank_score": 0.609375
+      },
+      {
+        "service_name": "Extended Renal Transport Service",
+        "rerank_score": 0.54296875
+      },
+      {
+        "service_name": "Intermittent Dermatologic Transfusion Service",
+        "rerank_score": 0.53515625
+      },
+      {
+        "service_name": "Comprehensive Psychiatric Transfusion Service",
+        "rerank_score": 0.52734375
+      }
+    ]
+  },
+  "Rtn Cardiac Spcm Anly /NG-6683": {
+    "description": "Rtn Cardiac Spcm Anly /NG-6683",
+    "decision": "match",
+    "explanation": "The billing description 'Rtn Cardiac Spcm Anly' directly corresponds to the contracted service 'Routine Cardiac Specimen Analysis' with standard abbreviations for Routine (Rtn), Cardiac (Cardiac), Specimen (Spcm), and Analysis (Anly).",
+    "service_name": "Routine Cardiac Specimen Analysis",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Routine Cardiac Specimen Analysis",
+        "rerank_score": 0.72265625
+      },
+      {
+        "service_name": "Advanced Cardiac Recovery Room Occupancy",
+        "rerank_score": 0.51171875
+      },
+      {
+        "service_name": "Continuous Cardiac Nursing Observation",
+        "rerank_score": 0.4453125
+      },
+      {
+        "service_name": "Ambulatory Cardiac Home Visit",
+        "rerank_score": 0.421875
+      },
+      {
+        "service_name": "Elective Cardiac Nutritional Support",
+        "rerank_score": 0.38671875
+      }
+    ]
+  },
+  "Spclst - Ent Thtr Tm /NG-7710": {
+    "description": "Spclst - Ent Thtr Tm /NG-7710",
+    "decision": "match",
+    "explanation": "Spclst corresponds to Specialist, and Ent Thtr Tm corresponds to Otolaryngologic Theatre Time in the candidate list.",
+    "service_name": "Specialist Otolaryngologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.734375
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.59765625
+      },
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.466796875
+      },
+      {
+        "service_name": "Inpatient Hepatic Physiotherapy Session",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Focused Otolaryngologic Wound Care",
+        "rerank_score": 0.435546875
+      }
+    ]
+  },
+  "Spclst Derm Transport Service": {
+    "description": "Spclst Derm Transport Service",
+    "decision": "match",
+    "explanation": "The billing description 'Spclst Derm Transport Service' directly corresponds to the candidate 'Specialist Dermatologic Transport Service', with 'Spclst' acting as an abbreviation for Specialist and 'Derm' for Dermatologic.",
+    "service_name": "Specialist Dermatologic Transport Service",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Dermatologic Transport Service",
+        "rerank_score": 0.8828125
+      },
+      {
+        "service_name": "Intermittent Dermatologic Transfusion Service",
+        "rerank_score": 0.416015625
+      },
+      {
+        "service_name": "Routine Dermatologic Transfusion Service",
+        "rerank_score": 0.4140625
+      },
+      {
+        "service_name": "Inpatient Ophthalmic Transport Service",
+        "rerank_score": 0.357421875
+      },
+      {
+        "service_name": "Focused Orthopaedic Transport Service",
+        "rerank_score": 0.341796875
+      }
+    ]
+  },
+  "Spclst  Derm Transp Svc /NG-4716": {
+    "description": "Spclst  Derm Transp Svc /NG-4716",
+    "decision": "match",
+    "explanation": "The billing description Spclst Derm Transp Svc clearly corresponds to Specialist Dermatologic Transport Service, matching the specialty (Dermatologic/Derm), service type (Transport/Transp), and personnel level (Specialist/Spclst).",
+    "service_name": "Specialist Dermatologic Transport Service",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Dermatologic Transport Service",
+        "rerank_score": 0.8359375
+      },
+      {
+        "service_name": "Routine Dermatologic Transfusion Service",
+        "rerank_score": 0.60546875
+      },
+      {
+        "service_name": "Intermittent Dermatologic Transfusion Service",
+        "rerank_score": 0.56640625
+      },
+      {
+        "service_name": "Emergency Dermatologic Case Conference",
+        "rerank_score": 0.388671875
+      },
+      {
+        "service_name": "Inpatient Ophthalmic Transport Service",
+        "rerank_score": 0.380859375
+      }
+    ]
+  },
+  "Spclst Ent Theatre Tm": {
+    "description": "Spclst Ent Theatre Tm",
+    "decision": "match",
+    "explanation": "The billing description 'Spclst Ent Theatre Tm' directly maps to Specialist Otolaryngologic Theatre Time, where 'Spclst' stands for Specialist, 'Ent' refers to Ear, Nose, and Throat (Otolaryngologic), and 'Theatre Tm' corresponds to Theatre Time.",
+    "service_name": "Specialist Otolaryngologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.82421875
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.6484375
+      },
+      {
+        "service_name": "Inpatient Hepatic Physiotherapy Session",
+        "rerank_score": 0.53515625
+      },
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.50390625
+      },
+      {
+        "service_name": "Supervised Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.48046875
+      }
+    ]
+  },
+  "Spclst Ent Thtr Time": {
+    "description": "Spclst Ent Thtr Time",
+    "decision": "match",
+    "explanation": "Spclst Ent Thtr Time abbreviates Specialist (Spclst) ENT (Ear, Nose, and Throat, which corresponds to Otolaryngologic) Theatre Time (Thtr Time).",
+    "service_name": "Specialist Otolaryngologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.80078125
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.56640625
+      },
+      {
+        "service_name": "Specialist Dermatologic Transport Service",
+        "rerank_score": 0.53515625
+      },
+      {
+        "service_name": "Specialist Hepatic Physiotherapy Session",
+        "rerank_score": 0.50390625
+      },
+      {
+        "service_name": "Assisted Pulmonary Theatre Time",
+        "rerank_score": 0.48828125
+      }
+    ]
+  },
+  "Spclst Hepatic Physiotherapy Sess": {
+    "description": "Spclst Hepatic Physiotherapy Sess",
+    "decision": "match",
+    "explanation": "The billing description 'Spclst Hepatic Physiotherapy Sess' directly corresponds to the candidate 'Specialist Hepatic Physiotherapy Session', with 'Spclst' acting as an abbreviation for Specialist and 'Sess' for Session.",
+    "service_name": "Specialist Hepatic Physiotherapy Session",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Hepatic Physiotherapy Session",
+        "rerank_score": 0.921875
+      },
+      {
+        "service_name": "Inpatient Hepatic Physiotherapy Session",
+        "rerank_score": 0.79296875
+      },
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.58984375
+      },
+      {
+        "service_name": "Advanced Haematology Physiotherapy Session",
+        "rerank_score": 0.470703125
+      },
+      {
+        "service_name": "Preoperative Endocrine Physiotherapy Session",
+        "rerank_score": 0.4296875
+      }
+    ]
+  },
+  "Spclst Hep Physio Session": {
+    "description": "Spclst Hep Physio Session",
+    "decision": "match",
+    "explanation": "The billing description 'Spclst Hep Physio Session' directly corresponds to the candidate 'Specialist Hepatic Physiotherapy Session', with 'Spclst' mapping to 'Specialist' and 'Hep' mapping to 'Hepatic'.",
+    "service_name": "Specialist Hepatic Physiotherapy Session",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Hepatic Physiotherapy Session",
+        "rerank_score": 0.92578125
+      },
+      {
+        "service_name": "Inpatient Hepatic Physiotherapy Session",
+        "rerank_score": 0.77734375
+      },
+      {
+        "service_name": "Advanced Haematology Physiotherapy Session",
+        "rerank_score": 0.6171875
+      },
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.60546875
+      },
+      {
+        "service_name": "Focused Immunologic Physiotherapy Session",
+        "rerank_score": 0.44140625
+      }
+    ]
+  },
+  "Specialist Ent Pharmaceutical Dispensing": {
+    "description": "Specialist Ent Pharmaceutical Dispensing",
+    "decision": "match",
+    "explanation": "The billing description 'Specialist Ent Pharmaceutical Dispensing' clearly corresponds to the candidate 'Specialist Otolaryngologic Pharmaceutical Dispensing', where 'Ent' is the standard medical abbreviation for Ear, Nose, and Throat, which is otolaryngology.",
+    "service_name": "Specialist Otolaryngologic Pharmaceutical Dispensing",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Otolaryngologic Pharmaceutical Dispensing",
+        "rerank_score": 0.609375
+      },
+      {
+        "service_name": "Continuous Vascular Pharmaceutical Dispensing",
+        "rerank_score": 0.412109375
+      },
+      {
+        "service_name": "Elective Pulmonary Nutritional Support",
+        "rerank_score": 0.318359375
+      },
+      {
+        "service_name": "Intensive Geriatric Nutritional Support",
+        "rerank_score": 0.30859375
+      },
+      {
+        "service_name": "Routine Dermatologic Transfusion Service",
+        "rerank_score": 0.3046875
+      }
+    ]
+  },
+  "Spclst Otolaryngologic Pharm Disp": {
+    "description": "Spclst Otolaryngologic Pharm Disp",
+    "decision": "match",
+    "explanation": "The billing description 'Spclst Otolaryngologic Pharm Disp' directly corresponds to the candidate 'Specialist Otolaryngologic Pharmaceutical Dispensing', where 'Spclst' abbreviates 'Specialist' and 'Pharm Disp' abbreviates 'Pharmaceutical Dispensing'.",
+    "service_name": "Specialist Otolaryngologic Pharmaceutical Dispensing",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Otolaryngologic Pharmaceutical Dispensing",
+        "rerank_score": 0.91015625
+      },
+      {
+        "service_name": "Supervised Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.455078125
+      },
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.455078125
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Rehabilitation Programme",
+        "rerank_score": 0.42578125
+      },
+      {
+        "service_name": "Preoperative Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.423828125
+      }
+    ]
+  },
+  "Standard Ent Radiotherapy Fract": {
+    "description": "Standard Ent Radiotherapy Fract",
+    "decision": "match",
+    "explanation": "The billing description 'Standard Ent Radiotherapy Fract' maps directly to 'Standard Otolaryngologic Radiotherapy Fraction', where 'Ent' is a standard abbreviation for Ear, Nose, and Throat, synonymous with otolaryngology, and 'Fract' corresponds to 'Fraction'.",
+    "service_name": "Standard Otolaryngologic Radiotherapy Fraction",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Standard Otolaryngologic Radiotherapy Fraction",
+        "rerank_score": 0.703125
+      },
+      {
+        "service_name": "Inpatient Renal Radiotherapy Fraction",
+        "rerank_score": 0.498046875
+      },
+      {
+        "service_name": "Outpatient Metabolic Radiotherapy Fraction",
+        "rerank_score": 0.47265625
+      },
+      {
+        "service_name": "Inpatient Ophthalmic Radiotherapy Fraction",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Postoperative Ophthalmic Radiotherapy Fraction",
+        "rerank_score": 0.427734375
+      }
+    ]
+  },
+  "Supervised - Ent Steril Svc /NG-7318": {
+    "description": "Supervised - Ent Steril Svc /NG-7318",
+    "decision": "match",
+    "explanation": "The billing description 'Supervised - Ent Steril Svc' directly corresponds to 'Supervised Otolaryngologic Sterilisation Service', where 'Ent' is a standard medical abbreviation for Otolaryngologic and 'Steril Svc' abbreviates Sterilisation Service.",
+    "service_name": "Supervised Otolaryngologic Sterilisation Service",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Supervised Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.6640625
+      },
+      {
+        "service_name": "Preoperative Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.51171875
+      },
+      {
+        "service_name": "Continuous Immunologic Theatre Time",
+        "rerank_score": 0.435546875
+      },
+      {
+        "service_name": "Supervised Renal Isolation Room Occupancy",
+        "rerank_score": 0.373046875
+      },
+      {
+        "service_name": "Focused Otolaryngologic Wound Care",
+        "rerank_score": 0.3203125
+      }
+    ]
+  },
+  "Supervised Ent Steril Service": {
+    "description": "Supervised Ent Steril Service",
+    "decision": "match",
+    "explanation": "The billing description 'Supervised Ent Steril Service' is a direct abbreviation of 'Supervised Otolaryngologic Sterilisation Service', where 'Ent' corresponds to Ear, Nose, and Throat (Otolaryngology) and 'Steril Service' corresponds to Sterilisation Service.",
+    "service_name": "Supervised Otolaryngologic Sterilisation Service",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Supervised Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.546875
+      },
+      {
+        "service_name": "Continuous Immunologic Theatre Time",
+        "rerank_score": 0.447265625
+      },
+      {
+        "service_name": "Preoperative Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.427734375
+      },
+      {
+        "service_name": "Ambulatory Infectious Home Visit",
+        "rerank_score": 0.29296875
+      },
+      {
+        "service_name": "Postoperative Pulmonary Wound Care",
+        "rerank_score": 0.2890625
+      }
+    ]
+  },
+  "Spclst Otolaryngologic Thtr Tm": {
+    "description": "Spclst Otolaryngologic Thtr Tm",
+    "decision": "match",
+    "explanation": "The billing description 'Spclst Otolaryngologic Thtr Tm' directly corresponds to the candidate 'Specialist Otolaryngologic Theatre Time' when expanding the accepted abbreviations 'Spclst' to 'Specialist' and 'Thtr Tm' to 'Theatre Time'.",
+    "service_name": "Specialist Otolaryngologic Theatre Time",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Specialist Otolaryngologic Theatre Time",
+        "rerank_score": 0.89453125
+      },
+      {
+        "service_name": "Comprehensive Otolaryngologic Theatre Time",
+        "rerank_score": 0.703125
+      },
+      {
+        "service_name": "Continuous Otolaryngologic Telemetry Monitoring",
+        "rerank_score": 0.6796875
+      },
+      {
+        "service_name": "Inpatient Hepatic Physiotherapy Session",
+        "rerank_score": 0.64453125
+      },
+      {
+        "service_name": "Specialist Otolaryngologic Pharmaceutical Dispensing",
+        "rerank_score": 0.5859375
+      }
+    ]
+  },
+  "Supv Ent Steril Svc": {
+    "description": "Supv Ent Steril Svc",
+    "decision": "match",
+    "explanation": "The billing description 'Supv Ent Steril Svc' directly abbreviates 'Supervised' (Supv), 'ENT' (Ear, Nose, Throat / Otolaryngologic), and 'Sterilisation Service' (Steril Svc), which precisely matches the candidate 'Supervised Otolaryngologic Sterilisation Service'.",
+    "service_name": "Supervised Otolaryngologic Sterilisation Service",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Supervised Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.73828125
+      },
+      {
+        "service_name": "Preoperative Otolaryngologic Sterilisation Service",
+        "rerank_score": 0.51953125
+      },
+      {
+        "service_name": "Continuous Immunologic Theatre Time",
+        "rerank_score": 0.5
+      },
+      {
+        "service_name": "Supervised Renal Isolation Room Occupancy",
+        "rerank_score": 0.3671875
+      },
+      {
+        "service_name": "Supervised Musculoskeletal Dialysis Session",
+        "rerank_score": 0.353515625
+      }
+    ]
+  },
+  "Svc Preop Ent Steril": {
+    "description": "Svc Preop Ent Steril",
+    "decision": "failed",
+    "reason": "Non-match response must have null service"
+  },
+  "Supv Ren Isol Rm Occupancy": {
+    "description": "Supv Ren Isol Rm Occupancy",
+    "decision": "match",
+    "explanation": "The billing description 'Supv Ren Isol Rm Occupancy' directly corresponds to the contracted service 'Supervised Renal Isolation Room Occupancy', with 'Supv' abbreviating Supervised, 'Ren' abbreviating Renal, and 'Isol Rm' abbreviating Isolation Room.",
+    "service_name": "Supervised Renal Isolation Room Occupancy",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Supervised Renal Isolation Room Occupancy",
+        "rerank_score": 0.921875
+      },
+      {
+        "service_name": "Extended Metabolic Isolation Room Occupancy",
+        "rerank_score": 0.466796875
+      },
+      {
+        "service_name": "Intensive Gastrointestinal Isolation Room Occupancy",
+        "rerank_score": 0.46484375
+      },
+      {
+        "service_name": "Postoperative Obstetric Isolation Room Occupancy",
+        "rerank_score": 0.462890625
+      },
+      {
+        "service_name": "Inpatient Palliative Isolation Room Occupancy",
+        "rerank_score": 0.462890625
+      }
+    ]
+  },
+  "Svc Rtn Gi Transfusion": {
+    "description": "Svc Rtn Gi Transfusion",
+    "decision": "match",
+    "explanation": "The billing description 'Svc Rtn Gi Transfusion' maps directly to 'Routine Gastrointestinal Transfusion Service', where 'Svc' stands for Service, 'Rtn' for Routine, and 'Gi' for Gastrointestinal.",
+    "service_name": "Routine Gastrointestinal Transfusion Service",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Routine Gastrointestinal Transfusion Service",
+        "rerank_score": 0.8359375
+      },
+      {
+        "service_name": "Assisted Gastrointestinal Infusion Therapy",
+        "rerank_score": 0.5
+      },
+      {
+        "service_name": "Routine Dermatologic Transfusion Service",
+        "rerank_score": 0.474609375
+      },
+      {
+        "service_name": "Comprehensive Psychiatric Transfusion Service",
+        "rerank_score": 0.408203125
+      },
+      {
+        "service_name": "Intermittent Dermatologic Transfusion Service",
+        "rerank_score": 0.40625
+      }
+    ]
+  },
+  "Ther Asst Gi Inf": {
+    "description": "Ther Asst Gi Inf",
+    "decision": "match",
+    "explanation": "Ther Asst Gi Inf directly maps to Assisted Gastrointestinal Infusion Therapy where Ther stands for Therapy, Asst stands for Assisted, Gi stands for Gastrointestinal, and Inf stands for Infusion.",
+    "service_name": "Assisted Gastrointestinal Infusion Therapy",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Assisted Gastrointestinal Infusion Therapy",
+        "rerank_score": 0.8359375
+      },
+      {
+        "service_name": "Assisted Geriatric Infusion Therapy",
+        "rerank_score": 0.78515625
+      },
+      {
+        "service_name": "Assisted Infectious Discharge Planning",
+        "rerank_score": 0.498046875
+      },
+      {
+        "service_name": "Routine Haematology Infusion Therapy",
+        "rerank_score": 0.466796875
+      },
+      {
+        "service_name": "Routine Gastrointestinal Transfusion Service",
+        "rerank_score": 0.4609375
+      }
+    ]
+  },
+  "Therapy Asst Gi Inf": {
+    "description": "Therapy Asst Gi Inf",
+    "decision": "match",
+    "explanation": "The billing description 'Therapy Asst Gi Inf' clearly maps to 'Assisted Gastrointestinal Infusion Therapy', where 'Asst' stands for Assisted, 'Gi' stands for Gastrointestinal, and 'Inf' stands for Infusion.",
+    "service_name": "Assisted Gastrointestinal Infusion Therapy",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Assisted Gastrointestinal Infusion Therapy",
+        "rerank_score": 0.8515625
+      },
+      {
+        "service_name": "Assisted Geriatric Infusion Therapy",
+        "rerank_score": 0.7890625
+      },
+      {
+        "service_name": "Routine Haematology Infusion Therapy",
+        "rerank_score": 0.484375
+      },
+      {
+        "service_name": "Routine Gastrointestinal Transfusion Service",
+        "rerank_score": 0.44140625
+      },
+      {
+        "service_name": "Assisted Infectious Discharge Planning",
+        "rerank_score": 0.41015625
+      }
+    ]
+  },
+  "Vasc  Diagnostic Img": {
+    "description": "Vasc  Diagnostic Img",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Vasc Diagnostic Img' maps to vascular diagnostic imaging, but the candidates include both 'Inpatient Vascular Diagnostic Imaging' and 'Preoperative Vascular Diagnostic Imaging' without specifying the patient status or care setting.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.80078125
+      },
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.79296875
+      },
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.416015625
+      },
+      {
+        "service_name": "Ambulatory Urologic Imaging Interpretation",
+        "rerank_score": 0.3828125
+      },
+      {
+        "service_name": "Continuous Vascular Pharmaceutical Dispensing",
+        "rerank_score": 0.37890625
+      }
+    ]
+  },
+  "Vasc Diag Img Preop": {
+    "description": "Vasc Diag Img Preop",
+    "decision": "match",
+    "explanation": "The billing description 'Vasc Diag Img Preop' directly translates to 'Preoperative Vascular Diagnostic Imaging', matching the key terms vascular diagnostic imaging (Vasc Diag Img) and preoperative (Preop).",
+    "service_name": "Preoperative Vascular Diagnostic Imaging",
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Preoperative Vascular Diagnostic Imaging",
+        "rerank_score": 0.88671875
+      },
+      {
+        "service_name": "Inpatient Vascular Diagnostic Imaging",
+        "rerank_score": 0.6796875
+      },
+      {
+        "service_name": "Preoperative Immunologic Endoscopic Procedure",
+        "rerank_score": 0.3671875
+      },
+      {
+        "service_name": "Intermittent Rheumatologic Diagnostic Imaging",
+        "rerank_score": 0.365234375
+      },
+      {
+        "service_name": "Preoperative Oncology Consultation",
+        "rerank_score": 0.359375
+      }
+    ]
+  },
+  "Visit Amb Hm": {
+    "description": "Visit Amb Hm",
+    "decision": "ambiguous",
+    "explanation": "The billing description 'Visit Amb Hm' indicates an ambulatory home visit, but does not specify the clinical specialty. It matches both 'Ambulatory Infectious Home Visit' and 'Ambulatory Cardiac Home Visit', leaving it indistinguishable between these candidates.",
+    "service_name": null,
+    "validation": "catalogue_membership_and_response_structure_only_not_independent_semantic_proof",
+    "candidates": [
+      {
+        "service_name": "Ambulatory Infectious Home Visit",
+        "rerank_score": 0.734375
+      },
+      {
+        "service_name": "Ambulatory Cardiac Home Visit",
+        "rerank_score": 0.734375
+      },
+      {
+        "service_name": "Assisted Urologic Home Visit",
+        "rerank_score": 0.51171875
+      },
+      {
+        "service_name": "Ambulatory Ophthalmic Case Conference",
+        "rerank_score": 0.478515625
+      },
+      {
+        "service_name": "Ambulatory Psychiatric Dialysis Session",
+        "rerank_score": 0.453125
+      }
+    ]
+  }
+}

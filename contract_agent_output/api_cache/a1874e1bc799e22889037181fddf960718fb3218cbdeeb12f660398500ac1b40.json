@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629514-AK8Sa73lDjBPTHW9LoyI",
+  "object": "chat.completion",
+  "created": 1788629514,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"Focused Cardiac Dialysis Session\",\n      \"line_end\": 164,\n      \"line_start\": 164,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Focused Cardiac Dialysis Session\\\", \\\"unit_basis\\\": \\\"per_procedure\\\", \\\"unit_basis_source\\\": \\\"per procedure\\\", \\\"base_rate_cents\\\": 237000, \\\"daily_cap\\\": 6}\"\n    },\n    {\n      \"key\": \"Focused Cardiac Dialysis Session\",\n      \"line_end\": 164,\n      \"line_start\": 164,\n      \"section\": \"daily_caps\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Focused Cardiac Dialysis Session\\\", \\\"quantity\\\": 6, \\\"unit_basis\\\": \\\"per_procedure\\\"}\"\n    },\n    {\n      \"key\": \"Intensive Palliative Ward Bed Occupancy\",\n      \"line_end\": 166,\n      \"line_start\": 166,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intensive Palliative Ward Bed Occupancy\\\", \\\"unit_basis\\\": \\\"per_day\\\", \\\"unit_basis_source\\\": \\\"per day of service\\\", \\\"base_rate_cents\\\": 136725, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Intermittent Psychiatric Laboratory Panel\",\n      \"line_end\": 168,\n      \"line_start\": 168,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intermittent Psychiatric Laboratory Panel\\\", \\\"unit_basis\\\": \\\"per_test\\\", \\\"unit_basis_source\\\": \\\"per test\\\", \\\"base_rate_cents\\\": 50475, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"rule\",\n      \"line_end\": 168,\n      \"line_start\": 168,\n      \"section\": \"exclusion_windows\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"excluded_service\\\": \\\"Intermittent Psychiatric Laboratory Panel\\\", \\\"related_service\\\": \\\"Emergency Pulmonary Ventilation Support\\\", \\\"window_days\\\": 7}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a187rV0rj9zX0nf14DzA+a4psFvSkEEQc1ESjgPe0ET8BPbpjUKqz3epLeJ1fsUkbtq7GdCogqgitNSmPPPWVG5DWmQqxyDUrNjgSxvnjes=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4398,
+    "completion_tokens": 581,
+    "total_tokens": 4979,
+    "cost": 0.0027719,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0027719,
+      "upstream_inference_prompt_cost": 0.0013194,
+      "upstream_inference_completions_cost": 0.0014525
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

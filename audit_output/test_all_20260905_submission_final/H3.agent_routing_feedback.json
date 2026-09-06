@@ -1,0 +1,2672 @@
+[
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 5,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "disp pharmaceutical rheum",
+    "descriptions": [
+      "rheum - pharm disp /RM-5213"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Rheumatologic Pharmaceutical Dispensing",
+      "Outpatient Rheumatologic Pharmaceutical Dispensing"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Advanced Rheumatologic Pharmaceutical Dispensing": 1.0,
+          "Outpatient Rheumatologic Pharmaceutical Dispensing": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced monitoring telemetry",
+    "descriptions": [
+      "adv - telemetry monit /RM-3459"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Advanced Gastrointestinal Telemetry Monitoring",
+      "Advanced Paediatric Telemetry Monitoring"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Advanced Gastrointestinal Telemetry Monitoring": 0.0,
+          "Advanced Paediatric Telemetry Monitoring": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "advanced nutritional support",
+    "descriptions": [
+      "supp adv nutr"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Advanced Dermatologic Nutritional Support",
+      "Advanced Geriatric Nutritional Support"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Advanced Dermatologic Nutritional Support": 0.0,
+          "Advanced Geriatric Nutritional Support": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 29,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 25,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 25,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 21,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 19,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 29,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 23,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 27,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 16,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "dermatologic physiotherapy session",
+    "descriptions": [
+      "derm physiotherapy sess /RM-1399"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Intermittent Dermatologic Physiotherapy Session",
+      "Postoperative Dermatologic Physiotherapy Session"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 22,
+        "rate_support": {
+          "Intermittent Dermatologic Physiotherapy Session": 1.0,
+          "Postoperative Dermatologic Physiotherapy Session": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 6,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "inpatient theatre time",
+    "descriptions": [
+      "inpt thtr tm"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Metabolic Theatre Time",
+      "Inpatient Musculoskeletal Theatre Time"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Inpatient Metabolic Theatre Time": 0.0,
+          "Inpatient Musculoskeletal Theatre Time": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 18,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 14,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 15,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 13,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "continuous isol occupancy room",
+    "descriptions": [
+      "occupancy continuous isol room /RM-3671"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Continuous Immunologic Isolation Room Occupancy",
+      "Continuous Renal Isolation Room Occupancy"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 17,
+        "rate_support": {
+          "Continuous Immunologic Isolation Room Occupancy": 1.0,
+          "Continuous Renal Isolation Room Occupancy": 0.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      0
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      0,
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      0,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      0,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      0,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 11,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      1
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 8,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      1,
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 5,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      1,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 5,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      1,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      2
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      2,
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 7,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      2,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      3
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 10,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      3,
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 9,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  },
+  {
+    "pattern": "diagnostic imaging obst",
+    "descriptions": [
+      "obst - diag img"
+    ],
+    "excluded_reference_folds": [
+      4
+    ],
+    "candidate_services": [
+      "Inpatient Obstetric Diagnostic Imaging",
+      "Routine Obstetric Diagnostic Imaging"
+    ],
+    "reference_scopes": [
+      {
+        "scope": "original_wording_variant",
+        "reference_invoice_count": 12,
+        "rate_support": {
+          "Inpatient Obstetric Diagnostic Imaging": 0.0,
+          "Routine Obstetric Diagnostic Imaging": 1.0
+        }
+      }
+    ],
+    "reason": "STANDARD_REFERENCE_GATE_PASSED",
+    "selected_scope": "original_wording_variant"
+  }
+]

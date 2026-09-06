@@ -1,0 +1,70 @@
+{
+  "verified_raw_records": 4886,
+  "comparison_to_pre_agent": {
+    "H1": {
+      "newly_answered": 0,
+      "became_unanswered": 0,
+      "answered_verdict_changed": 0
+    },
+    "H2": {
+      "newly_answered": 0,
+      "became_unanswered": 0,
+      "answered_verdict_changed": 0
+    },
+    "H3": {
+      "newly_answered": 0,
+      "became_unanswered": 0,
+      "answered_verdict_changed": 0
+    },
+    "H4": {
+      "newly_answered": 0,
+      "became_unanswered": 0,
+      "answered_verdict_changed": 0
+    },
+    "H5": {
+      "newly_answered": 0,
+      "became_unanswered": 0,
+      "answered_verdict_changed": 0
+    }
+  },
+  "unanswered_reasons_overlapping": {
+    "H1": {},
+    "H2": {
+      "unclear_description": 68,
+      "ambiguous_contract_unit": 146,
+      "uncertain_volume_discount": 170,
+      "uncertain_patient_history": 5
+    },
+    "H3": {
+      "ambiguous_contract_unit": 80,
+      "uncertain_volume_discount": 229,
+      "unclear_description": 3,
+      "uncertain_patient_history": 3
+    },
+    "H4": {
+      "ambiguous_contract_unit": 92,
+      "uncertain_volume_discount": 106,
+      "uncertain_patient_history": 4,
+      "unclear_description": 2
+    },
+    "H5": {
+      "unclear_description": 4,
+      "ambiguous_contract_unit": 105,
+      "uncertain_volume_discount": 263,
+      "uncertain_patient_history": 2,
+      "exclusion_boundary": 1
+    }
+  },
+  "source_files_unchanged": true,
+  "reference_isolation_checked": true,
+  "standard_gate_checked": true,
+  "budget_checked": {
+    "budget_usd": 2.0,
+    "calls_attempted": 214,
+    "provider_reported_cost_usd": 0.3646277,
+    "charged_or_reserved_usd": 0.403427,
+    "uncertain_requests": 1,
+    "note": "Local run guard; uncertain charges stay reserved. Not an account-wide provider cap."
+  },
+  "accuracy_note": "Only H1 has labels. Its previously developed result is a regression check, not an independent validation."
+}

@@ -1,0 +1,98 @@
+# Secrets: only the empty configuration example belongs in Git.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments, caches and local/editor files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+node_modules/
+/tmp/
+spending.lock
+spending.tmp
+
+# Generated runs stay local. These exceptions are intentional reproducibility
+# inputs, not disposable caches. Do not ignore all JSON or all API caches.
+/audit_output/*
+!/audit_output/all_hospitals_ai_2usd/
+/audit_output/all_hospitals_ai_2usd/*
+!/audit_output/all_hospitals_ai_2usd/ai/
+
+!/audit_output/all_h1_crossfit_standard/
+/audit_output/all_h1_crossfit_standard/*
+!/audit_output/all_h1_crossfit_standard/contract.json
+!/audit_output/all_h1_crossfit_standard/fold_assignments.json
+!/audit_output/all_h1_crossfit_standard/fold_*_resolution_trace.json
+!/audit_output/all_h1_crossfit_standard/context.json
+!/audit_output/all_h1_crossfit_standard/per_category_evaluation.json
+!/audit_output/all_h1_crossfit_standard/comparison.json
+
+!/audit_output/all_h1_policy_v3_verified/
+/audit_output/all_h1_policy_v3_verified/*
+!/audit_output/all_h1_policy_v3_verified/context.json
+!/audit_output/all_h1_policy_v3_verified/with_date_quarantine.jsonl
+
+!/audit_output/all_h1_standard_v2/
+/audit_output/all_h1_standard_v2/*
+!/audit_output/all_h1_standard_v2/results.jsonl
+
+!/audit_output/four_blockers_test_all_verified/
+/audit_output/four_blockers_test_all_verified/*
+!/audit_output/four_blockers_test_all_verified/H[2-5].agent_tasks.json
+!/audit_output/four_blockers_test_all_verified/H[2-5].agent_decisions.json
+!/audit_output/four_blockers_test_all_verified/H[2-5].reviewed_contract.json
+!/audit_output/four_blockers_test_all_verified/hospital_[2-5].runtime.json
+
+# Final assessment evidence and the small before/after records cited in docs.
+!/audit_output/test_all_20260905_submission_final/
+!/audit_output/evaluation_report/
+!/audit_output/manual_review_submission/
+!/audit_output/h2_service_date_policy/
+/audit_output/h2_service_date_policy/*
+!/audit_output/h2_service_date_policy/all_results.json
+!/audit_output/pilot_100/
+/audit_output/pilot_100/*
+!/audit_output/pilot_100/mapping_decisions.json
+!/audit_output/pilot_100/comparison.json
+!/audit_output/hospital_1/
+/audit_output/hospital_1/*
+!/audit_output/hospital_1/evaluation.json
+!/audit_output/contract_update_all/
+/audit_output/contract_update_all/*
+!/audit_output/contract_update_all/comparison.json
+!/audit_output/contract_update_all/per_category_evaluation.json
+!/audit_output/review_20_update_all/
+/audit_output/review_20_update_all/*
+!/audit_output/review_20_update_all/per_category_evaluation.json
+
+# Original extraction responses support the documented offline rebuild command.
+# Earlier draft JSONs are redundant; current drafts live in contract_agent_final_v4.
+/contract_agent_output/*
+!/contract_agent_output/api_cache/
+!/contract_agent_output/usage.json
+!/contract_agent_output/plan.json
+!/contract_agent_output/summary.json
+
+# Deliverable PDFs, submission.csv, source data, prompts and current contract
+# JSONs are deliberately NOT ignored.

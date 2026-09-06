@@ -1,0 +1,54 @@
+{
+  "id": "gen-1788629520-OtLCeG8cAvkU4F6uX4oC",
+  "object": "chat.completion",
+  "created": 1788629520,
+  "model": "google/gemini-3.5-flash-lite",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "service_tier": "default",
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"items\": [\n    {\n      \"key\": \"recovery_legal_exception\",\n      \"line_end\": 229,\n      \"line_start\": 229,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"Nothing in Article XI requires a recovery to be notified with a statement of line items where inconsistent with mandatory legal or regulatory obligation.\\\"}\"\n    },\n    {\n      \"key\": \"recovery_right_of_response_days\",\n      \"line_end\": 231,\n      \"line_start\": 231,\n      \"section\": \"invoice_requirements\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"right_of_response_days\\\": 20}\"\n    },\n    {\n      \"key\": \"recovery_response_burden\",\n      \"line_end\": 233,\n      \"line_start\": 233,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"No recovery effective unless subject to right of response of at least twenty days; relying party bears burden.\\\"}\"\n    },\n    {\n      \"key\": \"recovery_response_action\",\n      \"line_end\": 235,\n      \"line_start\": 235,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"Parties shall act reasonably and without undue delay in giving effect to recovery subject to response.\\\"}\"\n    },\n    {\n      \"key\": \"recovery_response_agreement\",\n      \"line_end\": 237,\n      \"line_start\": 237,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"Recoveries without required response may be given effect by written agreement.\\\"}\"\n    },\n    {\n      \"key\": \"recovery_response_legal_exception\",\n      \"line_end\": 239,\n      \"line_start\": 239,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"Nothing requires response period where inconsistent with mandatory legal/regulatory obligation.\\\"}\"\n    },\n    {\n      \"key\": \"recovery_set_off\",\n      \"line_end\": 241,\n      \"line_start\": 241,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"Each recovery shall be capable of set-off against sums otherwise falling due.\\\"}\"\n    },\n    {\n      \"key\": \"recovery_set_off_burden\",\n      \"line_end\": 243,\n      \"line_start\": 243,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"No recovery effective unless capable of set-off; relying party bears burden.\\\"}\"\n    },\n    {\n      \"key\": \"recovery_set_off_action\",\n      \"line_end\": 245,\n      \"line_start\": 245,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"Parties shall act reasonably and without undue delay in giving effect to set-off.\\\"}\"\n    },\n    {\n      \"key\": \"recovery_set_off_agreement\",\n      \"line_end\": 247,\n      \"line_start\": 247,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"Recoveries not capable of set-off may be given effect by written agreement.\\\"}\"\n    },\n    {\n      \"key\": \"recovery_set_off_legal_exception\",\n      \"line_end\": 249,\n      \"line_start\": 249,\n      \"section\": \"extensions\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"rule\\\": \\\"Nothing requires set-off where inconsistent with mandatory legal/regulatory obligation.\\\"}\"\n    },\n    {\n      \"key\": \"Continuous Otolaryngologic Discharge Planning\",\n      \"line_end\": 254,\n      \"line_start\": 254,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Continuous Otolaryngologic Discharge Planning\\\", \\\"unit_basis\\\": \\\"per_visit\\\", \\\"unit_basis_source\\\": \\\"per visit\\\", \\\"base_rate_cents\\\": 19325, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"Extended Orthopaedic Radiotherapy Fraction\",\n      \"line_end\": 256,\n      \"line_start\": 256,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Extended Orthopaedic Radiotherapy Fraction\\\", \\\"unit_basis\\\": \\\"per_item\\\", \\\"unit_basis_source\\\": \\\"per item supplied\\\", \\\"base_rate_cents\\\": 27900, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"non_business_day_uplifts\",\n      \"line_end\": 256,\n      \"line_start\": 256,\n      \"section\": \"non_business_day_uplifts\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Extended Orthopaedic Radiotherapy Fraction\\\", \\\"uplift_percent\\\": 25}\"\n    },\n    {\n      \"key\": \"Focused Vascular Transfusion Service\",\n      \"line_end\": 258,\n      \"line_start\": 258,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Focused Vascular Transfusion Service\\\", \\\"unit_basis\\\": \\\"per_procedure\\\", \\\"unit_basis_source\\\": \\\"per procedure\\\", \\\"base_rate_cents\\\": 450700, \\\"daily_cap\\\": null}\"\n    },\n    {\n      \"key\": \"threshold_premiums\",\n      \"line_end\": 258,\n      \"line_start\": 258,\n      \"section\": \"threshold_premiums\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Focused Vascular Transfusion Service\\\", \\\"quantity\\\": 12, \\\"comparison\\\": \\\"greater_than\\\", \\\"uplift_percent\\\": 15, \\\"unit_basis\\\": \\\"per_procedure\\\"}\"\n    },\n    {\n      \"key\": \"Intensive Paediatric Infusion Therapy\",\n      \"line_end\": 260,\n      \"line_start\": 260,\n      \"section\": \"services\",\n      \"uncertainty\": null,\n      \"value_json\": \"{\\\"service_name\\\": \\\"Intensive Paediatric Infusion Therapy\\\", \\\"unit_basis\\\": \\\"per_unit_dispensed\\\", \\\"unit_basis_source\\\": \\\"per unit dispensed\\\", \\\"base_rate_cents\\\": 2900, \\\"daily_cap\\\": null}\"\n    }\n  ],\n  \"warnings\": []\n}",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.text",
+            "signature": "AY89a1+AnhxWjGb17y9BfFBY10jmif2kp58uP+oncMYgT+y5XlxZL4MT6spZtZW007/CdAq7RXvPuypfL17+W+AhRSApZV4Jx8+P7fBh7m1UkSY=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4427,
+    "completion_tokens": 1703,
+    "total_tokens": 6130,
+    "cost": 0.0055856,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.0055856,
+      "upstream_inference_prompt_cost": 0.0013281,
+      "upstream_inference_completions_cost": 0.0042575
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

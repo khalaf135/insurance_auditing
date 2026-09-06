@@ -1,0 +1,31 @@
+[
+  {
+    "hospital_id": "H3",
+    "contract_number": "INS-H3-2024-0562",
+    "service_name": "Focused Urologic Telemetry Monitoring",
+    "reason": "compound_unit_not_defined",
+    "unit_options": [
+      "per_hour",
+      "per_item"
+    ],
+    "source_clauses": [
+      {
+        "source_ids": [
+          "appendix_b_rate_schedule.txt:70"
+        ],
+        "text": "Focused Urologic Telemetry Monitoring                   per hour, per item      GBP 52.25     —",
+        "unit_options": [
+          "per_hour",
+          "per_item"
+        ],
+        "conditional": false
+      }
+    ],
+    "automatically_resolvable": false,
+    "required_clarification": "Confirm the contractual billing dimension (per hour, per item, or a combined dimension), how quantity is measured, any conditions, and the effective dates. Supply an authoritative clarified contract or amendment for source ingestion; a billed unit or AI guess is not evidence.",
+    "status": "not answered",
+    "source_document_sha256": {
+      "appendix_b_rate_schedule.txt": "2b856e968899ad79a946ede4f41205d8446a00e30b6e58a91f80fc7a9c3dfc5c"
+    }
+  }
+]

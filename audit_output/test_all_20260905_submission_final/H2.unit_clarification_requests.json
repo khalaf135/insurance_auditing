@@ -1,0 +1,31 @@
+[
+  {
+    "hospital_id": "H2",
+    "contract_number": "INS-H2-2024-1183",
+    "service_name": "Assisted Infectious Telemetry Monitoring",
+    "reason": "compound_unit_not_defined",
+    "unit_options": [
+      "per_hour",
+      "per_item"
+    ],
+    "source_clauses": [
+      {
+        "source_ids": [
+          "master_services_agreement.txt:64"
+        ],
+        "text": "4.2 In respect of Assisted Infectious Telemetry Monitoring, the Provider shall invoice the Payer at the rate of GBP 106.25 per hour, per item. The Provider shall be able to demonstrate, from its clinical record, the quantity billed for this Service on any Service Day. Where an invoice presents this Service on a unit basis other than the one stated in this clause, the line item shall be treated as incorrectly presented and shall be returned to the Provider. The description applied by the Provider on any invoice shall not of itself vary the rate applicable to this Service; the rate follows the Service actually delivered. The Provider shall present this Service on its invoices under a description sufficient to identify it as Assisted Infectious Telemetry Monitoring, and shall not present it under a description that identifies a different contracted Service.",
+        "unit_options": [
+          "per_hour",
+          "per_item"
+        ],
+        "conditional": false
+      }
+    ],
+    "automatically_resolvable": false,
+    "required_clarification": "Confirm the contractual billing dimension (per hour, per item, or a combined dimension), how quantity is measured, any conditions, and the effective dates. Supply an authoritative clarified contract or amendment for source ingestion; a billed unit or AI guess is not evidence.",
+    "status": "not answered",
+    "source_document_sha256": {
+      "master_services_agreement.txt": "73a9f6180ce94d902e5f2e701c2768d70ce8933c2132b56ebb308df02323d0fa"
+    }
+  }
+]

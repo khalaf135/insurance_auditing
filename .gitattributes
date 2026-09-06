@@ -3,3 +3,8 @@
 # end-of-line conversion so that a clone is identical on every platform and
 # the PDFs survive checkout on Windows.
 * -text
+
+# Also suppress text diffs for binary deliverables and compressed audit evidence.
+*.pdf binary
+*.png binary
+*.gz binary

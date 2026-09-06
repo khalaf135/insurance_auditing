@@ -1,0 +1,19 @@
+{
+  "policy_revision": "four_blockers_v2",
+  "offline_ai": true,
+  "shared_ledger": "/Users/abdulelah./Downloads/Aramco/insurance_auditing/audit_output/all_hospitals_ai_2usd/ai",
+  "agent_replay_dir": "/Users/abdulelah./Downloads/Aramco/insurance_auditing/audit_output/four_blockers_test_all_verified",
+  "source_hashes": {
+    "main.py": "fe8a73c9a451181d93e8e5749804c042e8a039281a5cd75c2f025acb8670daf1",
+    "pipeline.py": "3e5141178868e01b6f21f6a36af8758afce2ccb92d6308eea6a7b0f4fd44dfb5",
+    "agents.py": "58686d46d5781bc30eab701bfe9e329cdb7a7d84364b2399a9dc32d73b942649",
+    "rules.py": "c4369214b144d20c5bf7307c97c8cab4a46a21a5703aca4517a4ad649d5dab0e",
+    "matching.py": "068d5d81d3291956c8d23010e9c1f567d70a8feaf38e7e927b66e2cfd55e3849",
+    "contracts.py": "9ccdc2943bd8401883d9615d5b9397635f33d17e4b1bd465c90f6aee328fe8ae",
+    "contract_builder.py": "d0f229d30e0f3bbc9697f481d9279b1b6507e5a925be23a535e41795e66dacc6",
+    "ai_client.py": "79641fba952506b389189b1245bc1a4c1d4a4c7cbc28aa7904d4936a1d4eece5",
+    "confidence.py": "0431d0590d7b2046ccc7b55f8d51389b7dd6388214e3ab45d01da20d098e3068",
+    "reporting.py": "25cbe4011ba43c0a3acc0161eecbbcca16118321f0af6c57d9d37ec5b60aa66a",
+    "test.py": "16c10e46b758442c7d4b07b2c9d87e83d5804cb8f6d58459b4584a1386b71697"
+  }
+}

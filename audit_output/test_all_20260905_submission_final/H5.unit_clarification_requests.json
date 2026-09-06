@@ -1,0 +1,43 @@
+[
+  {
+    "hospital_id": "H5",
+    "contract_number": "INS-H5-2024-0731",
+    "service_name": "Routine Psychiatric Telemetry Monitoring",
+    "reason": "compound_unit_not_defined",
+    "unit_options": [
+      "per_hour",
+      "per_item"
+    ],
+    "source_clauses": [
+      {
+        "source_ids": [
+          "network_reimbursement_agreement.txt:125"
+        ],
+        "text": "Routine Psychiatric Telemetry Monitoring               per hour, per item      GBP 29.50     —",
+        "unit_options": [
+          "per_hour",
+          "per_item"
+        ],
+        "conditional": false
+      },
+      {
+        "source_ids": [
+          "network_reimbursement_agreement_rate_tables.pdf:76"
+        ],
+        "text": "Routine Psychiatric Telemetry Monitoring                per hour, per item       GBP 29.50      —",
+        "unit_options": [
+          "per_hour",
+          "per_item"
+        ],
+        "conditional": false
+      }
+    ],
+    "automatically_resolvable": false,
+    "required_clarification": "Confirm the contractual billing dimension (per hour, per item, or a combined dimension), how quantity is measured, any conditions, and the effective dates. Supply an authoritative clarified contract or amendment for source ingestion; a billed unit or AI guess is not evidence.",
+    "status": "not answered",
+    "source_document_sha256": {
+      "network_reimbursement_agreement.txt": "8a7e4301254c313e541c0eaf0600a496154d8896178fafb86d291fb010c85829",
+      "network_reimbursement_agreement_rate_tables.pdf": "b3dc44588419aca4172cd74ab2fe787354df733f044bf580857ae086aa959624"
+    }
+  }
+]

@@ -1,0 +1,235 @@
+{
+  "evaluation_role": "development_only_not_held_out",
+  "matched_unique_records": 908,
+  "excluded_prediction_records": 10,
+  "label_records": 913,
+  "decided_records": 908,
+  "abstained_records": 0,
+  "decision_coverage": 1.0,
+  "true_positives": 53,
+  "false_positives": 0,
+  "false_negatives_among_decided": 0,
+  "precision": 1.0,
+  "recall_including_abstentions": 1.0,
+  "per_category": {
+    "bundle_not_applied": {
+      "label_count": 5,
+      "predicted_count": 5,
+      "true_positives": 5,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "contract_number_mismatch": {
+      "label_count": 4,
+      "predicted_count": 4,
+      "true_positives": 4,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "cross_invoice_duplicate": {
+      "label_count": 4,
+      "predicted_count": 4,
+      "true_positives": 4,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "daily_cap_exceeded": {
+      "label_count": 4,
+      "predicted_count": 4,
+      "true_positives": 4,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "exclusion_window_violation": {
+      "label_count": 3,
+      "predicted_count": 0,
+      "true_positives": 0,
+      "precision": null,
+      "recall_including_abstentions": 0.0,
+      "false_positives": 0,
+      "false_negatives": 3
+    },
+    "invoice_total_mismatch": {
+      "label_count": 6,
+      "predicted_count": 6,
+      "true_positives": 6,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "line_total_arithmetic": {
+      "label_count": 6,
+      "predicted_count": 6,
+      "true_positives": 6,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "malformed_service_date": {
+      "label_count": 6,
+      "predicted_count": 6,
+      "true_positives": 6,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "premium_incorrectly_applied": {
+      "label_count": 6,
+      "predicted_count": 6,
+      "true_positives": 6,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "premium_omitted": {
+      "label_count": 3,
+      "predicted_count": 3,
+      "true_positives": 3,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "service_date_after_invoice_date": {
+      "label_count": 5,
+      "predicted_count": 7,
+      "true_positives": 5,
+      "precision": 0.7142857142857143,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 2,
+      "false_negatives": 0
+    },
+    "service_date_out_of_window": {
+      "label_count": 5,
+      "predicted_count": 5,
+      "true_positives": 5,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "unit_price_mismatch": {
+      "label_count": 10,
+      "predicted_count": 27,
+      "true_positives": 10,
+      "precision": 0.37037037037037035,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 17,
+      "false_negatives": 0
+    },
+    "unknown_service": {
+      "label_count": 12,
+      "predicted_count": 8,
+      "true_positives": 8,
+      "precision": 1.0,
+      "recall_including_abstentions": 0.6666666666666666,
+      "false_positives": 0,
+      "false_negatives": 4
+    },
+    "volume_discount_incorrectly_applied": {
+      "label_count": 4,
+      "predicted_count": 4,
+      "true_positives": 4,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "volume_discount_omitted": {
+      "label_count": 4,
+      "predicted_count": 4,
+      "true_positives": 4,
+      "precision": 1.0,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    "wrong_unit_basis": {
+      "label_count": 10,
+      "predicted_count": 11,
+      "true_positives": 10,
+      "precision": 0.9090909090909091,
+      "recall_including_abstentions": 1.0,
+      "false_positives": 1,
+      "false_negatives": 0
+    }
+  },
+  "expected_total_coverage": 0.9647577092511013,
+  "expected_total_exact_accuracy_on_covered": 1.0,
+  "ambiguity_sensitive_records": 0,
+  "calibration": "No independent calibration; the explicit H1 development proxy below is diagnostic only.",
+  "true_negatives": 855,
+  "verdict_correct": 908,
+  "exact_category_sets": 885,
+  "provided_totals": 876,
+  "exact_totals": 876,
+  "missing_totals": 32,
+  "incorrect_provided_totals": 0,
+  "confidence_diagnostic": {
+    "role": "development_only_not_independent_calibration",
+    "target": "Verdict, exact category set and non-missing corrected total all match H1 labels. Missing totals fail this completeness proxy; custom category synonyms are not normalised.",
+    "count": 908,
+    "brier_on_strict_complete_row_proxy": 0.06388226872246695,
+    "bins": [
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 10,
+        "mean_score": 0.35,
+        "observed_proxy_success": 0.0
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 22,
+        "mean_score": 0.5,
+        "observed_proxy_success": 0.0
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 20,
+        "mean_score": 0.6755000000000001,
+        "observed_proxy_success": 1.0
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 630,
+        "mean_score": 0.7551428571428571,
+        "observed_proxy_success": 0.9888888888888889
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 217,
+        "mean_score": 0.8384331797235023,
+        "observed_proxy_success": 0.9907834101382489
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 9,
+        "mean_score": 0.8999999999999999,
+        "observed_proxy_success": 1.0
+      }
+    ],
+    "limitation": "Scores are declared evidence tiers, not calibrated probabilities. H1 already informed development; reference folds do not remove that exposure. H2-H5 correctness and calibration are unmeasured."
+  },
+  "source_sha256": {
+    "all_results.json": "0c6ddc4c341c2bcaefcaf39b671070c8878b1930fce05a3f679074ae8546454f",
+    "labels/hospital_1_labels.csv": "79e7918337b7836d810b1164ec955684454dd7dcdd805ee7e0a7a980d14302b6"
+  }
+}
