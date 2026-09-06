@@ -5,6 +5,7 @@ Evaluation reads labels only after predictions exist; it cannot change decisions
 import argparse
 from collections import Counter, defaultdict
 import csv
+from datetime import date
 import gzip
 import hashlib
 import json
@@ -322,6 +323,64 @@ def submission_confidence(row):
     return value
 
 
+def submission_rows(rows, columns, root=ROOT):
+    """Create one opinion per ID, including source-supported duplicate-ID errors.
+
+    Following H1 development evidence, the uniquely latest-dated occurrence
+    supplies the billed total. A blank correction and 0.50 score disclose that
+    record allocation and any additional error categories remain uncertain.
+    """
+    raw_by_hospital = {}
+    duplicate_groups = defaultdict(list)
+    for row in rows:
+        if row.get('hospital_id') != 'H1' and row.get('record_identity_ambiguous'):
+            duplicate_groups[(row['hospital_id'], row['invoice_id'])].append(row)
+    selected = {}
+    for (hospital, invoice_id), group in duplicate_groups.items():
+        number = int(hospital[1:])
+        if hospital not in raw_by_hospital:
+            path = Path(root) / f'invoices/hospital_{number}_invoices.jsonl'
+            raw_by_hospital[hospital] = [json.loads(line) for line in path.read_text().splitlines()]
+        candidates = []
+        for row in group:
+            raw = raw_by_hospital[hospital][row['record_index']]
+            if raw.get('invoice_id') != invoice_id:
+                raise ValueError('Duplicate policy record identity mismatch')
+            try:
+                day = date.fromisoformat(raw['invoice_date'])
+            except (KeyError, TypeError, ValueError):
+                candidates = []
+                break
+            candidates.append((day, row))
+        if not candidates:
+            continue
+        latest = max(day for day, _ in candidates)
+        winners = [row for day, row in candidates if day == latest]
+        if len(winners) == 1:
+            selected[(hospital, winners[0]['record_index'])] = {
+                'invoice_id': invoice_id, 'flagged': 1,
+                'error_category': 'duplicate_invoice_id',
+                'expected_total_cents': None,
+                'billed_total_cents': winners[0]['billed_total_cents'],
+                'confidence': 0.5,
+            }
+    output = []
+    for row in rows:
+        if row.get('hospital_id') == 'H1':
+            continue
+        duplicate = selected.get((row['hospital_id'], row['record_index']))
+        if duplicate:
+            output.append(duplicate)
+        elif row.get('flagged') in (0, 1) and not row.get('record_identity_ambiguous'):
+            output.append({key: submission_confidence(row) if key == 'confidence' else row[key]
+                           for key in columns})
+    if len({row['invoice_id'] for row in output}) != len(output):
+        raise ValueError('Duplicate submission identifiers')
+    if any(set(row) != set(columns) for row in output):
+        raise ValueError('Submission schema mismatch')
+    return output
+
+
 def all_record_export(rows):
     """Include answered, unresolved, and duplicate-ID records in input order."""
     columns = [
@@ -390,17 +449,26 @@ def report_results(output_dir, rows, remaining):
     summary = json.loads((output_dir / 'summary.json').read_text())
     print('\nFINAL COUNTS')
     for hospital in summary['hospitals']:
+        duplicate_ids = len({r['invoice_id'] for r in rows
+                             if r['hospital_id'] == hospital['hospital_id'] and r['record_identity_ambiguous']})
         print(
             f"{hospital['hospital_id']}: answered {hospital['answered']}, "
             f"not answered {hospital['unanswered']}, "
-            f"duplicate-ID records {hospital['excluded_duplicate_id_records']}"
+            f"duplicate-ID records {hospital['excluded_duplicate_id_records']} "
+            f"({duplicate_ids} repeated IDs)"
         )
     answered = sum(hospital['answered'] for hospital in summary['hospitals'])
+    duplicate_ids = {(r['hospital_id'], r['invoice_id']) for r in rows if r['record_identity_ambiguous']}
+    scored_duplicate_ids = {key for key in duplicate_ids if key[0] != 'H1'}
     print(
-        f"All {len(rows)} records included. Answered: {answered}. Not answered: {len(rows)-answered} "
-        f"({summary['unanswered_unique_invoices']} eligible plus "
-        f"{summary['excluded_duplicate_id_records']} duplicate-ID records)."
+        f"All {len(rows)} raw records retained. Eligible unique records answered: {answered}. "
+        f"Eligible unique records unanswered: {summary['unanswered_unique_invoices']}. "
+        f"The {summary['excluded_duplicate_id_records']} duplicate raw records represent "
+        f"{len(duplicate_ids)} repeated IDs."
     )
+    submission_count = summary.get('submission_rows',
+        sum(h['answered'] for h in summary['hospitals'] if h['hospital_id'] != 'H1') + len(scored_duplicate_ids))
+    print(f"Submission rows: {submission_count}, including {len(scored_duplicate_ids)} duplicate-ID error opinions.")
     print('API budget:', json.dumps(summary['api_budget']))
     print('Remaining blocker counts (overlap):', json.dumps(remaining['overlapping_reason_counts']))
     print('Submission: submission.csv uses only the template columns; review evidence stays in JSON.')
@@ -481,7 +549,8 @@ def verify_main(argv=None):
                     assert p['rate_support'][p['service_name']] >= .8
                     assert all(v <= .2 for n, v in p['rate_support'].items() if n != p['service_name'])
     submission = json.loads((args.output_dir / 'submission_data.json').read_text())['rows']
-    expected = [r for r in rows if r['hospital_id'] != 'H1' and r['flagged'] is not None and not r['record_identity_ambiguous']]
+    columns = json.loads((args.output_dir / 'submission_data.json').read_text())['columns']
+    expected = submission_rows(rows, columns, root=ROOT)
     assert len(submission) == len(expected) == summary['submission_rows']
     assert {r['invoice_id'] for r in submission} == {r['invoice_id'] for r in expected}
     assert len({r['invoice_id'] for r in submission}) == len(submission)

@@ -2338,6 +2338,49 @@ class ConfidenceTests(unittest.TestCase):
         row.update(confidence.score_invoice(row))
         self.assertEqual(reporting.submission_confidence(row), row['confidence'])
 
+    def test_duplicate_submission_uses_unique_latest_date_and_cautious_claim(self):
+        columns = ['invoice_id', 'flagged', 'error_category', 'expected_total_cents',
+                   'billed_total_cents', 'confidence']
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / 'invoices').mkdir()
+            invoices = [
+                {'invoice_id': 'dup', 'invoice_date': '2024-01-01'},
+                {'invoice_id': 'unique', 'invoice_date': '2024-01-02'},
+                {'invoice_id': 'dup', 'invoice_date': '2024-02-01'},
+            ]
+            (root / 'invoices/hospital_2_invoices.jsonl').write_text(
+                ''.join(json.dumps(row) + '\n' for row in invoices))
+            base = {'hospital_id': 'H2', 'flagged': 1, 'error_category': 'duplicate_invoice_id',
+                    'expected_total_cents': None, 'confidence': None,
+                    'record_identity_ambiguous': True}
+            rows = [{**base, 'record_index': 0, 'invoice_id': 'dup', 'billed_total_cents': 100},
+                    {'hospital_id': 'H2', 'record_index': 1, 'invoice_id': 'unique',
+                     'flagged': 0, 'error_category': '', 'expected_total_cents': 200,
+                     'billed_total_cents': 200, 'confidence': .8,
+                     'record_identity_ambiguous': False},
+                    {**base, 'record_index': 2, 'invoice_id': 'dup', 'billed_total_cents': 300}]
+            result = reporting.submission_rows(rows, columns, root=root)
+        self.assertEqual([row['invoice_id'] for row in result], ['unique', 'dup'])
+        self.assertEqual(result[-1], {'invoice_id': 'dup', 'flagged': 1,
+            'error_category': 'duplicate_invoice_id', 'expected_total_cents': None,
+            'billed_total_cents': 300, 'confidence': .5})
+
+    def test_duplicate_submission_abstains_on_tied_latest_dates(self):
+        columns = ['invoice_id', 'flagged', 'error_category', 'expected_total_cents',
+                   'billed_total_cents', 'confidence']
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / 'invoices').mkdir()
+            invoices = [{'invoice_id': 'dup', 'invoice_date': '2024-01-01'}] * 2
+            (root / 'invoices/hospital_2_invoices.jsonl').write_text(
+                ''.join(json.dumps(row) + '\n' for row in invoices))
+            rows = [{'hospital_id': 'H2', 'record_index': i, 'invoice_id': 'dup',
+                     'flagged': 1, 'error_category': 'duplicate_invoice_id',
+                     'expected_total_cents': None, 'billed_total_cents': 100 + i,
+                     'confidence': None, 'record_identity_ambiguous': True} for i in range(2)]
+            self.assertEqual(reporting.submission_rows(rows, columns, root=root), [])
+
 
 # Public runner and portable exports
 
@@ -2414,8 +2457,8 @@ class PublicMainTests(unittest.TestCase):
         self.assertEqual({path.name for path in self.directory.glob('*.csv')}, {
             'submission.csv',
         })
-        self.assertIn('All 4 records included. Answered: 2. Not answered: 2', output.getvalue())
-        self.assertIn('H2: answered 2, not answered 1, duplicate-ID records 1', output.getvalue())
+        self.assertIn('All 4 raw records retained. Eligible unique records answered: 2', output.getvalue())
+        self.assertIn('H2: answered 2, not answered 1, duplicate-ID records 1 (1 repeated IDs)', output.getvalue())
         self.assertIn(f'Results: {self.directory.resolve()}', output.getvalue())
 
     def test_explicit_options_forward_and_json_only_skips_csv(self):

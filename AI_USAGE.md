@@ -954,3 +954,19 @@ The complete offline validation reproduced 908/1093/898/754/826 answered for
 H1-H5, respectively, with 253 tests passing and no new API calls. README and the
 decision log now describe cross-hospital pattern reuse as a software technique,
 while requiring each hospital's own clauses and prohibiting rate transfer.
+
+## 038 - Duplicate-ID submission opinions
+
+The user requested that repeated invoice identifiers be submitted as errors.
+Codex confirmed that every contract requires a unique invoice number and that
+all five H1 duplicate IDs are labelled `duplicate_invoice_id`. H1 consistently
+supports using the uniquely latest-dated occurrence as the record represented by
+the one permitted submission row. The general exporter now applies that policy
+only when the latest date is valid and unique; otherwise it abstains.
+
+For each of the 26 scored H2-H5 repeated IDs, the output asserts only
+`duplicate_invoice_id`, uses the selected occurrence's billed total, leaves the
+corrected total blank and assigns an uncalibrated 0.50 confidence. The 62 raw
+duplicate records still remain in internal evidence. Two targeted tests cover
+selection and tied-date abstention. The full audit was not rerun; the submission
+was rebuilt from the completed final results, increasing rows from 3571 to 3597.

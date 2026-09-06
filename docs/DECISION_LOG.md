@@ -63,7 +63,10 @@ approach, I requested further H2-H5 experiments, outside the stated 6-8-hour cap
    by service date and retained uncertain retrospective settlements. For H5,
    missing line facilities inherit the header facility. Repeated charges across
    distinct invoices are assigned to the earliest dated bill as a stated policy,
-   not an explicit allocation clause. All 62 duplicate-ID records stay internal.
+   not an explicit allocation clause. Reused invoice IDs are proven errors. H1
+   consistently supports the uniquely latest-dated occurrence as the submission
+   record, so I use that policy for 26 scored duplicate IDs, submit only
+   `duplicate_invoice_id`, leave the corrected total blank and cap confidence at 0.50.
 
 7. **An error need not reveal its correction.** A cap proves excess, not the true
    quantity. I flag proven errors without guessing totals. Unresolved verdicts
@@ -72,21 +75,16 @@ approach, I requested further H2-H5 experiments, outside the stated 6-8-hour cap
    missing totals cap it at 0.50.
 
 8. **H4's missing service mapping remains unresolved.** `VST foc NEURO /CW-8682`
-   occurs once in the supplied invoices; other contracts provide no reliable
-   equivalent. Its 23075-cent price matches Comprehensive Urologic Imaging
-   Interpretation, but that conflicts with the neurological-visit wording.
-   Online searches also yielded no authoritative mapping. I did not transfer
-   another hospital's rates or guess from price. All 69 remaining H4 volume-only
-   cases depend on this line (four also have other uncertain lines). Request H4's
-   code-to-service crosswalk or original service record; retain uncertainty meanwhile.
+   occurs once; other contracts provide no reliable equivalent. Its price matches
+   Urologic Imaging Interpretation but conflicts with the neurological-visit wording.
+   I did not transfer rates or guess from price. All 69 remaining H4 volume-only
+   cases depend on it. Request H4's code crosswalk; retain uncertainty meanwhile.
 
 ## Review and disclosure
 
-Codex assisted code, source review and writing; these were not independent expert
-reviews. The early pilot used
-Voyage retrieval/reranking and Gemini via OpenRouter; the current extractor and AI
-fallback use Gemini. H1 labels informed development, not independent validation.
-Next I would seek unit/boundary clarification and independently reviewed examples.
+Codex assisted code, source review and writing, not independent expert review.
+The pilot used Voyage and Gemini via OpenRouter; current AI stages use Gemini.
+H1 informed development, not independent validation. Next I would seek source
+clarifications and independently reviewed examples.
 
-Sources: original contracts; `H4_REVIEW.md`; `EVALUATION.md`;
-`prompts/README.md`; `AI_USAGE.md`.
+Sources: contracts; H2-H5 review notes; `EVALUATION.md`; `prompts/README.md`; `AI_USAGE.md`.

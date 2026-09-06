@@ -20,7 +20,7 @@ from contracts import compile_contract, load_and_preflight, review_units, refine
 from agents import audit_with_agent, replay_h1
 from ai_client import BudgetedAI, load_keys, save
 from confidence import FIELDS as CONFIDENCE_FIELDS, METHOD as CONFIDENCE_METHOD, score_invoice
-from reporting import metrics, submission_confidence, portable_csv_export, clarification_packets
+from reporting import metrics, submission_confidence, submission_rows, portable_csv_export, clarification_packets
 
 ROOT = Path(__file__).resolve().parent
 
@@ -253,10 +253,7 @@ def main(argv=None):
         print(json.dumps({k: v for k, v in report.items() if k not in ("unanswered_reasons", "label_evaluation")}), flush=True)
     with (ROOT / "submission_template.csv").open() as f:
         header = next(csv.reader(f))
-    if submission and set(header) != set(submission[0]):
-        raise ValueError("Submission schema mismatch")
-    if len({r["invoice_id"] for r in submission}) != len(submission):
-        raise ValueError("Duplicate submission identifiers")
+    submission = submission_rows(all_rows, header, root=ROOT)
     save(out / "submission_data.json", {"columns": header, "rows": submission})
     save(out / "unanswered.json", unanswered)
     save(out / "all_results.json", all_rows)

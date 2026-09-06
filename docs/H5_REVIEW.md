@@ -75,7 +75,8 @@ review; a hospital source record is needed to settle competing invoice versions.
 Run `python3 main.py`. It recomputes every reviewed conditional stage, preserves
 the previously accepted H1-H4 records exactly, writes the complete evidence under
 the run's `final/` directory, and atomically updates root submission. The CSV uses
-only the template's six columns, with 3571 H2-H5 opinions; its prior version is
+only the template's six columns. After adding one cautious opinion for each
+scored repeated invoice ID, it contains 3597 H2-H5 opinions; its prior version is
 backed up inside that final directory. Use `--baseline-only` to skip conditional
 stages and leave root submission unchanged.
 

@@ -13,7 +13,7 @@ from merge_h2_results import merge_rows
 import reference_experiment
 import history_quantity_experiment
 import unit_quantity_experiment
-from reporting import submission_confidence, portable_csv_export
+from reporting import submission_rows, portable_csv_export
 
 ROOT = Path(__file__).resolve().parent
 
@@ -83,8 +83,7 @@ def run(base):
         h['method'] += '; fresh conditional improvements; assumptions retained'
     with (ROOT / 'submission_template.csv').open() as f:
         header = next(csv.reader(f))
-    submission = [{k: submission_confidence(r) if k == 'confidence' else r[k] for k in header}
-                  for r in rows if r['hospital_id'] != 'H1' and r['flagged'] is not None and not r['record_identity_ambiguous']]
+    submission = submission_rows(rows, header, root=ROOT)
     assert len({r['invoice_id'] for r in submission}) == len(submission)
     assert all(isinstance(r['confidence'], (int, float)) and 0 <= r['confidence'] <= 1 for r in submission)
     summary.update(submission_rows=len(submission), unanswered_unique_invoices=sum(h['unanswered'] for h in summary['hospitals']),
