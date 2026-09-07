@@ -44,9 +44,8 @@ approach, I requested further H2-H5 experiments, outside the stated 6-8-hour cap
    capped at 0.50. Pricing opinions do not verify hours, items or physical quantities.
 
 3. **Dates need explicit assumptions.** H2's day runs 07:00-06:59, but invoices
-   lack timestamps. I treated service dates as billing-day labels, conditionally.
-   Malformed dates are quarantined from dated patient-history checks, while their
-   possible volume effects remain. This is not permission to ignore all date risks.
+   lack timestamps. I conditionally treated service dates as billing-day labels.
+   Malformed dates are quarantined from dated history; possible volume effects remain.
 
 4. **An exclusion boundary has two readings.** "Within 10 days" could include or
    exclude day 10. I left exact-boundary exclusions unresolved, instead of treating
@@ -82,9 +81,10 @@ approach, I requested further H2-H5 experiments, outside the stated 6-8-hour cap
 
 ## Review and disclosure
 
-Codex assisted code, review and writing; Voyage and Gemini supported the pilot.
-Current AI stages use Gemini. H1 results are development evidence. Automation
-supports human review: contract and invoice context require different checks.
-Missing evidence requires clarification, not relaxed rules or forced 0/1 answers.
+Codex assisted development and review; the pilot used Voyage and Gemini.
+Current AI stages use Gemini. H1 results are development evidence. In my view,
+authorized humans should decide exceptions for exceptional circumstances; this
+assessment applies no discretionary exceptions. I left invoices with insufficient
+or ambiguous evidence unanswered and documented their reasons for human review.
 
 Sources: contracts; H2-H5 review notes; `EVALUATION.md`; `prompts/README.md`; `AI_USAGE.md`.
