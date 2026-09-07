@@ -82,9 +82,9 @@ approach, I requested further H2-H5 experiments, outside the stated 6-8-hour cap
 
 ## Review and disclosure
 
-Codex assisted code, source review and writing, not independent expert review.
-The pilot used Voyage and Gemini via OpenRouter; current AI stages use Gemini.
-H1 informed development, not independent validation. Next I would seek source
-clarifications and independently reviewed examples.
+Codex assisted code, review and writing; Voyage and Gemini supported the pilot.
+Current AI stages use Gemini. H1 results are development evidence. Automation
+supports human review: contract and invoice context require different checks.
+Missing evidence requires clarification, not relaxed rules or forced 0/1 answers.
 
 Sources: contracts; H2-H5 review notes; `EVALUATION.md`; `prompts/README.md`; `AI_USAGE.md`.
